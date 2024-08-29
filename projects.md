@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /publications/index.html
-title: Publications
+permalink: /projects/index.html
+title: Projects
 ---
 
 > Update: 30rd August 2024
