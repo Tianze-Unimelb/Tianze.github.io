@@ -7,7 +7,7 @@ title: Projects
 > Update: 30rd August 2024
 
 ## On-Campus Job
-**I.Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
+**I.** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Jan 2023 - Jun 2024
@@ -18,7 +18,7 @@ title: Projects
 
 ---
 
-**II.Key technologies for information platform security supervision and information leakage risk assessment**
+**II.** **Key technologies for information platform security supervision and information leakage risk assessment**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - Jun 2024
@@ -29,7 +29,7 @@ title: Projects
 
 ---
 
-**III.Jieyoushudong——A mental health service platform based on blockchain**
+**III.** **Jieyoushudong——A mental health service platform based on blockchain**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - Jun 2024
@@ -42,7 +42,7 @@ title: Projects
 
 ## Summer Research
 
-**I.Large Artificial Intelligence Models and their Applications**
+**I.** **Large Artificial Intelligence Models and their Applications**
 
 - **Place:** The University of HongKong(HKU)
 - **Time:** Jul 2023 - Aug 2023
