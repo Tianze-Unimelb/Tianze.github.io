@@ -48,7 +48,6 @@ title: Publications
 ## Manuscript
 
 TBA.
-
 <br>
 
 ---
