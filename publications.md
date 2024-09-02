@@ -19,7 +19,7 @@ title: Publications
 
 ## Journal Article
 
-- Haiyang Sun, Xinjun Song† & **Tianze Zhang.†** (2024).Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation
+- Haiyang Sun, Xinjun Song† & **Tianze Zhang†.** (2024).Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation
   <br> Sustainability in Environment,9,179-190
 
 ---
