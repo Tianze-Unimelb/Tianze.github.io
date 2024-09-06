@@ -16,7 +16,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 - **Sep 2024 - Future:** The University of Melbourne University (BSc, CS)
 - **Jan 2023 - Jun 2024:** Xinjiang Key Laboratory of Signal Detection and Processing(Research assistant)
-- **Sep 2022 - Jun 2024:** Xinjiang University (BSC, CS)(Transfer to UniMelb)
+- **Sep 2022 - Jun 2024:** Xinjiang University (BSc, CS)(Transfer to UniMelb)
 - **Jul 2023 - Aug 2023:** The University of Hongkong(Summer research)
 
 ---
