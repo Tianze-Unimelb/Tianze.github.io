@@ -5,7 +5,7 @@ title: Awards
 ---
 
 > Lastest Update: 10th Sep 2024 &nbsp; [中文版本 (Chinese Version)](https://zhangtianze.com/file/awards-zh/)
-> 
+
 ## Competitions (Selected)
 
 - Sep 2024： **[<font color='Orange'>Bronze Medal</font>](https://zhangtianze.com/myawards/ISIC-2024.png)** [ISIC 2024 - Skin Cancer Detection with 3D-TBP](https://www.kaggle.com/competitions/isic-2024-challenge/leaderboard) **(Top 6%,Solo)** 
