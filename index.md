@@ -33,6 +33,12 @@ My current research focuses on practical problems faced by artificial intelligen
 
 ---
 
+## Recommendation
+
+- Recommendation Letter from [Prof. Gang Shi](https://it.xju.edu.cn/info/1144/2113.htm) , Xinjiang University
+- Recommendation Letter from [Prof. Heming Cui](https://www.cs.hku.hk/people/academic-staff/heming) , The University of Hongkong.
+
+---
 <!--
 ## News and Updates
 
