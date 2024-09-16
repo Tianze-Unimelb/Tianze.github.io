@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-> Update: 30rd August 2024
+> Update: 10th Sep 2024 
 >
 > (†: equal contribution, ~: corresponding author)
 
