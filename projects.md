@@ -4,7 +4,7 @@ permalink: /projects/index.html
 title: Projects
 ---
 
-> Update: 16rd August 2024
+> Update: 16th September 2024
 > 
 > **3** Completed On-Campus Research Projects, **1** Completed Summer Research Project
 
