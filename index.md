@@ -15,9 +15,9 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 ## Academic Background
 
 - **Sep 2024 - Future:** The University of Melbourne University (BSc, CS)
-- **Jan 2023 - Jun 2024:** Xinjiang Key Laboratory of Signal Detection and Processing(Research assistant)
-- **Sep 2022 - Jun 2024:** Xinjiang University (BSc, CS)(Transfer to UniMelb)
-- **Jul 2023 - Aug 2023:** The University of Hongkong(Summer research)
+- **Jan 2023 - June 2024:** Xinjiang Key Laboratory of Signal Detection and Processing(Research assistant)
+- **Sep 2022 - June 2024:** Xinjiang University (BSc, CS)(Transfer to UniMelb)
+- **July 2023 - Aug 2023:** The University of Hongkong(Summer research)
 
 ---
 
@@ -31,10 +31,10 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 ## Research Interests
 
 - Natural Language Processing
+- Applied Machine Learning
 - Computer Vision
 - Computational Law
 - Quantitative Analysis
-- Applied Machine Learning
 
 My current research focuses on practical problems faced by artificial intelligence in complex legal scenarios. My interests are **Machine Learning** and its applications in **Law**, **Finance**, and **Medicine**. In short, advanced technologies such as artificial intelligence have a positive impact on everyone's life. I hope to devote my talents to this meaningful cause and bring benefits to society.
 
