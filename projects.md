@@ -4,7 +4,9 @@ permalink: /projects/index.html
 title: Projects
 ---
 
-> Update: 30rd August 2024
+> Update: 16rd August 2024
+> 
+> **3** Completed On-Campus Research Projects, **1** Completed Summer Research Project
 
 ## On-Campus Job
 **I.** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
