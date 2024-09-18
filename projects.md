@@ -12,7 +12,7 @@ title: Projects
 **I.** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
-- **Time:** Jan 2023 - Jun 2024
+- **Time:** Jan 2023 - Feb 2025
 - **level:** Provincial and ministerial level
 - **Instructor:** **Gang Shi**(Participate)
 - **Main work:** <br>1. Responsible for accurately matching the images taken by DJI P1 with the orthophoto TIF<br>2. Perform relatively accurate 3D modeling of roads based on aerial images<br>
@@ -23,7 +23,7 @@ title: Projects
 **II.** **Key technologies for information platform security supervision and information leakage risk assessment**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
-- **Time:** Feb 2023 - Jun 2024
+- **Time:** Feb 2023 - Feb 2025
 - **level:** Provincial and ministerial level
 - **Instructor:** **Gang Shi**(Participate)
 - **Main work:** <br>The data path tracking and backtracking technology based on the graph structure is used to grasp the data transmission trajectory in real time.<br>
@@ -34,7 +34,7 @@ title: Projects
 **III.** **Jieyoushudong——A mental health service platform based on blockchain**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
-- **Time:** Feb 2023 - Jun 2024
+- **Time:** Feb 2023 - July 2024
 - **level:** National College Student Innovation and Entrepreneurship Program
 - **Instructor:** **Gang Shi** 、**Xiaoli Wang**(Student Responsible Person)
 - **Main work:** <br>1. Manage a team of 4 people and write project proposals and analysis reports<br>2. Responsible for the construction of the front-end web under the vue framework, the construction of the MySQL database, and the uploading of sensitive data<br>
