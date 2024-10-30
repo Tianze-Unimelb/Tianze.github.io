@@ -6,20 +6,22 @@ title: Publications
 
 > Update: 10th Sep 2024 
 >
-> (†: equal contribution, ~: corresponding author)
+> (†: equal contribution, *: corresponding author)
+
+## Journal Article
+
+- Yifan Lyu†, **Tianze Zhang†**, Xin Li, Aixun Liu & Gang Shi.* (2024)[LightUAV‑YOLO: a lightweight object detection model 
+for unmanned aerial vehicle image]
+- Haiyang Sun, Xinjun Song† & **Tianze Zhang†.** (2024).[Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation](https://zhangtianze.com/mypublications/Thesis/36336-323623-2-PB.pdf)
+  <br> Sustainability in Environment,9,179-190
+
+---
 
 ## Conference Paper
 
 - **Zhang,T.** (2024).[Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages.](https://zhangtianze.com/mypublications/Thesis/10.542542755-27214720241374.pdf)
   <br>Proceedings of the 4th International Conference on Signal Processing and Machine Learning<br>Chicago, United States<br>
 - **Tianze Zhang.** (2024).[Power System Uncertainty Modeling Based on Gaussian Process](https://zhangtianze.com/mypublications/Thesis/FAIA-383-FAIA231436.pdf)<br>Frontiers in Artificial Intelligence and Applications<br>Hangzhou,China
-
----
-
-## Journal Article
-
-- Haiyang Sun, Xinjun Song† & **Tianze Zhang†.** (2024).[Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation](https://zhangtianze.com/mypublications/Thesis/36336-323623-2-PB.pdf)
-  <br> Sustainability in Environment,9,179-190
 
 ---
 
