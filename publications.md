@@ -10,7 +10,7 @@ title: Publications
 
 ## Journal Article
 
-- Yifan Lyu†, **Tianze Zhang†**, Xin Li, Aixun Liu & Gang Shi.* (2024).[LightUAV‑YOLO: a lightweight object detection model 
+- Yifan Lyu†, **Tianze Zhang†**, Xin Li, Aixun Liu & Gang Shi.* (2025).[LightUAV‑YOLO: a lightweight object detection model 
 for unmanned aerial vehicle image](https://zhangtianze.com/mypublications/Thesis/d839d354-d0da-4924-98d2-aa8caa97e9ce.pdf)
   <br> The Journal of Supercomputing (2025) 81:105, **JCR Q2**
 - Haiyang Sun, Xinjun Song† & **Tianze Zhang†.** (2024).[Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation](https://zhangtianze.com/mypublications/Thesis/36336-323623-2-PB.pdf)
