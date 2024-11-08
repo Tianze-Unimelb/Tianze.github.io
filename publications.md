@@ -23,10 +23,12 @@ for unmanned aerial vehicle image](https://zhangtianze.com/mypublications/Thesi
 ## Conference Paper
 
 - **Tianze Zhang.** (2024).[Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages.](https://zhangtianze.com/mypublications/Thesis/10.542542755-27214720241374.pdf)
-  <br> Proceedings of the 4th International Conference on Signal Processing and Machine Learning, Chicago, United States
+  <br> Proceedings of the 4th International Conference on Signal Processing and Machine Learning
+  <br> Chicago, United States
   <br> DOI:[10.54254/2755-2721/47/20241374](https://www.ewadirect.com/proceedings/ace/article/view/10985)
 - **Tianze Zhang.** (2024).[Power System Uncertainty Modeling Based on Gaussian Process](https://zhangtianze.com/mypublications/Thesis/FAIA-383-FAIA231436.pdf)
-  <br> Frontiers in Artificial Intelligence and Applications, Hangzhou,China
+  <br> Frontiers in Artificial Intelligence and Applications
+  <br> Hangzhou,China
   <br> DOI:[10.3233/FAIA231436](https://ebooks.iospress.nl/doi/10.3233/FAIA231436)
 
 ---
