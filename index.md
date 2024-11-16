@@ -40,17 +40,11 @@ My current research focuses on practical problems faced by artificial intelligen
 
 ---
 
-<!--
-## News and Updates
+## Important Nodes
 
-- **June 2024**：Very excited to be selected as [KDD UC Scholar](https://kdd2024.kdd.org/call-for-undergraduate-consortium/). See you in Spain!
-- **May 2024：**My undergraduate thesis won the Best Project Award (Top 1/300).
-- **April 2024：**Our work *BLEGuard* has been accepted to [MobiSys 2024](https://www.sigmobile.org/mobisys/2024/) as a poster paper. See you in Japan!
-- **March 2024：**Very excited to get a MPhil offer from Engineering department at Cambridge University!
-- **Dec 2023：**Very excited to be selected as [AAAI UC Scholar](https://aaai.org/aaai-conference/undergraduate-consortium-program/). See you in Canada!
-- **Aug 2023：**Happy to be awarded the FEPG Scholarship.
-- **May 2023：**Happy to be awarded the XiamenAir Scholarship.
-- **May 2023：**Collected the Finalist Award in MCM 2023 (Top 1%).
-- **Jun 2022：**Started research programme at [Cambridge AI Group](https://www.cl.cam.ac.uk/research/ai/), advised by Prof. Pietro Liò.
--->
+- **Mar 2024**：Very honored to receive the **offer of Bachelor of Science** from **The University of Melbourne**.
+- **July 2023**：Very excited to join a **summer reasearch** project at **The University of Hong Kong**.
+- **Jan 2023**：Very honored to join the **Xinjiang Key Laboratory of Signal Detection and Processing**.
+
+---
 
