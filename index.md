@@ -42,8 +42,8 @@ My current research focuses on practical problems faced by artificial intelligen
 
 ## Important Nodes
 
-- **Mar 2024**：Very honored to receive the **offer of Bachelor of Science** from **The University of Melbourne**.
-- **July 2023**：Very excited to join a **summer reasearch** project at **The University of Hong Kong**.
+- **Mar 2024**：Very honored to receive the **Offer of Bachelor of Science** from **The University of Melbourne**.
+- **July 2023**：Very excited to join a **Summer reasearch** project at **The University of Hong Kong**.
 - **Jan 2023**：Very honored to join the **Xinjiang Key Laboratory of Signal Detection and Processing**.
 
 ---
