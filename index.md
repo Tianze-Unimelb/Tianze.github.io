@@ -12,6 +12,8 @@ I’m an undergraduate student majoring in CS at the University of Melbourne. Pr
 
 If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *zhangtianze.unimelb@gmail.com*
 
+---
+
 ## Academic Background
 
 - **Feb 2025 - Future:** The University of Melbourne University (Incoming CS,BSc)
