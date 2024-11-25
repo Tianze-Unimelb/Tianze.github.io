@@ -18,8 +18,6 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 - **Jan 2023 - Feb 2025:** Xinjiang Key Laboratory of Signal Detection and Processing(Research assistant)
 - **Sep 2022 - June 2024:** Xinjiang University (BSc, CS)(Transfer to UniMelb)
 - **July 2023 - Aug 2023:** The University of Hongkong(Summer research)
-  
----
 
 ### Important Nodes
 
