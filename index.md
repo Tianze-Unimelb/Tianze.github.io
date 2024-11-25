@@ -19,7 +19,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 - **Sep 2022 - June 2024:** Xinjiang University (BSc, CS)(Transfer to UniMelb)
 - **July 2023 - Aug 2023:** The University of Hongkong(Summer research)
 
-### Important Nodes
+### Academic Milestones
 
 - **Mar 2024**：Very honored to receive the **Offer of Bachelor of Science** from **The University of Melbourne**.
 - **July 2023**：Very excited to join a **Summer reasearch** project at **The University of Hong Kong**.
