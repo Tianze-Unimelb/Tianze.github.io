@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /Internships/index.html
-title: Internships
+title: internships
 ---
 
 > Update: 5th Jan 2025
