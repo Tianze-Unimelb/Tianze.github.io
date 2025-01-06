@@ -10,7 +10,7 @@ title: internships
 **I.** **Xinjiang Key Laboratory of Signal Detection and Processing**
 
 - **Time:** Jan 2023 - Feb 2025
-- **Position：** Research Assistant
+- **Position:** Research Assistant
 - **Instructor:** Gang Shi
 
   
