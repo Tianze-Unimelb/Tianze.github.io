@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /Internships/index.html
-title: internships
+permalink: /internships/index.html
+title: Internships
 ---
 
 > Update: 5th Jan 2025
