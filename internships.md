@@ -24,7 +24,7 @@ During my two years as a research assistant, I actively participated in several 
 - Using advanced algorithms and tools for feature extraction, pattern recognition, and training machine learning models
 - Assisting in optimizing artificial intelligence models to improve processing efficiency and accuracy
   
-[If you're interested in learning more about my specific project experiences, please click here for further details.](https://zhangtianze.com/projects/)
+&nbsp;&nbsp;&nbsp;&nbsp;[If you're interested in learning more about my specific project experiences, please click here for further details.](https://zhangtianze.com/projects/)
 
 This experience has greatly improved my professional capabilities in the fields of **machine learning**, **deep learning**, and **computer vision**. I actively participated in team discussions, provided innovative ideas and solutions, and offered effective support in data processing and model tuning. Additionally, I was responsible for writing technical reports to ensure that research results were summarized and effectively communicated in a timely manner.Through close cooperation with team members, I have developed excellent teamwork and project management skills, laying a solid foundation for future academic development.
 
