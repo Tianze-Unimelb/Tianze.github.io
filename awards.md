@@ -15,10 +15,6 @@ title: Awards
 - May 2023：Third Prize (Provincial Level) China University Computer Design Competition **(Solo)**
 - Nov 2022：Second Prize (Provincial Level) Huawei ICT Competition, China Regional Practice Round **(Solo)**
 
-## Services
-
-- Nov 2022 - Present：CCF Student Membership
-
 ## Scholarships & Fundings
 
 - **National College Student Innovation Training Program(Funding)**<br>Total funding amount: CNY20000<br>Grant number: 50012300401B<br>One of the highest research grants given by the Chinese government to undergraduate students
