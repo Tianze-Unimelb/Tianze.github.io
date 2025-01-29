@@ -12,7 +12,7 @@ title: Internships
 
 The **Xinjiang Key Laboratory of Signal Detection and Processing** focuses on signal processing technology, covering wireless communications, radar detection, and image processing, while combining computer technology to promote innovation in the field.
 
-- **Time:** Jan 2023 - Feb 2025
+- **Time:** Jan 2023 - June 2025
 - **Position:** Research Assistant
 - **Instructor:** Gang Shi
   
