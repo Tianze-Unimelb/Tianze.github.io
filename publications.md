@@ -13,7 +13,7 @@ title: Publications
 - **LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle imagep**
   <br> Yifan Lyu†,**Tianze Zhang†**, Xin Li, Aixun Liu & Gang Shi.* 
   <br> The Journal of Supercomputing (2025) 81:105, **JCR Q2**
-  <br> [[<font color='Blue'>DOI</font>]](https://doi.org/10.1007/s11227-024-06611-x) [[<font color='Blue'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/d839d354-d0da-4924-98d2-aa8caa97e9ce.pdf) [[Code]]()
+  <br> [[<font color='Blue'>DOI</font>]](https://doi.org/10.1007/s11227-024-06611-x) [[<font color='Blue'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/d839d354-d0da-4924-98d2-aa8caa97e9ce.pdf) [[<font color='Blue'>Code</font>]]()
   <!-- <br> DOI:[10.1007/s11227-024-06611-x](https://link.springer.com/article/10.1007/s11227-024-06611-x) -->
 - **Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation**
   <br> Haiyang Sun, Xinjun Song† & **Tianze Zhang†.** (2024).
