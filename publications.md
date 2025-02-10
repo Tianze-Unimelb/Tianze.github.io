@@ -10,7 +10,7 @@ title: Publications
 
 ## Journal Article
 
-- **LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle imagep**
+- **LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image**
   <br> *Yifan Lyu†,**Tianze Zhang†**, Xin Li, Aixun Liu & Gang Shi.*
   <br> <font color='#8B0000'>The Journal of Supercomputing (2025) 81:105</font>, **JCR Q2**
   <br> [[<font color='#003366'>DOI</font>]](https://doi.org/10.1007/s11227-024-06611-x) [[<font color='#003366'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/d839d354-d0da-4924-98d2-aa8caa97e9ce.pdf) [[<font color='#003366'>Code</font>]]()
