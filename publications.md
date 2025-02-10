@@ -60,9 +60,10 @@ title: Publications
 
 ---
 
-## Manuscript
+<!--## Manuscript
 
 TBA.
 <br>
 
 ---
+-->
