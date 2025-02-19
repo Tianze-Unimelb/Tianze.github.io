@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /contributions/index.html
+permalink: /contributions1/index.html
 title: contributions1
 ---
 
