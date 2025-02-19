@@ -1,5 +1,7 @@
 ---
 layout: page
+permalink: /projects.html
+title: contributions
 ---
 
 - **Main work:** <br>1. Responsible for accurately matching the images taken by DJI P1 with the orthophoto TIF<br>2. Perform relatively accurate 3D modeling of roads based on aerial images<br>
