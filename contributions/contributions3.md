@@ -1,3 +1,8 @@
+---
+layout: page
+permalink: /contributions3/index.html
+title: Contributions3
+---
 
 **III.** **Jieyoushudong——A mental health service platform based on blockchain**
 
