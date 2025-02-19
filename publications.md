@@ -13,12 +13,12 @@ title: Publications
 - **LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image**
   <br> *Yifan Lyu†,**Tianze Zhang†**, Xin Li, Aixun Liu & Gang Shi.*
   <br> <font color='#8B0000'>The Journal of Supercomputing (2025) 81:105</font>, **JCR Q2**
-  <br> [[<font color='#003366'>DOI</font>]](https://doi.org/10.1007/s11227-024-06611-x) [[<font color='#003366'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/d839d354-d0da-4924-98d2-aa8caa97e9ce.pdf) [[<font color='#003366'>Code</font>]]()
+  <br> [[<font color='Blue'>DOI</font>]](https://doi.org/10.1007/s11227-024-06611-x) [[<font color='Blue'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/d839d354-d0da-4924-98d2-aa8caa97e9ce.pdf) [[<font color='Blue'>Code</font>]]()
   <!-- <br> DOI:[10.1007/s11227-024-06611-x](https://link.springer.com/article/10.1007/s11227-024-06611-x) -->
 - **Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation**
   <br> *Haiyang Sun, Xinjun Song† & **Tianze Zhang†.***
   <br> <font color='#8B0000'>Sustainability in Environment,9,179-190</font>
-  <br> [[<font color='#003366'>DOI</font>]](https://doi.org/10.22158/se.v9n2p28) [[<font color='#003366'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/36336-323623-2-PB.pdf)
+  <br> [[<font color='Blue'>DOI</font>]](https://doi.org/10.22158/se.v9n2p28) [[<font color='Blue'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/36336-323623-2-PB.pdf)
   <!-- <br> DOI:[10.22158/se.v9n2p28](http://www.scholink.org/ojs/index.php/se/article/view/36336) -->
 
 ---
@@ -29,12 +29,12 @@ title: Publications
   <br> ***Tianze Zhang.***
   <br> <font color='#8B0000'>Proceedings of the 4th International Conference on Signal Processing and Machine Learning</font>
   <!-- <br> Chicago, United States -->
-  <br> [[<font color='#003366'>DOI</font>]](https://doi.org/10.54254/2755-2721/47/20241374) [[<font color='#003366'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/10.542542755-27214720241374.pdf)
+  <br> [[<font color='Blue'>DOI</font>]](https://doi.org/10.54254/2755-2721/47/20241374) [[<font color='Blue'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/10.542542755-27214720241374.pdf)
 - **Power System Uncertainty Modeling Based on Gaussian Process**
   <br> ***Tianze Zhang.***
   <br> <font color='#8B0000'>Frontiers in Artificial Intelligence and Applications</font>
   <!-- <br> Hangzhou,China -->
-  <br> [[<font color='#003366'>DOI</font>]](https://doi.org/10.3233/FAIA231436) [[<font color='#003366'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/FAIA-383-FAIA231436.pdf)
+  <br> [[<font color='Blue'>DOI</font>]](https://doi.org/10.3233/FAIA231436) [[<font color='Blue'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/FAIA-383-FAIA231436.pdf)
   
 ---
 
