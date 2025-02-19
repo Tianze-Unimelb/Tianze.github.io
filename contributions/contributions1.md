@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /projects.html
+permalink: /projects/index.html
 title: contributions
 ---
 
