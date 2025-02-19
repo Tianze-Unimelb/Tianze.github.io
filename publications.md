@@ -18,7 +18,7 @@ title: Publications
 - **Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation**
   <br> *Haiyang Sun, Xinjun Song† & **Tianze Zhang†.***
   <br> *<font color='#8B0000'>Sustainability in Environment,9,179-190</font>*
-  <br> [[<font color='#4282D3'>DOI</font>]](https://doi.org/10.22158/se.v9n2p28) [[<font color='#4282D3'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/36336-323623-2-PB.pdf [[<font color='#4282D3'>Code</font>]]()
+  <br> [[<font color='#4282D3'>DOI</font>]](https://doi.org/10.22158/se.v9n2p28) [[<font color='#4282D3'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/36336-323623-2-PB.pdf) [[<font color='#4282D3'>Code</font>]]()
   <!-- <br> DOI:[10.22158/se.v9n2p28](http://www.scholink.org/ojs/index.php/se/article/view/36336) -->
 
 ---
