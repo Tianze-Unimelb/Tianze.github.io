@@ -29,7 +29,7 @@ title: Publications
   <br> ***Tianze Zhang.***
   <br> *<font color='#8B0000'>Proceedings of the 4th International Conference on Signal Processing and Machine Learning<font>*
   <!-- <br> Chicago, United States -->
-  <br> [[<font color='#4282D3'>DOI</font>]](https://doi.org/10.54254/2755-2721/47/20241374) [[<font color='#4282D3'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/10.542542755-27214720241374.pdf) [[<font color='#4282D3'>Code</font>]]()
+  <br> [[<font color='#4282D3'>DOI</font>]](https://doi.org/10.54254/2755-2721/47/20241374) [[<font color='#4282D3'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/10.542542755-27214720241374.pdf) [[<font color='#4282D3'>Code</font>]]() 
 - **Power System Uncertainty Modeling Based on Gaussian Process**
   <br> ***Tianze Zhang.***
   <br> *<font color='#8B0000'>Frontiers in Artificial Intelligence and Applications</font>*
