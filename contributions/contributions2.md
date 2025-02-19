@@ -1,0 +1,2 @@
+- **Main work:** <br>The data path tracking and backtracking technology based on the graph structure is used to grasp the data transmission trajectory in real time.<br>
+- **Achievement:** <br>A test chain was initially deployed on the Alibaba Cloud Blockchain Service platform, which can achieve certain data transmission trajectory tracking<br>
