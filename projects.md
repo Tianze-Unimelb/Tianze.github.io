@@ -15,7 +15,7 @@ title: Projects
 - **Time:** Jan 2023 - Feb 2025
 - **level:** Provincial and ministerial level
 - **Instructor:** **Gang Shi**(Participate)<br>
-  [[**Main work**]](https://zhangtianze.com/contributions) [[**Achievement**]](https://zhangtianze.com/contributions)
+  [[**Main work**]](https://zhangtianze.com/contributions1) [[**Achievement**]](https://zhangtianze.com/contributions1)
 
 ---
 
