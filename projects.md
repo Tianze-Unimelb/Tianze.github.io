@@ -24,7 +24,7 @@ title: Projects
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - Feb 2025
 - **level:** Provincial and ministerial level
-- **Instructor:** **Gang Shi**(Participate)
+- **Instructor:** **Gang Shi**(Participate)<br>
 [[**Main work**]](https://zhangtianze.com/Contributions2) [[**Achievement**]](https://zhangtianze.com/Contributions2)
   
 ---
@@ -34,7 +34,7 @@ title: Projects
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - July 2024
 - **level:** National College Student Innovation and Entrepreneurship Program
-- **Instructor:** **Gang Shi** 、**Xiaoli Wang**(Student Responsible Person)
+- **Instructor:** **Gang Shi** 、**Xiaoli Wang**(Student Responsible Person)<br>
 [[**Main work**]](https://zhangtianze.com/Contributions3) [[**Achievement**]](https://zhangtianze.com/Contributions3)
 
 ---
