@@ -15,7 +15,7 @@ title: Projects
 - **Time:** Jan 2023 - Feb 2025
 - **level:** Provincial and ministerial level
 - **Instructor:** **Gang Shi**(Participate)<br>
-[[**Main work**]](https://zhangtianze.com/Contributions1) [[**Achievement**]](https://zhangtianze.com/Contributions1)
+[[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions1)
 
 ---
 
@@ -25,7 +25,7 @@ title: Projects
 - **Time:** Feb 2023 - Feb 2025
 - **level:** Provincial and ministerial level
 - **Instructor:** **Gang Shi**(Participate)<br>
-[[**Main work**]](https://zhangtianze.com/Contributions2) [[**Achievement**]](https://zhangtianze.com/Contributions2)
+[[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions2) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions2)
   
 ---
 
@@ -35,7 +35,7 @@ title: Projects
 - **Time:** Feb 2023 - July 2024
 - **level:** National College Student Innovation and Entrepreneurship Program
 - **Instructor:** **Gang Shi** 、**Xiaoli Wang**(Student Responsible Person)<br>
-[[**Main work**]](https://zhangtianze.com/Contributions3) [[**Achievement**]](https://zhangtianze.com/Contributions3)
+[[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions3) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions3)
 
 ---
 
@@ -47,6 +47,6 @@ title: Projects
 - **Time:** Jul 2023 - Aug 2023
 - **level:** School Level
 - **Instructor:** **Heming Cui**(Participate)<br>
-[[**Main work**]](https://zhangtianze.com/Contributions) [[**Achievement**]](https://zhangtianze.com/Contributions)
+[[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/Contributions) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/Contributions)
 
 ---
