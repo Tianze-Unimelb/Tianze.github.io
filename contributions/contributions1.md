@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /contributions1/index.html
-title: contributions1
+title: Contributions1
 ---
 
 **I.** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
