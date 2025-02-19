@@ -29,12 +29,13 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 ---
 
-## Recommendation
+<!--## Recommendation
 
 - Recommendation Letter from [Prof. Gang Shi](https://it.xju.edu.cn/info/1144/2113.htm) , Xinjiang University
 - Recommendation Letter from [Prof. Heming Cui](https://www.cs.hku.hk/people/academic-staff/heming) , The University of Hongkong.
 
 ---
+-->
 
 ## Research Interests
 
