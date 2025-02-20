@@ -8,7 +8,7 @@ title: Projects
 > 
 > Consisting of three distinct sections, namely **On-Campus** ,**Summer Research** ,**Extracurricular** 
 <!-- **3** Completed On-Campus Research Projects, **1** Completed Summer Research Project -->
-
+ 
 ## On-Campus Job
 **I.** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
 
