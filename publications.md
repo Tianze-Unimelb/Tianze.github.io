@@ -38,12 +38,13 @@ title: Publications
   
 ---
 
-## Degree Thesis
+<!--## Degree Thesis
 - **TBA**
 
 ---
+-->
 
-## Patent
+## Patent & Software
 
 **Invention Patent**
 - **TBA**
@@ -60,10 +61,9 @@ title: Publications
   Designer: **Tianze Zhang**<br>
   <!-- Applicant (grant): Tianze Zhang<br> -->
   Publication Number (grant):[CN308141337S](https://zhangtianze.com/mypublications/Patent/CN202330191786.pdf)<br>
-
----
-
-## Software
+  
+**Software**
+- **TBA**
 
 ---
 
