@@ -6,11 +6,11 @@ title: Projects
 
 > Update: 20th Feb 2025
 > 
-> Consisting of three distinct sections, namely **On-Campus** ,**Summer Research** ,**Extracurricular** 
+> (††: On-Campus Job, **: Summer Research, ~~:Extracurricular Project)
 <!-- **3** Completed On-Campus Research Projects, **1** Completed Summer Research Project -->
  
-## On-Campus Job
-**I.** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
+## Overview
+**I.** **††Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Jan 2023 - Feb 2025<br>
@@ -23,7 +23,7 @@ title: Projects
 
 ---
 
-**II.** **Key technologies for information platform security supervision and information leakage risk assessment**
+**II.** **††Key technologies for information platform security supervision and information leakage risk assessment**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - Feb 2025
@@ -36,7 +36,7 @@ title: Projects
   
 ---
 
-**III.** **Jieyoushudong——A mental health service platform based on blockchain**
+**III.** **††Jieyoushudong——A mental health service platform based on blockchain**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - July 2024
@@ -49,9 +49,7 @@ title: Projects
 
 ---
 
-## Summer Research
-
-**I.** **Large Artificial Intelligence Models and their Applications**
+**IV.** **Large Artificial Intelligence Models and their Applications**
 
 - **Place:** The University of HongKong(HKU)
 - **Time:** Jul 2023 - Aug 2023
@@ -59,6 +57,4 @@ title: Projects
 - **Instructor:** **Heming Cui**(Participate)<br>
 [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com)
 
----
 
-## Extracurricular 
