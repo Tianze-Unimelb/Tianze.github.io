@@ -4,18 +4,19 @@ permalink: /projects/index.html
 title: Projects
 ---
 
-> Update: 10th Sep 2024 
+> Update: 20th Feb 2025
 > 
-> **3** Completed On-Campus Research Projects, **1** Completed Summer Research Project
+> Consisting of three distinct sections, namely **On-Campus** ,**Summer Research** ,**Extracurricular** 
+<!-- **3** Completed On-Campus Research Projects, **1** Completed Summer Research Project -->
 
 ## On-Campus Job
 **I.** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Jan 2023 - Feb 2025
-- **level:** Provincial and ministerial level
-- **Instructor:** **Gang Shi**(Participate)<br>
-[[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions1)
+<!-- **level:** Provincial and ministerial level
+- **Instructor:** **Gang Shi**(Participate)<br>-->
+[[<font color='#4282D3'>Project Information</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions1)
 
 ---
 
@@ -25,7 +26,7 @@ title: Projects
 - **Time:** Feb 2023 - Feb 2025
 - **level:** Provincial and ministerial level
 - **Instructor:** **Gang Shi**(Participate)<br>
-[[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions2) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions2)
+[[<font color='#4282D3'>Project Information</font>]](https://zhangtianze.com/contributions2) [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions2) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions2)
   
 ---
 
@@ -35,7 +36,7 @@ title: Projects
 - **Time:** Feb 2023 - July 2024
 - **level:** National College Student Innovation and Entrepreneurship Program
 - **Instructor:** **Gang Shi** 、**Xiaoli Wang**(Student Responsible Person)<br>
-[[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions3) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions3)
+[[<font color='#4282D3'>Project Information</font>]](https://zhangtianze.com/contributions3) [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions3) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions3)
 
 ---
 
@@ -47,6 +48,7 @@ title: Projects
 - **Time:** Jul 2023 - Aug 2023
 - **level:** School Level
 - **Instructor:** **Heming Cui**(Participate)<br>
-[[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/Contributions) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/Contributions)
+[[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com)
 
 ---
+## Extracurricular 
