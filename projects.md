@@ -27,8 +27,11 @@ title: Projects
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - Feb 2025
-- **level:** Provincial and ministerial level
+  
+<!-- - **level:** Provincial and ministerial level
 - **Instructor:** **Gang Shi**(Participate)<br>
+-->
+
 [[<font color='#4282D3'>Project Information</font>]](https://zhangtianze.com/contributions2) [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions2) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions2)
   
 ---
@@ -37,8 +40,11 @@ title: Projects
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - July 2024
-- **level:** National College Student Innovation and Entrepreneurship Program
+- 
+<!-- - **level:** National College Student Innovation and Entrepreneurship Program
 - **Instructor:** **Gang Shi** 、**Xiaoli Wang**(Student Responsible Person)<br>
+-->
+
 [[<font color='#4282D3'>Project Information</font>]](https://zhangtianze.com/contributions3) [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions3) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions3)
 
 ---
