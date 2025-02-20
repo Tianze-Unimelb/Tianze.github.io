@@ -9,7 +9,7 @@ title: Projects
 > Consisting of three distinct sections, namely **On-Campus** ,**Summer Research** ,**Extracurricular** 
 <!-- **3** Completed On-Campus Research Projects, **1** Completed Summer Research Project -->
  
-## On-Campus Job
+### On-Campus Job
 **I.** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
@@ -49,7 +49,7 @@ title: Projects
 
 ---
 
-## Summer Research
+### Summer Research
 
 **I.** **Large Artificial Intelligence Models and their Applications**
 
@@ -60,4 +60,4 @@ title: Projects
 [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com)
 
 ---
-## Extracurricular 
+### Extracurricular 
