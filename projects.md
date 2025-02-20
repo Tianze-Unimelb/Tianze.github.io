@@ -49,7 +49,7 @@ title: Projects
 
 ---
 
-**[S.1].** **[S]Large Artificial Intelligence Models and their Applications**
+**[S.1].** **Large Artificial Intelligence Models and their Applications**
 
 - **Place:** The University of HongKong(HKU)
 - **Time:** Jul 2023 - Aug 2023
