@@ -36,7 +36,7 @@ title: Projects
   
 ---
 
-**[C.3].** **[C]Jieyoushudong——A mental health service platform based on blockchain**
+**[C.3].** **Jieyoushudong——A mental health service platform based on blockchain**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - July 2024
