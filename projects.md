@@ -6,11 +6,11 @@ title: Projects
 
 > Update: 20th Feb 2025
 > 
-> (††: On-Campus Job, **: Summer Research, ~~:Extracurricular Project)
+> ([C]= On-Campus Job, [S]: Summer Research, [E]: Extracurricular Project)
 <!-- **3** Completed On-Campus Research Projects, **1** Completed Summer Research Project -->
  
 ## Overview
-**I.** **††Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
+**I.** **[C]Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Jan 2023 - Feb 2025<br>
@@ -23,7 +23,7 @@ title: Projects
 
 ---
 
-**II.** **††Key technologies for information platform security supervision and information leakage risk assessment**
+**II.** **[C]Key technologies for information platform security supervision and information leakage risk assessment**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - Feb 2025
@@ -36,7 +36,7 @@ title: Projects
   
 ---
 
-**III.** **††Jieyoushudong——A mental health service platform based on blockchain**
+**III.** **[C]Jieyoushudong——A mental health service platform based on blockchain**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - July 2024
@@ -49,7 +49,7 @@ title: Projects
 
 ---
 
-**IV.** **Large Artificial Intelligence Models and their Applications**
+**IV.** **[S]Large Artificial Intelligence Models and their Applications**
 
 - **Place:** The University of HongKong(HKU)
 - **Time:** Jul 2023 - Aug 2023
