@@ -13,7 +13,7 @@ title: Projects
 **I.** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
-- **Time:** Jan 2023 - Feb 2025
+- **Time:** Jan 2023 - Feb 2025<br>
   
 <!-- **level:** Provincial and ministerial level
 - **Instructor:** **Gang Shi**(Participate)
