@@ -40,7 +40,7 @@ title: Projects
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - July 2024
-- 
+
 <!-- - **level:** National College Student Innovation and Entrepreneurship Program
 - **Instructor:** **Gang Shi** 、**Xiaoli Wang**(Student Responsible Person)<br>
 -->
