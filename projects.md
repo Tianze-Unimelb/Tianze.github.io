@@ -16,7 +16,7 @@ title: Projects
 - **Time:** Jan 2023 - Feb 2025
   
 <!-- **level:** Provincial and ministerial level
-- **Instructor:** **Gang Shi**(Participate)<br>
+- **Instructor:** **Gang Shi**(Participate)
 -->
 
 [[<font color='#4282D3'>Project Information</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions1)
