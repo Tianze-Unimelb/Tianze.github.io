@@ -34,7 +34,7 @@ title: Publications
   <br> ***Tianze Zhang.***
   <br> *<font color='#8B0000'>Frontiers in Artificial Intelligence and Applications</font>*
   <!-- <br> Hangzhou,China -->
-  <br> [[<font color='#4282D3'>DOI</font>]](https://doi.org/10.3233/FAIA231436) [[<font color='#4282D3'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/FAIA-383-FAIA231436.pdf)
+  <br> [[<font color='#4282D3'>DOI</font>]](https://doi.org/10.3233/FAIA231436) [[<font color='#4282D3'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/FAIA-383-FAIA231436.pdf) [[<font color='#4282D3'>Code</font>]](https://github.com/Tianze-Unimelb/GPowerUq)
   
 ---
 
