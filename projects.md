@@ -53,8 +53,11 @@ title: Projects
 
 - **Place:** The University of HongKong(HKU)
 - **Time:** Jul 2023 - Aug 2023
-- **level:** School Level
+- 
+<!-- - **level:** School Level
 - **Instructor:** **Heming Cui**(Participate)<br>
-[[<font color='#4282D3'>Project Information</font>]](https://zhangtianze.com/contributions3) [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com)
+-->
+
+[[<font color='#4282D3'>Project Information</font>]](https://zhangtianze.com/contributions4) [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions4) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions4)
 
 
