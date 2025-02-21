@@ -53,7 +53,7 @@ title: Projects
 
 - **Place:** The University of HongKong(HKU)
 - **Time:** Jul 2023 - Aug 2023
-- 
+
 <!-- - **level:** School Level
 - **Instructor:** **Heming Cui**(Participate)<br>
 -->
