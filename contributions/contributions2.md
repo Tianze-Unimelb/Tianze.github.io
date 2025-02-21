@@ -4,7 +4,7 @@ permalink: /contributions2/index.html
 title: Contributions2
 ---
 
-**II.** **Key technologies for information platform security supervision and information leakage risk assessment**
+**[C.2].** **Key technologies for information platform security supervision and information leakage risk assessment**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - Feb 2025
