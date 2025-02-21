@@ -4,7 +4,7 @@ permalink: /contributions1/index.html
 title: Contributions1
 ---
 
-**I.** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
+**[C.1].** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Jan 2023 - Feb 2025
