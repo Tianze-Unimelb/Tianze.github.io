@@ -11,10 +11,10 @@ title: Projects
  
 ## Overview
 **[C.1].** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
-<img src="https://zhangtianze.com/images/Project1.png" align="right" width="150" height="100">
+
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Jan 2023 - Feb 2025<br>
-  
+<img src="https://zhangtianze.com/images/Project1.png" align="right" width="150" height="80">  
 <!-- **level:** Provincial and ministerial level
 - **Instructor:** **Gang Shi**(Participate)
 -->
@@ -24,10 +24,10 @@ title: Projects
 ---
 
 **[C.2].** **Key technologies for information platform security supervision and information leakage risk assessment**
-<img src="https://zhangtianze.com/images/Project1.png" align="right" width="150" height="100">
+
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - Feb 2025
-  
+<img src="https://zhangtianze.com/images/Project1.png" align="right" width="150" height="80">
 <!-- - **level:** Provincial and ministerial level
 - **Instructor:** **Gang Shi**(Participate)<br>
 -->
@@ -37,10 +37,10 @@ title: Projects
 ---
 
 **[C.3].** **Jieyoushudong——A mental health service platform based on blockchain**
-<img src="https://zhangtianze.com/images/Project1.png" align="right" width="150" height="100">
+
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - July 2024
-
+<img src="https://zhangtianze.com/images/Project1.png" align="right" width="150" height="80">
 <!-- - **level:** National College Student Innovation and Entrepreneurship Program
 - **Instructor:** **Gang Shi** 、**Xiaoli Wang**(Student Responsible Person)<br>
 -->
@@ -50,10 +50,10 @@ title: Projects
 ---
 
 **[S.1].** **Large Artificial Intelligence Models and their Applications**
-<img src="https://zhangtianze.com/images/Project1.png" align="right" width="150" height="100">
+
 - **Place:** The University of HongKong(HKU)
 - **Time:** Jul 2023 - Aug 2023
-
+<img src="https://zhangtianze.com/images/Project1.png" align="right" width="150" height="80">
 <!-- - **level:** School Level
 - **Instructor:** **Heming Cui**(Participate)<br>
 -->
