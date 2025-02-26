@@ -63,7 +63,7 @@ title: Projects
     </div>
 
     <div style="display: flex; gap: 12px;">
-      <a href="#" style="flex:1; text-align:center; 
+      <a href="https://zhangtianze.com/contributions1" style="flex:1; text-align:center; 
                       background: #4282D3;
                       color: white;
                       padding: 10px;
@@ -71,7 +71,7 @@ title: Projects
                       text-decoration: none;">
         Project Details
       </a>
-      <a href="#" style="flex:1; text-align:center;
+      <a href="https://zhangtianze.com/contributions1" style="flex:1; text-align:center;
                       border: 2px solid #4282D3;
                       color: #4282D3;
                       padding: 10px;
@@ -79,7 +79,7 @@ title: Projects
                       text-decoration: none;">
         Main Works
       </a>
-      <a href="#" style="flex:1; text-align:center;
+      <a href="https://zhangtianze.com/contributions1" style="flex:1; text-align:center;
                       border: 2px solid #4282D3;
                       color: #4282D3;
                       padding: 10px;
