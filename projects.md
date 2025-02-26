@@ -11,7 +11,7 @@ title: Projects
  
 ## Overview
 **[C.1].** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
-<img src="https://zhangtianze.com/images/Project1.png" class="floatpic" align="right" width="100" height="100">
+<img src="https://zhangtianze.com/images/Project1.png" class="floatpic" align="right" width="50" height="50">
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Jan 2023 - Feb 2025<br>
   
@@ -24,7 +24,7 @@ title: Projects
 ---
 
 **[C.2].** **Key technologies for information platform security supervision and information leakage risk assessment**
-<img src="https://zhangtianze.com/images/Project1.png" class="floatpic" align="right" width="100" height="100">
+<img src="https://zhangtianze.com/images/Project1.png" class="floatpic" align="right" width="50" height="50">
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - Feb 2025
   
@@ -37,7 +37,7 @@ title: Projects
 ---
 
 **[C.3].** **Jieyoushudong——A mental health service platform based on blockchain**
-<img src="https://zhangtianze.com/images/Project1.png" class="floatpic" align="right" width="100" height="100">
+<img src="https://zhangtianze.com/images/Project1.png" class="floatpic" align="right" width="50" height="50">
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - July 2024
 
@@ -50,7 +50,7 @@ title: Projects
 ---
 
 **[S.1].** **Large Artificial Intelligence Models and their Applications**
-<img src="https://zhangtianze.com/images/Project1.png" class="floatpic" align="right" width="100" height="100">
+<img src="https://zhangtianze.com/images/Project1.png" class="floatpic" align="right" width="50" height="50">
 - **Place:** The University of HongKong(HKU)
 - **Time:** Jul 2023 - Aug 2023
 
