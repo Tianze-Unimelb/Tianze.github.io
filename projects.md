@@ -28,7 +28,7 @@ title: Projects
 ---
 
 <div style="display: flex; 
-           height: 350px; 
+           height: 300px; 
            margin: 20px 0;
            gap: 15px;">
 
