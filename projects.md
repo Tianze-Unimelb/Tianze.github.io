@@ -92,8 +92,6 @@ title: Projects
   </div>
 </div>
 
-<hr style="margin: 30px 0; border: 1px solid #eee;">
-
 ---
 
 **[C.2].** **Key technologies for information platform security supervision and information leakage <br>risk assessment**
