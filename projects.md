@@ -10,8 +10,6 @@ title: Projects
 <!-- **3** Completed On-Campus Research Projects, **1** Completed Summer Research Project -->
  
 ## Overview   
-<p>
- 
 <img src="https://zhangtianze.com/images/Project1.jpg" align="left">
 **[C.1].** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
 
