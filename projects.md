@@ -23,27 +23,64 @@ title: Projects
 [[<font color='#4282D3'>Project Information</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions1)
 
 ---
+<div style="display: flex; 
+           height: 350px; 
+           margin: 20px 0;
+           gap: 15px;">
 
-<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 20px;">
+  <!-- 图片容器（严格50%） -->
+  <div style="flex: 0 0 calc(50% - 8px);
+            position: relative;
+            background: #f0f0f0;
+            border-radius: 8px;
+            overflow: hidden;">
+    <img src="https://zhangtianze.com/images/Project01.jpg" 
+         style="width: 100%;
+                height: 100%;
+                object-fit: cover;">
+  </div>
 
-<div style="flex: 0 0 200px;">
-<img src="https://zhangtianze.com/images/Project01.jpg" style="width: 100%; height: auto; border-radius: 4px;">
+  <!-- 文字容器（严格50%） -->
+  <div style="flex: 0 0 calc(50% - 8px);
+            padding: 25px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;">
+    
+    <div>
+      <h3 style="margin: 0 0 15px 0; color: #2c3e50;">[C.1] Highway Intelligent Inspection System</h3>
+      <div style="display: grid; gap: 8px;">
+        <div>📍 <strong>Location:</strong> Xinjiang Key Laboratory</div>
+        <div>📅 <strong>Duration:</strong> 2023.01 - 2025.02</div>
+      </div>
+    </div>
+
+    <div style="display: flex; gap: 12px;">
+      <a href="#" style="flex:1; text-align:center; 
+                      background: #4282D3;
+                      color: white;
+                      padding: 10px;
+                      border-radius: 6px;
+                      text-decoration: none;">
+        Project Details
+      </a>
+      <a href="#" style="flex:1; text-align:center;
+                      border: 2px solid #4282D3;
+                      color: #4282D3;
+                      padding: 10px;
+                      border-radius: 6px;
+                      text-decoration: none;">
+        Achievements
+      </a>
+    </div>
+
+  </div>
 </div>
 
-<div style="flex: 1;">
-**<span style="font-size: 1.2em;">[C.1] Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project</span>**
-
-- ​**📍 Place:**​ Xinjiang Key Laboratory of Signal Detection and Processing
-- ​**📅 Time:**​ Jan 2023 - Feb 2025
-
-<div style="margin-top: 10px;">
-[<span style="color: #4282D3; border: 1px solid #4282D3; padding: 3px 8px; border-radius: 4px;">Project Information</span>](https://zhangtianze.com/contributions1) 
-[<span style="color: #4282D3; border: 1px solid #4282D3; padding: 3px 8px; border-radius: 4px;">Main work</span>](https://zhangtianze.com/contributions1) 
-[<span style="color: #4282D3; border: 1px solid #4282D3; padding: 3px 8px; border-radius: 4px;">Achievement</span>](https://zhangtianze.com/contributions1)
-</div>
-
-</div>
-</div>
+<hr style="margin: 30px 0; border: 1px solid #eee;">
 
 ---
 
