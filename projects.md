@@ -48,7 +48,7 @@ title: Projects
   <div style="flex: 0 0 calc(60% - 8px);
             padding: 25px;
             background: #fff;
-            border-radius: 8px;
+            border-radius: 10px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
             display: flex;
             flex-direction: column;
