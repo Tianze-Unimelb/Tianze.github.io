@@ -10,6 +10,7 @@ title: Projects
 <!-- **3** Completed On-Campus Research Projects, **1** Completed Summer Research Project -->
  
 ## Overview   
+<!-->
 <img src="https://zhangtianze.com/images/Project01.jpg" align="left">
 **[C.1].** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
 
@@ -23,6 +24,10 @@ title: Projects
 [[<font color='#4282D3'>Project Information</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions1)
 
 ---
+-->
+
+---
+
 <div style="display: flex; 
            height: 350px; 
            margin: 20px 0;
@@ -51,9 +56,9 @@ title: Projects
             justify-content: space-between;">
     
     <div>
-      <h3 style="margin: 0 0 15px 0; color: #2c3e50;">[C.1] Highway Intelligent Inspection System</h3>
+      <h3 style="margin: 0 0 15px 0; color: #2c3e50;">[C.1] Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project</h3>
       <div style="display: grid; gap: 8px;">
-        <div>📍 <strong>Location:</strong> Xinjiang Key Laboratory</div>
+        <div>📍 <strong>Location:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
         <div>📅 <strong>Duration:</strong> 2023.01 - 2025.02</div>
       </div>
     </div>
@@ -66,6 +71,14 @@ title: Projects
                       border-radius: 6px;
                       text-decoration: none;">
         Project Details
+      </a>
+      <a href="#" style="flex:1; text-align:center;
+                      border: 2px solid #4282D3;
+                      color: #4282D3;
+                      padding: 10px;
+                      border-radius: 6px;
+                      text-decoration: none;">
+        Main Works
       </a>
       <a href="#" style="flex:1; text-align:center;
                       border: 2px solid #4282D3;
