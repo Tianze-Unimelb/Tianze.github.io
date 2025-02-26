@@ -32,8 +32,8 @@ title: Projects
            margin: 20px 0;
            gap: 15px;">
 
-  <!-- 图片容器（严格50%） -->
-  <div style="flex: 0 0 calc(50% - 8px);
+  <!-- 图片容器（严格40%） -->
+  <div style="flex: 0 0 calc(40% - 8px);
             position: relative;
             background: #f0f0f0;
             border-radius: 8px;
@@ -44,8 +44,8 @@ title: Projects
                 object-fit: cover;">
   </div>
 
-  <!-- 文字容器（严格50%） -->
-  <div style="flex: 0 0 calc(50% - 8px);
+  <!-- 文字容器（严格60%） -->
+  <div style="flex: 0 0 calc(60% - 8px);
             padding: 25px;
             background: #fff;
             border-radius: 8px;
