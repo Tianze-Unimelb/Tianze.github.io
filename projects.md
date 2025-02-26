@@ -23,7 +23,7 @@ title: Projects
 
 ---
 
-**[C.2].** **Key technologies for information platform security supervision and information leakage risk assessment**
+**[C.2].** **Key technologies for information platform security supervision and information leakage <br>risk assessment**
 <img src="https://zhangtianze.com/images/Project1.png" align="right" width="140" height="80">  
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Feb 2023 - Feb 2025
