@@ -8,7 +8,7 @@ title: Internships
 
 ## Research internship
 ## **I.** **Xinjiang Key Laboratory of Signal Detection and Processing**
-<img src="https://zhangtianze.com/images/lab.jpg" class="floatpic" width="2400" height="1799">
+<img src="https://zhangtianze.com/images/lab.jpg" class="floatpic" align = “right” width="2400" height="1799">
 
 The **Xinjiang Key Laboratory of Signal Detection and Processing** focuses on signal processing technology, covering wireless communications, radar detection, and image processing, while combining computer technology to promote innovation in the field.
 
