@@ -10,7 +10,9 @@ title: Projects
 <!-- **3** Completed On-Campus Research Projects, **1** Completed Summer Research Project -->
  
 ## Overview
+<p>    
 <img src="https://zhangtianze.com/images/Project1.png" align="left" width="190" height="150">
+ 
 **[C.1].** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
@@ -21,6 +23,7 @@ title: Projects
 -->
 
 [[<font color='#4282D3'>Project Information</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions1)
+<\p>
 
 ---
 
