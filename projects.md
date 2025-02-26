@@ -48,7 +48,7 @@ title: Projects
   <div style="flex: 0 0 calc(60% - 8px);
             padding: 25px;
             background: #fff;
-            border-radius: 10px;
+            border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
             display: flex;
             flex-direction: column;
@@ -56,7 +56,7 @@ title: Projects
     
     <div>
       <h3 style="margin: 0 0 15px 0; color: #2c3e50;">[C.1] Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project</h3>
-      <div style="display: grid; gap: 8px;">
+      <div style="display: grid; gap: 10px;">
         <div>📍 <strong>Location:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
         <div>📅 <strong>Duration:</strong> 2023.01 - 2025.02</div>
       </div>
