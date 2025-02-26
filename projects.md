@@ -24,6 +24,29 @@ title: Projects
 
 ---
 
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 20px;">
+
+<div style="flex: 0 0 200px;">
+<img src="https://zhangtianze.com/images/Project01.jpg" style="width: 100%; height: auto; border-radius: 4px;">
+</div>
+
+<div style="flex: 1;">
+**<span style="font-size: 1.2em;">[C.1] Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project</span>**
+
+- ​**📍 Place:**​ Xinjiang Key Laboratory of Signal Detection and Processing
+- ​**📅 Time:**​ Jan 2023 - Feb 2025
+
+<div style="margin-top: 10px;">
+[<span style="color: #4282D3; border: 1px solid #4282D3; padding: 3px 8px; border-radius: 4px;">Project Information</span>](https://zhangtianze.com/contributions1) 
+[<span style="color: #4282D3; border: 1px solid #4282D3; padding: 3px 8px; border-radius: 4px;">Main work</span>](https://zhangtianze.com/contributions1) 
+[<span style="color: #4282D3; border: 1px solid #4282D3; padding: 3px 8px; border-radius: 4px;">Achievement</span>](https://zhangtianze.com/contributions1)
+</div>
+
+</div>
+</div>
+
+---
+
 **[C.2].** **Key technologies for information platform security supervision and information leakage <br>risk assessment**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
