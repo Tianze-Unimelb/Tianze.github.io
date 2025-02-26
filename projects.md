@@ -55,7 +55,7 @@ title: Projects
             justify-content: space-between;">
     
     <div>
-      <h3 style="margin: 0 0 20px 0; color: #2c3e50;">[C.1] Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project</h3>
+      <h3 style="margin: 0 0 15px 0; color: #2c3e50;">[C.1] Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project</h3>
       <div style="display: grid; gap: 8px;">
         <div>📍 <strong>Location:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
         <div>📅 <strong>Duration:</strong> 2023.01 - 2025.02</div>
