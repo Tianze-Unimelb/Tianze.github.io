@@ -11,7 +11,7 @@ title: Projects
  
 ## Overview   
 
-<img src="https://zhangtianze.com/images/Project1.jpg" align="left" width="190" height="150">
+<img src="https://zhangtianze.com/images/Project1.jpg" align="left">
 **[C.1].** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
