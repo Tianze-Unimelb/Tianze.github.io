@@ -10,6 +10,18 @@ title: Projects
 <!-- **3** Completed On-Campus Research Projects, **1** Completed Summer Research Project -->
  
 ## Overview
+<!--
+**[C.1].** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
+
+- **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
+- **Time:** Jan 2023 - Feb 2025
+
+**level:** Provincial and ministerial level
+- **Instructor:** **Gang Shi**(Participate)
+
+
+[[<font color='#4282D3'>Project Information</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions1)
+-->
 ---
 <div style="display: flex; 
            height: 280px; 
