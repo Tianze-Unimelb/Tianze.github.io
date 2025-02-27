@@ -291,13 +291,9 @@ title: Projects
 
 
 [[<font color='#4282D3'>Project Information</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions1)
-
 -->
 
----
-
 <!--
-
 **[C.2].** **Key technologies for information platform security supervision and information leakage <br>risk assessment**
 
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
@@ -308,11 +304,8 @@ title: Projects
 
 
 [[<font color='#4282D3'>Project Information</font>]](https://zhangtianze.com/contributions2) [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions2) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions2)
-
 -->
   
----
-
 <!--
 **[C.3].** **Jieyoushudong——A mental health service platform based on blockchain**
 
@@ -324,10 +317,7 @@ title: Projects
 
 
 [[<font color='#4282D3'>Project Information</font>]](https://zhangtianze.com/contributions4) [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions4) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions4)
-
 -->
-
----
 
 <!--
 **[S.1].** **Large Artificial Intelligence Models and their Applications**
