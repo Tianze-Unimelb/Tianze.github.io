@@ -8,7 +8,7 @@ title: Projects
 >   
 > ([C]= On-Campus Job, [S]= Summer Research, [E]= Extracurricular Project)
 <!-- **3** Completed On-Campus Research Projects, **1** Completed Summer Research Project -->
- 
+
 ## Overview
 <!--
 **[C.1].** **Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project**
@@ -22,7 +22,9 @@ title: Projects
 
 [[<font color='#4282D3'>Project Information</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Main work</font>]](https://zhangtianze.com/contributions1) [[<font color='#4282D3'>Achievement</font>]](https://zhangtianze.com/contributions1)
 -->
+
 ---
+
 <div style="display: flex; 
            height: 250px; 
            margin: 20px 0;
