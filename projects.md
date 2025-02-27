@@ -16,7 +16,7 @@ title: Projects
 - **Place:** Xinjiang Key Laboratory of Signal Detection and Processing
 - **Time:** Jan 2023 - Feb 2025
 
-**level:** Provincial and ministerial level
+<--!**level:** Provincial and ministerial level
 - **Instructor:** **Gang Shi**(Participate)
 
 
