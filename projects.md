@@ -3,7 +3,7 @@ layout: page
 permalink: /projects/index.html
 title: Projects
 ---
-
+  
 > Update: 20th Feb 2025
 >   
 > ([C]= On-Campus Job, [S]= Summer Research, [E]= Extracurricular Project)
