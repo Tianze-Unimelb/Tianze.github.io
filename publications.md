@@ -4,6 +4,10 @@ permalink: /publications/index.html
 title: Publications
 ---
 
+> Update: 10th Nov 2024 
+>
+> ([†]= Equal Contribution, [*]= Corresponding Author, [DOI]= Digital Object Identifier)
+
 ## Journal Article
 
 - **LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image**
