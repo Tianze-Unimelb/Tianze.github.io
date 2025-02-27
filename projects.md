@@ -5,7 +5,7 @@ title: Projects
 ---
 
 > Update: 20th Feb 2025
-> 
+>   
 > ([C]= On-Campus Job, [S]= Summer Research, [E]= Extracurricular Project)
 <!-- **3** Completed On-Campus Research Projects, **1** Completed Summer Research Project -->
  
