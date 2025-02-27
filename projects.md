@@ -26,7 +26,7 @@ title: Projects
 ---
 
 <div style="display: flex; 
-           height: 250px; 
+           height: 270px; 
            margin: 20px 0;
            gap: 15px;">
 
@@ -93,7 +93,7 @@ title: Projects
 ---
 
 <div style="display: flex; 
-           height: 250px; 
+           height: 270px; 
            margin: 20px 0;
            gap: 15px;">
 
@@ -160,7 +160,7 @@ title: Projects
 ---
 
 <div style="display: flex; 
-           height: 250px; 
+           height: 270px; 
            margin: 20px 0;
            gap: 15px;">
 
@@ -227,7 +227,7 @@ title: Projects
 ---
 
 <div style="display: flex; 
-           height: 250px; 
+           height: 270px; 
            margin: 20px 0;
            gap: 15px;">
 
