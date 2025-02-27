@@ -66,7 +66,13 @@ title: Projects
                       color: white;
                       padding: 10px;
                       border-radius: 6px;
-                      text-decoration: none;">
+                      text-decoration: none;
+                      text-decoration: none;
+                      white-space: nowrap;
+                      min-width: min-content;
+                      overflow: hidden;
+                      text-overflow: ellipsis;
+                      @media (max-width:768px){padding:8px;font-size:14px}">
         Project Details
       </a>
       <a href="https://zhangtianze.com/contributions1" style="flex:1; text-align:center;
@@ -74,7 +80,13 @@ title: Projects
                       color: #4282D3;
                       padding: 10px;
                       border-radius: 6px;
-                      text-decoration: none;">
+                      text-decoration: none;
+                      text-decoration: none;
+                      white-space: nowrap;
+                      min-width: min-content;
+                      overflow: hidden;
+                      text-overflow: ellipsis;
+                      @media (max-width:768px){padding:8px;font-size:14px}">
         Main Works
       </a>
       <a href="https://zhangtianze.com/contributions1" style="flex:1; text-align:center;
@@ -82,7 +94,12 @@ title: Projects
                       color: #4282D3;
                       padding: 10px;
                       border-radius: 6px;
-                      text-decoration: none;">
+                      text-decoration: none;
+                      white-space: nowrap;
+                      min-width: min-content;
+                      overflow: hidden;
+                      text-overflow: ellipsis;
+                      @media (max-width:768px){padding:8px;font-size:14px}">
         Achievements
       </a>
     </div>
