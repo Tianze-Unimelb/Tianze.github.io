@@ -9,7 +9,8 @@ title: Projects
 > ([C]= On-Campus Job, [S]= Summer Research, [E]= Extracurricular Project)
 <!-- **3** Completed On-Campus Research Projects, **1** Completed Summer Research Project -->
  
-## Overview   
+## Overview
+---
 <div style="display: flex; 
            height: 280px; 
            margin: 20px 0;
