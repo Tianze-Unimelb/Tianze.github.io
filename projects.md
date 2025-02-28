@@ -13,7 +13,7 @@ title: Projects
 ---
 <div class="project-card">
   <div class="project-image">
-    <img src="[project-specific-image.jpg](https://zhangtianze.com/images/Project01.jpg)" alt="智能巡检系统界面截图" style="width:100%;height:auto;">
+    <img src="https://zhangtianze.com/images/Project01.jpg" alt="智能巡检系统界面截图" style="width:100%;height:auto;">
   </div>
   <div class="project-content">
     <h3>[C.1] 新疆公路智能巡检与评估项目</h3>
