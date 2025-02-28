@@ -9,9 +9,21 @@ title: Projects
 > ([C]= On-Campus Job, [S]= Summer Research, [E]= Extracurricular Project)
 <!-- **3** Completed On-Campus Research Projects, **1** Completed Summer Research Project -->
 
+<!-- 在Front Matter之后添加目录 -->
+<section class="toc-wrapper">
+  <div class="toc-title">Project Index</div>
+  <ul class="toc-list">
+    <li class="toc-item"><a href="#project1" class="toc-link">[C.1] Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project</a></li>
+    <li class="toc-item"><a href="#project2" class="toc-link">[C.2] Key technologies for information platform security supervision and information leakage risk assessment</a></li>
+    <li class="toc-item"><a href="#project3" class="toc-link">[C.3] Jieyoushudong——A mental health service platform based on blockchain</a></li>
+    <li class="toc-item"><a href="#project4" class="toc-link">[S.1] Large Artificial Intelligence Models and their Applications</a></li>
+    <!-- 更多项目... -->
+  </ul>
+</section>
+
 ## Overview
 <hr>
-<div class="project-card">
+<div class="project-card" id="project1">
   <div class="project-image">
     <img src="https://zhangtianze.com/images/Project001(1).jpg" 
          style="width:100%;height:auto;">
@@ -36,7 +48,7 @@ title: Projects
   </div>
 </div>
 <hr>
-<div class="project-card">
+<div class="project-card" id="project2">
   <div class="project-image">
     <img src="https://zhangtianze.com/images/Project001(1).jpg" 
          style="width:100%;height:auto;">
@@ -61,7 +73,7 @@ title: Projects
   </div>
 </div>
 <hr>
-<div class="project-card">
+<div class="project-card" id="project3">
   <div class="project-image">
     <img src="https://zhangtianze.com/images/Project001(1).jpg" 
          style="width:100%;height:auto;">
@@ -86,7 +98,7 @@ title: Projects
   </div>
 </div>
 <hr>
-<div class="project-card">
+<div class="project-card" id="project4">
   <div class="project-image">
     <img src="https://zhangtianze.com/images/Project001(1).jpg" 
          style="width:100%;height:auto;">
