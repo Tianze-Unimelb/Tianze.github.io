@@ -13,10 +13,14 @@ title: Projects
 <section class="toc-wrapper">
   <div class="toc-title">Project Index</div>
   <ul class="toc-list">
-    <li class="toc-item"><a href="#project1" class="toc-link">[C.1] Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project</a></li>
-    <li class="toc-item"><a href="#project2" class="toc-link">[C.2] Key technologies for information platform security supervision and information leakage risk assessment</a></li>
-    <li class="toc-item"><a href="#project3" class="toc-link">[C.3] Jieyoushudong——A mental health service platform based on blockchain</a></li>
-    <li class="toc-item"><a href="#project4" class="toc-link">[S.1] Large Artificial Intelligence Models and their Applications</a></li>
+    <li class="toc-item"><a href="#project1" class="toc-link">[C.1] XJ-HIIAP <br> 
+      <small>Xinjiang Highway Intelligent Inspection & Assessment</small></a></li>
+    <li class="toc-item"><a href="#project2" class="toc-link">[C.2] IPSS-ILRA <br>
+      <small>Info-Platform Security Supervision & Leakage Risk</small></a></li>
+    <li class="toc-item"><a href="#project3" class="toc-link">[C.3] JYSD-BMH <br>
+      <small>Jieyoushudong Blockchain Mental Health</small></a></li>
+    <li class="toc-item"><a href="#project4" class="toc-link">[S.1] LAIMA <br>
+      <small>Large AI Models & Applications</small></a></li>
     <!-- 更多项目... -->
   </ul>
 </section>
