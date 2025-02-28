@@ -11,85 +11,17 @@ title: Projects
 
 ## Overview
 ---
-<div style="display: flex; 
-           height: 270px; 
-           margin: 20px 0;
-           gap: 15px;">
-
-  <!-- 图片容器（严格40%） -->
-  <div style="flex: 0 0 calc(40% - 8px);
-            position: relative;
-            background: #f0f0f0;
-            border-radius: 8px;
-            overflow: hidden;">
-    <img src="https://zhangtianze.com/images/Project01.jpg" 
-         style="width: 100%;
-                height: 100%;
-                object-fit: cover;">
+<div class="project-card">
+  <div class="project-image">
+    <img src="project-specific-image.jpg" alt="智能巡检系统界面截图" style="width:100%;height:auto;">
   </div>
-
-  <!-- 文字容器（严格60%） -->
-  <div style="flex: 0 0 calc(60% - 8px);
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;">
-    
-    <div>
-      <h3 style="margin: 0 0 15px 0; color: #2c3e50;">[C.1] Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project</h3>
-      <div style="display: grid; gap: 8px;">
-        <div>📍 <strong>Location:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
-        <div>📅 <strong>Duration:</strong> 2023.01 - 2025.02</div>
-      </div>
+  <div class="project-content">
+    <h3>[C.1] 新疆公路智能巡检与评估项目</h3>
+    <p>📍 新疆信号检测与处理重点实验室<br>📅 2023.01 - 2025.02</p>
+    <div class="project-links">
+      <a href="#project1-details" aria-label="查看项目详情">Details</a>
+      <a href="project1-paper.pdf" aria-label="下载相关论文">Paper (PDF)</a>
     </div>
-
-    <div style="display: flex; gap: 12px;">
-      <a href="https://zhangtianze.com/contributions1" style="flex:1; text-align:center; 
-                      background: #4282D3;
-                      color: white;
-                      padding: 10px;
-                      border-radius: 6px;
-                      text-decoration: none;
-                      text-decoration: none;
-                      white-space: nowrap;
-                      min-width: min-content;
-                      overflow: hidden;
-                      text-overflow: ellipsis;
-                      @media (max-width:768px){padding:8px;font-size:14px}">
-        Project Details
-      </a>
-      <a href="https://zhangtianze.com/contributions1" style="flex:1; text-align:center;
-                      border: 2px solid #4282D3;
-                      color: #4282D3;
-                      padding: 10px;
-                      border-radius: 6px;
-                      text-decoration: none;
-                      text-decoration: none;
-                      white-space: nowrap;
-                      min-width: min-content;
-                      overflow: hidden;
-                      text-overflow: ellipsis;
-                      @media (max-width:768px){padding:8px;font-size:14px}">
-        Main Works
-      </a>
-      <a href="https://zhangtianze.com/contributions1" style="flex:1; text-align:center;
-                      border: 2px solid #4282D3;
-                      color: #4282D3;
-                      padding: 10px;
-                      border-radius: 6px;
-                      text-decoration: none;
-                      white-space: nowrap;
-                      min-width: min-content;
-                      overflow: hidden;
-                      text-overflow: ellipsis;
-                      @media (max-width:768px){padding:8px;font-size:14px}">
-        Achievements
-      </a>
-    </div>
-
   </div>
 </div>
 
