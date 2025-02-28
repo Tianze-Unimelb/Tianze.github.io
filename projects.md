@@ -14,7 +14,6 @@ title: Projects
 <div class="project-card">
   <div class="project-image">
     <img src="https://zhangtianze.com/images/Project01.jpg" 
-         alt="公路智能巡检系统界面截图（新疆重点实验室项目）"
          loading="lazy;style="width:100%;height:auto;"> <!-- 图片懒加载 -->
   </div>
   <div class="project-content">
