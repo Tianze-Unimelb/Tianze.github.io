@@ -70,79 +70,48 @@
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/fav.png">
 
 <style>
-/* 全局样式复用 */
-.project-card {
+/* 容器全局样式 */
+.project-container {
+  width: 50vw; /* 占据屏幕宽度的90% */
+  margin: 2vh auto; /* 垂直间距基于屏幕高度 */
+  padding: 1.5vmin;
+  background: white;
+  border-radius: 1vmin;
+  box-shadow: 0 0.5vmin 2vmin rgba(0,0,0,0.1);
   display: flex;
-  width: 20vw
-  gap: 20px;
-  margin: 2rem 0;
-  padding: 20px;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-  transition: transform 0.2s;
-}
-.project-card:hover {
-  transform: translateY(-3px); /* 悬停动效提升交互感 */
+  gap: 2vmin;
 }
 
+/* 图片区域 (比例始终占容器宽度的35%) */
 .project-image {
-  flex: 0 0 40%;
-  min-width: 300px;
-  border-radius: 8px;
+  flex: 0 0 35%;
+  min-width: 250px; /* 防止极端小屏幕变形 */
+  border-radius: 1vmin;
   overflow: hidden;
-  background: #f8f9fa; /* 图片加载前的背景色 */
 }
 .project-image img {
   width: 100%;
-  height: 200px;
+  height: 25vh; /* 图片高度基于屏幕高度 */
   object-fit: cover;
 }
 
+/* 文字区域 (自动填充剩余空间) */
 .project-content {
   flex: 1;
-  padding-right: 10px;
+  padding: 1vmin;
 }
 
-.project-links {
+/* 按钮组适配 */
+.button-group {
   display: flex;
-  gap: 12px;
-  margin-top: 1rem;
-  flex-wrap: wrap; /* 移动端按钮自动换行 */
+  gap: 1vmin;
+  margin-top: 2vh;
 }
-.project-links a {
-  padding: 8px 16px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-size: 0.9em;
-  white-space: nowrap;
-}
-
-/* 主按钮样式 */
-.btn-primary {
-  background: #2c3e50; /* 学术深蓝色 */
-  color: white !important;
-  border: 1px solid transparent;
-}
-.btn-secondary {
-  border: 1px solid #2c3e50;
-  color: #2c3e50 !important;
-  background: transparent;
-}
-
-/* 移动端适配 */
-@media (max-width: 768px) {
-  .project-card {
-    flex-direction: column;
-    padding: 15px;
-  }
-  .project-image {
-    flex: none;
-    width: 100%;
-    min-width: auto;
-  }
-  .project-image img {
-    height: 150px;
-  }
+.button-group a {
+  flex: 1;
+  padding: 1vmin 2vmin;
+  text-align: center;
+  border-radius: 0.5vmin;
+  font-size: 16px; /* 固定字号 */
 }
 </style>
