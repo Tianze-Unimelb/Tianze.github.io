@@ -10,7 +10,7 @@ title: Projects
 <!-- **3** Completed On-Campus Research Projects, **1** Completed Summer Research Project -->
 
 ## Overview
----
+<hr>
 <div class="project-card">
   <div class="project-image">
     <img src="https://zhangtianze.com/images/Project001(1).jpg" 
@@ -35,7 +35,7 @@ title: Projects
     </div>
   </div>
 </div>
----
+<hr>
 <div class="project-card">
   <div class="project-image">
     <img src="https://zhangtianze.com/images/Project001(1).jpg" 
@@ -60,7 +60,7 @@ title: Projects
     </div>
   </div>
 </div>
----
+<hr>
 <div class="project-card">
   <div class="project-image">
     <img src="https://zhangtianze.com/images/Project001(1).jpg" 
@@ -85,7 +85,7 @@ title: Projects
     </div>
   </div>
 </div>
----
+<hr>
 <div class="project-card">
   <div class="project-image">
     <img src="https://zhangtianze.com/images/Project001(1).jpg" 
@@ -110,3 +110,4 @@ title: Projects
     </div>
   </div>
 </div>
+<hr>
