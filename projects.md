@@ -13,7 +13,7 @@ title: Projects
 ---
 <div class="project-card">
   <div class="project-image">
-    <img src="https://zhangtianze.com/images/Project01.jpg" 
+    <img src="https://zhangtianze.com/images/Project001.jpg" 
          style="width:100%;height:auto;">
   </div>
   <div class="project-content">
