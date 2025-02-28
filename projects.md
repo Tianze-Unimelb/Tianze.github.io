@@ -13,14 +13,14 @@ title: Projects
 ---
 <div class="project-card">
   <div class="project-image">
-    <img src="project-specific-image.jpg" alt="智能巡检系统界面截图" style="width:100%;height:auto;">
+    <img src="[project-specific-image.jpg](https://zhangtianze.com/images/Project01.jpg)" alt="智能巡检系统界面截图" style="width:100%;height:auto;">
   </div>
   <div class="project-content">
     <h3>[C.1] 新疆公路智能巡检与评估项目</h3>
     <p>📍 新疆信号检测与处理重点实验室<br>📅 2023.01 - 2025.02</p>
     <div class="project-links">
-      <a href="#project1-details" aria-label="查看项目详情">Details</a>
-      <a href="project1-paper.pdf" aria-label="下载相关论文">Paper (PDF)</a>
+      <a href="https://zhangtianze.com/contributions4" aria-label="查看项目详情">Details</a>
+      <a href="https://zhangtianze.com/contributions4" aria-label="下载相关论文">Paper (PDF)</a>
     </div>
   </div>
 </div>
