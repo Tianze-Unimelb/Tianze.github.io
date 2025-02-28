@@ -70,7 +70,7 @@
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/fav.png">
 
 <style>
-/* 去响应式版本 */
+/* 全局样式复用 */
 .project-card {
   display: flex;
   gap: 15px;
@@ -80,21 +80,17 @@
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   transition: transform 0.2s;
-  width: 800px; /* 固定容器宽度 */
-  margin-left: auto;
-  margin-right: auto;
 }
-
 .project-card:hover {
-  transform: translateY(-3px);
+  transform: translateY(-3px); /* 悬停动效提升交互感 */
 }
 
 .project-image {
   flex: 0 0 40%;
-  width: 480px; /* 固定图片容器宽度 */
+  min-width: 300px;
   border-radius: 8px;
   overflow: hidden;
-  background: #f8f9fa;
+  background: #f8f9fa; /* 图片加载前的背景色 */
 }
 .project-image img {
   width: 100%;
@@ -105,19 +101,25 @@
 .project-content {
   flex: 1;
   padding-right: 10px;
-  min-width: 720px; /* 固定内容区域最小宽度 */
 }
 
 .project-links {
   display: flex;
   gap: 12px;
   margin-top: 1rem;
-  flex-wrap: nowrap; /* 禁止按钮换行 */
+  flex-wrap: wrap; /* 移动端按钮自动换行 */
+}
+.project-links a {
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9em;
+  white-space: nowrap;
 }
 
-/* 按钮样式保持 */
+/* 主按钮样式 */
 .btn-primary {
-  background: #2c3e50;
+  background: #2c3e50; /* 学术深蓝色 */
   color: white !important;
   border: 1px solid transparent;
 }
@@ -125,5 +127,21 @@
   border: 1px solid #2c3e50;
   color: #2c3e50 !important;
   background: transparent;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .project-image {
+    flex: none;
+    width: 100%;
+    min-width: auto;
+  }
+  .project-image img {
+    height: 150px;
+  }
 }
 </style>
