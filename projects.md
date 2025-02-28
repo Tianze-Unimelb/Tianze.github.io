@@ -34,7 +34,7 @@ title: Projects
   </div>
   <div class="project-content">
     <h3 style="margin:0 0 0.8em 0; color: #2c3e50;">
-      [C.1]  Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project
+      [C.1]  Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project(XJ-HIIAP)
     </h3>
     <div style="display: grid; gap: 6px;">
       <div>📍 <strong>Location:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
@@ -59,7 +59,7 @@ title: Projects
   </div>
   <div class="project-content">
     <h3 style="margin:0 0 0.8em 0; color: #2c3e50;">
-      [C.2] Key technologies for information platform security supervision and information leakage risk assessment
+      [C.2] Key technologies for information platform security supervision and information leakage risk assessment(IPSS-ILRA)
     </h3>
     <div style="display: grid; gap: 6px;">
       <div>📍 <strong>Location:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
@@ -84,7 +84,7 @@ title: Projects
   </div>
   <div class="project-content">
     <h3 style="margin:0 0 0.8em 0; color: #2c3e50;">
-      [C.3] Jieyoushudong——A mental health service platform based on blockchain
+      [C.3] Jieyoushudong——A mental health service platform based on blockchain(JYSD-BMH)
     </h3>
     <div style="display: grid; gap: 6px;">
       <div>📍 <strong>Location:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
@@ -109,7 +109,7 @@ title: Projects
   </div>
   <div class="project-content">
     <h3 style="margin:0 0 0.8em 0; color: #2c3e50;">
-      [S.1] Large Artificial Intelligence Models and their Applications
+      [S.1] Large Artificial Intelligence Models and their Applications(LAIMA)
     </h3>
     <div style="display: grid; gap: 6px;">
       <div>📍 <strong>Location:</strong> The University of HongKong(HKU)</div>
