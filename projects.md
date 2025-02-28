@@ -13,14 +13,23 @@ title: Projects
 ---
 <div class="project-card">
   <div class="project-image">
-    <img src="https://zhangtianze.com/images/Project01.jpg" alt="智能巡检系统界面截图" style="width:100%;height:auto;">
+    <img src="https://zhangtianze.com/images/Project01.jpg" 
+         alt="公路智能巡检系统界面截图（新疆重点实验室项目）"
+         loading="lazy;style="width:100%;height:auto;"> <!-- 图片懒加载 -->
   </div>
   <div class="project-content">
-    <h3>[C.1] Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project</h3>
-    <p>📍 Xinjiang Key Laboratory of Signal Detection and Processing<br>📅 2023.01 - 2025.02</p>
+    <h3 style="margin:0 0 0.8em 0; color: #2c3e50;">
+      [C.1]  Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project
+    </h3>
+    <div style="display: grid; gap: 6px;">
+      <div>📍 <strong>单位:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
+      <div>📅 <strong>时间:</strong> 2023.01 - 2025.02</div>
+      <div>🎯 <strong>角色:</strong> 核心成员（算法开发）</div>
+    </div>
     <div class="project-links">
-      <a href="https://zhangtianze.com/contributions4" aria-label="Project Details">Project Details</a>
-      <a href="https://zhangtianze.com/contributions4" aria-label="Achievements">Achievements</a>
+      <a href="https://zhangtianze.com/contributions1" class="btn-primary">Project Details</a>
+      <a href="https://zhangtianze.com/contributions1" class="btn-secondary">Achievements</a>
+      <a href="https://zhangtianze.com/contributions1" class="btn-secondary">论文下载</a>
     </div>
   </div>
 </div>
