@@ -14,15 +14,15 @@ title: Projects
 <div class="project-card">
   <div class="project-image">
     <img src="https://zhangtianze.com/images/Project01.jpg" 
-         loading="lazy;style="width:100%;height:auto;"> <!-- 图片懒加载 -->
+         style="width:100%;height:auto;">
   </div>
   <div class="project-content">
     <h3 style="margin:0 0 0.8em 0; color: #2c3e50;">
       [C.1]  Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project
     </h3>
     <div style="display: grid; gap: 6px;">
-      <div>📍 <strong>单位:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
-      <div>📅 <strong>时间:</strong> 2023.01 - 2025.02</div>
+      <div>📍 <strong>Location:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
+      <div>📅 <strong>Duration:</strong> 2023.01 - 2025.02</div>
       <div>🎯 <strong>角色:</strong> 核心成员（算法开发）</div>
     </div>
     <div class="project-links">
