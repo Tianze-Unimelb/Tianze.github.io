@@ -23,7 +23,11 @@ title: Projects
     <div style="display: grid; gap: 6px;">
       <div>📍 <strong>Location:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
       <div>📅 <strong>Duration:</strong> 2023.01 - 2025.02</div>
-      <!-- <div>🎯 <strong>角色:</strong> 核心成员（算法开发）</div> -->
+      
+      <!-- 
+      <div>🎯 <strong>角色:</strong> 核心成员（算法开发）</div> 
+      -->
+      
     </div>
     <div class="project-links">
       <a href="https://zhangtianze.com/contributions1" class="btn-primary">Project Details</a>
