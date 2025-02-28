@@ -196,15 +196,24 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  -webkit-padding-start: 0;
-  -moz-padding-start: 0;
-}
-.markdown-body .toc-list li { 
-  list-style-type: none;
-  padding-inline-start: 0;
 }
 .toc-item {
-  margin: 8px 0;
+  list-style: none !important;        /* 强制清除li样式 */
+  -webkit-padding-start: 0 !important;  /* 清除Safari特有缩进 */
+  padding-inline-start: 0 !important;   /* 现代浏览器缩进清除 */
+}
+/* 清除所有列表元素的默认样式 */
+ul, ol, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* 针对现代浏览器的额外清除 */
+@supports (padding-inline-start: 0) {
+  li {
+    padding-inline-start: 0;
+  }
 }
 .toc-link {
   color: #34495e;
