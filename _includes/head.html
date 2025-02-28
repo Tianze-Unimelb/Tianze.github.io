@@ -68,3 +68,39 @@
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/fav.png">
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/fav.png">
+
+<!-- 在<head>中定义CSS -->
+<style>
+.project-card {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  flex-wrap: wrap; /* 手机端自动换行 */
+}
+.project-image {
+  flex: 1 1 300px;
+  min-height: 200px;
+  background: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.project-content {
+  flex: 2 1 500px;
+}
+.project-links a {
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 4px;
+  margin: 5px;
+  background: #4282D3;
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .project-image { flex-basis: 100%; }
+}
+</style>
