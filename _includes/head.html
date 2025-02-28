@@ -168,3 +168,89 @@
   }
 }
 </style>
+
+
+<style>
+/* 目录样式 - 新增 */
+.toc-wrapper {
+  position: fixed;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  background: rgba(255,255,255,0.95);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 260px;
+  backdrop-filter: blur(5px);
+}
+.toc-title {
+  font-size: 1.2em;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  border-left: 4px solid #2c3e50;
+  padding-left: 10px;
+}
+.toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.toc-item {
+  margin: 8px 0;
+}
+.toc-link {
+  color: #34495e;
+  text-decoration: none;
+  transition: all 0.3s;
+  display: block;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+.toc-link:hover {
+  background: #f8f9fa;
+  transform: translateX(5px);
+}
+.toc-link.active {
+  color: white;
+  background: #2c3e50;
+}
+
+/* 响应式调整 */
+@media (max-width: 1200px) {
+  .toc-wrapper {
+    left: 10px;
+    padding: 15px;
+    max-width: 220px;
+  }
+}
+@media (max-width: 768px) {
+  .toc-wrapper {
+    position: static;
+    transform: none;
+    max-width: 100%;
+    margin: 20px 0;
+    backdrop-filter: none;
+  }
+}
+</style>
+
+<!-- 在Front Matter之后添加目录 -->
+<section class="toc-wrapper">
+  <div class="toc-title">Project Index</div>
+  <ul class="toc-list">
+    <li class="toc-item"><a href="#project1" class="toc-link">[C.1] Highway Inspection</a></li>
+    <li class="toc-item"><a href="#project2" class="toc-link">[C.2] Platform Security</a></li>
+    <!-- 更多项目... -->
+  </ul>
+</section>
+
+<!-- 修改项目卡片添加ID -->
+<div class="project-card" id="project1">
+  <h3>...</h3>
+</div>
+
+<div class="project-card" id="project2">
+  <h3>...</h3>
+</div>
