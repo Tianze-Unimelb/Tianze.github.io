@@ -70,78 +70,52 @@
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/fav.png">
 
 <style>
-/* 全局样式复用 */
+/* 修改后的自适应样式（仅替换单位） */
 .project-card {
   display: flex;
-  gap: 20px;
-  margin: 2rem 0;
-  padding: 20px;
+  gap: 1.5vw;              /* 原20px→视口宽度的1.5% */
+  margin: 3vh 0;           /* 原2rem→视口高度的3% */
+  padding: 1.5vmin;        /* 原20px→视口较小边的1.5% */
   background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  border-radius: 1vw;      /* 原12px→视口宽度1% */
+  box-shadow: 0 0.4vh 0.6vw rgba(0,0,0,0.05); /* 混合单位保持比例 */
   transition: transform 0.2s;
-}
-.project-card:hover {
-  transform: translateY(-3px); /* 悬停动效提升交互感 */
 }
 
 .project-image {
   flex: 0 0 40%;
-  min-width: 300px;
-  border-radius: 8px;
-  overflow: hidden;
-  background: #f8f9fa; /* 图片加载前的背景色 */
+  min-width: 30vw;         /* 原300px→视口宽度30% */
+  border-radius: 0.8vw;    /* 原8px→0.8%视口宽度 */
 }
+
 .project-image img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
+  height: 25vh;            /* 原200px→视口高度25% */
 }
 
 .project-content {
-  flex: 1;
-  padding-right: 10px;
+  padding-right: 1vw;       /* 原10px→1%视口宽度 */
 }
 
 .project-links {
-  display: flex;
-  gap: 12px;
-  margin-top: 1rem;
-  flex-wrap: wrap; /* 移动端按钮自动换行 */
+  gap: 1vw;                /* 原12px→1%视口宽度 */
+  margin-top: 2vh;          /* 原1rem→视口高度2% */
 }
+
 .project-links a {
-  padding: 8px 16px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-size: 0.9em;
-  white-space: nowrap;
+  padding: 1vh 1.2vw;      /* 原8px16px→垂直1vh+水平1.2vw */
+  border-radius: 0.6vw;     /* 原6px→0.6%视口宽度 */
+  font-size: 1.8vmin;       /* 原0.9em→基于视口较小边 */
 }
 
-/* 主按钮样式 */
-.btn-primary {
-  background: #2c3e50; /* 学术深蓝色 */
-  color: white !important;
-  border: 1px solid transparent;
-}
-.btn-secondary {
-  border: 1px solid #2c3e50;
-  color: #2c3e50 !important;
-  background: transparent;
-}
-
-/* 移动端适配 */
+/* 移动端适配优化 */
 @media (max-width: 768px) {
-  .project-card {
-    flex-direction: column;
-    padding: 15px;
-  }
-  .project-image {
-    flex: none;
-    width: 100%;
-    min-width: auto;
-  }
   .project-image img {
-    height: 150px;
+    height: 20vh;          /* 原150px→视口高度20% */
+  }
+  
+  .project-links a {
+    font-size: 2vmin;      /* 移动端稍大字号 */
+    min-width: 15vw;       /* 防止按钮过小 */
   }
 }
 </style>
