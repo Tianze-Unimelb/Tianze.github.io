@@ -19,8 +19,8 @@ title: Projects
     <h3>[C.1] Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project</h3>
     <p>📍 Xinjiang Key Laboratory of Signal Detection and Processing<br>📅 2023.01 - 2025.02</p>
     <div class="project-links">
-      <a href="https://zhangtianze.com/contributions4" aria-label="查看项目详情">Project Details</a>
-      <a href="https://zhangtianze.com/contributions4" aria-label="下载相关论文">Achievements</a>
+      <a href="https://zhangtianze.com/contributions4" aria-label="Project Details">Project Details</a>
+      <a href="https://zhangtianze.com/contributions4" aria-label="Achievements">Achievements</a>
     </div>
   </div>
 </div>
