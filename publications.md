@@ -54,9 +54,7 @@ title: Publications
     </p>
     
    <div class="pub-tags">
-            <span class="tag tag-core">SOTA Performance</span>
-            <span class="tag tag-general">Object Detection</span>
-            <span class="tag tag-general">UAV Imaging</span>
+            <span class="tag tag-core">Mathematical modeling</span>
         </div>
 
     <div class="pub-links">
@@ -70,19 +68,56 @@ title: Publications
 
 ## Conference Paper
 
-- **Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages**
-  <br> ***Tianze Zhang.***
-  <br> *<font color='#8B0000'>Proceedings of the 4th International Conference on Signal Processing and Machine Learning</font>*
-  <!-- <br> Chicago, United States -->
-  <br> [[<font color='#4282D3'>DOI</font>]](https://doi.org/10.54254/2755-2721/47/20241374) [[<font color='#4282D3'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/10.542542755-27214720241374.pdf) [[<font color='#4282D3'>Code</font>]](https://github.com/Tianze-Unimelb/MultiMLM) 
-- **Power System Uncertainty Modeling Based on Gaussian Process**
-  <br> ***Tianze Zhang.***
-  <br> *<font color='#8B0000'>Frontiers in Artificial Intelligence and Applications</font>*
-  <!-- <br> Hangzhou,China -->
-  <br> [[<font color='#4282D3'>DOI</font>]](https://doi.org/10.3233/FAIA231436) [[<font color='#4282D3'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/FAIA-383-FAIA231436.pdf) [[<font color='#4282D3'>Code</font>]](https://github.com/Tianze-Unimelb/GPowerUq)
-  
----
+<div class="publication-card">
+  <div class="pub-visual">
+  <img src="https://zhangtianze.com/images/Project001(1).jpg" 
+     style="width:100%;height:auto;">
+  </div> 
+  <div class="pub-content">
+    <h3 class="pub-title">Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages</h3>
+    
+    <p class="pub-meta">
+      <span class="authors"><strong>Tianze Zhang.</strong></span><br>
+      <em>Proceedings of the 4th International Conference on Signal Processing and Machine Learning</em>Chicago, United States
+    </p>
+    
+   <div class="pub-tags">
+            <span class="tag tag-core">Mathematical modeling</span>
+        </div>
 
+    <div class="pub-links">
+      <a href="https://doi.org/10.54254/2755-2721/47/20241374" class="pub-link">DOI</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/10.542542755-27214720241374.pdf" class="pub-link">PDF</a>
+      <a href="https://github.com/Tianze-Unimelb/MultiMLM" class="pub-link">Code</a>
+    </div>
+  </div>
+</div>
+<hr>
+<div class="publication-card">
+  <div class="pub-visual">
+  <img src="https://zhangtianze.com/images/Project001(1).jpg" 
+     style="width:100%;height:auto;">
+  </div> 
+  <div class="pub-content">
+    <h3 class="pub-title">Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages</h3>
+    
+    <p class="pub-meta">
+      <span class="authors"><strong>Tianze Zhang.</strong></span><br>
+      <em>Frontiers in Artificial Intelligence and Applications</em>Hangzhou,China
+    </p>
+    
+   <div class="pub-tags">
+            <span class="tag tag-core">Mathematical modeling</span>
+        </div>
+
+    <div class="pub-links">
+      <a href="https://doi.org/10.3233/FAIA231436" class="pub-link">DOI</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/FAIA-383-FAIA231436.pdf" class="pub-link">PDF</a>
+      <a href="https://github.com/Tianze-Unimelb/GPowerUq" class="pub-link">Code</a>
+    </div>
+  </div>
+</div>
+<hr>
 <!--## Degree Thesis
 - **TBA**
 
