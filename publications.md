@@ -138,8 +138,10 @@ title: Publications
 <hr>
 <div class="publication-card" id="c2">
   <div class="pub-visual">
-  <img src="https://zhangtianze.com/images/Project001(1).jpg" 
+  <a href="https://zhangtianze.com/images/Publishion04.jpg" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion04.jpg" 
      style="width:100%;height:auto;">
+  </a>
   </div> 
   <div class="pub-content">
     <h3 class="pub-title">Power System Uncertainty Modeling Based on Gaussian Process </h3>
