@@ -74,7 +74,7 @@
 .project-card {
   display: flex;
   gap: 15px;
-  margin: 2rem 0;
+  margin: 1rem 0;
   padding: 20px;
   background: #fff;
   border-radius: 12px;
@@ -85,6 +85,13 @@
 }
 .project-card:hover {
   transform: translateY(-3px);
+}
+
+/* 控制hr标签间距 */
+hr {
+  margin: 0.8rem 0;
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.1);
 }
 
 /* 图片区域严格40% */
@@ -374,11 +381,3 @@ ul, ol, li {
     }
 </style>
 <style>
-/* 清除默认间距 */
-hr {
-  margin: 5px 0; /* 调整为你需要的间距 */
-  border: 0;
-  border-top: 1px solid #e0e0e0; /* 自定义分割线样式 */
-  opacity: 0.8;   /* 透明度控制 */
-}
-</style>
