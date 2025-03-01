@@ -16,6 +16,7 @@ title: Publications
   <a href="https://zhangtianze.com/images/Publishion001.jpg" target="_blank" rel="noopener">
     <img src="https://zhangtianze.com/images/Publishion001.jpg" 
      style="width:100%;height:auto;">
+    </a>
   </div> 
   <div class="pub-content">
     <h3 class="pub-title">LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image</h3>
