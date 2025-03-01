@@ -13,7 +13,7 @@ title: Publications
 <hr>
 <div class="publication-card">
   <div class="pub-visual">
-  <img src="https://zhangtianze.com/images/Project001(1).jpg" 
+  <img src="https://zhangtianze.com/images/Publishion001.jpg" 
      style="width:100%;height:auto;">
   </div> 
   <div class="pub-content">
@@ -21,13 +21,13 @@ title: Publications
     
     <p class="pub-meta">
       <span class="authors">Yifan Lyu†, Tianze Zhang†, Xin Li, Aixun Liu & Gang Shi.</span><br>
-      <em>The Journal of Supercomputing</em> (2025) 81:105, JCR Q2
+      <em>The Journal of Supercomputing</em> (2025) 81:105
     </p>
     
    <div class="pub-tags">
-            <span class="tag tag-core">SOTA Performance</span>
-            <span class="tag tag-general">Object Detection</span>
-            <span class="tag tag-general">UAV Imaging</span>
+            <span class="tag tag-core">Object Detection</span>
+            <span class="tag tag-general">UAV</span>
+            <span class="tag tag-general">IF=2.5(JCRQ2)</span>
         </div>
 
     <div class="pub-links">
