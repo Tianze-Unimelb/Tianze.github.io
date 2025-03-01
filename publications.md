@@ -13,8 +13,8 @@ title: Publications
 <hr>
 <div class="publication-card">
   <div class="pub-visual">
-  <a href="https://zhangtianze.com/images/Publishion001.jpg" target="_blank" rel="noopener">
-    <img src="https://zhangtianze.com/images/Publishion001.jpg" 
+  <a href="https://zhangtianze.com/images/Publishion01.jpg" target="_blank" rel="noopener">
+    <img src="https://zhangtianze.com/images/Publishion01.jpg" 
      style="width:100%;height:auto;">
     </a>
   </div> 
