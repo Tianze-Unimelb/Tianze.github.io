@@ -16,7 +16,7 @@ title: Publications
     </div>
 
     <div class="pub-content">
-        <h2 class="pub-title">LightUAV-YOLO: 面向无人机图像的轻量级目标检测模型</h2>
+        <h3 class="pub-title">LightUAV-YOLO: 面向无人机图像的轻量级目标检测模型</h2>
 
         <div class="pub-meta">
             <span class="authors">Yifan Lyu†, Tianze Zhang†, Xin Li, Aixun Liu & Gang Shi.</span><br>
