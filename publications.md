@@ -19,13 +19,15 @@ title: Publications
     <h3 class="pub-title">LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image</h3>
     
     <p class="pub-meta">
-      <em>Yifan Lyu†, Tianze Zhang†, Xin Li, Aixun Liu & Gang Shi.</em>
+      <span class="authors">Yifan Lyu†, Tianze Zhang†, Xin Li, Aixun Liu & Gang Shi.</span><br>
+      <em>The Journal of Supercomputing</em> (2025) 81:105, JCR Q2
     </p>
-
-    <div class="pub-meta">
-      <span class="tag tag-core">JCR Q2</span>
-      <span class="tag tag-general">The Journal of Supercomputing (2025) 81:105</span>
-    </div>
+    
+   <div class="pub-tags">
+            <span class="tag tag-core">SOTA Performance</span>
+            <span class="tag tag-general">Object Detection</span>
+            <span class="tag tag-general">UAV Imaging</span>
+        </div>
 
     <div class="pub-links">
       <a href="https://doi.org/10.1007/s11227-024-06611-x" class="pub-link">DOI</a>
