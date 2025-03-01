@@ -77,7 +77,7 @@ title: Publications
 
 <div class="publication-card" id="j2">
   <div class="pub-visual">
-  <img src="https://zhangtianze.com/images/Project001(1).jpg" 
+  <img src="https://zhangtianze.com/images/Project02.jpg" 
      style="width:100%;height:auto;">
   </div> 
   <div class="pub-content">
@@ -89,7 +89,8 @@ title: Publications
     </p>
     
    <div class="pub-tags">
-            <span class="tag tag-core">Mathematical modeling</span>
+            <span class="tag tag-core">ARIMA Modeling</span>
+            <span class="tag tag-general">Illegal Wildlife Trade</span>
         </div>
 
     <div class="pub-links">
@@ -118,7 +119,9 @@ title: Publications
     </p>
     
    <div class="pub-tags">
-            <span class="tag tag-core">Mathematical modeling</span>
+            <span class="tag tag-core">LLM</span>
+            <span class="tag tag-general">Multimodal</span>
+            <span class="tag tag-general">Transformers</span>
         </div>
 
     <div class="pub-links">
@@ -144,7 +147,8 @@ title: Publications
     </p>
     
    <div class="pub-tags">
-            <span class="tag tag-core">Mathematical modeling</span>
+            <span class="tag tag-core">Uncertainty Modeling</span>
+            <span class="tag tag-general">Power System</span>
         </div>
 
     <div class="pub-links">
