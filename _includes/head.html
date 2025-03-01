@@ -257,151 +257,44 @@ ul, ol, li {
   }
 }
   
-<style>
-    /* 核心布局系统 */
+/* 核心布局 */
+.publication-card {
+    display: flex;
+    gap: 25px;
+    margin: 2rem 0;
+    padding: 25px;
+    background: #f8fafc;
+    border-left: 6px solid #2c3e50;
+    border-radius: 0 12px 12px 0;
+    transition: transform 0.3s;
+}
+
+/* 图片区域 */
+.pub-visual {
+    flex: 0 0 40%;
+    min-width: 280px;
+    background: repeating-conic-gradient(#f1f3f5 0% 25%, transparent 0% 50%) 50%/20px 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+    position: relative;
+    cursor: zoom-in;
+}
+
+.pub-visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 15px;
+}
+
+/* 响应式布局 */
+@media (max-width: 768px) {
     .publication-card {
-        display: flex;
-        gap: 25px;
-        margin: 2rem 0;
-        padding: 25px;
-        background: #f8fafc;
-        border-left: 6px solid #2c3e50;
-        border-radius: 0 12px 12px 0;
-        transition: transform 0.3s;
-    }
-
-    /* 图片区域 (40%) */
-    .pub-visual {
-        flex: 0 0 40%;
-        min-width: 280px;
-        background: repeating-conic-gradient(#f1f3f5 0% 25%, transparent 0% 50%) 50%/20px 20px;
-        border-radius: 8px;
-        overflow: hidden;
-        aspect-ratio: 16/9;
-        position: relative;
-        cursor: zoom-in;
-    }
-
-    .pub-visual img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        padding: 15px;
-    }
-
-    /* 内容区域 (60% - gap) */
-    .pub-content {
-        flex: 0 0 calc(60% - 25px);
-        display: flex;
         flex-direction: column;
-    }
-
-    /* 三维层次结构 */
-    .pub-title {
-        font-size: 1.4rem;
-        color: #2c3e50;
-        margin: 0 0 1rem 0;
-        line-height: 1.3;
-    }
-
-    .pub-meta {
-        color: #666;
-        font-size: 0.95rem;
-        margin: 0.5rem 0;
-    }
-
-    .pub-meta em {
-        font-style: italic;
-        color: #8B0000;
-    }
-
-    /* 智能标签系统 */
-    .pub-tags {
-        margin: 1rem 0;
-        display: flex;
-        gap: 8px;
-        flex-wrap: wrap;
-    }
-
-    .tag {
-        padding: 4px 12px;
-        border-radius: 15px;
-        font-size: 0.85rem;
-    }
-
-    .tag-core {
-        background: #2c3e50;
-        color: white;
-    }
-
-    .tag-general {
-        background: #e9ecef;
-        color: #444;
-    }
-
-    /* 交互元素 */
-    .pub-links {
-        margin-top: auto;
-        display: flex;
-        gap: 15px;
-    }
-
-    .pub-link {
-        color: #4282D3 !important;
-        text-decoration: none;
-        transition: opacity 0.2s;
-    }
-
-    .pub-link:hover {
-        opacity: 0.8;
-        text-decoration: underline;
-    }
-
-    /* 模态框系统 */
-    .modal {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0,0,0,0.9);
-        z-index: 1000;
-        padding: 2rem;
-        box-sizing: border-box;
-    }
-
-    .modal-content {
-        width: 100%;
-        height: 100%;
-        background: white;
-        border-radius: 8px;
         padding: 20px;
-        overflow: auto;
     }
-
-    /* 响应式布局 */
-    @media (max-width: 768px) {
-        .publication-card {
-            flex-direction: column;
-            padding: 20px;
-        }
-
-        .pub-visual {
-            flex: none;
-            width: 100% !important;
-            aspect-ratio: 2/1;
-        }
-
-        .pub-content {
-            flex: none;
-            width: 100%;
-        }
-
-        .pub-links {
-            flex-direction: column;
-        }
+    .pub-visual {
+        aspect-ratio: 2/1;
     }
-    </style>
-</head>
-<body>
+}
