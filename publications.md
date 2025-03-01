@@ -35,43 +35,6 @@ title: Publications
             </div>
         </div>
     </article>
-
-    <!-- 模态框 -->
-    <div id="archModal" class="modal" onclick="hideModal()">
-        <div class="modal-content">
-            <img src="model-architecture.png" alt="全尺寸架构图" style="max-width: 100%">
-        </div>
-    </div>
-
-    <script>
-    // 模态框控制
-    function showModal() {
-        document.getElementById('archModal').style.display = 'block';
-        document.body.style.overflow = 'hidden'; // 禁用滚动
-    }
-
-    function hideModal() {
-        document.getElementById('archModal').style.display = 'none';
-        document.body.style.overflow = 'auto';
-    }
-
-    // 点击模态框外部关闭
-    window.onclick = function(event) {
-        if (event.target === document.getElementById('archModal')) {
-            hideModal();
-        }
-    }
-
-    // ESC键关闭
-    document.addEventListener('keydown', (event) => {
-        if (event.key === 'Escape') {
-            hideModal();
-        }
-    });
-    </script>
-</body>
-</html>
-
 ---
 - **Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation**
   <br> *Haiyang Sun, Xinjun Song† & **Tianze Zhang†.***
