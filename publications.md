@@ -9,12 +9,70 @@ title: Publications
 > ([†]= Equal Contribution, [*]= Corresponding Author, [DOI]= Digital Object Identifier)
 
 ## Journal Article
+    <article class="publication-card">
+        <div class="pub-visual" onclick="showModal()">
+            <img src="model-architecture.png" alt="模型架构图">
+        </div>
 
-- **LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image**
-  <br> *Yifan Lyu†,**Tianze Zhang†**, Xin Li, Aixun Liu & Gang Shi.*
-  <br> *<font color='#8B0000'>The Journal of Supercomputing (2025) 81:105</font>*, **JCR Q2**
-  <br> [[<font color='#4282D3'>DOI</font>]](https://doi.org/10.1007/s11227-024-06611-x) [[<font color='#4282D3'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/d839d354-d0da-4924-98d2-aa8caa97e9ce.pdf) [[<font color='#4282D3'>Code</font>]]()
-  <!-- <br> DOI:[10.1007/s11227-024-06611-x](https://link.springer.com/article/10.1007/s11227-024-06611-x) -->
+        <div class="pub-content">
+            <h2 class="pub-title">LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image</h2>
+            
+            <div class="pub-meta">
+                <span class="authors">Yifan Lyu†, Tianze Zhang†, Xin Li, Aixun Liu & Gang Shi.</span><br>
+                <em>The Journal of Supercomputing</em> (2025) 81:105, JCR Q2
+            </div>
+
+            <div class="pub-tags">
+                <span class="tag tag-core">SOTA Performance</span>
+                <span class="tag tag-general">Object Detection</span>
+                <span class="tag tag-general">UAV Imaging</span>
+            </div>
+
+            <div class="pub-links">
+                <a href="https://doi.org/10.1007/s11227-024-06611-x" class="pub-link">DOI 链接</a>
+                <a href="paper.pdf" class="pub-link">PDF 全文</a>
+                <a href="https://github.com/example" class="pub-link">代码仓库</a>
+            </div>
+        </div>
+    </article>
+
+    <!-- 模态框 -->
+    <div id="archModal" class="modal" onclick="hideModal()">
+        <div class="modal-content">
+            <img src="model-architecture.png" alt="全尺寸架构图" style="max-width: 100%">
+        </div>
+    </div>
+
+    <script>
+    // 模态框控制
+    function showModal() {
+        document.getElementById('archModal').style.display = 'block';
+        document.body.style.overflow = 'hidden'; // 禁用滚动
+    }
+
+    function hideModal() {
+        document.getElementById('archModal').style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+
+    // 点击模态框外部关闭
+    window.onclick = function(event) {
+        if (event.target === document.getElementById('archModal')) {
+            hideModal();
+        }
+    }
+
+    // ESC键关闭
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+            hideModal();
+        }
+    });
+    </script>
+</body>
+</html>
+
+---
 - **Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation**
   <br> *Haiyang Sun, Xinjun Song† & **Tianze Zhang†.***
   <br> *<font color='#8B0000'>Sustainability in Environment,9,179-190</font>*
