@@ -8,6 +8,41 @@ title: Publications
 >
 > ([†]= Equal Contribution, [*]= Corresponding Author, [DOI]= Digital Object Identifier)
 
+<!-- 在Front Matter之后添加目录 -->
+<section class="toc-wrapper">
+  <div class="toc-title">Publishions Index</div>
+  
+  <!-- Journal Articles -->
+  <div class="toc-subtitle">Journal Article</div>
+  <ul class="toc-list">
+    <li class="toc-item">
+      <a href="#j1" class="toc-link">[J.1] LightUAV‑YOLO <br>
+        <small>Unmanned Aerial Vehicle Image Object Detection Model</small>
+      </a>
+    </li>
+    <li class="toc-item">
+      <a href="#j2" class="toc-link">[J.2] Curbing Illegal Wildlife Trade <br>
+        <small>ARIMA Modeling & Responsible Party Evaluation</small>
+      </a>
+    </li>
+  </ul>
+
+  <!-- Conference Papers -->
+  <div class="toc-subtitle">Conference Paper</div>
+  <ul class="toc-list">
+    <li class="toc-item">
+      <a href="#c1" class="toc-link">[C.1] Project Alpha <br>
+        <small>Short description for conference paper 1</small>
+      </a>
+    </li>
+    <li class="toc-item">
+      <a href="#c2" class="toc-link">[C.2] Project Beta <br>
+        <small>Short description for conference paper 2</small>
+      </a>
+    </li>
+  </ul>
+</section>
+
 ## Journal Article
 
 <hr>
