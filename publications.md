@@ -36,6 +36,12 @@ title: Publications
     </div>
   </div>
 </div>
+<!-- 模态框 -->
+<div id="archModal" class="modal" onclick="hideModal()">
+    <div class="modal-content">
+        <img src="model-architecture.png" alt="全尺寸架构图" style="max-width: 100%">
+    </div>
+</div>
 <hr>
 - **LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image**
   <br> *Yifan Lyu†,**Tianze Zhang†**, Xin Li, Aixun Liu & Gang Shi.*
