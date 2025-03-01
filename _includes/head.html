@@ -297,6 +297,9 @@ hr {
         box-sizing: border-box;
         aspect-ratio: 4/3;
         padding: 0 !important; /* 确保无内边距影响 */
+        display: flex;       /* 新增弹性布局 */
+        align-items: center; /* 垂直居中 */
+        justify-content: center; /* 水平居中 */
     }
     /* 新增链接样式 */
    .pub-visual a {
@@ -304,19 +307,21 @@ hr {
     width: 100%;
     height: 100%;
     transition: opacity 0.3s;
+    position: relative;
+    z-index: 1;
     }
     .pub-visual a:hover {
         opacity: 0.95;
     }
     .pub-visual img {
-        position: absolute;
+        position: relative;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
+        width: auto;
+        height: auto;
         min-width: 100%;  /* 新增最小尺寸保障 */
         min-height: 100%;
-        object-fit: cover;
+        object-fit: contain;
         object-position: center center; /* 新增定位保障 */
         /* 防御性声明 */
         display: block;
