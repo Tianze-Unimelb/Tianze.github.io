@@ -9,30 +9,7 @@ title: Publications
 > ([†]= Equal Contribution, [*]= Corresponding Author, [DOI]= Digital Object Identifier)
 
 ## Journal Article
-        <div class="pub-visual" onclick="showModal()">
-            <img src="model-architecture.png" alt="模型架构图">
-        </div>
 
-        <div class="pub-content">
-            <h2 class="pub-title">LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image</h2>
-            
-            <div class="pub-meta">
-                <span class="authors">Yifan Lyu†, Tianze Zhang†, Xin Li, Aixun Liu & Gang Shi.</span><br>
-                <em>The Journal of Supercomputing</em> (2025) 81:105, JCR Q2
-            </div>
-
-            <div class="pub-tags">
-                <span class="tag tag-core">SOTA Performance</span>
-                <span class="tag tag-general">Object Detection</span>
-                <span class="tag tag-general">UAV Imaging</span>
-            </div>
-
-            <div class="pub-links">
-                <a href="https://doi.org/10.1007/s11227-024-06611-x" class="pub-link">DOI 链接</a>
-                <a href="paper.pdf" class="pub-link">PDF 全文</a>
-                <a href="https://github.com/example" class="pub-link">代码仓库</a>
-            </div>
-        </div>
 ---
 - **Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation**
   <br> *Haiyang Sun, Xinjun Song† & **Tianze Zhang†.***
