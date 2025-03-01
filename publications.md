@@ -70,7 +70,7 @@ title: Publications
     <div class="pub-links">
       <a href="https://doi.org/10.1007/s11227-024-06611-x" class="btn-primary">DOI</a>
       <a href="https://zhangtianze.com/mypublications/Thesis/d839d354-d0da-4924-98d2-aa8caa97e9ce.pdf" class="btn-secondary">PDF</a>
-      <span class="btn-secondary">Code (Coming Soon)</span>
+      <a href="" class="btn-secondary">Code</a>
     </div>
   </div>
 </div>
@@ -98,7 +98,7 @@ title: Publications
     <div class="pub-links">
       <a href="https://doi.org/10.22158/se.v9n2p28" class="btn-primary">DOI</a>
       <a href="https://zhangtianze.com/mypublications/Thesis/36336-323623-2-PB.pdf" class="btn-secondary">PDF</a>
-      <span class="btn-secondary">Code (Coming Soon)</span>
+      <a href="" class="btn-secondary">Code</a>
     </div>
   </div>
 </div>
