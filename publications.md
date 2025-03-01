@@ -77,7 +77,7 @@ title: Publications
 
 <div class="publication-card" id="j2">
   <div class="pub-visual">
-  <img src="https://zhangtianze.com/images/Project02.jpg" 
+  <img src="https://zhangtianze.com/images/Publishion02.png" 
      style="width:100%;height:auto;">
   </div> 
   <div class="pub-content">
