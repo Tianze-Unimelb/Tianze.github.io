@@ -1900,3 +1900,29 @@ $(document).ready(function() {
     mainClass: 'mfp-fade'
   });
 });
+
+// 2025.03.01
+// 模态框控制
+function showModal() {
+    document.getElementById('archModal').style.display = 'block';
+    document.body.style.overflow = 'hidden'; // 禁用滚动
+}
+
+function hideModal() {
+    document.getElementById('archModal').style.display = 'none';
+    document.body.style.overflow = 'auto';
+}
+
+// 点击模态框外部关闭
+window.onclick = function(event) {
+    if (event.target === document.getElementById('archModal')) {
+        hideModal();
+    }
+}
+
+// ESC键关闭
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+        hideModal();
+    }
+});
