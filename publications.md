@@ -78,7 +78,8 @@ title: Publications
     
     <p class="pub-meta">
       <span class="authors"><strong>Tianze Zhang.</strong></span><br>
-      <em>Proceedings of the 4th International Conference on Signal Processing and Machine Learning</em>Chicago, United States
+      <em>Proceedings of the 4th International Conference on Signal Processing and Machine Learning</em>
+      <em>Chicago, United States</em>
     </p>
     
    <div class="pub-tags">
@@ -103,7 +104,8 @@ title: Publications
     
     <p class="pub-meta">
       <span class="authors"><strong>Tianze Zhang.</strong></span><br>
-      <em>Frontiers in Artificial Intelligence and Applications</em>Hangzhou,China
+      <em>Frontiers in Artificial Intelligence and Applications</em>
+      <em>Hangzhou,China</em>
     </p>
     
    <div class="pub-tags">
