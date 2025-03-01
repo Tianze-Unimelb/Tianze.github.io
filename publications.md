@@ -77,8 +77,10 @@ title: Publications
 
 <div class="publication-card" id="j2">
   <div class="pub-visual">
+  <a href="https://zhangtianze.com/images/Publishion02.png" target="_blank" rel="noopener">
   <img src="https://zhangtianze.com/images/Publishion02.png" 
      style="width:100%;height:auto;">
+  </a>
   </div> 
   <div class="pub-content">
     <h3 class="pub-title">Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation</h3>
