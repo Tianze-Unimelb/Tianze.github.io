@@ -12,7 +12,7 @@ title: Publications
 <hr>
 <article class="publication-card">
     <div class="pub-visual" onclick="showModal()">
-        <img src="model-architecture.png" alt="模型架构图">
+        <img src="https://zhangtianze.com/images/Project001(1).jpg" alt="模型架构图">
     </div>
 
     <div class="pub-content">
