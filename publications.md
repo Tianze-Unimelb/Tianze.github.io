@@ -108,7 +108,9 @@ title: Publications
 
 <div class="publication-card" id="c1">
   <div class="pub-visual">
-  <img src="https://zhangtianze.com/images/Project001(1).jpg" 
+  <a href="https://zhangtianze.com/images/Publishion03.png" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion03.png" 
+  </a>
      style="width:100%;height:auto;">
   </div> 
   <div class="pub-content">
