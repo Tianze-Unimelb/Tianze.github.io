@@ -9,6 +9,7 @@ title: Publications
 > ([†]= Equal Contribution, [*]= Corresponding Author, [DOI]= Digital Object Identifier)
 
 ## Journal Article
+
 <hr>
 <div class="publication-card">
   <div class="pub-visual">
@@ -36,19 +37,35 @@ title: Publications
     </div>
   </div>
 </div>
+<hr>
+<hr>
+<div class="publication-card">
+  <div class="pub-visual">
+  <img src="https://zhangtianze.com/images/Project001(1).jpg" 
+     style="width:100%;height:auto;">
+  </div> 
+  <div class="pub-content">
+    <h3 class="pub-title">Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation</h3>
+    
+    <p class="pub-meta">
+      <span class="authors">Haiyang Sun, Xinjun Song† & **Tianze Zhang†.</span><br>
+      <em>Sustainability in Environment</em>9,179-190
+    </p>
+    
+   <div class="pub-tags">
+            <span class="tag tag-core">SOTA Performance</span>
+            <span class="tag tag-general">Object Detection</span>
+            <span class="tag tag-general">UAV Imaging</span>
+        </div>
 
-- **LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image**
-  <br> *Yifan Lyu†,**Tianze Zhang†**, Xin Li, Aixun Liu & Gang Shi.*
-  <br> *<font color='#8B0000'>The Journal of Supercomputing (2025) 81:105</font>*, **JCR Q2**
-  <br> [[<font color='#4282D3'>DOI</font>]](https://doi.org/10.1007/s11227-024-06611-x) [[<font color='#4282D3'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/d839d354-d0da-4924-98d2-aa8caa97e9ce.pdf) [[<font color='#4282D3'>Code</font>]]()
-  <!-- <br> DOI:[10.1007/s11227-024-06611-x](https://link.springer.com/article/10.1007/s11227-024-06611-x) -->
-- **Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation**
-  <br> *Haiyang Sun, Xinjun Song† & **Tianze Zhang†.***
-  <br> *<font color='#8B0000'>Sustainability in Environment,9,179-190</font>*
-  <br> [[<font color='#4282D3'>DOI</font>]](https://doi.org/10.22158/se.v9n2p28) [[<font color='#4282D3'>PDF</font>]](https://zhangtianze.com/mypublications/Thesis/36336-323623-2-PB.pdf) [[<font color='#4282D3'>Code</font>]]()
-  <!-- <br> DOI:[10.22158/se.v9n2p28](http://www.scholink.org/ojs/index.php/se/article/view/36336) -->
-
----
+    <div class="pub-links">
+      <a href="https://doi.org/10.22158/se.v9n2p28" class="pub-link">DOI</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/36336-323623-2-PB.pdf" class="pub-link">PDF</a>
+      <span class="pub-link">Code (Coming Soon)</span>
+    </div>
+  </div>
+</div>
+<hr>
 
 ## Conference Paper
 
