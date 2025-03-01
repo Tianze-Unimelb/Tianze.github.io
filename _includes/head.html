@@ -453,4 +453,32 @@ hr {
     gap: 12px;              /* 缩小移动端链接间距 */
   }
 }
+
+/* 按钮容器优化 */
+.pub-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+.pub-links a {
+  flex: 1; /* 等分按钮宽度 */
+  min-width: 120px; /* 防止文字断裂 */
+  text-align: center;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+/* 主按钮样式 */
+.btn-primary {
+  background: #82B0D2; /* 学术深蓝色 */
+  color: white !important;
+  border: 1px solid transparent;
+}
+.btn-secondary {
+  border: 1px solid #82B0D2;
+  color: #82B0D2 !important;
+  background: transparent;
+}
 </style>
