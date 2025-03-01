@@ -11,8 +11,10 @@ title: Publications
 ## Journal Article
 <hr>
 <div class="publication-card">
+  <div class="pub-visual">
   <img src="https://zhangtianze.com/images/Project001(1).jpg" 
      style="width:100%;height:auto;">
+  </div> 
   <div class="pub-content">
     <h3 class="pub-title">LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image</h3>
     
