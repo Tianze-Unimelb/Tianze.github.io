@@ -103,7 +103,7 @@ title: Publications
 
 ## Conference Paper
 
-<div class="publication-card" id="C1">
+<div class="publication-card" id="c1">
   <div class="pub-visual">
   <img src="https://zhangtianze.com/images/Project001(1).jpg" 
      style="width:100%;height:auto;">
@@ -129,7 +129,7 @@ title: Publications
   </div>
 </div>
 <hr>
-<div class="publication-card" id="C2">
+<div class="publication-card" id="c2">
   <div class="pub-visual">
   <img src="https://zhangtianze.com/images/Project001(1).jpg" 
      style="width:100%;height:auto;">
