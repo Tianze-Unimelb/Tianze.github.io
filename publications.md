@@ -9,6 +9,7 @@ title: Publications
 > ([†]= Equal Contribution, [*]= Corresponding Author, [DOI]= Digital Object Identifier)
 
 ## Journal Article
+<hr>
 <div class="publication-card">
   <img src="https://zhangtianze.com/images/Project001(1).jpg" 
      alt="架构图" 
@@ -32,6 +33,7 @@ title: Publications
     </div>
   </div>
 </div>
+<hr>
 - **LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image**
   <br> *Yifan Lyu†,**Tianze Zhang†**, Xin Li, Aixun Liu & Gang Shi.*
   <br> *<font color='#8B0000'>The Journal of Supercomputing (2025) 81:105</font>*, **JCR Q2**
