@@ -37,11 +37,11 @@ title: Projects
       [C.1]  Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project(XJ-HIIAP)
     </h3>
     <div style="display: grid; gap: 6px;">
-      <div>📍 <strong>Location:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
-      <div>📅 <strong>Duration:</strong> 2023.01 - 2025.02</div>
+      <div><strong>Location:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
+      <div><strong>Duration:</strong> 2023.01 - 2025.02</div>
       
       <!-- 
-      <div>🎯 <strong>角色:</strong> 核心成员（算法开发）</div> 
+      <div>🎯📍📅  <strong>角色:</strong> 核心成员（算法开发）</div> 
       -->
       
     </div>
@@ -62,8 +62,8 @@ title: Projects
       [C.2] Key technologies for information platform security supervision and information leakage risk assessment(IPSS-ILRA)
     </h3>
     <div style="display: grid; gap: 6px;">
-      <div>📍 <strong>Location:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
-      <div>📅 <strong>Duration:</strong> 2023.02 - 2025.02</div>
+      <div><strong>Location:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
+      <div><strong>Duration:</strong> 2023.02 - 2025.02</div>
       
       <!-- 
       <div>🎯 <strong>角色:</strong> 核心成员（算法开发）</div> 
@@ -87,8 +87,8 @@ title: Projects
       [C.3] Jieyoushudong——A mental health service platform based on blockchain(JYSD-BMH)
     </h3>
     <div style="display: grid; gap: 6px;">
-      <div>📍 <strong>Location:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
-      <div>📅 <strong>Duration:</strong> 2023.02 - 2024.07</div>
+      <div><strong>Location:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
+      <div><strong>Duration:</strong> 2023.02 - 2024.07</div>
       
       <!-- 
       <div>🎯 <strong>角色:</strong> 核心成员（算法开发）</div> 
@@ -112,8 +112,8 @@ title: Projects
       [S.1] Large Artificial Intelligence Models and their Applications(LAIMA)
     </h3>
     <div style="display: grid; gap: 6px;">
-      <div>📍 <strong>Location:</strong> The University of HongKong(HKU)</div>
-      <div>📅 <strong>Duration:</strong> 2023.07 - 2023.08</div>
+      <div><strong>Location:</strong> The University of HongKong(HKU)</div>
+      <div><strong>Duration:</strong> 2023.07 - 2023.08</div>
       
       <!-- 
       <div>🎯 <strong>角色:</strong> 核心成员（算法开发）</div> 
