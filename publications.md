@@ -16,12 +16,12 @@ title: Publications
   <div class="toc-subtitle">Journal Article</div>
   <ul class="toc-list">
     <li class="toc-item">
-      <a href="#j1" class="toc-link">[J.1] LightUAV‑YOLO <br>
+      <a href="j1" class="toc-link">[J.1] LightUAV‑YOLO <br>
         <small>Unmanned Aerial Vehicle Image Object Detection Model</small>
       </a>
     </li>
     <li class="toc-item">
-      <a href="#j2" class="toc-link">[J.2] Curbing Illegal Wildlife Trade <br>
+      <a href="j2" class="toc-link">[J.2] Curbing Illegal Wildlife Trade <br>
         <small>ARIMA Modeling & Responsible Party Evaluation</small>
       </a>
     </li>
@@ -31,12 +31,12 @@ title: Publications
   <div class="toc-subtitle">Conference Paper</div>
   <ul class="toc-list">
     <li class="toc-item">
-      <a href="#c1" class="toc-link">[C.1] Multimodal Task Effect & Transformers Analysis System<br> 
+      <a href="c1" class="toc-link">[C.1] Multimodal Task Effect & Transformers Analysis System<br> 
         <small>Transformers-based multimodal analysis for multilingual scenarios</small>
       </a>
     </li>
     <li class="toc-item">
-      <a href="#c2" class="toc-link">[C.2] Power System <br>
+      <a href="c2" class="toc-link">[C.2] Power System <br>
         <small>Uncertainty Gaussian Process Modeling</small>
       </a>
     </li>
@@ -46,7 +46,7 @@ title: Publications
 ## Journal Article
 
 <hr>
-<div class="publication-card" id="#j1">
+<div class="publication-card" id="j1">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion01(1).jpg" target="_blank" rel="noopener">
     <img src="https://zhangtianze.com/images/Publishion01(1).jpg" 
@@ -75,7 +75,7 @@ title: Publications
   </div>
 </div>
 
-<div class="publication-card" id="#j2">
+<div class="publication-card" id="j2">
   <div class="pub-visual">
   <img src="https://zhangtianze.com/images/Project001(1).jpg" 
      style="width:100%;height:auto;">
@@ -103,7 +103,7 @@ title: Publications
 
 ## Conference Paper
 
-<div class="publication-card" id="#C1">
+<div class="publication-card" id="C1">
   <div class="pub-visual">
   <img src="https://zhangtianze.com/images/Project001(1).jpg" 
      style="width:100%;height:auto;">
@@ -129,7 +129,7 @@ title: Publications
   </div>
 </div>
 <hr>
-<div class="publication-card" id="#C2">
+<div class="publication-card" id="C2">
   <div class="pub-visual">
   <img src="https://zhangtianze.com/images/Project001(1).jpg" 
      style="width:100%;height:auto;">
