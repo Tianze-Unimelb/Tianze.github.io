@@ -259,83 +259,137 @@ ul, ol, li {
 </style>
 
 <style>
-/* 核心布局系统 */
-.publication-card {
-    display: flex;
-    gap: 25px;
-    margin: 2rem auto;
-    padding: 25px;
-    max-width: 1200px; /* 增加最大宽度限制 */
-}
-
-/* 图片区域严格40% */
-.pub-visual {
-    flex: 0 0 40%;
-    min-width: 380px; /* 增大最小宽度保障 */
-    aspect-ratio: 4/3; /* 固定4:3比例 */
-    position: relative;
-}
-
-/* 内容区域精确计算 */
-.pub-content {
-    flex: 0 0 calc(60% - 25px); /* 60%扣除间距 */
-    min-width: 480px; /* 内容最小宽度 */
-}
-
-/* 防御性布局声明 */
-@supports not (aspect-ratio: 4/3) {
-    .pub-visual::before {
-        content: "";
-        display: block;
-        padding-top: 75%; /* 4:3比例回退方案 */
-    }
-}
-
-/* 响应式优化 */
-@media (min-width: 769px) and (max-width: 1024px) {
-    .pub-visual { min-width: 320px; }
-    .pub-content { min-width: 400px; }
-}
-
-@media (max-width: 768px) {
+    /* 核心布局系统 */
     .publication-card {
-        flex-direction: column;
-        padding: 15px;
+        display: flex;
+        gap: 15px;
+        margin: 2rem 0;
+        padding: 20px;
+        background: #f8fafc;
+        border-left: 6px solid #2c3e50;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05)
+        transition: transform 0.3s;
     }
-    
-    .pub-visual,
-    .pub-content {
-        flex: none;
-        width: 100% !important;
-        min-width: unset !important;
-    }
-    
-    .pub-visual {
-        aspect-ratio: 16/9; /* 移动端改为宽屏比例 */
-    }
-}
-</style>
 
-<!-- 结构示例 -->
-<article class="publication-card">
-    <!-- 左侧图片 (40%) -->
-    <figure class="pub-visual">
-        <img src="research-preview.jpg" alt="研究预览图" 
-             loading="lazy"
-             class="responsive-image">
-    </figure>
-    
-    <!-- 右侧内容 (60%) -->
-    <section class="pub-content">
-        <h2 class="pub-title">基于深度学习的遥感图像分析</h2>
-        <div class="pub-meta">
-            <span class="authors">张天泽, 李四, 王五</span>
-            <em class="journal">《计算机视觉期刊》</em>
-            <time datetime="2024-03">2024年3月</time>
-        </div>
-        <div class="pub-actions">
-            <a href="#full-text" class="cta-button">阅读全文</a>
-            <a href="#cite" class="cta-button">引用格式</a>
-        </div>
-    </section>
-</article>
+    /* 图片区域 (40%) */
+    .pub-visual {
+        flex: 0 0 40%;
+        min-height: 180px;
+        background: repeating-conic-gradient(#f1f3f5 0% 25%, transparent 0% 50%) 50%/20px 20px;
+        border-radius: 8px;
+        overflow: hidden;
+        aspect-ratio: 4/3;
+        position: relative;
+        cursor: zoom-in;
+        box-sizing: border-box;
+        padding: 0 !important; /* 确保无内边距影响 */
+    }
+
+    .pub-visual img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        min-width: 100%;  /* 新增最小尺寸保障 */
+        min-height: 100%;
+        object-fit: cover;
+        object-position: center center; /* 新增定位保障 */
+        /* 防御性声明 */
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* 内容区域 (60% - gap) */
+    .pub-content {
+        flex: 0 0 calc(60% - 15px); /* 计算gap影响 */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /* 三维层次结构 */
+    .pub-title {
+        font-size: 1.4rem;
+        color: #2c3e50;
+        margin: 0 0 1rem 0;
+        line-height: 1.3;
+    }
+
+    .pub-meta {
+        color: #666;
+        font-size: 0.95rem;
+        margin: 0.5rem 0;
+    }
+
+    .pub-meta em {
+        font-style: italic;
+        color: #8B0000;
+    }
+
+    /* 智能标签系统 */
+    .pub-tags {
+        margin: 1rem 0;
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        padding: 4px 12px;
+        border-radius: 15px;
+        font-size: 0.85rem;
+    }
+
+    .tag-core {
+        background: #2c3e50;
+        color: white;
+    }
+
+    .tag-general {
+        background: #e9ecef;
+        color: #444;
+    }
+
+    /* 交互元素 */
+    .pub-links {
+        margin-top: auto;
+        display: flex;
+        gap: 15px;
+    }
+
+    .pub-link {
+        color: #4282D3 !important;
+        text-decoration: none;
+        transition: opacity 0.2s;
+    }
+
+    .pub-link:hover {
+        opacity: 0.8;
+        text-decoration: underline;
+    }
+    /* 响应式布局 */
+    @media (max-width: 768px) {
+        .publication-card {
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .pub-visual {
+            flex: none;
+            width: 100% !important;
+            aspect-ratio: 2/1;
+        }
+
+        .pub-content {
+            flex: none;
+            width: 100%;
+        }
+
+        .pub-links {
+            flex-direction: column;
+        }
+    }
+</style>
