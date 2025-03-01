@@ -37,7 +37,6 @@ title: Publications
     </div>
 </article>
 <hr>
-<hr>
 <article class="publication-card">
     <div class="pub-visual" onclick="showModal()">
         <img src="model-architecture.png" alt="模型架构图">
