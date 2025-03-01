@@ -39,7 +39,7 @@ title: Publications
 <!-- 模态框 -->
 <div id="archModal" class="modal" onclick="hideModal()">
     <div class="modal-content">
-        <img src="model-architecture.png" alt="全尺寸架构图" style="max-width: 100%">
+        <img src="https://zhangtianze.com/images/Project001(1).jpg" alt="全尺寸架构图" style="max-width: 100%">
     </div>
 </div>
 <hr>
