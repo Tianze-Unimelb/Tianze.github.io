@@ -37,8 +37,7 @@ title: Publications
     </div>
   </div>
 </div>
-<hr>
-<hr>
+
 <div class="publication-card">
   <div class="pub-visual">
   <img src="https://zhangtianze.com/images/Project001(1).jpg" 
