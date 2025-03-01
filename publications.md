@@ -10,7 +10,7 @@ title: Publications
 
 ## Journal Article
 <div class="publication-card">
-  <img src="path/to/image.jpg" 
+  <img src="https://zhangtianze.com/images/Project001(1).jpg" 
      alt="架构图" 
      loading="lazy" >  <!-- 原生懒加载 -->
   <div class="pub-content">
