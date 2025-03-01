@@ -375,34 +375,40 @@ ul, ol, li {
     }
     /* 响应式布局 */
 @media (max-width: 1200px) {
-    .toc-wrapper {
-    left: 10px;
-    padding: 15px;
-    max-width: 220px;
+  .publication-card {
+    margin: 1.5rem 0; /* 中等屏幕间距调整 */
+    padding: 18px;
+    border-left-width: 4px; /* 减少强调线宽度 */
   }
 }
+
 @media (max-width: 768px) {
-   .publication-card  {
-    position: static;
-    transform: none;
-    max-width: 100%;
-    margin: 20px 0;
-    backdrop-filter: none;
+  .publication-card {
+    flex-direction: column;
+    position: static;        /* 新增定位重置 */
+    transform: none;         /* 禁用悬停动画 */
+    max-width: 100%;         /* 容器宽度约束 */
+    padding: 20px;
+    margin: 20px 0;          /* 改用像素单位 */
+    backdrop-filter: none;   /* 禁用视觉效果 */
+  }
+
+  .pub-visual {
+    flex: none;
+    width: 100% !important;
+    aspect-ratio: 16/9;      /* 更改为视频比例 */
+    margin-bottom: 15px;     /* 增加图片与内容间距 */
+  }
+
+  .pub-content {
+    flex: none;
+    width: 100%;
+    padding-top: 0 !important; /* 清除潜在继承的内边距 */
+  }
+
+  .pub-links {
+    flex-direction: column;
+    gap: 12px;              /* 缩小移动端链接间距 */
   }
 }
-        .pub-visual {
-            flex: none;
-            width: 100% !important;
-            aspect-ratio: 2/1;
-        }
-
-        .pub-content {
-            flex: none;
-            width: 100%;
-        }
-
-        .pub-links {
-            flex-direction: column;
-        }
-    }
 </style>
