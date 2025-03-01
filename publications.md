@@ -16,9 +16,9 @@ title: Publications
     </div>
 
     <div class="pub-content">
-        <h3 class="pub-title">LightUAV-YOLO: 面向无人机图像的轻量级目标检测模型</h2>
+        <h3 style="margin:0 0 0.8em 0; color: #2c3e50;">LightUAV-YOLO: 面向无人机图像的轻量级目标检测模型</h3>
 
-        <div class="pub-meta">
+        <div style="display: grid; gap: 6px;">
             <span class="authors">Yifan Lyu†, Tianze Zhang†, Xin Li, Aixun Liu & Gang Shi.</span><br>
             <em>The Journal of Supercomputing</em> (2025) 81:105, JCR Q2
         </div>
