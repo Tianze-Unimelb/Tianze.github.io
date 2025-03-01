@@ -11,7 +11,7 @@ title: Publications
 ## Journal Article
 <hr>
 <article class="publication-card">
-    <div class="pub-visual" onclick="showModal()">
+    <div class="pub-visual">
         <img src="https://zhangtianze.com/images/Project001(1).jpg" alt="模型架构图">
     </div>
 
