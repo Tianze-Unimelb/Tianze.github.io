@@ -9,7 +9,6 @@ title: Publications
 > ([†]= Equal Contribution, [*]= Corresponding Author, [DOI]= Digital Object Identifier)
 
 ## Journal Article
-    <article class="publication-card">
         <div class="pub-visual" onclick="showModal()">
             <img src="model-architecture.png" alt="模型架构图">
         </div>
@@ -34,7 +33,6 @@ title: Publications
                 <a href="https://github.com/example" class="pub-link">代码仓库</a>
             </div>
         </div>
-    </article>
 ---
 - **Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation**
   <br> *Haiyang Sun, Xinjun Song† & **Tianze Zhang†.***
