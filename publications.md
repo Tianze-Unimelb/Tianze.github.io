@@ -31,13 +31,13 @@ title: Publications
   <div class="toc-subtitle">Conference Paper</div>
   <ul class="toc-list">
     <li class="toc-item">
-      <a href="#c1" class="toc-link">[C.1] Project Alpha <br>
-        <small>Short description for conference paper 1</small>
+      <a href="#c1" class="toc-link">[C.1] Multimodal Task Effect & Transformers Analysis System<br> 
+        <small>Transformers-based multimodal analysis for multilingual scenarios</small>
       </a>
     </li>
     <li class="toc-item">
-      <a href="#c2" class="toc-link">[C.2] Project Beta <br>
-        <small>Short description for conference paper 2</small>
+      <a href="#c2" class="toc-link">[C.2] Power System <br>
+        <small>Uncertainty Gaussian Process Modeling</small>
       </a>
     </li>
   </ul>
@@ -46,7 +46,7 @@ title: Publications
 ## Journal Article
 
 <hr>
-<div class="publication-card">
+<div class="publication-card" id="#j1">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion01(1).jpg" target="_blank" rel="noopener">
     <img src="https://zhangtianze.com/images/Publishion01(1).jpg" 
@@ -75,7 +75,7 @@ title: Publications
   </div>
 </div>
 
-<div class="publication-card">
+<div class="publication-card" id="#j2">
   <div class="pub-visual">
   <img src="https://zhangtianze.com/images/Project001(1).jpg" 
      style="width:100%;height:auto;">
@@ -103,7 +103,7 @@ title: Publications
 
 ## Conference Paper
 
-<div class="publication-card">
+<div class="publication-card" id="#C1">
   <div class="pub-visual">
   <img src="https://zhangtianze.com/images/Project001(1).jpg" 
      style="width:100%;height:auto;">
@@ -113,7 +113,7 @@ title: Publications
     
     <p class="pub-meta">
       <span class="authors"><strong>Tianze Zhang.</strong></span><br>
-      <em>Proceedings of the 4th International Conference on Signal Processing and Machine Learning</em>
+      <em>Proceedings of the 4th International Conference on Signal Processing and Machine Learning</em><br>
       <em>Chicago, United States</em>
     </p>
     
@@ -129,17 +129,17 @@ title: Publications
   </div>
 </div>
 <hr>
-<div class="publication-card">
+<div class="publication-card" id="#C2">
   <div class="pub-visual">
   <img src="https://zhangtianze.com/images/Project001(1).jpg" 
      style="width:100%;height:auto;">
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages</h3>
+    <h3 class="pub-title">Power System Uncertainty Modeling Based on Gaussian Process </h3>
     
     <p class="pub-meta">
       <span class="authors"><strong>Tianze Zhang.</strong></span><br>
-      <em>Frontiers in Artificial Intelligence and Applications</em>
+      <em>Frontiers in Artificial Intelligence and Applications</em><br>
       <em>Hangzhou,China</em>
     </p>
     
