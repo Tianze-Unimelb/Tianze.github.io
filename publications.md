@@ -10,8 +10,11 @@ title: Publications
 
 ## Journal Article
 <div class="publication-card">
+  <img src="path/to/image.jpg" 
+     alt="架构图" 
+     loading="lazy" >  <!-- 原生懒加载 -->
   <div class="pub-content">
-    <h2 class="pub-title">LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image</h2>
+    <h3 class="pub-title">LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image</h3>
     
     <p class="pub-meta">
       <em>Yifan Lyu†, Tianze Zhang†, Xin Li, Aixun Liu & Gang Shi.</em>
