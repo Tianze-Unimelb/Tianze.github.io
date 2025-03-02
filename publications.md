@@ -4,9 +4,11 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-> Update: 10th Nov 2024 
+> Update: 10th Mar 2025 
 >
-> ([†]= Equal Contribution, [*]= Corresponding Author, [DOI]= Digital Object Identifier)
+> ([†]= Equal Contribution, [*]= Corresponding Author)
+> <br>
+> ([J]= Journal Article, [C]= Conference Paper, [P]= Patent & Software)
 
 <!-- 在Front Matter之后添加目录 -->
 <section class="toc-wrapper">
