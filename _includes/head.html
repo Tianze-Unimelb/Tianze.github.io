@@ -259,6 +259,14 @@ ul, ol, li {
     max-width: 100%;
     margin: 20px 0;
     backdrop-filter: none;
+    padding: 12px 16px; /* 增加呼吸空间 */
+    box-sizing: border-box; /* 包含内边距 */
+    backdrop-filter: none;
+    background: rgba(255, 255, 255, 0.95); /* 增加纯色背景确保可读性 */
+    font-size: 15px; /* 优化字号 */
+    overflow-y: auto; /* 允许目录过长时滚动 */
+    max-height: 70vh; /* 防止目录过高 */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 轻量投影增强层次 */
   }
 }
 </style>
