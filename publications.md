@@ -87,7 +87,7 @@ title: Publications
     
     <p class="pub-meta">
       <span class="authors">Haiyang Sun, Xinjun Song† & <strong>Tianze Zhang†.</strong></span><br>
-      <em>Sustainability in Environment</em>9,179-190
+      <em>Sustainability in Environment</em> 9,179-190
     </p>
     
    <div class="pub-tags">
