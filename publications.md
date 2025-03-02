@@ -137,7 +137,7 @@ title: Publications
     </div>
   </div>
 </div>
-<hr>
+
 <div class="publication-card" id="c2">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion04.jpg" target="_blank" rel="noopener">
