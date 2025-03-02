@@ -37,8 +37,8 @@ title: Projects
       [C.1]  Xinjiang Uygur Autonomous Region Highway Intelligent Inspection and Assessment Project(XJ-HIIAP)
     </h3>
     <div style="display: grid; gap: 6px;">
-      <div class="project-title"><strong>Location:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
-      <div class="project-description"><strong>Duration:</strong> 2023.01 - 2025.02</div>
+      <div><strong>Location:</strong> Xinjiang Key Laboratory of Signal Detection and Processing</div>
+      <div><strong>Duration:</strong> 2023.01 - 2025.02</div>
       
       <!-- 
       <div>🎯📍📅  <strong>角色:</strong> 核心成员（算法开发）</div> 
