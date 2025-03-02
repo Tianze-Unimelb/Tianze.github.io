@@ -79,7 +79,7 @@ title: Publications
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion02.png" target="_blank" rel="noopener">
   <img src="https://zhangtianze.com/images/Publishion02.png" 
-     style="width:100%;height:auto;">
+     style="width:100%;">
   </a>
   </div> 
   <div class="pub-content">
