@@ -499,6 +499,8 @@ hr {
   gap: 12px;
   margin-top: 1rem;
   flex-wrap: wrap;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative; /* 为伪元素动画准备 */
 }
 .pub-links a {
   flex: 1; /* 等分按钮宽度 */
@@ -511,13 +513,27 @@ hr {
 }
 /* 主按钮样式 */
 .btn-primary {
-  background: #82B0D2; /* 学术深蓝色 */
+  background: #82B0D2; /* 学术浅蓝色 */
   color: white !important;
   border: 1px solid transparent;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  background: #719ebc; /* 深一级的浅蓝 */
+  box-shadow: 0 4px 14px rgba(130, 176, 210, 0.25); /* 浅蓝投影 */
 }
 .btn-secondary {
   border: 1px solid #82B0D2;
   color: #82B0D2 !important;
   background: transparent;
+}
+.btn-secondary:hover {
+  background: rgba(130, 176, 210, 0.12); /* 浅蓝透明背景 */
+  border-color: #94c0e0;
+  transform: scale(1.02);
+}
+.pub-links a:active {
+  transform: scale(0.98);
+  transition-duration: 0.1s;
 }
 </style>
