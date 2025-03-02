@@ -64,7 +64,7 @@ title: Publications
    <div class="pub-tags">
             <span class="tag tag-core">Object Detection</span>
             <span class="tag tag-general">UAV</span>
-            <span class="tag tag-general">IF=2.5(JCRQ2)</span>
+            <span class="tag tag-general">IF=2.5(JCR Q2)</span>
         </div>
 
     <div class="pub-links">
