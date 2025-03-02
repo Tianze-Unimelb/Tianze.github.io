@@ -7,7 +7,7 @@ title: Publications
 > Update: 10th Mar 2025 
 >
 > ([†]= Equal Contribution, [*]= Corresponding Author)
-> <br>
+> 
 > ([J]= Journal Article, [C]= Conference Paper, [P]= Patent & Software)
 
 <!-- 在Front Matter之后添加目录 -->
@@ -56,7 +56,7 @@ title: Publications
     </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image</h3>
+    <h3 class="pub-title">[J.1]LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image</h3>
     
     <p class="pub-meta">
       <span class="authors">Yifan Lyu†, <strong>Tianze Zhang†</strong>, Xin Li, Aixun Liu & Gang Shi.</span><br>
@@ -85,7 +85,7 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation</h3>
+    <h3 class="pub-title">[J.2]Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation</h3>
     
     <p class="pub-meta">
       <span class="authors">Haiyang Sun, Xinjun Song† & <strong>Tianze Zhang†.</strong></span><br>
@@ -116,7 +116,7 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages</h3>
+    <h3 class="pub-title">[C.1]Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages</h3>
     
     <p class="pub-meta">
       <span class="authors"><strong>Tianze Zhang.</strong></span><br>
@@ -146,7 +146,7 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">Power System Uncertainty Modeling Based on Gaussian Process </h3>
+    <h3 class="pub-title">[C.2]Power System Uncertainty Modeling Based on Gaussian Process </h3>
     
     <p class="pub-meta">
       <span class="authors"><strong>Tianze Zhang.</strong></span><br>
