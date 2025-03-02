@@ -46,8 +46,8 @@ title: Projects
       
     </div>
     <div class="project-links">
-      <a href="https://zhangtianze.com/contributions1" class="btn-primary">Project Details</a>
-      <a href="https://zhangtianze.com/contributions1" class="btn-secondary">Achievements</a>
+      <a href="https://zhangtianze.com/contributions1" class="btn-proprimary">Project Details</a>
+      <a href="https://zhangtianze.com/contributions1" class="btn-prosecondary">Achievements</a>
     </div>
   </div>
 </div>
@@ -71,8 +71,8 @@ title: Projects
       
     </div>
     <div class="project-links">
-      <a href="https://zhangtianze.com/contributions2" class="btn-primary">Project Details</a>
-      <a href="https://zhangtianze.com/contributions2" class="btn-secondary">Achievements</a>
+      <a href="https://zhangtianze.com/contributions2" class="btn-proprimary">Project Details</a>
+      <a href="https://zhangtianze.com/contributions2" class="btn-prosecondary">Achievements</a>
     </div>
   </div>
 </div>
@@ -96,8 +96,8 @@ title: Projects
       
     </div>
     <div class="project-links">
-      <a href="https://zhangtianze.com/contributions3" class="btn-primary">Project Details</a>
-      <a href="https://zhangtianze.com/contributions3" class="btn-secondary">Achievements</a>
+      <a href="https://zhangtianze.com/contributions3" class="btn-proprimary">Project Details</a>
+      <a href="https://zhangtianze.com/contributions3" class="btn-prosecondary">Achievements</a>
     </div>
   </div>
 </div>
@@ -121,8 +121,8 @@ title: Projects
       
     </div>
     <div class="project-links">
-      <a href="https://zhangtianze.com/contributions4" class="btn-primary">Project Details</a>
-      <a href="https://zhangtianze.com/contributions4" class="btn-secondary">Achievements</a>
+      <a href="https://zhangtianze.com/contributions4" class="btn-proprimary">Project Details</a>
+      <a href="https://zhangtianze.com/contributions4" class="btn-prosecondary">Achievements</a>
     </div>
   </div>
 </div>
