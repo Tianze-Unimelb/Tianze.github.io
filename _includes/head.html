@@ -135,6 +135,7 @@ hr {
   gap: 12px;
   margin-top: 1rem;
   flex-wrap: wrap;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* 平滑过渡 */
 }
 .project-links a {
   flex: 1; /* 等分按钮宽度 */
@@ -151,10 +152,26 @@ hr {
   color: white !important;
   border: 1px solid transparent;
 }
+.btn-proprimary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(44, 62, 80, 0.2);
+  background: #34495e; /* 悬浮加深颜色 */
+}
+
 .btn-prosecondary {
   border: 1px solid #2c3e50;
   color: #2c3e50 !important;
   background: transparent;
+}
+.btn-prosecondary:hover {
+  background: rgba(44, 62, 80, 0.08);
+  border-color: #34495e;
+  transform: scale(1.02);
+}
+/* 所有按钮点击动画 */
+.project-links a:active {
+  transform: scale(0.98); 
+  transition-duration: 0.1s; /* 点击时更快速响应 */
 }
 /* 移动端适配 */
 @media (max-width: 768px) {
