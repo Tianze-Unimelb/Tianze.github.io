@@ -1,0 +1,425 @@
+<style>
+/* 修改版 - 固定比例布局 */
+.project-card {
+  display: flex;
+  gap: 15px;
+  margin: 1.2rem 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+  /* 新增容器锁定 */
+  min-width: 320px; /* 最小兼容手机竖屏 */
+}
+.project-card:hover {
+  transform: translateY(-3px);
+}
+hr {
+  margin: 0.8rem 0;
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+/* 图片区域严格40% */
+.project-image {
+  flex: 0 0 40%; /* 禁止伸缩 */
+  /* aspect-ratio: 4/3;  锁定4:3比例 */
+  min-height: 180px; /* 防止过度缩小 */
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f8f9fa;
+  position: relative;
+  /* 新增防御性声明 */
+  box-sizing: border-box;
+  padding: 0 !important; /* 确保无内边距影响 */
+}
+.project-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;  /* 新增最小尺寸保障 */
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center center; /* 新增定位保障 */
+  /* 防御性声明 */
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* 内容区域严格60% */
+.project-content {
+  flex: 0 0 calc(60% - 15px); /* 计算gap影响 */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* 按钮容器优化 */
+.project-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+.project-links a {
+  flex: 1; /* 等分按钮宽度 */
+  min-width: 120px; /* 防止文字断裂 */
+  text-align: center;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+/* 主按钮样式 */
+.btn-proprimary {
+  background: #2c3e50; /* 学术深蓝色 */
+  color: white !important;
+  border: 1px solid transparent;
+}
+.btn-prosecondary {
+  border: 1px solid #2c3e50;
+  color: #2c3e50 !important;
+  background: transparent;
+}
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .project-image,
+  .project-content {
+    flex: none !important; /* 强制解除固定比例 */
+    width: 100% !important;
+    aspect-ratio: unset; /* 移除比例锁定 */
+  }
+  .project-image {
+    height: 220px; /* 移动端固定图片高度 */
+  }
+}
+</style>
+
+
+<style>
+/*II*/
+.publication-card {
+/* =====================
+  核心容器与布局系统 
+  ===================== */
+    display: flex;
+    gap: 15px;
+    margin: 1rem 0;
+    padding: 20px;
+    background: #f8fafc;
+    border-left: 6px solid #2c3e50;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+
+/* =====================
+  可视化区域 (60%宽度)
+  ===================== */
+.pub-visual {
+    flex: 0 0 45%;
+    min-height: 180px;
+    max-height: 400px;
+    background: #FFF8E7;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    cursor: zoom-in;
+    display: flex;
+}
+
+/* 图片交互增强 */
+.pub-visual a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s;
+    position: relative;
+    z-index: 1;
+}
+
+.pub-visual img {
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+}
+
+/* 悬浮提示系统 */
+.pub-visual a::after {
+    content: "Full size figure";
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+/* =====================
+  内容区域 (40%宽度)
+  ===================== */
+.pub-content {
+    flex: 0 0 calc(55% - 15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* 文字层次系统 */
+.pub-title {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin: 0 0 0.8em 0;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.pub-meta {
+    color: #666;
+    font-size: 1rem;
+    margin: 0.6rem 0;
+    line-height: 1.5;
+}
+
+.pub-meta em {
+    font-style: italic;
+    color: #8B0000;
+    font-size: 0.95em;
+}
+
+/* =====================
+  标签系统
+  ===================== */
+.pub-tags {
+    margin: 1rem 0;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+}
+
+.tag-core { background: #2c3e50; color: white; }
+.tag-general { background: #e9ecef; color: #444; }
+.tag-third { background: #FFA726; color: #2C3E50; }
+
+/* =====================
+  交互元素系统
+  ===================== */
+.pub-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.pub-links a {
+    flex: 1;
+    min-width: 120px;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+/* 按钮类型 */
+.btn-primary {
+    background: #82B0D2;
+    color: white !important;
+    border: 1px solid transparent;
+}
+
+.btn-secondary {
+    border: 1px solid #82B0D2;
+    color: #82B0D2 !important;
+    background: transparent;
+}
+
+/* =====================
+  响应式布局系统
+  ===================== */
+@media (max-width: 1200px) {
+    .publication-card {
+        margin: 1.5rem 0;
+        padding: 18px;
+        border-left-width: 4px;
+    }
+}
+
+@media (max-width: 768px) {
+    .publication-card {
+        flex-direction: column;
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    .pub-visual {
+        width: 100% !important;
+        aspect-ratio: 4/3;
+        margin-bottom: 15px;
+    }
+
+    .pub-content {
+        width: 100%;
+    }
+}
+
+/* =====================
+  微交互增强
+  ===================== */
+.publication-card:hover {
+    transform: translateY(-3px);
+}
+
+.pub-visual:hover a::after {
+    opacity: 1;
+}
+
+.pub-link {
+    color: #4282D3 !important;
+    transition: opacity 0.2s;
+}
+
+.pub-link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+/* 辅助元素 */
+hr {
+    margin: 0.8rem 0;
+    border: none;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+</style>
+
+
+<style>
+/*III*/
+/* 目录样式 - 新增 */
+.toc-wrapper {
+  position: fixed;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  background: rgba(255,255,255,0.95);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 260px;
+  backdrop-filter: blur(5px);
+  overflow-y: auto; /* 允许目录过长时滚动 */
+  max-height: 70vh; /* 防止目录过高 */
+}
+.toc-title {
+  font-size: 1.2em;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  border-left: 4px solid #2c3e50;
+  padding-left: 10px;
+}
+.toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.toc-item {
+  list-style: none !important;        /* 强制清除li样式 */
+  -webkit-padding-start: 0 !important;  /* 清除Safari特有缩进 */
+  padding-inline-start: 0 !important;   /* 现代浏览器缩进清除 */
+}
+/* 清除所有列表元素的默认样式 */
+ul, ol, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* 针对现代浏览器的额外清除 */
+@supports (padding-inline-start: 0) {
+  li {
+    padding-inline-start: 0;
+  }
+}
+.toc-link {
+  color: #34495e;
+  text-decoration: none;
+  transition: all 0.3s;
+  display: block;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+.toc-link small {
+  display: block;
+  font-size: 0.85em;
+  color: #6c757d;
+  margin-top: 4px;
+  line-height: 1.3;
+}
+.toc-link:hover {
+  background: #f8f9fa;
+  transform: translateX(5px);
+}
+.toc-link.active {
+  color: white;
+  background: #2c3e50;
+}
+
+/* 响应式调整 */
+@media (max-width: 1200px) {
+  .toc-wrapper {
+    left: 10px;
+    padding: 15px;
+    max-width: 220px;
+    padding: 12px 16px; /* 增加呼吸空间 */
+    box-sizing: border-box; /* 包含内边距 */
+    backdrop-filter: none;
+    background: rgba(255, 255, 255, 0.95); /* 增加纯色背景确保可读性 */
+    font-size: 15px; /* 优化字号 */
+    overflow-y: auto; /* 允许目录过长时滚动 */
+    max-height: 70vh; /* 防止目录过高 */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 轻量投影增强层次 */
+  }
+}
+@media (max-width: 768px) {
+  .toc-wrapper {
+    position: static;
+    transform: none;
+    max-width: 100%;
+    margin: 20px 0;
+    backdrop-filter: none;
+    padding: 12px 16px; /* 增加呼吸空间 */
+    box-sizing: border-box; /* 包含内边距 */
+    backdrop-filter: none;
+    background: rgba(255, 255, 255, 0.95); /* 增加纯色背景确保可读性 */
+    font-size: 15px; /* 优化字号 */
+    overflow-y: auto; /* 允许目录过长时滚动 */
+    max-height: 70vh; /* 防止目录过高 */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 轻量投影增强层次 */
+  }
+}
+</style>
