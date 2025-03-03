@@ -16,16 +16,16 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 ## Academic Background
 
-- **July 2025 - Future:** The University of Melbourne (BSc, CS)
-- **Jan 2023 - June 2025:** Xinjiang Key Laboratory of Signal Detection and Processing(Research assistant)
-- **Sep 2022 - June 2024:** Xinjiang University (BSc, CS)(Transfer to UniMelb)
-- **July 2023 - Aug 2023:** The University of Hongkong(Summer research)
+ - **July 2025 - Future:** The University of Melbourne (BSc, CS)
+ - **Jan 2023 - June 2025:** Xinjiang Key Laboratory of Signal Detection and Processing(Research assistant)
+ - **Sep 2022 - June 2024:** Xinjiang University (BSc, CS)(Transfer to UniMelb)
+ - **July 2023 - Aug 2023:** The University of Hongkong(Summer research)
 
 ### Academic Milestones
 
-- **Mar 2024**：Very honored to receive the **Offer of Bachelor of Science** from **The University of Melbourne**.
-- **July 2023**：Very excited to join a **Summer reasearch** project at **The University of Hong Kong**.
-- **Jan 2023**：Very honored to join the **Xinjiang Key Laboratory of Signal Detection and Processing**.
+ - **Mar 2024**：Very honored to receive the **Offer of Bachelor of Science** from **The University of Melbourne**.
+ - **July 2023**：Very excited to join a **Summer reasearch** project at **The University of Hong Kong**.
+ - **Jan 2023**：Very honored to join the **Xinjiang Key Laboratory of Signal Detection and Processing**.
 
 ---
 
@@ -39,11 +39,11 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 ## Research Interests
 
-- Natural Language Processing
-- Applied Machine Learning
-- Computer Vision
-- Computational Law
-- Quantitative Analysis
+ - Natural Language Processing
+ - Applied Machine Learning
+ - Computer Vision
+ - Computational Law
+ - Quantitative Analysis
 
 My current research focuses on practical problems faced by artificial intelligence in complex legal scenarios. My interests are **Machine Learning** and its applications in **Law**, **Finance**, and **Medicine**. In short, advanced technologies such as artificial intelligence have a positive impact on everyone's life. I hope to devote my talents to this meaningful cause and bring benefits to society.
 
