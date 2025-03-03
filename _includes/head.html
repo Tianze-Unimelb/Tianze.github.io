@@ -309,18 +309,13 @@ ul, ol, li {
         margin: 1rem 0;
         padding: 20px;
         background: #f8fafc;
-        --card-ratio: 16/9; /* 定义宽高比变量 */
-        --card-height: 20vh; /* 基于视口的高度 */
         border-left: 6px solid #2c3e50;
         border-radius: 12px;
         align-items: stretch; /* 显式声明等高 */
         position: relative;
         box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         transition: transform 0.3s;
-        width: calc(var(--card-height) * (var(--card-ratio))); /* 动态宽度 */
-        height: var(--card-height);
         min-width: 300px; /* 安全下限 */
-        margin: 2rem auto; /* 居中显示 */
     }
   .project-card:hover {
   transform: translateY(-3px);
@@ -346,7 +341,7 @@ hr {
         padding: 0 !important; /* 确保无内边距影响 */
         display: flex;       /* 新增弹性布局 */
         align-items: center; /* 垂直居中 */
-        justify-content: center; /* 水平居中 */
+        /** justify-content: center; /* 水平居中 */ **/
     }
     /* 新增链接样式 */
    .pub-visual a {
@@ -368,7 +363,7 @@ hr {
         height: 100%;
         min-width: 0;  /* 新增最小尺寸保障 */
         /*min-height: 100%;*/
-        object-fit: contain;
+        object-fit: cover;
         object-position: center top; /* 新增定位保障 */
         /* 防御性声明 */
         display: block;
