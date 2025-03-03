@@ -305,11 +305,18 @@ ul, ol, li {
         margin: 1rem 0;
         padding: 20px;
         background: #f8fafc;
+        --card-ratio: 16/9; /* 定义宽高比变量 */
+        --card-height: 60vh; /* 基于视口的高度 */
         border-left: 6px solid #2c3e50;
         border-radius: 12px;
         align-items: stretch; /* 显式声明等高 */
+        position: relative;
         box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         transition: transform 0.3s;
+        width: calc(var(--card-height) * (var(--card-ratio))); /* 动态宽度 */
+        height: var(--card-height);
+        min-width: 300px; /* 安全下限 */
+        margin: 2rem auto; /* 居中显示 */
     }
   .project-card:hover {
   transform: translateY(-3px);
@@ -456,11 +463,20 @@ hr {
         text-decoration: underline;
     }
     /* 响应式布局 */
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .publication-card {
     margin: 1.5rem 0; /* 中等屏幕间距调整 */
     padding: 18px;
     border-left-width: 4px; /* 减少强调线宽度 */
+    --card-ratio: 16/9;
+    --card-height: 65vh;
+  }
+}
+/* 平板适配 */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .publication-card {
+    --card-ratio: 4/3;
+    --card-height: 70vh;
   }
 }
 
@@ -477,7 +493,7 @@ hr {
 
   .pub-visual {
     flex: none;
-    width: 100% !important;
+    width: 0 0 50% !important;
     aspect-ratio: 16/9;      /* 更改为视频比例 */
     margin-bottom: 15px;     /* 增加图片与内容间距 */
   }
