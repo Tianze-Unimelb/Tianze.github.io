@@ -309,6 +309,7 @@ ul, ol, li {
         border-radius: 12px;
         box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         transition: transform 0.3s;
+        min-width: 300px; /* 防御性最小宽度 */
     }
   .project-card:hover {
   transform: translateY(-3px);
@@ -322,7 +323,7 @@ hr {
     /* 图片区域 (40%) */
     .pub-visual {
         flex: 1 1 40%;
-        min-height: 180px;
+        min-height: 280px;
         background: #FFF8E7​;
         border-radius: 8px;
         overflow: hidden;
@@ -330,8 +331,8 @@ hr {
         cursor: zoom-in;
         box-sizing: border-box;
         aspect-ratio: 4/3;
-        padding: 0 !important; /* 确保无内边距影响 */
         display: flex;       /* 新增弹性布局 */
+        padding: 0 !important; /* 确保无内边距影响 */
         align-items: center; /* 垂直居中 */
         justify-content: center; /* 水平居中 */
     }
@@ -353,8 +354,8 @@ hr {
         left: 0;
         width: 100%;
         height: 100%;
-        min-width: 100%;  /* 新增最小尺寸保障 */
-        min-height: 100%;
+        min-width: 80%;  /* 新增最小尺寸保障 */
+        min-height: 80%;
         object-fit: cover;
         object-position: center center; /* 新增定位保障 */
         /* 防御性声明 */
