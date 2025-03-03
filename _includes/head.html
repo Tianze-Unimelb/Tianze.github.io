@@ -191,6 +191,242 @@ hr {
 </style>
 
 
+
+/*=================Publishion部分*=====================*/
+<style>
+/* ================= 根元素变量系统 ================= */
+:root {
+  --pub-base-font: clamp(0.9rem, 1vw + 0.5rem, 1.1rem); /* 动态基准字体 */
+  --pub-title-scale: 1.35; /* 标题缩放系数 */
+  --pub-line-height: 1.6em; /* 动态行高基准 */
+}
+
+/* ================= 核心卡片容器 ================= */
+.publication-card {
+  display: flex;
+  gap: 15px;
+  margin: 1rem 0;
+  padding: 20px;
+  background: #f8fafc;
+  border-left: 6px solid #2c3e50;
+  border-radius: 12px;
+  align-items: stretch;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+  min-width: 300px;
+  font-size: var(--pub-base-font); /* 应用动态字体 */
+  line-height: var(--pub-line-height);
+}
+
+.publication-card:hover {
+  transform: translateY(-3px);
+}
+
+/* ================= 图片区域系统 ================= */
+.pub-visual {
+  flex: 0 0 40%;
+  height: 100%;
+  background: #FFF8E7;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  cursor: zoom-in;
+  display: flex;
+  align-items: center;
+  aspect-ratio: 4/3;
+}
+
+.pub-visual a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+.pub-visual a:hover {
+  opacity: 0.95;
+}
+
+.pub-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+
+/* 悬浮提示增强 */
+.pub-visual a::after {
+  content: "Full size figure";
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.8);
+  color: white;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-size: clamp(0.75rem, 0.8vw + 0.5rem, 0.9rem); /* 动态字体 */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.pub-visual:hover a::after {
+  opacity: 1;
+}
+
+/* ================= 内容区域系统 ================= */
+.pub-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 180px;
+}
+
+/* 标题层级系统 */
+.pub-title {
+  font-size: calc(var(--pub-base-font) * var(--pub-title-scale));
+  color: #2c3e50;
+  margin: 0 0 0.6em;
+  line-height: calc(var(--pub-line-height) * 0.9);
+  font-weight: 600;
+}
+
+/* 元信息排版 */
+.pub-meta {
+  color: #666;
+  font-size: calc(var(--pub-base-font) * 0.95);
+  margin: 0.6em 0;
+}
+
+.pub-meta em {
+  font-style: italic;
+  color: #8B0000;
+  font-size: 0.95em;
+}
+
+/* ================= 标签系统 ================= */
+.pub-tags {
+  margin: 1em 0;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 0.3em 0.8em;
+  border-radius: 15px;
+  font-size: calc(var(--pub-base-font) * 0.85);
+}
+
+.tag-core { background: #2c3e50; color: white; }
+.tag-general { background: #e9ecef; color: #444; }
+.tag-third { background: #FFA726; color: #2C3E50; }
+
+/* ================= 交互链接系统 ================= */
+.pub-links {
+  margin-top: auto;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.pub-link {
+  color: #4282D3 !important;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  font-size: calc(var(--pub-base-font) * 0.9);
+  padding: 0.5em 1.2em;
+  border-radius: 6px;
+  flex: 1;
+  min-width: 120px;
+  text-align: center;
+}
+
+/* 主按钮样式保留 */
+.btn-primary {
+  background: #82B0D2;
+  color: white !important;
+  border: 1px solid transparent;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  background: #719ebc;
+  box-shadow: 0 4px 14px rgba(130, 176, 210, 0.25);
+}
+
+.btn-secondary {
+  border: 1px solid #82B0D2;
+  color: #82B0D2 !important;
+  background: transparent;
+}
+
+.btn-secondary:hover {
+  background: rgba(130, 176, 210, 0.12);
+  border-color: #94c0e0;
+  transform: scale(1.02);
+}
+
+/* ================= 响应式系统 ================= */
+@media (max-width: 1024px) {
+  .publication-card {
+    --pub-title-scale: 1.25;
+    padding: 18px;
+    border-left-width: 4px;
+  }
+}
+
+@media (max-width: 768px) {
+  .publication-card {
+    flex-direction: column;
+    margin: 20px 0;
+    --pub-base-font: clamp(0.95rem, 2vw + 0.5rem, 1.05rem);
+  }
+
+  .pub-visual {
+    flex: none;
+    aspect-ratio: 16/9;
+    margin-bottom: 15px;
+  }
+
+  .pub-links {
+    flex-direction: column;
+  }
+
+  .pub-link {
+    min-width: 100%;
+  }
+}
+
+/* 打印优化保留 */
+@media print {
+  .publication-card {
+    box-shadow: none;
+    border-left-width: 3px;
+  }
+  
+  .pub-link {
+    color: #2c3e50 !important;
+    text-decoration: underline;
+  }
+}
+
+/* ================= 辅助元素 ================= */
+hr {
+  margin: 0.8rem 0;
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+</style>
+
+
+
+
+/*================目录部分=================*/
 <style>
 /* 目录样式 - 新增 */
 .toc-wrapper {
@@ -294,261 +530,5 @@ ul, ol, li {
     max-height: 70vh; /* 防止目录过高 */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 轻量投影增强层次 */
   }
-}
-</style>
-
-
-
-
-
-<style>
-    /* 核心布局系统 */
-    .publication-card {
-        display: flex;
-        gap: 15px;
-        margin: 1rem 0;
-        padding: 20px;
-        background: #f8fafc;
-        border-left: 6px solid #2c3e50;
-        border-radius: 12px;
-        align-items: stretch; /* 显式声明等高 */
-        position: relative;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        transition: transform 0.3s;
-        min-width: 300px; /* 安全下限 */
-    }
-  .project-card:hover {
-  transform: translateY(-3px);
-}
-hr {
-  margin: 0.8rem 0;
-  border: none;
-  border-top: 1px solid rgba(0,0,0,0.1);
-}
-
-    /* 图片区域 (40%) */
-    .pub-visual {
-        flex: 1 1 40%;
-        height: 100%; /* 继承父级高度 */
-        /*min-height: 180px;*/
-        background: #FFF8E7​;
-        border-radius: 8px;
-        overflow: hidden;
-        position: relative;
-        cursor: zoom-in;
-        box-sizing: border-box;
-        /*aspect-ratio: 4/3;*/
-        padding: 0 !important; /* 确保无内边距影响 */
-        display: flex;       /* 新增弹性布局 */
-        align-items: center; /* 垂直居中 */
-        /** justify-content: center; /* 水平居中 */ **/
-    }
-    /* 新增链接样式 */
-   .pub-visual a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    transition: opacity 0.3s;
-    position: relative;
-    z-index: 1;
-    }
-    .pub-visual a:hover {
-        opacity: 0.95;
-    }
-    .pub-visual img {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        min-width: 0;  /* 新增最小尺寸保障 */
-        /*min-height: 100%;*/
-        object-fit: cover;
-        object-position: center center; /* 新增定位保障 */
-        /* 防御性声明 */
-        display: block;
-        margin: 0;
-        padding: 0;
-    }
-     /* 悬浮提示 */
-    .pub-visual a::after {
-        content: "Full size figure";
-        position: absolute;
-        bottom: 12px;
-        left: 50%;
-        transform: translateX(-50%);
-        background: rgba(0,0,0,0.8);
-        color: white;
-        padding: 6px 15px;
-        border-radius: 20px;
-        font-size: 0.85rem;
-        opacity: 0;
-        transition: opacity 0.3s;
-        pointer-events: none;
-    }
-    .pub-visual:hover a::after {
-        opacity: 1;
-    }
-    /* 内容区域 (60% - gap) */
-    .pub-content {
-        flex: 1 1 calc(60% - 15px); /* 计算gap影响 */
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    /* 智能标签系统 */
-    .pub-tags {
-        margin: 1rem 0;
-        display: flex;
-        gap: 8px;
-        flex-wrap: wrap;
-    }
-
-    .tag {
-        padding: 4px 12px;
-        border-radius: 15px;
-        font-size: 0.85rem;
-    }
-
-    .tag-core {
-        background: #2c3e50;
-        color: white;
-    }
-
-    .tag-general {
-        background: #e9ecef;
-        color: #444;
-    }
-    .tag-third {
-        background: #FFA726;
-        color: #2C3E50;
-    }
-/* 三维层次结构 */
-.pub-title {
-    font-size: 1.3rem;      /* 从 1.4rem 下调，更接近 [C.1] 项目标题层级 */
-    color: #2c3e50;
-    margin: 0 0 0.8em 0;  /* 与项目标题保持一致的底部间距 */
-    line-height: 1.4;       /* 略微增加行距提升可读性 */
-    font-weight: 600;       /* 增加字重强化标题层次 */
-}
-
-.pub-meta {
-    color: #666;
-    font-size: 1rem;        /* 从 0.95rem 增大，匹配项目内容基础字号 */ 
-    margin: 0.6rem 0;       /* 微调间距系统 */
-    line-height: 1.5;       /* 更适合长文本阅读 */
-}
-
-.pub-meta em {
-    font-style: italic;
-    color: #8B0000;
-    font-size: 0.95em;      /* 相对单位实现嵌套缩放 */
-}
-    /* 交互元素 */
-    .pub-links {
-        margin-top: auto;
-        display: flex;
-        gap: 15px;
-    }
-
-    .pub-link {
-        color: #4282D3 !important;
-        text-decoration: none;
-        transition: opacity 0.2s;
-    }
-
-    .pub-link:hover {
-        opacity: 0.8;
-        text-decoration: underline;
-    }
-    /* 响应式布局 */
-@media (max-width: 1024px) {
-  .publication-card {
-    margin: 1.5rem 0; /* 中等屏幕间距调整 */
-    padding: 18px;
-    border-left-width: 4px; /* 减少强调线宽度 */
-    --card-ratio: 16/9;
-    --card-height: 65vh;
-  }
-}
-/* 平板适配 */
-@media (max-width: 1023px) and (min-width: 768px) {
-  .publication-card {
-    --card-ratio: 4/3;
-    --card-height: 70vh;
-  }
-}
-@media (max-width: 768px) {
-  .publication-card {
-    flex-direction: column;
-    position: static;        /* 新增定位重置 */
-    transform: none;         /* 禁用悬停动画 */
-    max-width: 100%;         /* 容器宽度约束 */
-    padding: 20px;
-    margin: 20px 0;          /* 改用像素单位 */
-    backdrop-filter: none;   /* 禁用视觉效果 */
-  }
-
-  .pub-visual {
-    flex: none;
-    width: 0 0 50% !important;
-    aspect-ratio: 16/9;      /* 更改为视频比例 */
-    margin-bottom: 15px;     /* 增加图片与内容间距 */
-  }
-
-  .pub-content {
-    flex: none;
-    width: 100%;
-    padding-top: 0 !important; /* 清除潜在继承的内边距 */
-  }
-
-  .pub-links {
-    flex-direction: column;
-    gap: 12px;              /* 缩小移动端链接间距 */
-  }
-}
-
-/* 按钮容器优化 */
-.pub-links {
-  display: flex;
-  gap: 12px;
-  margin-top: 1rem;
-  flex-wrap: wrap;
-  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  position: relative; /* 为伪元素动画准备 */
-}
-.pub-links a {
-  flex: 1; /* 等分按钮宽度 */
-  min-width: 120px; /* 防止文字断裂 */
-  text-align: center;
-  padding: 8px 16px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-size: 0.9em;
-}
-/* 主按钮样式 */
-.btn-primary {
-  background: #82B0D2; /* 学术浅蓝色 */
-  color: white !important;
-  border: 1px solid transparent;
-}
-.btn-primary:hover {
-  transform: translateY(-2px);
-  background: #719ebc; /* 深一级的浅蓝 */
-  box-shadow: 0 4px 14px rgba(130, 176, 210, 0.25); /* 浅蓝投影 */
-}
-.btn-secondary {
-  border: 1px solid #82B0D2;
-  color: #82B0D2 !important;
-  background: transparent;
-}
-.btn-secondary:hover {
-  background: rgba(130, 176, 210, 0.12); /* 浅蓝透明背景 */
-  border-color: #94c0e0;
-  transform: scale(1.02);
-}
-.pub-links a:active {
-  transform: scale(0.98);
-  transition-duration: 0.1s;
 }
 </style>
