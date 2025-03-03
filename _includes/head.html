@@ -309,7 +309,6 @@ ul, ol, li {
         border-radius: 12px;
         box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         transition: transform 0.3s;
-        min-width: 300px; /* 防御性最小宽度 */
     }
   .project-card:hover {
   transform: translateY(-3px);
@@ -322,8 +321,8 @@ hr {
 
     /* 图片区域 (40%) */
     .pub-visual {
-        flex: 2 2 40%;
-        min-height: 280px;
+        flex: 0 0 40%;
+        min-height: 180px;
         background: #FFF8E7​;
         border-radius: 8px;
         overflow: hidden;
@@ -331,8 +330,8 @@ hr {
         cursor: zoom-in;
         box-sizing: border-box;
         aspect-ratio: 4/3;
-        display: flex;       /* 新增弹性布局 */
         padding: 0 !important; /* 确保无内边距影响 */
+        display: flex;       /* 新增弹性布局 */
         align-items: center; /* 垂直居中 */
         justify-content: center; /* 水平居中 */
     }
@@ -352,11 +351,11 @@ hr {
         position: relative;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
+        width: auto;
+        height: auto;
         min-width: 100%;  /* 新增最小尺寸保障 */
         min-height: 100%;
-        object-fit: cover;
+        object-fit: contain;
         object-position: center center; /* 新增定位保障 */
         /* 防御性声明 */
         display: block;
@@ -455,27 +454,13 @@ hr {
         text-decoration: underline;
     }
     /* 响应式布局 */
-@media (max-width: 1200px){ 
+@media (max-width: 1200px) {
   .publication-card {
-  flex-direction: column;
-    position: static;        /* 新增定位重置 */
-    transform: none;         /* 禁用悬停动画 */
-    max-width: 100%;         /* 容器宽度约束 */
-    padding: 20px;
-    margin: 20px 0;          /* 改用像素单位 */
-    backdrop-filter: none;   /* 禁用视觉效果 */
-  }
-  .pub-visual {
-    flex: none;
-    width: 100% !important;
-    aspect-ratio: 16/9;      /* 更改为视频比例 */
-    margin-bottom: 15px;     /* 增加图片与内容间距 */
-  }
-  /** .publication-card {
     margin: 1.5rem 0; /* 中等屏幕间距调整 */
     padding: 18px;
     border-left-width: 4px; /* 减少强调线宽度 */
-  }**/
+  }
+}
 
 @media (max-width: 768px) {
   .publication-card {
