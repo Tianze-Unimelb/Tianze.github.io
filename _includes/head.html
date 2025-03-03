@@ -329,24 +329,22 @@ hr {
 
 /* ================= 交互链接系统 ================= */
 .pub-links {
-  margin-top: 1rem;
   display: flex;
   gap: 12px;
+  margin-top: 1rem;
   flex-wrap: wrap;
-  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* 平滑过渡 */
   position: relative; /* 为伪元素动画准备 */
 }
 
 .pub-link a{
-  /* color: #4282D3 !important;*/
-  text-decoration: none;
-  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  font-size: calc(var(--pub-base-font) * 0.9);
+  flex: 1; /* 等分按钮宽度 */
+  min-width: 120px; /* 防止文字断裂 */
+  text-align: center;
   padding: 8px 16px;
   border-radius: 6px;
-  flex: 1;
-  min-width: 120px;/* 防止文字断裂 */
-  text-align: center;
+  text-decoration: none;
+  font-size: 0.9em;
 }
 
 .pub-link:hover {
