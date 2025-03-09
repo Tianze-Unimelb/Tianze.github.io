@@ -4,7 +4,7 @@ permalink: /awards&services/index.html
 title: Awards&Services
 ---
 
-> Lastest Update: 10th Sep 2024 &nbsp; [中文版本 (Chinese Version)](https://zhangtianze.com/file/awards-zh/)
+> Lastest Update: 10th Sep 2024 &nbsp;
 
 ## Competitions (Selected)
 
