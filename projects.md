@@ -104,7 +104,7 @@ title: Projects
 <hr>
 <div class="project-card" id="project4">
   <div class="project-image">
-    <img src="https://zhangtianze.com/images/Project001(1).jpg" 
+    <img src="https://zhangtianze.com/images/Project004.jpg" 
          style="width:100%;height:auto;">
   </div>
   <div class="project-content">
