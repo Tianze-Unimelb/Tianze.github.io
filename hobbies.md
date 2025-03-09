@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page1
 permalink: /hobbies/index.html
 title: Hobbies
 ---
