@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page0
 permalink: /awards&services/index.html
 title: Awards&Services
 ---
