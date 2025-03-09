@@ -1,3 +1,9 @@
+---
+layout: page
+permalink: /hobbies/index.html
+title: Hobbies
+---
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
