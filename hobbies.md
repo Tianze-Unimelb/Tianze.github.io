@@ -16,7 +16,7 @@ Let's cut to the chase - I'm a certified **otaku**. No identity crisis here. To 
 Parents and normie friends keep suggesting "social interaction patches". But honestly, nothing beats the dopamine rush of squashing a nasty bug. Though I'll gladly monologue about Dark Forest Theory or RTX 5090 specs until your ears bleed. Your move, small talk.
 
 ## 技术生态位观察报告
-先说结论，我是个**宅男**。是的没错，我对自己的定义非常清晰。如果细分的话，我大概算个**技术宅**。<br>
+先说结论，我是个**宅男**。是的没错，我对自己的定义非常清晰。如果细分的话，我大概算个**技术宅**。我在家的大致活动轨迹：卧室➡餐厅➡书房➡健身房(也是第四间卧室)➡书房➡餐厅➡卧室<br>
 - **母胎单身solo**——183984小时(时间戳 2025.03.10 1:08am)。
 - 周末比起出门挤景点，更享受**喝着可乐吃着薯片捣鼓一些小玩意**。
 - 最大的爱好是**睡觉**，剩下的室外活动包括和老爸出门钓钓鱼或者和老妈出去逛逛街(系统日志：任务触发条件为亲情羁绊≥1000%，此为被动技能)。
