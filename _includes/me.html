@@ -1,0 +1,56 @@
+<style>
+        :root {
+            --text-color: #2c3e50;
+            --accent-color: #3498db;
+        }
+
+        body {
+            font-family: -apple-system, system-ui;
+            line-height: 1.8;
+            max-width: 680px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            color: var(--text-color);
+        }
+
+        h1 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.5rem;
+            font-size: 1.8rem;
+        }
+
+        .highlight {
+            color: var(--accent-color);
+            font-weight: 500;
+        }
+
+        .footnote {
+            font-size: 0.8em;
+            color: #666;
+        }
+
+        ul {
+            padding-left: 1.5em;
+        }
+
+        li::marker {
+            color: var(--accent-color);
+        }
+
+        blockquote {
+            margin: 1em 0;
+            padding-left: 1em;
+            border-left: 3px solid #eee;
+            color: #666;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #1a1a1a;
+                color: #e0e0e0;
+            }
+            .highlight {
+                color: #00f3ff;
+            }
+        }
+  </style>
