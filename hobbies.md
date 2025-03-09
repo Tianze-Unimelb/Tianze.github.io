@@ -4,50 +4,11 @@ permalink: /hobbies/index.html
 title: Hobbies
 ---
 
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <title>技术宅的次元壁</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header class="header">
-        <h1>// 技术宅的次元壁_DEBUG.log</h1>
-    </header>
-
-    <div class="card">
-        <h2>📡 基础协议</h2>
-        <div class="console">
-            > 用户类型确认中...<br>
-            > 属性加载: 宅男[技术专精版]<br>
-            > 运行环境: 可乐+薯片<br>
-            > 系统警告: 社交模块需手动激活
-        </div>
-    </div>
-
-    <div class="card">
-        <h2>🎮 技能树</h2>
-        <div class="hobbies-grid">
-            <div class="skill-item">
-                <h3>📚 知识库</h3>
-                <p>科幻小说/编程手册<br>
-                <em>"比女朋友更懂我的只有Python"</em></p>
-            </div>
-            <div class="skill-item">
-                <h3>⚙️ 制造车间</h3>
-                <p>5.6个开源项目<br>
-                <em>"每个BUG都是未完成的美"</em></p>
-            </div>
-        </div>
-    </div>
-
-    <div class="card">
-        <h2>🚀 隐藏任务</h2>
-        <p>激活码检测到:<br>
-        <strong>《三体》暗语</strong> ██████ 成功<br>
-        <strong>RTX 5090传闻</strong> ████ 加载中...<br>
-        <small>*警告: 话题解锁后将进入超频模式</small></p>
-    </div>
-</body>
-</html>
+# 我是个啥样的人(What kind of person am I?)👇
+先说结论，我是个**宅男**。是的没错，我对自己的定义非常清晰。如果细分的话，我大概算个技术宅。母胎单身solo——183984小时(数据截止至2025.03.10 1:08am）。
+周末比起出门挤景点，更享受喝着可乐吃着薯片捣鼓一些小玩意。
+最大的爱好是**睡觉**，剩下的室外活动包括和老爸出门钓钓鱼或者和老妈出去逛逛街(注:我是被迫的QAQ)。
+书架上塞着专业书和科幻小说，电脑里藏着五六个半成品开源项目。
+爸妈和朋友总说我该多参加聚会，但说实话，与其在KTV当麦霸，不如自己debug时更有成就感。当然，如果你们讨论《三体》或者最新显卡的参数，我倒是可以滔滔不绝说上几个小时。
+<br>
+Self-proclaimed homebody techie here – and I wear that title like a badge of honor. Weekends? I trade crowded tourist traps for a sacred combo of Coke, chips, and tinkering with gadgets in my kingdom (aka bedroom). My superpower? Master napper. My outdoor adventures are limited to fishing trips with Dad and mall strolls with Mom. My bookshelf’s a chaotic museum of programming manuals and sci-fi novels, while my computer hosts 5.6 unfinished open-source projects (don’t judge – they’re my rebellious art phase).People say I should 'socialize more', but honestly, I’d rather wrestle with buggy code than battle KTV microphones. Though fair warning: mention The Three-Body Problem or the latest GPU specs, and I’ll morph into a chatty C-3PO with PowerPoint slides ready. You’ve been warned.
