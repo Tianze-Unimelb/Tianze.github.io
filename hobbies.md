@@ -4,7 +4,7 @@ permalink: /hobbies/index.html
 title: Hobbies
 ---
 
-# Technology Niche Observation Report
+## Technology Niche Observation Report
 Let's cut to the chase - I'm a certified **otaku**. No identity crisis here. To be specific, the circuit-board-tinkering, code-compiling subspecies known as a **tech otak**.<br>
 
 - **Lifelong solo player** - 183,984 hours and counting (timestamp: 2025.03.10, 1:08 AM. System clock accuracy ±0.0001ms).
@@ -15,7 +15,7 @@ Let's cut to the chase - I'm a certified **otaku**. No identity crisis here. To 
 
 Parents and normie friends keep suggesting "social interaction patches". But honestly, nothing beats the dopamine rush of squashing a nasty bug. Though I'll gladly monologue about Dark Forest Theory or RTX 5090 specs until your ears bleed. Your move, small talk.
 
-# 技术生态位观察报告
+## 技术生态位观察报告
 先说结论，我是个**宅男**。是的没错，我对自己的定义非常清晰。如果细分的话，我大概算个**技术宅**。<br>
 - **母胎单身solo**——183984小时(时间戳 2025.03.10 1:08am)。
 - 周末比起出门挤景点，更享受**喝着可乐吃着薯片捣鼓一些小玩意**。
