@@ -72,10 +72,7 @@ title: Publications
             <span class="tag tag-core">Object Detection</span>
             <span class="tag tag-general">UAV</span>
             <span class="tag tag-third">IF=2.5(JCR Q2)</span>
-        </div>
-
-    <div class="badge">
-            <span class="badge"> Citations <br> 2 </span>
+            <span class="badge-cit"> 2 Citations </span>
         </div>
         
     <div class="pub-links">
