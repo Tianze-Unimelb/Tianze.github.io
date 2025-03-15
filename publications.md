@@ -84,8 +84,8 @@ title: Publications
 
 <div class="publication-card" id="j3">
   <div class="pub-visual">
-  <a href="https://zhangtianze.com/images/Publishion02.png" target="_blank" rel="noopener">
-  <img src="https://zhangtianze.com/images/Publishion02.png" 
+  <a href="https://zhangtianze.com/images/Publishion05.png" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion05.png" 
      style="width:100%;height:auto;">
   </a>
   </div> 
@@ -94,18 +94,18 @@ title: Publications
     
     <p class="pub-meta">
       <span class="authors">Zhaole Ning, <strong>Tianze Zhang,Xin Li,Aiying Wu,Gang Shi1</span><br>
-      <em>Sustainability in Environment</em> 9,179-190
+      <em>The Journal of Supercomputing</em> Volume 81, article number 622, (2025)
     </p>
     
    <div class="pub-tags">
             <span class="tag tag-core">Traffic accident recognition</span>
-            <span class="tag tag-general">SODL-SODH</span>
+            <span class="tag tag-general">YOLOv8</span>
             <span class="tag tag-third">IF=2.5(JCR Q2)</span>
         </div>
 
     <div class="pub-links">
       <a href="https://doi.org/10.1007/s11227-025-07129-6" class="btn-primary">DOI</a>
-      <a href="https://zhangtianze.com/mypublications/Thesis/36336-323623-2-PB.pdf" class="btn-secondary">PDF</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/TPYOLOv8.pdf" class="btn-secondary">PDF</a>
       <a href="" class="btn-secondary">Code</a>
     </div>
   </div>
