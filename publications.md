@@ -64,7 +64,7 @@ title: Publications
     <h3 class="pub-title">[J.1]LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image</h3>
     
     <p class="pub-meta">
-      <span class="authors">Yifan Lyu†, <strong>Tianze Zhang†</strong>, Xin Li, Aixun Liu & Gang Shi.</span><br>
+      <span class="authors">Yifan Lyu†, <strong>Tianze Zhang†</strong>, Xin Li, Aixun Liu & Gang Shi*.</span><br>
       <em>The Journal of Supercomputing</em> (2025) 81:105
     </p>
     
@@ -93,7 +93,7 @@ title: Publications
     <h3 class="pub-title">[J.2]Tp-yolov8: a lightweight and accurate model for traffic accident recognition</h3>
     
     <p class="pub-meta">
-      <span class="authors">Zhaole Ning, <strong>Tianze Zhang,Xin Li,Aiying Wu,Gang Shi1</span><br>
+      <span class="authors">Zhaole Ning†, <strong>Tianze Zhang†</strong> ,Xin Li, Aiying Wu, Gang Shi*.</span><br>
       <em>The Journal of Supercomputing</em> Volume 81, article number 622, (2025)
     </p>
     
@@ -119,7 +119,7 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[J.2]Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation</h3>
+    <h3 class="pub-title">[J.3]Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation</h3>
     
     <p class="pub-meta">
       <span class="authors">Haiyang Sun, Xinjun Song† & <strong>Tianze Zhang†.</strong></span><br>
