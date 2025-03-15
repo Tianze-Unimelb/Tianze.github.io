@@ -74,6 +74,10 @@ title: Publications
             <span class="tag tag-third">IF=2.5(JCR Q2)</span>
         </div>
 
+    <div class="badge">
+            <span class="badge"> Citations <br> 2 </span>
+        </div>
+        
     <div class="pub-links">
       <a href="https://doi.org/10.1007/s11227-024-06611-x" class="btn-primary">DOI</a>
       <a href="https://zhangtianze.com/mypublications/Thesis/d839d354-d0da-4924-98d2-aa8caa97e9ce.pdf" class="btn-secondary">PDF</a>
