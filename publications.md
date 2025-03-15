@@ -23,7 +23,12 @@ title: Publications
       </a>
     </li>
     <li class="toc-item">
-      <a href="#j2" class="toc-link">[J.2] Curbing Illegal Wildlife Trade <br>
+      <a href="#j2" class="toc-link">[J.2] Tp-YOLOv8 <br>
+        <small>A lightweight and accurate model for traffic accident recognition</small>
+      </a>
+    </li>
+    <li class="toc-item">
+      <a href="#j3" class="toc-link">[J.3] Curbing Illegal Wildlife Trade <br>
         <small>ARIMA Modeling & Responsible Party Evaluation</small>
       </a>
     </li>
@@ -72,6 +77,35 @@ title: Publications
     <div class="pub-links">
       <a href="https://doi.org/10.1007/s11227-024-06611-x" class="btn-primary">DOI</a>
       <a href="https://zhangtianze.com/mypublications/Thesis/d839d354-d0da-4924-98d2-aa8caa97e9ce.pdf" class="btn-secondary">PDF</a>
+      <a href="" class="btn-secondary">Code</a>
+    </div>
+  </div>
+</div>
+
+<div class="publication-card" id="j3">
+  <div class="pub-visual">
+  <a href="https://zhangtianze.com/images/Publishion02.png" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion02.png" 
+     style="width:100%;height:auto;">
+  </a>
+  </div> 
+  <div class="pub-content">
+    <h3 class="pub-title">[J.2]Tp-yolov8: a lightweight and accurate model for traffic accident recognition</h3>
+    
+    <p class="pub-meta">
+      <span class="authors">Zhaole Ning, <strong>Tianze Zhang,Xin Li,Aiying Wu,Gang Shi1</span><br>
+      <em>Sustainability in Environment</em> 9,179-190
+    </p>
+    
+   <div class="pub-tags">
+            <span class="tag tag-core">Traffic accident recognition</span>
+            <span class="tag tag-general">SODL-SODH</span>
+            <span class="tag tag-third">IF=2.5(JCR Q2)</span>
+        </div>
+
+    <div class="pub-links">
+      <a href="https://doi.org/10.1007/s11227-025-07129-6" class="btn-primary">DOI</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/36336-323623-2-PB.pdf" class="btn-secondary">PDF</a>
       <a href="" class="btn-secondary">Code</a>
     </div>
   </div>
