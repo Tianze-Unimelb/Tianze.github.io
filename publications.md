@@ -94,7 +94,7 @@ title: Publications
     
     <p class="pub-meta">
       <span class="authors">Zhaole Ning†, <strong>Tianze Zhang†</strong> ,Xin Li, Aiying Wu, Gang Shi*.</span><br>
-      <em>The Journal of Supercomputing</em> Volume 81, article number 622, (2025)
+      <em>The Journal of Supercomputing</em> (2025) 81:622
     </p>
     
    <div class="pub-tags">
