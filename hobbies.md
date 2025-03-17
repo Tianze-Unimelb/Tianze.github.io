@@ -15,9 +15,7 @@ Let's cut to the chase - I'm a certified **otaku**. No identity crisis here. To 
 
 Parents and normie friends keep suggesting "social interaction patches". But honestly, nothing beats the dopamine rush of squashing a nasty bug. Though I'll gladly monologue about Dark Forest Theory or RTX 5090 specs until your ears bleed. Your move, small talk.
 
-## 电子散人自述录 
-
-[白话文版本](https://zhangtianze.com/hobbies/)
+## 电子散人自述录 <span style="color:blue">[白话文版本](https://zhangtianze.com/hobbies/)</span>
 
 吾自母胎独行廿一载，时历十八万三千九百八十四刻（验于乙巳年卯月亥时三刻）。休沐之日，恒守方寸玄室，薯片佐可乐而驭百行代码。枕簟间存《三体》三卷，与TensorFlow典籍并陈；云盘藏未竟开源业五桩，皆待星夜补缀。
 
