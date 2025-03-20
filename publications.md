@@ -71,7 +71,7 @@ title: Publications
    <div class="pub-tags">
             <span class="tag tag-core">Object Detection</span>
             <span class="tag tag-general">UAV</span>
-            <span class="tag tag-third">IF=2.5(JCR Q2)</span>
+            <span class="tag tag-third">IF=2.5</span>
             <span class="tag tag-cit"> 2 Citations </span>
         </div>
         
@@ -101,7 +101,7 @@ title: Publications
    <div class="pub-tags">
             <span class="tag tag-core">Traffic accident recognition</span>
             <span class="tag tag-general">YOLOv8</span>
-            <span class="tag tag-third">IF=2.5(JCR Q2)</span>
+            <span class="tag tag-third">IF=2.5</span>
         </div>
 
     <div class="pub-links">
