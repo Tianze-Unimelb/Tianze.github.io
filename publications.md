@@ -81,7 +81,7 @@ title: Publications
         
     <div class="pub-links">
       <a href="https://doi.org/10.3390/drones9030226" class="btn-primary">DOI</a>
-      <a href="https://zhangtianze.com/mypublications/Thesis/drones-09-00226" class="btn-secondary">PDF</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/drones-09-00226.pdf" class="btn-secondary">PDF</a>
       <a href="" class="btn-secondary">Code</a>
     </div>
   </div>
