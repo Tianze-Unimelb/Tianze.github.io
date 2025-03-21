@@ -18,17 +18,22 @@ title: Publications
   <div class="toc-subtitle">Journal Article</div>
   <ul class="toc-list">
     <li class="toc-item">
-      <a href="#j1" class="toc-link">[J.1] LightUAV‑YOLO <br>
+      <a href="#j1" class="toc-link">[J.1] PISCFF-LNet <br>
+        <small>A Method for Autonomous Flight of UAVs</small>
+      </a>
+    </li>
+    <li class="toc-item">
+      <a href="#j2" class="toc-link">[J.2] LightUAV‑YOLO <br>
         <small>Unmanned Aerial Vehicle Image Object Detection Model</small>
       </a>
     </li>
     <li class="toc-item">
-      <a href="#j2" class="toc-link">[J.2] Tp-YOLOv8 <br>
+      <a href="#j3" class="toc-link">[J.3] Tp-YOLOv8 <br>
         <small>A lightweight and accurate model for traffic accident recognition</small>
       </a>
     </li>
     <li class="toc-item">
-      <a href="#j3" class="toc-link">[J.3] Curbing Illegal Wildlife Trade <br>
+      <a href="#j4" class="toc-link">[J.4] Curbing Illegal Wildlife Trade <br>
         <small>ARIMA Modeling & Responsible Party Evaluation</small>
       </a>
     </li>
@@ -61,7 +66,37 @@ title: Publications
     </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[J.1]LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image</h3>
+    <h3 class="pub-title">[J.1]PISCFF-LNet: A Method for Autonomous Flight of UAVs Based on Lightweight Road Extraction</h3>
+    
+    <p class="pub-meta">
+      <span class="authors">Yuanxu Zhu†, <strong>Tianze Zhang†</strong>, Aiying Wu & Gang Shi*.</span><br>
+      <em>Drones</em> 2025, 9(3), 226
+    </p>
+    
+   <div class="pub-tags">
+            <span class="tag tag-core">Remote Sensing</span>
+            <span class="tag tag-general">UAV</span>
+            <span class="tag tag-third">IF=4.4</span>
+        </div>
+        
+    <div class="pub-links">
+      <a href="https://doi.org/10.3390/drones9030226" class="btn-primary">DOI</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/drones-09-00226" class="btn-secondary">PDF</a>
+      <a href="" class="btn-secondary">Code</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="publication-card" id="j2">
+  <div class="pub-visual">
+  <a href="https://zhangtianze.com/images/Publishion01(1).jpg" target="_blank" rel="noopener">
+    <img src="https://zhangtianze.com/images/Publishion01(1).jpg" 
+     style="width:100%;height:auto;">
+    </a>
+  </div> 
+  <div class="pub-content">
+    <h3 class="pub-title">[J.2]LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image</h3>
     
     <p class="pub-meta">
       <span class="authors">Yifan Lyu†, <strong>Tianze Zhang†</strong>, Xin Li, Aixun Liu & Gang Shi*.</span><br>
@@ -83,7 +118,7 @@ title: Publications
   </div>
 </div>
 
-<div class="publication-card" id="j2">
+<div class="publication-card" id="j3">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion05.png" target="_blank" rel="noopener">
   <img src="https://zhangtianze.com/images/Publishion05.png" 
@@ -91,7 +126,7 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[J.2]Tp-yolov8: a lightweight and accurate model for traffic accident recognition</h3>
+    <h3 class="pub-title">[J.3]Tp-yolov8: a lightweight and accurate model for traffic accident recognition</h3>
     
     <p class="pub-meta">
       <span class="authors">Zhaole Ning†, <strong>Tianze Zhang†</strong> ,Xin Li, Aiying Wu, Gang Shi*.</span><br>
@@ -112,7 +147,7 @@ title: Publications
   </div>
 </div>
 
-<div class="publication-card" id="j3">
+<div class="publication-card" id="j4">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion02.png" target="_blank" rel="noopener">
   <img src="https://zhangtianze.com/images/Publishion02.png" 
@@ -120,7 +155,7 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[J.3]Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation</h3>
+    <h3 class="pub-title">[J.4]Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation</h3>
     
     <p class="pub-meta">
       <span class="authors">Haiyang Sun, Xinjun Song† & <strong>Tianze Zhang†.</strong></span><br>
