@@ -41,14 +41,19 @@ title: Publications
 
   <!-- Conference Papers -->
   <div class="toc-subtitle">Conference Paper</div>
-  <ul class="toc-list">
+  <ul class="toc-list">   
+   <li class="toc-item">
+      <a href="#c1" class="toc-link">[C.1] Single-Cycle Supply Chain<br> 
+        <small>Multi-Order Optimization under Uncertainty</small>
+      </a>
+    </li>
     <li class="toc-item">
-      <a href="#c1" class="toc-link">[C.1] Multimodal Task Effect & Transformers Analysis System<br> 
+      <a href="#c2" class="toc-link">[C.2] Multimodal Task Effect & Transformers Analysis System<br> 
         <small>Transformers-based multimodal analysis for multilingual scenarios</small>
       </a>
     </li>
     <li class="toc-item">
-      <a href="#c2" class="toc-link">[C.2] Power System <br>
+      <a href="#c3" class="toc-link">[C.3] Power System <br>
         <small>Uncertainty Gaussian Process Modeling</small>
       </a>
     </li>
@@ -187,7 +192,37 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[C.1]Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages</h3>
+    <h3 class="pub-title">[C.1]Research on single cycle supply chain problem with multiple orders in an uncertain environment</h3>
+    
+    <p class="pub-meta">
+      <span class="authors">Jun Zhao, <strong>Tianze Zhang</strong>, Rishalaiti · Tayierm, Yuanxu Zhu, Yixin Zhang, Ling Zhang*, Gang Shi*.</span><br>
+      <em>Proceedings of the 4th International Conference on Signal Processing and Machine Learning</em><br>
+      <em>Chicago, United States</em>
+    </p>
+    
+   <div class="pub-tags">
+            <span class="tag tag-core">LLM</span>
+            <span class="tag tag-general">Multimodal</span>
+            <span class="tag tag-general">Transformers</span>
+        </div>
+
+    <div class="pub-links">
+      <a href="https://doi.org/10.54254/2755-2721/47/20241374" class="btn-primary">DOI</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/10.542542755-27214720241374.pdf" class="btn-secondary">PDF</a>
+      <a href="https://github.com/Tianze-Unimelb/MultiMLM" class="btn-secondary">Code</a>
+    </div>
+  </div>
+</div>
+
+<div class="publication-card" id="c2">
+  <div class="pub-visual">
+  <a href="https://zhangtianze.com/images/Publishion003.jpg" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion003.jpg" 
+     style="width:100%;height:auto;">
+  </a>
+  </div> 
+  <div class="pub-content">
+    <h3 class="pub-title">[C.2]Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages</h3>
     
     <p class="pub-meta">
       <span class="authors"><strong>Tianze Zhang.</strong></span><br>
@@ -209,7 +244,7 @@ title: Publications
   </div>
 </div>
 
-<div class="publication-card" id="c2">
+<div class="publication-card" id="c3">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion04.jpg" target="_blank" rel="noopener">
   <img src="https://zhangtianze.com/images/Publishion04.jpg" 
@@ -217,7 +252,7 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[C.2]Power System Uncertainty Modeling Based on Gaussian Process </h3>
+    <h3 class="pub-title">[C.3]Power System Uncertainty Modeling Based on Gaussian Process </h3>
     
     <p class="pub-meta">
       <span class="authors"><strong>Tianze Zhang.</strong></span><br>
