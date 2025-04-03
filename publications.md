@@ -201,9 +201,8 @@ title: Publications
     </p>
     
    <div class="pub-tags">
-            <span class="tag tag-core">LLM</span>
-            <span class="tag tag-general">Multimodal</span>
-            <span class="tag tag-general">Transformers</span>
+            <span class="tag tag-core">Single-Cycle Supply Chain</span>
+            <span class="tag tag-general">Uncertainty</span>
         </div>
 
     <div class="pub-links">
