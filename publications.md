@@ -196,8 +196,8 @@ title: Publications
     
     <p class="pub-meta">
       <span class="authors">Jun Zhao, <strong>Tianze Zhang</strong>, Rishalaiti · Tayierm, Yuanxu Zhu, Yixin Zhang, Ling Zhang*, Gang Shi*.</span><br>
-      <em>Proceedings of the 4th International Conference on Signal Processing and Machine Learning</em><br>
-      <em>Chicago, United States</em>
+      <em>Proceedings of the 2024 International Conference on Economic Data Analytics and Artificial Intelligence</em><br>
+      <em>Guangzhou, China</em>
     </p>
     
    <div class="pub-tags">
@@ -207,9 +207,9 @@ title: Publications
         </div>
 
     <div class="pub-links">
-      <a href="https://doi.org/10.54254/2755-2721/47/20241374" class="btn-primary">DOI</a>
-      <a href="https://zhangtianze.com/mypublications/Thesis/10.542542755-27214720241374.pdf" class="btn-secondary">PDF</a>
-      <a href="https://github.com/Tianze-Unimelb/MultiMLM" class="btn-secondary">Code</a>
+      <a href="https://dl.acm.org/doi/10.1145/3717664.3717686" class="btn-primary">DOI</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/3717664.3717686.pdf" class="btn-secondary">PDF</a>
+      <a href="https://github.com/Tianze-Unimelb/" class="btn-secondary">Code</a>
     </div>
   </div>
 </div>
