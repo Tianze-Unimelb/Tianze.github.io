@@ -8,6 +8,8 @@ title: Internships
 
 ## Research internship
 
+<div class="internship-container">
+
 <div class="internship-company">
       <h3 class="fas fa-university"></h3>
       Xinjiang Key Laboratory of Signal Detection and Processing
@@ -22,7 +24,6 @@ title: Internships
   <div class="internship-details">
     <i class="internship-role">Research Assistant</i>
     
-  <div class="internship-container">
     <div class="internship-period">Jan 2023 - June 2025</div>
     
     <div class="internship-meta">
