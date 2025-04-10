@@ -1,5 +1,5 @@
 ---
-layout: page2
+layout: page1
 permalink: /internships/index.html
 title: Internships
 ---
@@ -12,7 +12,7 @@ title: Internships
 <div class="publication-card" id="R1">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/lab.jpg" target="_blank" rel="noopener">
-    <img src="https://zhangtianze.com/images/lab.jpgg" 
+    <img src="https://zhangtianze.com/images/lab.jpg" 
      style="width:100%;height:auto;">
     </a>
   </div> 
@@ -25,7 +25,7 @@ title: Internships
     </p>
     
    <div class="pub-tags">
-            <span class="internship-skill">Remote Sensing</span>
+            <span class="tag tag-core">Remote Sensing</span>
             <span class="tag tag-general">UAV</span>
             <span class="tag tag-third">Computer Vision</span>
         </div>
