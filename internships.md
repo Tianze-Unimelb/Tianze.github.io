@@ -32,12 +32,6 @@ title: Internships
 
     <hr>
 
-    <p class="internship-description">
-      Specializes in signal processing technologies including wireless communications, 
-      radar detection, and image processing. Integrates computer technology to drive 
-      innovation in multi-domain applications.
-    </p>
-
     <div class="internship-skills">
       <span class="internship-skill">Signal Processing</span>
       <span class="internship-skill">Radar Systems</span>
