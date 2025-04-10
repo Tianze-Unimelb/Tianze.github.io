@@ -10,16 +10,16 @@ title: Internships
 
 <div class="internship-container">
 
-<div class="internship-company">
-      <h3 class="fas fa-university"></h3>
-      Xinjiang Key Laboratory of Signal Detection and Processing
-    </div>
-
 <div class="internship-visual" style="display: flex; justify-content: center;">
     <img src="https://zhangtianze.com/images/lab.jpg" 
          alt="实验室Logo"
          style="max-width: 100%; height: auto;">
 </div>
+
+<div class="internship-company">
+      <h3 class="fas fa-university"></h3>
+      Xinjiang Key Laboratory of Signal Detection and Processing
+    </div>
    
   <div class="internship-details">
     <i class="internship-role">Research Assistant</i>
