@@ -11,11 +11,11 @@ title: Internships
 <div class="internship-container">
   <div class="internship-period">Jan 2023 - June 2025</div>
   
-  <div class="internship-visual">
-    <!-- 实际使用时应替换为实验室logo -->
-    <div img="https://zhangtianze.com/images/lab.jpg"; style="width:100%; text-align:center; color:#2c3e50; font-weight:600;">
-    </div>
-  </div>
+<div class="internship-visual" style="display: flex; justify-content: center;">
+    <img src="https://zhangtianze.com/images/lab.jpg" 
+         alt="实验室Logo"
+         style="max-width: 100%; height: auto;">
+</div>
 
   <div class="internship-details">
     <h3 class="internship-role">Research Assistant</h3>
