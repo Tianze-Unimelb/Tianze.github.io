@@ -20,8 +20,8 @@ title: Internships
     <h3 class="pub-title">[R.1]Xinjiang Key Laboratory of Signal Detection and Processing</h3>
     
     <p class="pub-meta">
-      <span class="authors">Yuanxu Zhu†, <strong>Tianze Zhang†</strong>, Aiying Wu & Gang Shi*.</span><br>
-      <em>Drones</em> 2025, 9(3), 226
+      <span class="authors"> <strong>Research Assistant</strong></span><br>
+      <em>Supervisor: Gang Shi</em> Jan 2023 - June 2025
     </p>
     
    <div class="pub-tags">
