@@ -1,5 +1,5 @@
 ---
-layout: page0
+layout: page
 permalink: /internships/index.html
 title: Internships
 ---
