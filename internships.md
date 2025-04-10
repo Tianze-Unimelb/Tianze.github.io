@@ -21,7 +21,8 @@ title: Internships
     
     <p class="pub-meta">
       <span class="authors"> <strong>Research Assistant</strong></span><br>
-      <em>Supervisor: Gang Shi</em> Jan 2023 - June 2025
+      <em>Supervisor: Gang Shi</em> 
+      <em>Duration: Jan 2023 - June 2025</em>
     </p>
     
    <div class="pub-tags">
@@ -31,8 +32,8 @@ title: Internships
         </div>
         
     <div class="pub-links">
-      <a href="https://doi.org/10.3390/drones9030226" class="btn-primary">Lab Website</a>
-      <a href="https://zhangtianze.com/mypublications/Thesis/drones-09-00226.pdf" class="btn-secondary">PDF</a>
+      <a href="https://it.xju.edu.cn/xygk/jgsz/zdsys/xhjcyclzdsys/sy.htm" class="btn-primary">Lab Website</a>
+      <a href="https://zhangtianze.com/" class="btn-secondary">Achievements</a>
     </div>
   </div>
 </div>
