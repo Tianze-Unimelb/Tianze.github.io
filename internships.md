@@ -8,41 +8,30 @@ title: Internships
 
 ## Research internship
 
-<div class="internship-container">
-
-<div class="internship-visual" style="display: flex; justify-content: center;">
-    <img src="https://zhangtianze.com/images/lab.jpg" 
-         alt="实验室Logo"
-         style="max-width: 100%; height: auto;">
-</div>
-
-<div class="internship-company">
-      <h3 class="fas fa-university"></h3>
-      Xinjiang Key Laboratory of Signal Detection and Processing
-    </div>
-   
-  <div class="internship-details">
-    <i class="internship-role">Research Assistant</i>
+<div class="publication-card" id="R1">
+  <div class="pub-visual">
+  <a href="https://zhangtianze.com/images/lab.jpg" target="_blank" rel="noopener">
+    <img src="https://zhangtianze.com/images/lab.jpgg" 
+     style="width:100%;height:auto;">
+    </a>
+  </div> 
+  <div class="pub-content">
+    <h3 class="pub-title">[R.1]Xinjiang Key Laboratory of Signal Detection and Processing</h3>
     
-    <div class="internship-period">Jan 2023 - June 2025</div>
+    <p class="pub-meta">
+      <span class="authors">Yuanxu Zhu†, <strong>Tianze Zhang†</strong>, Aiying Wu & Gang Shi*.</span><br>
+      <em>Drones</em> 2025, 9(3), 226
+    </p>
     
-    <div class="internship-meta">
-      <em>Supervisor: Gang Shi</em>
-    </div>
-
-    <div class="internship-skills">
-      <span class="internship-skill">Signal Processing</span>
-      <span class="internship-skill">Radar Systems</span>
-      <span class="internship-skill">Computer Vision</span>
-    </div>
-
-    <div class="internship-actions">
-      <a href="#lab-website" class="internship-btn--primary">
-        <i class="fas fa-globe"></i> Lab Website
-      </a>
-      <a href="#research-report" class="internship-btn--secondary">
-        <i class="fas fa-file-pdf"></i> Technical Report
-      </a>
+   <div class="pub-tags">
+            <span class="internship-skill">Remote Sensing</span>
+            <span class="tag tag-general">UAV</span>
+            <span class="tag tag-third">Computer Vision</span>
+        </div>
+        
+    <div class="pub-links">
+      <a href="https://doi.org/10.3390/drones9030226" class="btn-primary">Lab Website</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/drones-09-00226.pdf" class="btn-secondary">PDF</a>
     </div>
   </div>
 </div>
