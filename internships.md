@@ -21,7 +21,7 @@ title: Internships
     
     <p class="pub-meta">
       <span class="authors"> <strong>Research Assistant</strong></span><br>
-      <em>Supervisor: Gang Shi</em> 
+      <em>Supervisor: Gang Shi</em> <br>
       <em>Duration: Jan 2023 - June 2025</em>
     </p>
     
