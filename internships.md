@@ -1,5 +1,5 @@
 ---
-layout: page0
+layout: page2
 permalink: /internships/index.html
 title: Internships
 ---
@@ -7,30 +7,49 @@ title: Internships
 > Update: 5th Jan 2025
 
 ## Research internship
-## **I.** **Xinjiang Key Laboratory of Signal Detection and Processing**
-<img src="https://zhangtianze.com/images/lab.jpg" class="floatpic" align="right" width="2400" height="1799">
-
-The **Xinjiang Key Laboratory of Signal Detection and Processing** focuses on signal processing technology, covering wireless communications, radar detection, and image processing, while combining computer technology to promote innovation in the field.
-
-- **Time:** Jan 2023 - June 2025
-- **Position:** Research Assistant
-- **Instructor:** Gang Shi
+<div class="internship-card">
+  <div class="internship-timeline">Jan 2023 - June 2025</div>
   
-### Research Experience
+  <div class="company-logo">
+    <!-- 实际使用时应替换为实验室logo -->
+    <div style="width:100%; text-align:center; color:#2c3e50; font-weight:600;">
+      XKLSDP
+    </div>
+  </div>
 
-During my two years as a research assistant, I actively participated in several key projects at the intersection of artificial intelligence and signal processing. My main responsibilities included:
+  <div class="internship-content">
+    <h3 class="position-title">Research Assistant</h3>
+    
+    <div class="company-name">
+      <i class="fas fa-university"></i> <!-- 可选图标 -->
+      Xinjiang Key Laboratory of Signal Detection and Processing
+    </div>
 
-- Data collection, preprocessing, and analysis
-- Using advanced algorithms and tools for feature extraction, pattern recognition, and training machine learning models
-- Assisting in optimizing artificial intelligence models to improve processing efficiency and accuracy
+    <div class="pub-meta">
+      <em>Supervisor: Gang Shi</em>
+    </div>
 
-[If you're interested in learning more about my specific project experiences, please click here for further details.](https://zhangtianze.com/projects/)
+    <hr>
 
-This experience has greatly improved my professional capabilities in the fields of **machine learning**, **deep learning**, and **computer vision**. I actively participated in team discussions, provided innovative ideas and solutions, and offered effective support in data processing and model tuning. Additionally, I was responsible for writing technical reports to ensure that research results were summarized and effectively communicated in a timely manner.Through close cooperation with team members, I have developed excellent teamwork and project management skills, laying a solid foundation for future academic development.
+    <p class="pub-meta">
+      Specializes in signal processing technologies including wireless communications, 
+      radar detection, and image processing. Integrates computer technology to drive 
+      innovation in multi-domain applications.
+    </p>
 
-  
+    <div class="skill-tags">
+      <span class="skill-tag">Signal Processing</span>
+      <span class="skill-tag">Radar Systems</span>
+      <span class="skill-tag">Computer Vision</span>
+    </div>
 
-  
-
-
-  
+    <div class="project-links">
+      <a href="#lab-website" class="btn-internship">
+        <i class="fas fa-globe"></i> Lab Website
+      </a>
+      <a href="#research-report" class="btn-report">
+        <i class="fas fa-file-pdf"></i> Technical Report
+      </a>
+    </div>
+  </div>
+</div>
