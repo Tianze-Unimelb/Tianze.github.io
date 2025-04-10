@@ -13,7 +13,7 @@ title: Internships
   
   <div class="internship-visual">
     <!-- 实际使用时应替换为实验室logo -->
-    <div style="width:100%; text-align:center; color:#2c3e50; font-weight:600;">
+    <div img="https://zhangtianze.com/images/lab.jpg"; style="width:100%; text-align:center; color:#2c3e50; font-weight:600;">
       XKLSDP
     </div>
   </div>
