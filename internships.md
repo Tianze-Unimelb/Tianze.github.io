@@ -27,8 +27,8 @@ title: Internships
     
    <div class="pub-tags">
             <span class="tag tag-core">Remote Sensing</span>
-            <span class="tag tag-general">UAV</span>
-            <span class="tag tag-third">Computer Vision</span>
+            <span class="tag tag-general">Computer Vision</span>
+            <span class="tag tag-third"></span>
         </div>
         
     <div class="pub-links">
