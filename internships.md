@@ -8,6 +8,7 @@ title: Internships
 
 ## Research internship
 
+<hr>
 <div class="publication-card" id="R1">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/lab.jpg" target="_blank" rel="noopener">
