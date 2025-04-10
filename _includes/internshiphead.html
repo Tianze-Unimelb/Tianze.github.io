@@ -3,182 +3,161 @@
   Internships 卡片系统 
   ===================== */
 .internship-card {
-  display: flex;
-  gap: 15px;
-  margin: 1.5rem 0;
-  padding: 20px;
-  background: #f8fafc;
-  border-left: 6px solid #27ae60; /* 使用成长绿色 */
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  transition: transform 0.3s;
-  position: relative;
-}
-
-/* 时间线标记 */
-.internship-timeline {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  background: rgba(39, 174, 96, 0.1);
-  color: #27ae60;
-  padding: 6px 12px;
-  border-radius: 16px;
-  font-size: 0.9em;
-  font-weight: 500;
+    /* 核心布局属性完全一致 */
+    display: flex;
+    gap: 15px;
+    margin: 1rem 0;
+    padding: 20px;
+    background: #f8fafc;
+    border-left: 6px solid #27ae60; /* 主色变更 */
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
 }
 
 /* =====================
-  企业标识区域 
+  企业视觉区域（45%宽度）
   ===================== */
-.company-logo {
-  flex: 0 0 25%; /* 缩小视觉区域比例 */
-  min-height: 120px;
-  max-height: 160px;
-  background: white;
-  border-radius: 10px;
-  overflow: hidden;
-  position: relative;
-  padding: 15px;
-  display: flex;
-  align-items: center;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+.company-visual {
+    flex: 0 0 45%; /* 完全一致的宽度比例 */
+    min-height: 180px;
+    max-height: 400px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center; /* 新增居中特性 */
+    justify-content: center;
+    border: 1px solid #e0f2e9; /* 特色边框 */
 }
 
-.company-logo img {
-  width: 100%;
-  height: auto;
-  object-fit: contain; /* 保持标识完整显示 */
-  transition: transform 0.3s;
+.company-visual img {
+    /* 保持原有图片处理规则 */
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: contain; /* 修改为contain显示完整logo */
+    object-position: center center;
 }
 
 /* =====================
-  内容区域强化 
+  内容区域（55%宽度）
   ===================== */
 .internship-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+    flex: 0 0 calc(55% - 15px); /* 相同计算方式 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.position-title {
-  font-size: 1.4rem;
-  color: #2c3e50;
-  margin: 0 0 0.5em 0;
-  line-height: 1.3;
-  font-weight: 600;
+/* 文字层次系统 */
+.internship-title {
+    font-size: 1.3rem; /* 完全一致的字号 */
+    color: #2c3e50;   /* 保持标题色 */
+    margin: 0 0 0.8em 0;
+    line-height: 1.4;
+    font-weight: 600;
 }
 
-.company-name {
-  color: #2980b9;
-  font-size: 1.1rem;
-  margin-bottom: 0.8rem;
-  display: flex;
-  align-items: center;
-  gap: 8px;
+.internship-meta {
+    color: #27ae60;  /* 特色元数据颜色 */
+    font-size: 1rem;
+    margin: 0.6rem 0;
+    line-height: 1.5;
 }
 
 /* =====================
-  技术标签系统 
+  技能标签系统
   ===================== */
 .skill-tags {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin: 1rem 0;
+    margin: 1rem 0;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
 }
 
 .skill-tag {
-  background: #34495e;
-  color: #fff;
-  padding: 6px 15px;
-  border-radius: 18px;
-  font-size: 0.85rem;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.skill-tag::before {
-  content: "▹";
-  color: #27ae60;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    background: #27ae60; /* 主色标签 */
+    color: white;
 }
 
 /* =====================
-  交互增强 
+  交互元素系统
+  ===================== */
+.internship-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.internship-links a {
+    flex: 1;
+    min-width: 120px;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+/* 按钮类型 */
+.btn-intern {
+    background: #27ae60; /* 主色按钮 */
+    color: white !important;
+    border: 1px solid transparent;
+}
+
+.btn-internsecond {
+    border: 1px solid #27ae60;
+    color: #27ae60 !important;
+    background: transparent;
+}
+
+/* =====================
+  响应式布局系统（完全一致）
+  ===================== */
+@media (max-width: 1200px) {
+    .internship-card {
+        margin: 1.5rem 0;
+        padding: 18px;
+        border-left-width: 4px; /* 相同响应调整 */
+    }
+}
+
+@media (max-width: 768px) {
+    .internship-card {
+        flex-direction: column;
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    .company-visual {
+        width: 100% !important;
+        aspect-ratio: 4/3; /* 相同比例约束 */
+        margin-bottom: 15px;
+    }
+}
+
+/* =====================
+  微交互增强（相同动画参数）
   ===================== */
 .internship-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-3px);
 }
 
-.company-logo:hover img {
-  transform: scale(1.05);
+.internship-link {
+    color: #27ae60 !important; /* 链接色匹配 */
+    transition: opacity 0.2s;
 }
 
-/* =====================
-  响应式设计 
-  ===================== */
-@media (max-width: 768px) {
-  .internship-card {
-    flex-direction: column;
-    padding: 20px 15px;
-  }
-
-  .company-logo {
-    width: 100% !important;
-    height: 100px;
-    flex: none;
-    margin-bottom: 15px;
-  }
-
-  .position-title {
-    font-size: 1.2rem;
-  }
-}
-
-/* =====================
-  特色元素 
-  ===================== */
-.achievement-list {
-  margin: 1rem 0;
-  padding-left: 1.5rem;
-}
-
-.achievement-list li {
-  position: relative;
-  padding-left: 1.5rem;
-  margin-bottom: 0.8rem;
-  line-height: 1.6;
-}
-
-.achievement-list li::before {
-  content: "★";
-  color: #f1c40f;
-  position: absolute;
-  left: 0;
-  top: 2px;
-}
-
-.project-links a {
-  border-radius: 8px;
-  padding: 10px 20px;
-  transition: all 0.3s;
-}
-
-.btn-internship {
-  background: #27ae60;
-  color: white !important;
-  border: 2px solid transparent;
-}
-
-.btn-internship:hover {
-  background: #219a52;
-}
-
-.btn-report {
-  background: #2980b9;
-  color: white !important;
+.internship-link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
 }
 </style>
