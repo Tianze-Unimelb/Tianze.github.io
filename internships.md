@@ -8,23 +8,23 @@ title: Internships
 
 ## Research internship
 
-<div class="internship-container">
-  <div class="internship-period">Jan 2023 - June 2025</div>
-  
 <div class="internship-visual" style="display: flex; justify-content: center;">
     <img src="https://zhangtianze.com/images/lab.jpg" 
          alt="实验室Logo"
          style="max-width: 100%; height: auto;">
 </div>
 
-  <div class="internship-details">
-    <h3 class="internship-role">Research Assistant</h3>
-    
-    <div class="internship-company">
-      <i class="fas fa-university"></i>
+<div class="internship-company">
+      <h3 class="fas fa-university"></h3>
       Xinjiang Key Laboratory of Signal Detection and Processing
     </div>
-
+    
+  <div class="internship-details">
+    <i class="internship-role">Research Assistant</i>
+    
+  <div class="internship-container">
+    <div class="internship-period">Jan 2023 - June 2025</div>
+    
     <div class="internship-meta">
       <em>Supervisor: Gang Shi</em>
     </div>
