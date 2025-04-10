@@ -29,8 +29,6 @@ title: Internships
       <em>Supervisor: Gang Shi</em>
     </div>
 
-    <hr>
-
     <div class="internship-skills">
       <span class="internship-skill">Signal Processing</span>
       <span class="internship-skill">Radar Systems</span>
