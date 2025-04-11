@@ -48,7 +48,7 @@ title: Publications
       </a>
     </li>
     <li class="toc-item">
-      <a href="#c2" class="toc-link">[C.2] Multimodal Task Effect & Transformers Analysis System<br> 
+      <a href="#c2" class="toc-link">[C.2] Multimodal task effect analysis<br> 
         <small>Transformers-based multimodal analysis for multilingual scenarios</small>
       </a>
     </li>
