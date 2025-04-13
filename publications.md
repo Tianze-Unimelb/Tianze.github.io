@@ -52,11 +52,6 @@ title: Publications
         <small>Transformers-based multimodal analysis for multilingual scenarios</small>
       </a>
     </li>
-    <li class="toc-item">
-      <a href="#c3" class="toc-link">[C.3] Power System <br>
-        <small>Uncertainty Gaussian Process Modeling</small>
-      </a>
-    </li>
   </ul>
 </section>
 
@@ -243,34 +238,6 @@ title: Publications
   </div>
 </div>
 
-<div class="publication-card" id="c3">
-  <div class="pub-visual">
-  <a href="https://zhangtianze.com/images/Publishion04.jpg" target="_blank" rel="noopener">
-  <img src="https://zhangtianze.com/images/Publishion04.jpg" 
-     style="width:100%;height:auto;">
-  </a>
-  </div> 
-  <div class="pub-content">
-    <h3 class="pub-title">[C.3]Power System Uncertainty Modeling Based on Gaussian Process </h3>
-    
-    <p class="pub-meta">
-      <span class="authors"><strong>Tianze Zhang.</strong></span><br>
-      <em>Frontiers in Artificial Intelligence and Applications</em><br>
-      <em>Hangzhou,China</em>
-    </p>
-    
-   <div class="pub-tags">
-            <span class="tag tag-core">Uncertainty Modeling</span>
-            <span class="tag tag-general">Power System</span>
-        </div>
-
-    <div class="pub-links">
-      <a href="https://doi.org/10.3233/FAIA231436" class="btn-primary">DOI</a>
-      <a href="https://zhangtianze.com/mypublications/Thesis/FAIA-383-FAIA231436.pdf" class="btn-secondary">PDF</a>
-      <a href="https://github.com/Tianze-Unimelb/GPowerUq" class="btn-secondary">Code</a>
-    </div>
-  </div>
-</div>
 <hr>
 <!--## Degree Thesis
 - **TBA**
