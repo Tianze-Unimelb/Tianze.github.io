@@ -311,7 +311,7 @@ title: Publications
         </div>
 
     <div class="pub-links">
-      <a href="https://zhangtianze.com/mypublications/Patent/CN202230804192.pdf" class="btn-secondary">PDF</a>
+      <a href="https://zhangtianze.com/mypublications/Patent/CN202330191786.pdf" class="btn-secondary">PDF</a>
     </div>
   </div>
 </div>
