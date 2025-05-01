@@ -53,6 +53,21 @@ title: Publications
       </a>
     </li>
   </ul>
+
+  <!-- Pantent -->
+  <div class="toc-subtitle">Pantent</div>
+  <ul class="toc-list">   
+   <li class="toc-item">
+      <a href="#P1" class="toc-link">[P.1] CN307874370S<br> 
+        <small>Design Patent</small>
+      </a>
+    </li>
+    <li class="toc-item">
+      <a href="#P2" class="toc-link">[P.2] CN308141337S<br> 
+        <small>Design Patent</small>
+      </a>
+    </li>
+  </ul>
 </section>
 
 ## Journal Article
@@ -247,36 +262,64 @@ title: Publications
 
 ## Patent & Software
 
-**Invention Patent**
-- **TBA**
+<div class="publication-card" id="P1">
+  <div class="pub-visual">
+  <a href="https://zhangtianze.com/images/Patent01.png" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Patent01.png" 
+     style="width:100%;height:auto;">
+  </a>
+  </div> 
+  <div class="pub-content">
+    <h3 class="pub-title">[P.1]CN307874370S</h3>
 
-**Utility Model Patent**
-- **TBA**
+    <p class="pub-meta">
+      <span class="authors"><strong>Tianze Zhang</strong></span><br>
+      <em>China National Intellectual Property Administration</em><br>
+      <em>2023-02-28</em>
+    </p>
 
-<p class="pub-meta">
-  <span class="authors">Designer: Tianze Zhang</span><br>
-  <em>Patent Number:</em> <a href="https://zhangtianze.com/mypublications/Patent/CN202230804192.pdf" class="patent-link">CN307874370S</a><br>
-  <em>Grant Date:</em> 2023-02-28
-</p>
+   <div class="pub-tags">
+            <span class="tag tag-core">Design Patent</span>
+            <span class="tag tag-general">Industrial Design</span>
+        </div>
 
-<div class="pub-tags">
-  <span class="tag tag-core">Design Patent</span>
-  <span class="tag tag-general">Industrial Design</span>
+    <div class="pub-links">
+      <a href="https://zhangtianze.com/mypublications/Patent/CN202230804192.pdf" class="btn-secondary">PDF</a>
+    </div>
+  </div>
 </div>
 
-<div class="pub-links">
-  <a href="https://zhangtianze.com/mypublications/Patent/CN202230804192.pdf" class="btn-primary">PDF</a>
+<div class="publication-card" id="P2">
+  <div class="pub-visual">
+  <a href="https://zhangtianze.com/images/Patent02.png" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Patent02.png" 
+     style="width:100%;height:auto;">
+  </a>
+  </div> 
+  <div class="pub-content">
+    <h3 class="pub-title">[P.2]CN308141337S</h3>
+
+    <p class="pub-meta">
+      <span class="authors"><strong>Tianze Zhang</strong></span><br>
+      <em>China National Intellectual Property Administration</em><br>
+      <em>2023-07-25</em>
+    </p>
+
+   <div class="pub-tags">
+            <span class="tag tag-core">Design Patent</span>
+            <span class="tag tag-general">Industrial Design</span>
+        </div>
+
+    <div class="pub-links">
+      <a href="https://zhangtianze.com/mypublications/Patent/CN202230804192.pdf" class="btn-secondary">PDF</a>
+    </div>
+  </div>
 </div>
 
-- [[2]张天泽.鼠标[P].新疆维吾尔自治区:CN202330191786.X,2023-07-25.](https://zhangtianze.com/mypublications/Patent/CN202330191786.pdf)<br>
-  Designer: **Tianze Zhang**<br>
-  <!-- Applicant (grant): Tianze Zhang<br> -->
-  Publication Number (grant):[CN308141337S](https://zhangtianze.com/mypublications/Patent/CN202330191786.pdf)<br>
-  
-**Software**
-- **TBA**
-
----
+<hr> 
+<!--Software
+TBA
+-->
 
 <!--## Manuscript
 
