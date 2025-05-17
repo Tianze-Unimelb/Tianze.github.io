@@ -52,7 +52,7 @@ My current research focuses on practical problems faced by artificial intelligen
 
 ---
 ## News and Updates
-
+<body>
 <div class="carousel-container">
     <div class="content-carousel">
         <div class="content-item active">
@@ -148,6 +148,6 @@ My current research focuses on practical problems faced by artificial intelligen
         if (e.key === 'ArrowRight') slide(1);
     });
 </script>
-
+</body>
 
 
