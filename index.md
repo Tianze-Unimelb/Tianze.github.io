@@ -277,7 +277,7 @@ My current research focuses on practical problems faced by artificial intelligen
 
     // 配置参数
     const config = {
-        interval: 5000,
+        interval: 2000,
         keyboard: true,
         hoverPause: true
     };
