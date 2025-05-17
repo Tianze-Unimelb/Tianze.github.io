@@ -52,7 +52,6 @@ My current research focuses on practical problems faced by artificial intelligen
 
 ## News and Updates
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
