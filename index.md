@@ -52,7 +52,8 @@ My current research focuses on practical problems faced by artificial intelligen
 
 ---
 
-<body>
+## News and Updates
+
 <div class="carousel-container">
     <div class="content-carousel">
         <div class="content-item active">
@@ -89,60 +90,3 @@ My current research focuses on practical problems faced by artificial intelligen
         <div class="arrow next">→</div>
     </div>
 </div>
-
-<script>
-let autoPlayTimer;
-const intervalDuration = 5000;
-let currentIndex = 0;
-const items = document.querySelectorAll('.content-item');
-const timelineItems = document.querySelectorAll('.timeline-item');
-const prevBtn = document.querySelector('.prev');
-const nextBtn = document.querySelector('.next');
-
-function startAutoPlay() {
-    autoPlayTimer = setInterval(() => {
-        slide(1);
-    }, intervalDuration);
-}
-
-function resetAutoPlay() {
-    clearInterval(autoPlayTimer);
-    startAutoPlay();
-}
-
-function slide(direction) {
-    currentIndex = (currentIndex + direction + items.length) % items.length;
-    document.querySelector('.content-carousel').style.transform =
-        `translateX(-${currentIndex * 100}%)`;
-    updateActive();
-    resetAutoPlay();
-}
-
-function updateActive() {
-    items.forEach((item, index) => {
-        item.classList.toggle('active', index === currentIndex);
-    });
-
-    timelineItems.forEach((item, index) => {
-        item.classList.toggle('active', index === currentIndex);
-    });
-}
-
-// 事件监听
-const carousel = document.querySelector('.carousel-container');
-carousel.addEventListener('mouseenter', () => clearInterval(autoPlayTimer));
-carousel.addEventListener('mouseleave', startAutoPlay);
-
-prevBtn.addEventListener('click', () => slide(-1));
-nextBtn.addEventListener('click', () => slide(1));
-
-document.addEventListener('keydown', (e) => {
-    if (e.key === 'ArrowLeft') slide(-1);
-    if (e.key === 'ArrowRight') slide(1);
-});
-
-// 初始化
-startAutoPlay();
-</script>
-</body>
-
