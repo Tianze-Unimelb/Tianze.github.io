@@ -132,13 +132,20 @@ My current research focuses on practical problems faced by artificial intelligen
             padding: 40px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .academic-carousel .timeline-carousel::-webkit-scrollbar {
+            display: none;
         }
 
         .academic-carousel .timeline-item {
             position: relative;
             padding-left: 30px;
-            margin: 25px 0;
+            margin: 40px 0;
             opacity: 0.3;
             transition: all 0.4s ease;
             cursor: pointer;
@@ -159,7 +166,7 @@ My current research focuses on practical problems faced by artificial intelligen
 
         .academic-carousel .timeline-item.active {
             opacity: 1;
-            transform: translateX(10px);
+            transform: translateY(-50%);
         }
 
         .academic-carousel .timeline-date {
@@ -235,7 +242,6 @@ My current research focuses on practical problems faced by artificial intelligen
                 flex-direction: row;
                 padding: 15px 20px;
                 overflow-x: auto;
-                scroll-behavior: smooth;
                 scroll-snap-type: x mandatory;
             }
 
@@ -244,6 +250,11 @@ My current research focuses on practical problems faced by artificial intelligen
                 padding-left: 25px;
                 min-width: 140px;
                 scroll-snap-align: center;
+                transform: none !important;
+            }
+
+            .academic-carousel .timeline-item.active {
+                transform: none !important;
             }
 
             .academic-carousel .nav-arrows {
@@ -261,214 +272,243 @@ My current research focuses on practical problems faced by artificial intelligen
     </style>
 </head>
 <body>
-    <div class="academic-carousel">
-        <div class="carousel-container">
-            <div class="content-carousel">
-                <div class="content-item active">
-                    <h2>Our Work</h2>
-                    <p>SWR-BIDeN: An Improved BIDeN Model for Severe Weather Removal in Image Processing was accepted by IJCNN2025</p>
-                </div>
-                <div class="content-item">
-                    <h2>Our Work</h2>
-                    <p>LightDrone-YOLO: A Novel Lightweight and Efficient Object Detection Network for Unmanned Aerial Vehicles was accepted by ICIC2025</p>
-                </div>
-                <div class="content-item">
-                    <h2>Our Work</h2>
-                    <p>Lightweight Remote Sensing Image Change Detection Based on Global Feature Fusion was accepted by ICIC2025</p>
-                </div>
-                <div class="content-item">
-                    <h2>Our Work</h2>
-                    <p>GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID was accepted by ICIC2025</p>
-                </div>
+<div class="academic-carousel">
+    <div class="carousel-container">
+        <div class="content-carousel">
+            <div class="content-item active">
+                <h2>Our Work</h2>
+                <p>SWR-BIDeN: An Improved BIDeN Model for Severe Weather Removal in Image Processing was accepted by IJCNN2025</p>
             </div>
-
-            <div class="timeline-carousel">
-                <div class="timeline-item active">
-                    <div class="timeline-date">2024-03</div>
-                    <div class="timeline-desc">Paper Acceptance</div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2024-04</div>
-                    <div class="timeline-desc">Paper Acceptance</div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2024-04</div>
-                    <div class="timeline-desc">Paper Acceptance</div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2024-04</div>
-                    <div class="timeline-desc">Paper Acceptance</div>
-                </div>
+            <div class="content-item">
+                <h2>Our Work</h2>
+                <p>LightDrone-YOLO: A Novel Lightweight and Efficient Object Detection Network for Unmanned Aerial Vehicles was accepted by ICIC2025</p>
             </div>
-
-            <div class="nav-arrows">
-                <div class="arrow prev">←</div>
-                <div class="arrow next">→</div>
+            <div class="content-item">
+                <h2>Our Work</h2>
+                <p>Lightweight Remote Sensing Image Change Detection Based on Global Feature Fusion was accepted by ICIC2025</p>
+            </div>
+            <div class="content-item">
+                <h2>Our Work</h2>
+                <p>GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID was accepted by ICIC2025</p>
             </div>
         </div>
+
+        <div class="timeline-carousel">
+            <div class="timeline-item active">
+                <div class="timeline-date">2024-03</div>
+                <div class="timeline-desc">Paper Acceptance</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2024-04</div>
+                <div class="timeline-desc">Paper Acceptance</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2024-04</div>
+                <div class="timeline-desc">Paper Acceptance</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2024-04</div>
+                <div class="timeline-desc">Paper Acceptance</div>
+            </div>
+        </div>
+
+        <div class="nav-arrows">
+            <div class="arrow prev">←</div>
+            <div class="arrow next">→</div>
+        </div>
     </div>
+</div>
 
-    <script>
-        (function() {
-            const container = document.querySelector('.academic-carousel');
-            if (!container) return;
+<script>
+    (function() {
+        const container = document.querySelector('.academic-carousel');
+        if (!container) return;
 
-            // Configuration
-            const config = {
-                interval: 5000,    // Auto-play interval
-                keyboard: true,    // Enable keyboard navigation
-                hoverPause: true,  // Pause on hover
-                touchSensitivity: 50 // Touch swipe sensitivity (px)
-            };
+        // Configuration
+        const config = {
+            interval: 2500,
+            keyboard: true,
+            hoverPause: true,
+            touchSensitivity: 50,
+            wheelSpeed: 0.5,
+            infiniteLoop: true  // 添加无限循环开关
+        };
 
-            // Component State
-            let currentIndex = 0;
-            let autoPlayTimer;
-            let isTransitioning = false;
-            const mobileMedia = window.matchMedia("(max-width: 768px)");
+        // Component State
+        let currentIndex = 0;
+        let autoPlayTimer;
+        let isTransitioning = false;
+        const mobileMedia = window.matchMedia("(max-width: 768px)");
 
-            // DOM Elements
-            const items = container.querySelectorAll('.content-item');
-            const timelineItems = container.querySelectorAll('.timeline-item');
-            const prevBtn = container.querySelector('.prev');
-            const nextBtn = container.querySelector('.next');
-            const carousel = container.querySelector('.carousel-container');
-            const contentCarousel = container.querySelector('.content-carousel');
-            const timelineCarousel = container.querySelector('.timeline-carousel');
+        // DOM Elements
+        const items = container.querySelectorAll('.content-item');
+        const timelineItems = container.querySelectorAll('.timeline-item');
+        const prevBtn = container.querySelector('.prev');
+        const nextBtn = container.querySelector('.next');
+        const carousel = container.querySelector('.carousel-container');
+        const contentCarousel = container.querySelector('.content-carousel');
+        const timelineCarousel = container.querySelector('.timeline-carousel');
 
-            // Core Functions
-            function scrollToTimeline(index) {
-                if (!mobileMedia.matches) return;
+        // Core Functions
+        function scrollToTimeline(index) {
+            if (!mobileMedia.matches) return;
 
-                const activeItem = timelineItems[index];
-                const containerWidth = timelineCarousel.offsetWidth;
-                const itemWidth = activeItem.offsetWidth;
-                
-                let scrollPosition = activeItem.offsetLeft - (containerWidth - itemWidth) / 2;
-                const maxScroll = timelineCarousel.scrollWidth - containerWidth;
-                scrollPosition = Math.max(0, Math.min(scrollPosition, maxScroll));
+            const activeItem = timelineItems[index];
+            const containerWidth = timelineCarousel.offsetWidth;
+            const itemWidth = activeItem.offsetWidth;
 
-                timelineCarousel.scrollTo({
-                    left: scrollPosition,
-                    behavior: 'smooth'
-                });
-            }
+            let scrollPosition = activeItem.offsetLeft - (containerWidth - itemWidth) / 2;
+            const maxScroll = timelineCarousel.scrollWidth - containerWidth;
+            scrollPosition = Math.max(0, Math.min(scrollPosition, maxScroll));
 
-            function updateActive() {
-                items.forEach((item, i) => {
-                    item.classList.toggle('active', i === currentIndex);
-                });
+            timelineCarousel.scrollTo({
+                left: scrollPosition,
+                behavior: 'smooth'
+            });
+        }
 
-                timelineItems.forEach((item, i) => {
-                    const wasActive = item.classList.contains('active');
-                    const nowActive = i === currentIndex;
-                    
-                    if (!wasActive && nowActive) {
-                        item.classList.add('active');
-                        requestAnimationFrame(() => scrollToTimeline(i));
-                    } else if (wasActive && !nowActive) {
-                        item.classList.remove('active');
-                    }
-                });
-            }
+        function centerTimelineItem() {
+            if (mobileMedia.matches) return;
 
-            function slideTo(index) {
-                if (isTransitioning || index === currentIndex) return;
-                
-                isTransitioning = true;
-                contentCarousel.style.transform = `translateX(-${index * 100}%)`;
-                currentIndex = index;
+            const activeItem = timelineItems[currentIndex];
+            const containerHeight = timelineCarousel.clientHeight;
+            const itemHeight = activeItem.offsetHeight;
+            const scrollPos = activeItem.offsetTop - (containerHeight - itemHeight) / 2;
 
-                setTimeout(() => {
-                    updateActive();
-                    isTransitioning = false;
-                }, 600);
+            timelineCarousel.scrollTo({
+                top: scrollPos,
+                behavior: 'smooth'
+            });
+        }
 
-                resetAutoPlay();
-            }
+        function updateActive() {
+            items.forEach((item, i) => {
+                item.classList.toggle('active', i === currentIndex);
+            });
 
-            function slide(direction) {
-                const newIndex = (currentIndex + direction + items.length) % items.length;
-                slideTo(newIndex);
-            }
+            timelineItems.forEach((item, i) => {
+                const wasActive = item.classList.contains('active');
+                const nowActive = i === currentIndex;
 
-            // Auto-play Control
-            function startAutoPlay() {
-                if (!autoPlayTimer) {
-                    autoPlayTimer = setInterval(() => slide(1), config.interval);
-                }
-            }
+                item.classList.toggle('active', nowActive);
 
-            function resetAutoPlay() {
-                clearInterval(autoPlayTimer);
-                autoPlayTimer = null;
-                startAutoPlay();
-            }
-
-            // Event Handlers
-            function initEvents() {
-                // Navigation Arrows
-                prevBtn.addEventListener('click', () => slide(-1));
-                nextBtn.addEventListener('click', () => slide(1));
-
-                // Timeline Click
-                timelineItems.forEach((item, index) => {
-                    item.addEventListener('click', () => slideTo(index));
-                });
-
-                // Keyboard Navigation
-                if (config.keyboard) {
-                    document.addEventListener('keydown', (e) => {
-                        if (document.activeElement !== document.body) return;
-                        if (e.key === 'ArrowLeft') slide(-1);
-                        if (e.key === 'ArrowRight') slide(1);
+                if (nowActive) {
+                    requestAnimationFrame(() => {
+                        mobileMedia.matches ? scrollToTimeline(i) : centerTimelineItem();
                     });
                 }
+            });
+        }
 
-                // Hover Pause
-                if (config.hoverPause) {
-                    carousel.addEventListener('mouseenter', () => clearInterval(autoPlayTimer));
-                    carousel.addEventListener('mouseleave', startAutoPlay);
-                }
+        function slideTo(index) {
+            if (isTransitioning || index === currentIndex) return;
 
-                // Touch Handling
-                let touchStartX = 0;
-                carousel.addEventListener('touchstart', e => {
-                    touchStartX = e.touches[0].clientX;
-                }, { passive: true });
+            isTransitioning = true;
+            contentCarousel.style.transform = `translateX(-${index * 100}%)`;
+            currentIndex = index;
 
-                carousel.addEventListener('touchend', e => {
-                    const touchEndX = e.changedTouches[0].clientX;
-                    const deltaX = touchStartX - touchEndX;
+            setTimeout(() => {
+                updateActive();
+                isTransitioning = false;
+            }, 600);
 
-                    if (Math.abs(deltaX) > config.touchSensitivity) {
-                        slide(deltaX > 0 ? 1 : -1);
-                    }
-                }, { passive: true });
+            resetAutoPlay();
+        }
+
+        function slide(direction) {
+            if (!config.infiniteLoop &&
+                ((direction === 1 && currentIndex === items.length - 1) ||
+                    (direction === -1 && currentIndex === 0))) {
+                return;
             }
 
-            // Initialization
-            function init() {
-                updateActive();
-                initEvents();
-                startAutoPlay();
+            const newIndex = (currentIndex + direction + items.length) % items.length;
+            slideTo(newIndex);
+        }
+        // Auto-play Control
+        function startAutoPlay() {
+            if (!autoPlayTimer && config.infiniteLoop) {
+                autoPlayTimer = setInterval(() => {
+                    slide(1);  // 自动向后滑动
+                }, config.interval);
+            }
+        }
 
-                // Handle window resize
-                let resizeTimer;
-                window.addEventListener('resize', () => {
-                    clearTimeout(resizeTimer);
-                    resizeTimer = setTimeout(() => {
-                        if (mobileMedia.matches) {
-                            scrollToTimeline(currentIndex);
-                        } else {
-                            timelineCarousel.scrollTo({ left: 0 });
-                        }
-                    }, 100);
+
+        function resetAutoPlay() {
+            clearInterval(autoPlayTimer);
+            autoPlayTimer = null;
+            startAutoPlay();
+        }
+
+        // Event Handlers
+        function handleWheel(e) {
+            if (mobileMedia.matches) return;
+
+            e.preventDefault();
+            timelineCarousel.scrollTop += e.deltaY * config.wheelSpeed;
+        }
+
+        function initEvents() {
+            // Navigation
+            prevBtn.addEventListener('click', () => slide(-1));
+            nextBtn.addEventListener('click', () => slide(1));
+
+            // Timeline Interaction
+            timelineItems.forEach((item, index) => {
+                item.addEventListener('click', () => slideTo(index));
+            });
+
+            // Keyboard
+            if (config.keyboard) {
+                document.addEventListener('keydown', (e) => {
+                    if (document.activeElement !== document.body) return;
+                    if (e.key === 'ArrowLeft') slide(-1);
+                    if (e.key === 'ArrowRight') slide(1);
                 });
             }
 
-            init();
-        })();
-    </script>
+            // Hover Control
+            if (config.hoverPause) {
+                carousel.addEventListener('mouseenter', () => clearInterval(autoPlayTimer));
+                carousel.addEventListener('mouseleave', startAutoPlay);
+            }
+
+            // Touch Handling
+            let touchStartX = 0;
+            carousel.addEventListener('touchstart', e => {
+                touchStartX = e.touches[0].clientX;
+            }, { passive: true });
+
+            carousel.addEventListener('touchend', e => {
+                const touchEndX = e.changedTouches[0].clientX;
+                const deltaX = touchStartX - touchEndX;
+
+                if (Math.abs(deltaX) > config.touchSensitivity) {
+                    slide(deltaX > 0 ? 1 : -1);
+                }
+            }, { passive: true });
+
+            // Wheel Handling
+            timelineCarousel.addEventListener('wheel', handleWheel);
+        }
+
+        // Initialization
+        function init() {
+            updateActive();
+            initEvents();
+            startAutoPlay();
+
+            // Responsive Handling
+            window.addEventListener('resize', () => {
+                if (!mobileMedia.matches) {
+                    centerTimelineItem();
+                }
+            });
+        }
+
+        init();
+    })();
+</script>
 </body>
 </html>
