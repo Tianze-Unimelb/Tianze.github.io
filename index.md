@@ -52,7 +52,156 @@ My current research focuses on practical problems faced by artificial intelligen
 
 ## News and Updates
 
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学术成果轮播</title>
+    <style>
+        /* 新增箭头隐藏样式 */
+        .nav-arrows {
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .carousel-container:hover .nav-arrows {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* 保持原有其他样式不变 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f0f2f5;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .carousel-container {
+            width: 750px;
+            height: 325px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .content-carousel {
+            position: absolute;
+            width: 73%;
+            height: 100%;
+            left: 0;
+            display: flex;
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .content-item {
+            min-width: 100%;
+            padding: 40px;
+            background: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            opacity: 0;
+            transform: scale(0.9);
+            transition: all 0.6s ease;
+        }
+
+        .content-item.active {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .timeline-carousel {
+            position: absolute;
+            width: 27%;
+            height: 100%;
+            right: 0;
+            background: #2c3e50;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            margin: 25px 0;
+            opacity: 0.3;
+            transition: all 0.4s ease;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            background: #3498db;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+
+        .timeline-item.active {
+            opacity: 1;
+            transform: translateX(10px);
+        }
+
+        .timeline-date {
+            color: #ecf0f1;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .timeline-desc {
+            color: #bdc3c7;
+            font-size: 0.9em;
+        }
+
+        .nav-arrows {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            z-index: 2;
+        }
+
+        .arrow {
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .arrow:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
 <div class="carousel-container">
+    <!-- 保持原有结构不变 -->
     <div class="content-carousel">
         <div class="content-item active">
             <h2>量子计算新突破</h2>
@@ -83,8 +232,3 @@ My current research focuses on practical problems faced by artificial intelligen
         </div>
     </div>
 
-    <div class="nav-arrows">
-        <div class="arrow prev">←</div>
-        <div class="arrow next">→</div>
-    </div>
-</div>
