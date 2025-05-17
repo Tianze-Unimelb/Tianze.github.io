@@ -51,3 +51,98 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 My current research focuses on practical problems faced by artificial intelligence in complex legal scenarios. My interests are **Machine Learning** and its applications in **Law**, **Finance**, and **Medicine**. In short, advanced technologies such as artificial intelligence have a positive impact on everyone's life. I hope to devote my talents to this meaningful cause and bring benefits to society.
 
 ---
+
+<body>
+<div class="carousel-container">
+    <div class="content-carousel">
+        <div class="content-item active">
+            <h2>量子计算新突破</h2>
+            <p>在《Nature》发表量子比特稳定性研究成果，实现误差率降低40%...</p>
+        </div>
+        <div class="content-item">
+            <h2>人工智能算法优化</h2>
+            <p>开发新型神经网络架构，在ImageNet数据集上达到98.7%准确率...</p>
+        </div>
+        <div class="content-item">
+            <h2>学术会议主题演讲</h2>
+            <p>在ICML 2024大会发表关于联邦学习的前沿技术报告...</p>
+        </div>
+    </div>
+
+    <div class="timeline-carousel">
+        <div class="timeline-item active">
+            <div class="timeline-date">2024-03</div>
+            <div class="timeline-desc">论文发表</div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-date">2024-02</div>
+            <div class="timeline-desc">算法优化</div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-date">2024-01</div>
+            <div class="timeline-desc">学术报告</div>
+        </div>
+    </div>
+
+    <div class="nav-arrows">
+        <div class="arrow prev">←</div>
+        <div class="arrow next">→</div>
+    </div>
+</div>
+
+<script>
+let autoPlayTimer;
+const intervalDuration = 5000;
+let currentIndex = 0;
+const items = document.querySelectorAll('.content-item');
+const timelineItems = document.querySelectorAll('.timeline-item');
+const prevBtn = document.querySelector('.prev');
+const nextBtn = document.querySelector('.next');
+
+function startAutoPlay() {
+    autoPlayTimer = setInterval(() => {
+        slide(1);
+    }, intervalDuration);
+}
+
+function resetAutoPlay() {
+    clearInterval(autoPlayTimer);
+    startAutoPlay();
+}
+
+function slide(direction) {
+    currentIndex = (currentIndex + direction + items.length) % items.length;
+    document.querySelector('.content-carousel').style.transform =
+        `translateX(-${currentIndex * 100}%)`;
+    updateActive();
+    resetAutoPlay();
+}
+
+function updateActive() {
+    items.forEach((item, index) => {
+        item.classList.toggle('active', index === currentIndex);
+    });
+
+    timelineItems.forEach((item, index) => {
+        item.classList.toggle('active', index === currentIndex);
+    });
+}
+
+// 事件监听
+const carousel = document.querySelector('.carousel-container');
+carousel.addEventListener('mouseenter', () => clearInterval(autoPlayTimer));
+carousel.addEventListener('mouseleave', startAutoPlay);
+
+prevBtn.addEventListener('click', () => slide(-1));
+nextBtn.addEventListener('click', () => slide(1));
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowLeft') slide(-1);
+    if (e.key === 'ArrowRight') slide(1);
+});
+
+// 初始化
+startAutoPlay();
+</script>
+</body>
+
