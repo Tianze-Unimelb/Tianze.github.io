@@ -141,4 +141,30 @@ body {
 .arrow:hover {
     transform: scale(1.1);
 }
+
+@media (max-width: 1200px) {
+    .publication-card {
+        margin: 1.5rem 0;
+        padding: 18px;
+        border-left-width: 4px;
+    }
+}
+
+@media (max-width: 768px) {
+    .publication-card {
+        flex-direction: column;
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    .pub-visual {
+        width: 100% !important;
+        aspect-ratio: 4/3;
+        margin-bottom: 15px;
+    }
+
+    .pub-content {
+        width: 100%;
+    }
+}
 </style>
