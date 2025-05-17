@@ -52,346 +52,423 @@ My current research focuses on practical problems faced by artificial intelligen
 
 ## News and Updates
 
-<style>
-    .academic-carousel {
-        --ac-primary: #2c3e50;
-        --ac-secondary: #3498db;
-        --ac-text-light: #ecf0f1;
-        --ac-bg: #fff;
-        font-family: inherit;
-        max-width: 750px;
-        margin: 20px auto;
-    }
-
-    .academic-carousel * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    .academic-carousel .carousel-container {
-        position: relative;
-        height: 325px;
-        border-radius: 12px;
-        overflow: hidden;
-        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-    }
-
-    .academic-carousel .content-carousel {
-        display: flex;
-        position: absolute;
-        width: 73%;
-        height: 100%;
-        left: 0;
-        transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .academic-carousel .content-item {
-        flex: 0 0 100%;
-        min-width: 100%;
-        padding: 40px;
-        background: var(--ac-bg);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        opacity: 0;
-        transform: scale(0.9);
-        transition: all 0.6s ease;
-    }
-
-    .academic-carousel .content-item.active {
-        opacity: 1;
-        transform: scale(1);
-    }
-
-    .academic-carousel .content-item h2 {
-        color: var(--ac-primary);
-        margin-bottom: 15px;
-        font-size: 1.8em;
-    }
-
-    .academic-carousel .content-item p {
-        color: #666;
-        line-height: 1.6;
-    }
-
-    .academic-carousel .timeline-carousel {
-        position: absolute;
-        width: 27%;
-        height: 100%;
-        right: 0;
-        background: var(--ac-primary);
-        padding: 40px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .academic-carousel .timeline-item {
-        position: relative;
-        padding-left: 30px;
-        margin: 25px 0;
-        opacity: 0.3;
-        transition: all 0.4s ease;
-        cursor: pointer;
-    }
-
-    .academic-carousel .timeline-item::before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 5px;
-        width: 12px;
-        height: 12px;
-        background: var(--ac-secondary);
-        border-radius: 50%;
-        border: 2px solid var(--ac-bg);
-    }
-
-    .academic-carousel .timeline-item.active {
-        opacity: 1;
-        transform: translateX(10px);
-    }
-
-    .academic-carousel .timeline-date {
-        color: var(--ac-text-light);
-        font-weight: bold;
-        margin-bottom: 5px;
-    }
-
-    .academic-carousel .timeline-desc {
-        color: rgba(255,255,255,0.7);
-        font-size: 0.9em;
-    }
-
-    .academic-carousel .nav-arrows {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        padding: 0 20px;
-        z-index: 2;
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity 0.3s ease;
-    }
-
-    .academic-carousel:hover .nav-arrows {
-        opacity: 1;
-        visibility: visible;
-    }
-
-    .academic-carousel .arrow {
-        cursor: pointer;
-        width: 40px;
-        height: 40px;
-        background: rgba(255,255,255,0.9);
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        transition: transform 0.3s ease;
-    }
-
-    .academic-carousel .arrow:hover {
-        transform: scale(1.1);
-    }
-
-    @media (max-width: 768px) {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Carousel</title>
+    <style>
         .academic-carousel {
-            max-width: 95%;
+            --ac-primary: #2c3e50;
+            --ac-secondary: #3498db;
+            --ac-text-light: #ecf0f1;
+            --ac-bg: #fff;
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 750px;
+            margin: 20px auto;
+        }
+
+        .academic-carousel * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
         .academic-carousel .carousel-container {
-            height: 500px;
+            position: relative;
+            height: 325px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            background: white;
         }
 
-        .academic-carousel .content-carousel,
-        .academic-carousel .timeline-carousel {
-            width: 100%;
-            height: 70%;
+        .academic-carousel .content-carousel {
+            display: flex;
+            position: absolute;
+            width: 73%;
+            height: 100%;
+            left: 0;
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .academic-carousel .content-item {
+            flex: 0 0 100%;
+            min-width: 100%;
+            padding: 40px;
+            background: var(--ac-bg);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            opacity: 0;
+            transform: scale(0.9);
+            transition: all 0.6s ease;
+        }
+
+        .academic-carousel .content-item.active {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .academic-carousel .content-item h2 {
+            color: var(--ac-primary);
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        .academic-carousel .content-item p {
+            color: #666;
+            line-height: 1.6;
+            font-size: 0.95em;
         }
 
         .academic-carousel .timeline-carousel {
-            top: 70%;
-            height: 30%;
-            flex-direction: row;
-            padding: 15px;
-            overflow-x: auto;
-            scroll-behavior: smooth;
-            scroll-snap-type: x mandatory;
+            position: absolute;
+            width: 27%;
+            height: 100%;
+            right: 0;
+            background: var(--ac-primary);
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         .academic-carousel .timeline-item {
-            margin: 0 15px;
-            padding-left: 20px;
-            min-width: 120px;
-            scroll-snap-align: center;
+            position: relative;
+            padding-left: 30px;
+            margin: 25px 0;
+            opacity: 0.3;
+            transition: all 0.4s ease;
+            cursor: pointer;
+            flex-shrink: 0;
         }
-    }
-</style>
 
-<div class="academic-carousel">
-    <div class="carousel-container">
-        <div class="content-carousel">
-            <!-- 内容项保持不变 -->
-        </div>
+        .academic-carousel .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            background: var(--ac-secondary);
+            border-radius: 50%;
+            border: 2px solid var(--ac-bg);
+        }
 
-        <div class="timeline-carousel">
-            <!-- 时间轴项保持不变 -->
-        </div>
+        .academic-carousel .timeline-item.active {
+            opacity: 1;
+            transform: translateX(10px);
+        }
 
-        <div class="nav-arrows">
-            <div class="arrow prev">←</div>
-            <div class="arrow next">→</div>
+        .academic-carousel .timeline-date {
+            color: var(--ac-text-light);
+            font-weight: 600;
+            margin-bottom: 5px;
+            font-size: 0.95em;
+        }
+
+        .academic-carousel .timeline-desc {
+            color: rgba(255,255,255,0.85);
+            font-size: 0.85em;
+            line-height: 1.4;
+        }
+
+        .academic-carousel .nav-arrows {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            z-index: 2;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease;
+        }
+
+        .academic-carousel:hover .nav-arrows {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .academic-carousel .arrow {
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, background 0.2s ease;
+            font-weight: 700;
+            user-select: none;
+        }
+
+        .academic-carousel .arrow:hover {
+            transform: scale(1.1);
+            background: rgba(255,255,255,1);
+        }
+
+        @media (max-width: 768px) {
+            .academic-carousel {
+                max-width: 95%;
+            }
+
+            .academic-carousel .carousel-container {
+                height: 500px;
+            }
+
+            .academic-carousel .content-carousel,
+            .academic-carousel .timeline-carousel {
+                width: 100%;
+                height: 70%;
+            }
+
+            .academic-carousel .timeline-carousel {
+                top: 70%;
+                height: 30%;
+                flex-direction: row;
+                padding: 15px 20px;
+                overflow-x: auto;
+                scroll-behavior: smooth;
+                scroll-snap-type: x mandatory;
+            }
+
+            .academic-carousel .timeline-item {
+                margin: 0 15px;
+                padding-left: 25px;
+                min-width: 140px;
+                scroll-snap-align: center;
+            }
+
+            .academic-carousel .nav-arrows {
+                opacity: 1;
+                visibility: visible;
+                padding: 0 10px;
+            }
+
+            .academic-carousel .arrow {
+                width: 35px;
+                height: 35px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="academic-carousel">
+        <div class="carousel-container">
+            <div class="content-carousel">
+                <div class="content-item active">
+                    <h2>Our Work</h2>
+                    <p>SWR-BIDeN: An Improved BIDeN Model for Severe Weather Removal in Image Processing was accepted by IJCNN2025</p>
+                </div>
+                <div class="content-item">
+                    <h2>Our Work</h2>
+                    <p>LightDrone-YOLO: A Novel Lightweight and Efficient Object Detection Network for Unmanned Aerial Vehicles was accepted by ICIC2025</p>
+                </div>
+                <div class="content-item">
+                    <h2>Our Work</h2>
+                    <p>Lightweight Remote Sensing Image Change Detection Based on Global Feature Fusion was accepted by ICIC2025</p>
+                </div>
+                <div class="content-item">
+                    <h2>Our Work</h2>
+                    <p>GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID was accepted by ICIC2025</p>
+                </div>
+            </div>
+
+            <div class="timeline-carousel">
+                <div class="timeline-item active">
+                    <div class="timeline-date">2024-03</div>
+                    <div class="timeline-desc">Paper Acceptance</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024-04</div>
+                    <div class="timeline-desc">Paper Acceptance</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024-04</div>
+                    <div class="timeline-desc">Paper Acceptance</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024-04</div>
+                    <div class="timeline-desc">Paper Acceptance</div>
+                </div>
+            </div>
+
+            <div class="nav-arrows">
+                <div class="arrow prev">←</div>
+                <div class="arrow next">→</div>
+            </div>
         </div>
     </div>
-</div>
 
-<script>
-    (function() {
-        const container = document.querySelector('.academic-carousel');
-        if (!container) return;
+    <script>
+        (function() {
+            const container = document.querySelector('.academic-carousel');
+            if (!container) return;
 
-        const config = {
-            interval: 5000,
-            keyboard: true,
-            hoverPause: true
-        };
+            // Configuration
+            const config = {
+                interval: 5000,    // Auto-play interval
+                keyboard: true,    // Enable keyboard navigation
+                hoverPause: true,  // Pause on hover
+                touchSensitivity: 50 // Touch swipe sensitivity (px)
+            };
 
-        let currentIndex = 0;
-        let autoPlayTimer;
-        let isTransitioning = false;
-        const mobileMedia = window.matchMedia("(max-width: 768px)");
+            // Component State
+            let currentIndex = 0;
+            let autoPlayTimer;
+            let isTransitioning = false;
+            const mobileMedia = window.matchMedia("(max-width: 768px)");
 
-        const items = container.querySelectorAll('.content-item');
-        const timelineItems = container.querySelectorAll('.timeline-item');
-        const prevBtn = container.querySelector('.prev');
-        const nextBtn = container.querySelector('.next');
-        const carousel = container.querySelector('.carousel-container');
-        const contentCarousel = container.querySelector('.content-carousel');
-        const timelineCarousel = container.querySelector('.timeline-carousel');
+            // DOM Elements
+            const items = container.querySelectorAll('.content-item');
+            const timelineItems = container.querySelectorAll('.timeline-item');
+            const prevBtn = container.querySelector('.prev');
+            const nextBtn = container.querySelector('.next');
+            const carousel = container.querySelector('.carousel-container');
+            const contentCarousel = container.querySelector('.content-carousel');
+            const timelineCarousel = container.querySelector('.timeline-carousel');
 
-        function scrollToTimeline(index) {
-            if (!mobileMedia.matches) return;
-            
-            const activeItem = timelineItems[index];
-            const containerWidth = timelineCarousel.offsetWidth;
-            const itemWidth = activeItem.offsetWidth;
-            const scrollLeft = activeItem.offsetLeft - (containerWidth - itemWidth) / 2;
-            
-            const maxScroll = timelineCarousel.scrollWidth - containerWidth;
-            const finalScroll = Math.max(0, Math.min(scrollLeft, maxScroll));
-            
-            timelineCarousel.scrollTo({
-                left: finalScroll,
-                behavior: 'smooth'
-            });
-        }
+            // Core Functions
+            function scrollToTimeline(index) {
+                if (!mobileMedia.matches) return;
 
-        function updateActive() {
-            items.forEach((item, i) => item.classList.toggle('active', i === currentIndex));
-            timelineItems.forEach((item, i) => item.classList.toggle('active', i === currentIndex));
-            
-            requestAnimationFrame(() => {
-                scrollToTimeline(currentIndex);
-            });
-        }
-
-        function slide(direction) {
-            if (isTransitioning) return;
-            isTransitioning = true;
-            
-            const newIndex = (currentIndex + direction + items.length) % items.length;
-            contentCarousel.style.transform = `translateX(-${newIndex * 100}%)`;
-            currentIndex = newIndex;
-            
-            setTimeout(() => {
-                updateActive();
-                isTransitioning = false;
-            }, 600);
-            
-            resetAutoPlay();
-        }
-
-        function startAutoPlay() {
-            if (!autoPlayTimer) {
-                autoPlayTimer = setInterval(() => slide(1), config.interval);
-            }
-        }
-
-        function resetAutoPlay() {
-            clearInterval(autoPlayTimer);
-            autoPlayTimer = null;
-            startAutoPlay();
-        }
-
-        function initEvents() {
-            prevBtn.addEventListener('click', () => slide(-1));
-            nextBtn.addEventListener('click', () => slide(1));
-
-            timelineItems.forEach((item, index) => {
-                item.addEventListener('click', () => {
-                    if (index === currentIndex || isTransitioning) return;
-                    isTransitioning = true;
-                    
-                    contentCarousel.style.transform = `translateX(-${index * 100}%)`;
-                    currentIndex = index;
-                    
-                    setTimeout(() => {
-                        updateActive();
-                        isTransitioning = false;
-                    }, 600);
-                    
-                    resetAutoPlay();
-                });
-            });
-
-            if (config.keyboard) {
-                document.addEventListener('keydown', (e) => {
-                    if (e.key === 'ArrowLeft') slide(-1);
-                    if (e.key === 'ArrowRight') slide(1);
-                });
-            }
-
-            if (config.hoverPause) {
-                carousel.addEventListener('mouseenter', () => clearInterval(autoPlayTimer));
-                carousel.addEventListener('mouseleave', startAutoPlay);
-            }
-
-            let touchStartX = 0;
-            carousel.addEventListener('touchstart', e => {
-                touchStartX = e.touches[0].clientX;
-            }, { passive: true });
-            
-            carousel.addEventListener('touchend', e => {
-                const touchEndX = e.changedTouches[0].clientX;
-                const diff = touchStartX - touchEndX;
+                const activeItem = timelineItems[index];
+                const containerWidth = timelineCarousel.offsetWidth;
+                const itemWidth = activeItem.offsetWidth;
                 
-                if (Math.abs(diff) > 50) {
-                    slide(diff > 0 ? 1 : -1);
+                let scrollPosition = activeItem.offsetLeft - (containerWidth - itemWidth) / 2;
+                const maxScroll = timelineCarousel.scrollWidth - containerWidth;
+                scrollPosition = Math.max(0, Math.min(scrollPosition, maxScroll));
+
+                timelineCarousel.scrollTo({
+                    left: scrollPosition,
+                    behavior: 'smooth'
+                });
+            }
+
+            function updateActive() {
+                items.forEach((item, i) => {
+                    item.classList.toggle('active', i === currentIndex);
+                });
+
+                timelineItems.forEach((item, i) => {
+                    const wasActive = item.classList.contains('active');
+                    const nowActive = i === currentIndex;
+                    
+                    if (!wasActive && nowActive) {
+                        item.classList.add('active');
+                        requestAnimationFrame(() => scrollToTimeline(i));
+                    } else if (wasActive && !nowActive) {
+                        item.classList.remove('active');
+                    }
+                });
+            }
+
+            function slideTo(index) {
+                if (isTransitioning || index === currentIndex) return;
+                
+                isTransitioning = true;
+                contentCarousel.style.transform = `translateX(-${index * 100}%)`;
+                currentIndex = index;
+
+                setTimeout(() => {
+                    updateActive();
+                    isTransitioning = false;
+                }, 600);
+
+                resetAutoPlay();
+            }
+
+            function slide(direction) {
+                const newIndex = (currentIndex + direction + items.length) % items.length;
+                slideTo(newIndex);
+            }
+
+            // Auto-play Control
+            function startAutoPlay() {
+                if (!autoPlayTimer) {
+                    autoPlayTimer = setInterval(() => slide(1), config.interval);
                 }
-            }, { passive: true });
-        }
+            }
 
-        function init() {
-            updateActive();
-            initEvents();
-            startAutoPlay();
-            
-            // 处理窗口大小变化
-            let resizeTimer;
-            window.addEventListener('resize', () => {
-                clearTimeout(resizeTimer);
-                resizeTimer = setTimeout(() => {
-                    scrollToTimeline(currentIndex);
-                }, 200);
-            });
-        }
+            function resetAutoPlay() {
+                clearInterval(autoPlayTimer);
+                autoPlayTimer = null;
+                startAutoPlay();
+            }
 
-        init();
-    })();
-</script>
+            // Event Handlers
+            function initEvents() {
+                // Navigation Arrows
+                prevBtn.addEventListener('click', () => slide(-1));
+                nextBtn.addEventListener('click', () => slide(1));
+
+                // Timeline Click
+                timelineItems.forEach((item, index) => {
+                    item.addEventListener('click', () => slideTo(index));
+                });
+
+                // Keyboard Navigation
+                if (config.keyboard) {
+                    document.addEventListener('keydown', (e) => {
+                        if (document.activeElement !== document.body) return;
+                        if (e.key === 'ArrowLeft') slide(-1);
+                        if (e.key === 'ArrowRight') slide(1);
+                    });
+                }
+
+                // Hover Pause
+                if (config.hoverPause) {
+                    carousel.addEventListener('mouseenter', () => clearInterval(autoPlayTimer));
+                    carousel.addEventListener('mouseleave', startAutoPlay);
+                }
+
+                // Touch Handling
+                let touchStartX = 0;
+                carousel.addEventListener('touchstart', e => {
+                    touchStartX = e.touches[0].clientX;
+                }, { passive: true });
+
+                carousel.addEventListener('touchend', e => {
+                    const touchEndX = e.changedTouches[0].clientX;
+                    const deltaX = touchStartX - touchEndX;
+
+                    if (Math.abs(deltaX) > config.touchSensitivity) {
+                        slide(deltaX > 0 ? 1 : -1);
+                    }
+                }, { passive: true });
+            }
+
+            // Initialization
+            function init() {
+                updateActive();
+                initEvents();
+                startAutoPlay();
+
+                // Handle window resize
+                let resizeTimer;
+                window.addEventListener('resize', () => {
+                    clearTimeout(resizeTimer);
+                    resizeTimer = setTimeout(() => {
+                        if (mobileMedia.matches) {
+                            scrollToTimeline(currentIndex);
+                        } else {
+                            timelineCarousel.scrollTo({ left: 0 });
+                        }
+                    }, 100);
+                });
+            }
+
+            init();
+        })();
+    </script>
+</body>
+</html>
