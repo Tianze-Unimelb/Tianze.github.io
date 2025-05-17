@@ -76,7 +76,7 @@ My current research focuses on practical problems faced by artificial intelligen
 
         .academic-carousel .carousel-container {
             position: relative;
-            height: 325px;
+            height: 300px;
             border-radius: 12px;
             overflow: hidden;
             box-shadow: 0 10px 20px rgba(0,0,0,0.1);
