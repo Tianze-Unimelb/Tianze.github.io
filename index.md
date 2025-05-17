@@ -232,3 +232,69 @@ My current research focuses on practical problems faced by artificial intelligen
         </div>
     </div>
 
+    <div class="nav-arrows">
+        <div class="arrow prev">←</div>
+        <div class="arrow next">→</div>
+    </div>
+</div>
+
+<script>
+    // 新增自动轮播逻辑
+    let autoPlayTimer;
+    const intervalDuration = 5000; // 5秒间隔
+
+    function startAutoPlay() {
+        autoPlayTimer = setInterval(() => {
+            slide(1);
+        }, intervalDuration);
+    }
+
+    function resetAutoPlay() {
+        clearInterval(autoPlayTimer);
+        startAutoPlay();
+    }
+
+    // 修改原有slide函数
+    function slide(direction) {
+        currentIndex = (currentIndex + direction + items.length) % items.length;
+        document.querySelector('.content-carousel').style.transform =
+            `translateX(-${currentIndex * 100}%)`;
+        updateActive();
+        resetAutoPlay(); // 每次操作后重置计时器
+    }
+
+    // 添加鼠标事件
+    const carousel = document.querySelector('.carousel-container');
+    carousel.addEventListener('mouseenter', () => clearInterval(autoPlayTimer));
+    carousel.addEventListener('mouseleave', startAutoPlay);
+
+    // 初始化自动播放
+    startAutoPlay();
+
+    // 保持原有其他逻辑不变
+    const items = document.querySelectorAll('.content-item');
+    const timelineItems = document.querySelectorAll('.timeline-item');
+    const prevBtn = document.querySelector('.prev');
+    const nextBtn = document.querySelector('.next');
+    let currentIndex = 0;
+
+    function updateActive() {
+        items.forEach((item, index) => {
+            item.classList.toggle('active', index === currentIndex);
+        });
+
+        timelineItems.forEach((item, index) => {
+            item.classList.toggle('active', index === currentIndex);
+        });
+    }
+
+    prevBtn.addEventListener('click', () => slide(-1));
+    nextBtn.addEventListener('click', () => slide(1));
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') slide(-1);
+        if (e.key === 'ArrowRight') slide(1);
+    });
+</script>
+</body>
+</html>
