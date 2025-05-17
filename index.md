@@ -14,7 +14,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 ---
 
-## Academic Background
+<!--## Academic Background
 
  - **July 2025 - Future:** The University of Melbourne (BSc, CS)
  - **Jan 2023 - June 2025:** Xinjiang Key Laboratory of Signal Detection and Processing(Research assistant)
@@ -22,6 +22,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
  - **July 2023 - Aug 2023:** The University of Hongkong(Summer research)
 
 ---
+-->
 
 <!--## Academic Milestones-->
 
