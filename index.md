@@ -88,7 +88,7 @@ My current research focuses on practical problems faced by artificial intelligen
         /* 主容器 */
         .academic-showcase {
             width: 90%;
-            max-width: 900px;
+            max-width: 400px;
             margin: 40px auto;
         }
 
