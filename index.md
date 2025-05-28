@@ -52,7 +52,7 @@ My current research focuses on practical problems faced by artificial intelligen
 
 ## News and Updates
 
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,7 +88,7 @@ My current research focuses on practical problems faced by artificial intelligen
         /* 主容器 */
         .academic-showcase {
             width: 90%;
-            max-width: 400px;
+            max-width: 900px;
             margin: 40px auto;
         }
 
@@ -116,7 +116,7 @@ My current research focuses on practical problems faced by artificial intelligen
         /* 内容容器 */
         .carousel-container {
             position: relative;
-            height: 300px;
+            height: auto;
             border-radius: 16px;
             overflow: hidden;
             box-shadow: var(--ac-shadow);
@@ -509,7 +509,6 @@ My current research focuses on practical problems faced by artificial intelligen
 </head>
 <body>
 <div class="academic-showcase">
-    <h2 class="section-title">学术成就与动态</h2>
 
     <div class="carousel-container">
         <!-- 左侧内容面板 -->
