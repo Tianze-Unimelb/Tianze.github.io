@@ -85,7 +85,7 @@ My current research focuses on practical problems faced by artificial intelligen
 
         /* 主容器 */
         .academic-timeline-wrapper .academic-showcase {
-            width: 90%;
+            width: 100%;
             max-width: 900px;
             margin: 0 auto;
             animation: fadeInUp 0.8s ease-out;
