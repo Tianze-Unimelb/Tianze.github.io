@@ -58,461 +58,458 @@ My current research focuses on practical problems faced by artificial intelligen
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>学术成就时间轴 - 独立版本</title>
     <style>
-        /* 独立封装的样式 - 仅影响 .academic-timeline-wrapper 内的元素 */
-        .academic-timeline-wrapper {
-            --ac-primary: #2c3e50;
-            --ac-secondary: #3498db;
-            --ac-text-light: #ecf0f1;
-            --ac-bg: #fff;
-            --ac-gray-light: #f8f9fa;
-            --ac-gray: #6c757d;
-            --ac-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            --ac-shadow-hover: 0 15px 40px rgba(0,0,0,0.15);
-            
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
-            color: #333;
-            overflow: hidden;
-            padding: 40px 20px;
-            margin: 20px 0;
-            border-radius: 12px;
-            box-sizing: border-box;
-        }
+.academic-timeline-wrapper {
+    --ac-primary: #2c3e50;
+    --ac-secondary: #3498db;
+    --ac-text-light: #ecf0f1;
+    --ac-bg: #fff;
+    --ac-gray-light: #f8f9fa;
+    --ac-gray: #6c757d;
+    --ac-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    --ac-shadow-hover: 0 15px 40px rgba(0,0,0,0.15);
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #333;
+    overflow: hidden;
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
 
-        .academic-timeline-wrapper * {
-            box-sizing: border-box;
-        }
+.academic-timeline-wrapper * {
+    box-sizing: border-box;
+}
 
-        /* 主容器 */
-        .academic-timeline-wrapper .academic-showcase {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            animation: fadeInUp 0.8s ease-out;
-        }
+/* 主容器 */
+.academic-timeline-wrapper .academic-showcase {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    animation: fadeInUp 0.8s ease-out;
+}
 
-        .academic-timeline-wrapper .section-title {
-            text-align: center;
-            font-size: 36px;
-            font-weight: 300;
-            margin: 0 0 50px 0;
-            color: var(--ac-primary);
-            position: relative;
-        }
+.academic-timeline-wrapper .section-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0 0 50px 0;
+    color: var(--ac-primary);
+    position: relative;
+}
 
-        .academic-timeline-wrapper .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -15px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 60px;
-            height: 3px;
-            background: var(--ac-secondary);
-            border-radius: 2px;
-        }
+.academic-timeline-wrapper .section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: var(--ac-secondary);
+    border-radius: 2px;
+}
 
-        /* 内容容器 - 固定高度325px */
-        .academic-timeline-wrapper .carousel-container {
-            position: relative;
-            height: 325px;
-            border-radius: 16px;
-            overflow: hidden;
-            box-shadow: var(--ac-shadow);
-            background: var(--ac-bg);
-            display: flex;
-        }
+/* 内容容器 */
+.academic-timeline-wrapper .carousel-container {
+    position: relative;
+    height: 325px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--ac-shadow);
+    background: var(--ac-bg);
+    display: flex;
+}
 
-        /* 左侧成就展示区 - 70%宽度 */
-        .academic-timeline-wrapper .content-panel {
-            flex: 0 0 70%;
-            position: relative;
-            background: var(--ac-bg);
-            overflow: hidden;
-        }
+/* 左侧成就展示区 */
+.academic-timeline-wrapper .content-panel {
+    flex: 0 0 70%;
+    position: relative;
+    background: var(--ac-bg);
+    overflow: hidden;
+}
 
-        .academic-timeline-wrapper .achievement-wrapper {
-            position: relative;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+.academic-timeline-wrapper .achievement-wrapper {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-        .academic-timeline-wrapper .achievement-card {
-            position: absolute;
-            width: 90%;
-            max-width: 600px;
-            padding: 35px;
-            opacity: 0;
-            transform: translateY(30px) scale(0.95);
-            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-            pointer-events: none;
-            margin: 0;
-        }
+.academic-timeline-wrapper .achievement-card {
+    position: absolute;
+    width: 90%;
+    max-width: 600px;
+    padding: 35px;
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+    margin: 0;
+}
 
-        .academic-timeline-wrapper .achievement-card.active {
-            opacity: 1;
-            transform: translateY(0) scale(1);
-            pointer-events: all;
-        }
+.academic-timeline-wrapper .achievement-card.active {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: all;
+}
 
-        .academic-timeline-wrapper .achievement-card.prev {
-            transform: translateY(-30px) scale(0.95);
-        }
+.academic-timeline-wrapper .achievement-card.prev {
+    transform: translateY(-30px) scale(0.95);
+}
 
-        .academic-timeline-wrapper .achievement-card.next {
-            transform: translateY(30px) scale(0.95);
-        }
+.academic-timeline-wrapper .achievement-card.next {
+    transform: translateY(30px) scale(0.95);
+}
 
-        .academic-timeline-wrapper .achievement-date {
-            color: var(--ac-secondary);
-            font-size: 13px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin: 0 0 10px 0;
-            display: inline-block;
-            position: relative;
-            padding-left: 22px;
-        }
+.academic-timeline-wrapper .achievement-date {
+    color: var(--ac-secondary);
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 10px 0;
+    display: inline-block;
+    position: relative;
+    padding-left: 22px;
+}
 
-        .academic-timeline-wrapper .achievement-date::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 12px;
-            height: 2px;
-            background: var(--ac-secondary);
-        }
+.academic-timeline-wrapper .achievement-date::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 2px;
+    background: var(--ac-secondary);
+}
 
-        .academic-timeline-wrapper .achievement-title {
-            font-size: 22px;
-            font-weight: 700;
-            margin: 0 0 15px 0;
-            color: var(--ac-primary);
-            line-height: 1.3;
-        }
+.academic-timeline-wrapper .achievement-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    color: var(--ac-primary);
+    line-height: 1.3;
+}
 
-        .academic-timeline-wrapper .achievement-description {
-            font-size: 14px;
-            line-height: 1.6;
-            color: #5a6c7d;
-            margin: 0 0 20px 0;
-        }
+.academic-timeline-wrapper .achievement-description {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #5a6c7d;
+    margin: 0 0 20px 0;
+}
 
-        .academic-timeline-wrapper .achievement-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
+.academic-timeline-wrapper .achievement-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
-        .academic-timeline-wrapper .tag {
-            display: inline-block;
-            padding: 4px 12px;
-            background: rgba(52, 152, 219, 0.1);
-            color: var(--ac-secondary);
-            border-radius: 16px;
-            font-size: 12px;
-            font-weight: 500;
-            border: 1px solid rgba(52, 152, 219, 0.2);
-            transition: all 0.3s ease;
-            margin: 0;
-        }
+.academic-timeline-wrapper .tag {
+    display: inline-block;
+    padding: 4px 12px;
+    background: rgba(52, 152, 219, 0.1);
+    color: var(--ac-secondary);
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid rgba(52, 152, 219, 0.2);
+    transition: all 0.3s ease;
+    margin: 0;
+}
 
-        .academic-timeline-wrapper .tag:hover {
-            background: var(--ac-secondary);
-            color: white;
-            transform: translateY(-1px);
-            box-shadow: 0 3px 10px rgba(52, 152, 219, 0.3);
-        }
+.academic-timeline-wrapper .tag:hover {
+    background: var(--ac-secondary);
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px rgba(52, 152, 219, 0.3);
+}
 
-        /* 右侧时间轴面板 - 30%宽度 */
-        .academic-timeline-wrapper .timeline-panel {
-            flex: 0 0 30%;
-            background: var(--ac-primary);
-            position: relative;
-            display: flex;
-            align-items: center;
-            overflow: hidden;
-        }
+/* 右侧时间轴面板 */
+.academic-timeline-wrapper .timeline-panel {
+    flex: 0 0 30%;
+    background: var(--ac-primary);
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
 
-        .academic-timeline-wrapper .timeline-wrapper {
-            width: 100%;
-            height: 70%;
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 30px 20px;
-        }
+.academic-timeline-wrapper .timeline-wrapper {
+    width: 100%;
+    height: 70%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+}
 
-        .academic-timeline-wrapper .timeline-container {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 25px;
-            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-        }
+.academic-timeline-wrapper .timeline-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-        .academic-timeline-wrapper .timeline-item {
-            position: absolute;
-            width: 100%;
-            padding-left: 30px;
-            cursor: pointer;
-            opacity: 0;
-            transform: scale(0.8) translateY(0);
-            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-            pointer-events: none;
-            margin: 0;
-        }
+.academic-timeline-wrapper .timeline-item {
+    position: absolute;
+    width: 100%;
+    padding-left: 30px;
+    cursor: pointer;
+    opacity: 0;
+    transform: scale(0.8) translateY(0);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+    margin: 0;
+}
 
-        /* 居中显示的三个位置 */
-        .academic-timeline-wrapper .timeline-item.position-prev {
-            transform: translateY(-65px) scale(0.85);
-            opacity: 0.4;
-            pointer-events: all;
-        }
+.academic-timeline-wrapper .timeline-item.position-prev {
+    transform: translateY(-65px) scale(0.85);
+    opacity: 0.4;
+    pointer-events: all;
+}
 
-        .academic-timeline-wrapper .timeline-item.position-current {
-            transform: translateY(0) scale(1);
-            opacity: 1;
-            pointer-events: all;
-        }
+.academic-timeline-wrapper .timeline-item.position-current {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    pointer-events: all;
+}
 
-        .academic-timeline-wrapper .timeline-item.position-next {
-            transform: translateY(65px) scale(0.85);
-            opacity: 0.4;
-            pointer-events: all;
-        }
+.academic-timeline-wrapper .timeline-item.position-next {
+    transform: translateY(65px) scale(0.85);
+    opacity: 0.4;
+    pointer-events: all;
+}
 
-        .academic-timeline-wrapper .timeline-item::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 6px;
-            width: 10px;
-            height: 10px;
-            background: rgba(255, 255, 255, 0.3);
-            border-radius: 50%;
-            border: 2px solid rgba(255, 255, 255, 0.5);
-            transition: all 0.5s ease;
-        }
+.academic-timeline-wrapper .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.5s ease;
+}
 
-        .academic-timeline-wrapper .timeline-item.position-current::before {
-            width: 14px;
-            height: 14px;
-            background: var(--ac-secondary);
-            border-color: var(--ac-bg);
-            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.3);
-            top: 3px;
-        }
+.academic-timeline-wrapper .timeline-item.position-current::before {
+    width: 14px;
+    height: 14px;
+    background: var(--ac-secondary);
+    border-color: var(--ac-bg);
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.3);
+    top: 3px;
+}
 
-        .academic-timeline-wrapper .timeline-date {
-            color: var(--ac-text-light);
-            font-weight: 600;
-            margin: 0 0 4px 0;
-            font-size: 12px;
-            transition: all 0.5s ease;
-        }
+.academic-timeline-wrapper .timeline-date {
+    color: var(--ac-text-light);
+    font-weight: 600;
+    margin: 0 0 4px 0;
+    font-size: 12px;
+    transition: all 0.5s ease;
+}
 
-        .academic-timeline-wrapper .timeline-item.position-current .timeline-date {
-            font-size: 14px;
-        }
+.academic-timeline-wrapper .timeline-item.position-current .timeline-date {
+    font-size: 14px;
+}
 
-        .academic-timeline-wrapper .timeline-title {
-            color: rgba(255, 255, 255, 0.7);
-            font-size: 11px;
-            line-height: 1.3;
-            transition: all 0.5s ease;
-            margin: 0;
-        }
+.academic-timeline-wrapper .timeline-title {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 11px;
+    line-height: 1.3;
+    transition: all 0.5s ease;
+    margin: 0;
+}
 
-        .academic-timeline-wrapper .timeline-item.position-current .timeline-title {
-            color: rgba(255, 255, 255, 0.9);
-            font-size: 12px;
-        }
+.academic-timeline-wrapper .timeline-item.position-current .timeline-title {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 12px;
+}
 
-        /* 连接线 */
-        .academic-timeline-wrapper .timeline-line {
-            position: absolute;
-            left: 35px;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 2px;
-            height: 130px;
-            background: linear-gradient(to bottom,
-            transparent 0%,
-            rgba(255,255,255,0.2) 30%,
-            rgba(52,152,219,0.5) 50%,
-            rgba(255,255,255,0.2) 70%,
-            transparent 100%);
-            pointer-events: none;
-        }
+/* 连接线 */
+.academic-timeline-wrapper .timeline-line {
+    position: absolute;
+    left: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 130px;
+    background: linear-gradient(to bottom,
+    transparent 0%,
+    rgba(255,255,255,0.2) 30%,
+    rgba(52,152,219,0.5) 50%,
+    rgba(255,255,255,0.2) 70%,
+    transparent 100%);
+    pointer-events: none;
+}
 
-        /* 导航控制 */
-        .academic-timeline-wrapper .nav-controls {
-            position: absolute;
-            bottom: 30px;
-            left: 50%;
-            transform: translateX(-50%);
-            display: flex;
-            align-items: center;
-            gap: 25px;
-            z-index: 10;
-        }
+/* 导航控制 */
+.academic-timeline-wrapper .nav-controls {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    z-index: 10;
+}
 
-        .academic-timeline-wrapper .nav-button {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.95);
-            border: none;
-            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.3s ease;
-            font-size: 16px;
-            color: var(--ac-gray);
-            padding: 0;
-            margin: 0;
-        }
+.academic-timeline-wrapper .nav-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.95);
+    border: none;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    color: var(--ac-gray);
+    padding: 0;
+    margin: 0;
+}
 
-        .academic-timeline-wrapper .nav-button:hover:not(:disabled) {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 16px rgba(0, 0, 0, 0.15);
-            background: white;
-            color: var(--ac-secondary);
-        }
+.academic-timeline-wrapper .nav-button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.15);
+    background: white;
+    color: var(--ac-secondary);
+}
 
-        .academic-timeline-wrapper .nav-button:disabled {
-            opacity: 0.3;
-            cursor: not-allowed;
-        }
+.academic-timeline-wrapper .nav-button:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
 
-        .academic-timeline-wrapper .progress-counter {
-            font-size: 13px;
-            color: var(--ac-gray);
-            font-weight: 500;
-            background: white;
-            padding: 6px 16px;
-            border-radius: 16px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-            margin: 0;
-        }
+.academic-timeline-wrapper .progress-counter {
+    font-size: 13px;
+    color: var(--ac-gray);
+    font-weight: 500;
+    background: white;
+    padding: 6px 16px;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin: 0;
+}
 
-        .academic-timeline-wrapper .current-number {
-            color: var(--ac-secondary);
-            font-weight: 700;
-            font-size: 14px;
-        }
+.academic-timeline-wrapper .current-number {
+    color: var(--ac-secondary);
+    font-weight: 700;
+    font-size: 14px;
+}
 
-        /* 边缘渐变效果 */
-        .academic-timeline-wrapper .timeline-panel::before,
-        .academic-timeline-wrapper .timeline-panel::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            right: 0;
-            height: 60px;
-            pointer-events: none;
-            z-index: 1;
-        }
+/* 边缘渐变效果 */
+.academic-timeline-wrapper .timeline-panel::before,
+.academic-timeline-wrapper .timeline-panel::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 60px;
+    pointer-events: none;
+    z-index: 1;
+}
 
-        .academic-timeline-wrapper .timeline-panel::before {
-            top: 0;
-            background: linear-gradient(to bottom, var(--ac-primary) 0%, transparent 100%);
-        }
+.academic-timeline-wrapper .timeline-panel::before {
+    top: 0;
+    background: linear-gradient(to bottom, var(--ac-primary) 0%, transparent 100%);
+}
 
-        .academic-timeline-wrapper .timeline-panel::after {
-            bottom: 0;
-            background: linear-gradient(to top, var(--ac-primary) 0%, transparent 100%);
-        }
+.academic-timeline-wrapper .timeline-panel::after {
+    bottom: 0;
+    background: linear-gradient(to top, var(--ac-primary) 0%, transparent 100%);
+}
 
-        /* 响应式设计 */
-        @media (max-width: 768px) {
-            .academic-timeline-wrapper .academic-showcase {
-                width: 95%;
-            }
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .academic-timeline-wrapper .academic-showcase {
+        width: 95%;
+    }
 
-            .academic-timeline-wrapper .carousel-container {
-                height: 325px;
-                flex-direction: column;
-            }
+    .academic-timeline-wrapper .carousel-container {
+        height: 325px;
+        flex-direction: column;
+    }
 
-            .academic-timeline-wrapper .content-panel {
-                flex: 0 0 65%;
-                min-height: auto;
-            }
+    .academic-timeline-wrapper .content-panel {
+        flex: 0 0 65%;
+        min-height: auto;
+    }
 
-            .academic-timeline-wrapper .timeline-panel {
-                flex: 0 0 35%;
-                width: 100%;
-                height: auto;
-            }
+    .academic-timeline-wrapper .timeline-panel {
+        flex: 0 0 35%;
+        width: 100%;
+        height: auto;
+    }
 
-            .academic-timeline-wrapper .achievement-card {
-                padding: 25px;
-            }
+    .academic-timeline-wrapper .achievement-card {
+        padding: 25px;
+    }
 
-            .academic-timeline-wrapper .achievement-title {
-                font-size: 20px;
-            }
+    .academic-timeline-wrapper .achievement-title {
+        font-size: 20px;
+    }
 
-            .academic-timeline-wrapper .timeline-wrapper {
-                flex-direction: row;
-                height: 100%;
-                padding: 15px;
-            }
+    .academic-timeline-wrapper .timeline-wrapper {
+        flex-direction: row;
+        height: 100%;
+        padding: 15px;
+    }
 
-            .academic-timeline-wrapper .timeline-container {
-                flex-direction: row;
-            }
+    .academic-timeline-wrapper .timeline-container {
+        flex-direction: row;
+    }
 
-            .academic-timeline-wrapper .timeline-item.position-prev {
-                transform: translateX(-100px) scale(0.85);
-            }
+    .academic-timeline-wrapper .timeline-item.position-prev {
+        transform: translateX(-100px) scale(0.85);
+    }
 
-            .academic-timeline-wrapper .timeline-item.position-current {
-                transform: translateX(0) scale(1);
-            }
+    .academic-timeline-wrapper .timeline-item.position-current {
+        transform: translateX(0) scale(1);
+    }
 
-            .academic-timeline-wrapper .timeline-item.position-next {
-                transform: translateX(100px) scale(0.85);
-            }
+    .academic-timeline-wrapper .timeline-item.position-next {
+        transform: translateX(100px) scale(0.85);
+    }
 
-            .academic-timeline-wrapper .timeline-line {
-                display: none;
-            }
+    .academic-timeline-wrapper .timeline-line {
+        display: none;
+    }
 
-            .academic-timeline-wrapper .nav-controls {
-                bottom: 15px;
-            }
-        }
+    .academic-timeline-wrapper .nav-controls {
+        bottom: 15px;
+    }
+}
 
-        /* 加载动画 */
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-    </style>
+/* 加载动画 */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
 </head>
 <body>
 <div class="academic-timeline-wrapper">
