@@ -517,8 +517,6 @@ My current research focuses on practical problems faced by artificial intelligen
 <body>
 <div class="academic-timeline-wrapper">
     <div class="academic-showcase">
-        <h2 class="section-title">学术成就与动态</h2>
-
         <div class="carousel-container">
             <!-- 左侧内容面板 - 70% -->
             <div class="content-panel">
