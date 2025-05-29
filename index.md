@@ -112,10 +112,10 @@ My current research focuses on practical problems faced by artificial intelligen
             border-radius: 2px;
         }
 
-        /* 内容容器 */
+        /* 内容容器 - 固定高度325px */
         .academic-timeline-wrapper .carousel-container {
             position: relative;
-            height: 300px;
+            height: 325px;
             border-radius: 16px;
             overflow: hidden;
             box-shadow: var(--ac-shadow);
@@ -123,9 +123,9 @@ My current research focuses on practical problems faced by artificial intelligen
             display: flex;
         }
 
-        /* 左侧成就展示区 */
+        /* 左侧成就展示区 - 70%宽度 */
         .academic-timeline-wrapper .content-panel {
-            flex: 1;
+            flex: 0 0 70%;
             position: relative;
             background: var(--ac-bg);
             overflow: hidden;
@@ -143,7 +143,7 @@ My current research focuses on practical problems faced by artificial intelligen
             position: absolute;
             width: 90%;
             max-width: 600px;
-            padding: 50px;
+            padding: 35px;
             opacity: 0;
             transform: translateY(30px) scale(0.95);
             transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
@@ -167,14 +167,14 @@ My current research focuses on practical problems faced by artificial intelligen
 
         .academic-timeline-wrapper .achievement-date {
             color: var(--ac-secondary);
-            font-size: 14px;
+            font-size: 13px;
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 1px;
-            margin: 0 0 12px 0;
+            margin: 0 0 10px 0;
             display: inline-block;
             position: relative;
-            padding-left: 25px;
+            padding-left: 22px;
         }
 
         .academic-timeline-wrapper .achievement-date::before {
@@ -183,30 +183,30 @@ My current research focuses on practical problems faced by artificial intelligen
             left: 0;
             top: 50%;
             transform: translateY(-50%);
-            width: 15px;
+            width: 12px;
             height: 2px;
             background: var(--ac-secondary);
         }
 
         .academic-timeline-wrapper .achievement-title {
-            font-size: 28px;
+            font-size: 22px;
             font-weight: 700;
-            margin: 0 0 20px 0;
+            margin: 0 0 15px 0;
             color: var(--ac-primary);
             line-height: 1.3;
         }
 
         .academic-timeline-wrapper .achievement-description {
-            font-size: 16px;
-            line-height: 1.8;
+            font-size: 14px;
+            line-height: 1.6;
             color: #5a6c7d;
-            margin: 0 0 25px 0;
+            margin: 0 0 20px 0;
         }
 
         .academic-timeline-wrapper .achievement-tags {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
+            gap: 8px;
             margin: 0;
             padding: 0;
             list-style: none;
@@ -214,11 +214,11 @@ My current research focuses on practical problems faced by artificial intelligen
 
         .academic-timeline-wrapper .tag {
             display: inline-block;
-            padding: 6px 16px;
+            padding: 4px 12px;
             background: rgba(52, 152, 219, 0.1);
             color: var(--ac-secondary);
-            border-radius: 20px;
-            font-size: 13px;
+            border-radius: 16px;
+            font-size: 12px;
             font-weight: 500;
             border: 1px solid rgba(52, 152, 219, 0.2);
             transition: all 0.3s ease;
@@ -228,13 +228,13 @@ My current research focuses on practical problems faced by artificial intelligen
         .academic-timeline-wrapper .tag:hover {
             background: var(--ac-secondary);
             color: white;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+            transform: translateY(-1px);
+            box-shadow: 0 3px 10px rgba(52, 152, 219, 0.3);
         }
 
-        /* 右侧时间轴面板 */
+        /* 右侧时间轴面板 - 30%宽度 */
         .academic-timeline-wrapper .timeline-panel {
-            width: 320px;
+            flex: 0 0 30%;
             background: var(--ac-primary);
             position: relative;
             display: flex;
@@ -250,7 +250,7 @@ My current research focuses on practical problems faced by artificial intelligen
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 40px;
+            padding: 30px 20px;
         }
 
         .academic-timeline-wrapper .timeline-container {
@@ -260,14 +260,14 @@ My current research focuses on practical problems faced by artificial intelligen
             display: flex;
             flex-direction: column;
             justify-content: center;
-            gap: 30px;
+            gap: 25px;
             transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .academic-timeline-wrapper .timeline-item {
             position: absolute;
             width: 100%;
-            padding-left: 35px;
+            padding-left: 30px;
             cursor: pointer;
             opacity: 0;
             transform: scale(0.8) translateY(0);
@@ -278,7 +278,7 @@ My current research focuses on practical problems faced by artificial intelligen
 
         /* 居中显示的三个位置 */
         .academic-timeline-wrapper .timeline-item.position-prev {
-            transform: translateY(-80px) scale(0.85);
+            transform: translateY(-65px) scale(0.85);
             opacity: 0.4;
             pointer-events: all;
         }
@@ -290,7 +290,7 @@ My current research focuses on practical problems faced by artificial intelligen
         }
 
         .academic-timeline-wrapper .timeline-item.position-next {
-            transform: translateY(80px) scale(0.85);
+            transform: translateY(65px) scale(0.85);
             opacity: 0.4;
             pointer-events: all;
         }
@@ -299,9 +299,9 @@ My current research focuses on practical problems faced by artificial intelligen
             content: '';
             position: absolute;
             left: 0;
-            top: 8px;
-            width: 12px;
-            height: 12px;
+            top: 6px;
+            width: 10px;
+            height: 10px;
             background: rgba(255, 255, 255, 0.3);
             border-radius: 50%;
             border: 2px solid rgba(255, 255, 255, 0.5);
@@ -309,47 +309,47 @@ My current research focuses on practical problems faced by artificial intelligen
         }
 
         .academic-timeline-wrapper .timeline-item.position-current::before {
-            width: 18px;
-            height: 18px;
+            width: 14px;
+            height: 14px;
             background: var(--ac-secondary);
             border-color: var(--ac-bg);
-            box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.3);
-            top: 5px;
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.3);
+            top: 3px;
         }
 
         .academic-timeline-wrapper .timeline-date {
             color: var(--ac-text-light);
             font-weight: 600;
-            margin: 0 0 5px 0;
-            font-size: 14px;
+            margin: 0 0 4px 0;
+            font-size: 12px;
             transition: all 0.5s ease;
         }
 
         .academic-timeline-wrapper .timeline-item.position-current .timeline-date {
-            font-size: 18px;
+            font-size: 14px;
         }
 
         .academic-timeline-wrapper .timeline-title {
             color: rgba(255, 255, 255, 0.7);
-            font-size: 13px;
-            line-height: 1.4;
+            font-size: 11px;
+            line-height: 1.3;
             transition: all 0.5s ease;
             margin: 0;
         }
 
         .academic-timeline-wrapper .timeline-item.position-current .timeline-title {
             color: rgba(255, 255, 255, 0.9);
-            font-size: 14px;
+            font-size: 12px;
         }
 
         /* 连接线 */
         .academic-timeline-wrapper .timeline-line {
             position: absolute;
-            left: 45px;
+            left: 35px;
             top: 50%;
             transform: translateY(-50%);
             width: 2px;
-            height: 160px;
+            height: 130px;
             background: linear-gradient(to bottom,
             transparent 0%,
             rgba(255,255,255,0.2) 30%,
@@ -362,28 +362,28 @@ My current research focuses on practical problems faced by artificial intelligen
         /* 导航控制 */
         .academic-timeline-wrapper .nav-controls {
             position: absolute;
-            bottom: 40px;
+            bottom: 30px;
             left: 50%;
             transform: translateX(-50%);
             display: flex;
             align-items: center;
-            gap: 30px;
+            gap: 25px;
             z-index: 10;
         }
 
         .academic-timeline-wrapper .nav-button {
-            width: 45px;
-            height: 45px;
+            width: 40px;
+            height: 40px;
             border-radius: 50%;
             background: rgba(255, 255, 255, 0.95);
             border: none;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
             transition: all 0.3s ease;
-            font-size: 18px;
+            font-size: 16px;
             color: var(--ac-gray);
             padding: 0;
             margin: 0;
@@ -391,7 +391,7 @@ My current research focuses on practical problems faced by artificial intelligen
 
         .academic-timeline-wrapper .nav-button:hover:not(:disabled) {
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 5px 16px rgba(0, 0, 0, 0.15);
             background: white;
             color: var(--ac-secondary);
         }
@@ -402,20 +402,20 @@ My current research focuses on practical problems faced by artificial intelligen
         }
 
         .academic-timeline-wrapper .progress-counter {
-            font-size: 14px;
+            font-size: 13px;
             color: var(--ac-gray);
             font-weight: 500;
             background: white;
-            padding: 8px 20px;
-            border-radius: 20px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            padding: 6px 16px;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
             margin: 0;
         }
 
         .academic-timeline-wrapper .current-number {
             color: var(--ac-secondary);
             font-weight: 700;
-            font-size: 16px;
+            font-size: 14px;
         }
 
         /* 边缘渐变效果 */
@@ -425,7 +425,7 @@ My current research focuses on practical problems faced by artificial intelligen
             position: absolute;
             left: 0;
             right: 0;
-            height: 80px;
+            height: 60px;
             pointer-events: none;
             z-index: 1;
         }
@@ -447,31 +447,33 @@ My current research focuses on practical problems faced by artificial intelligen
             }
 
             .academic-timeline-wrapper .carousel-container {
-                height: auto;
+                height: 325px;
                 flex-direction: column;
             }
 
             .academic-timeline-wrapper .content-panel {
-                min-height: 400px;
-            }
-
-            .academic-timeline-wrapper .achievement-card {
-                padding: 30px;
-            }
-
-            .academic-timeline-wrapper .achievement-title {
-                font-size: 24px;
+                flex: 0 0 65%;
+                min-height: auto;
             }
 
             .academic-timeline-wrapper .timeline-panel {
+                flex: 0 0 35%;
                 width: 100%;
-                height: 180px;
+                height: auto;
+            }
+
+            .academic-timeline-wrapper .achievement-card {
+                padding: 25px;
+            }
+
+            .academic-timeline-wrapper .achievement-title {
+                font-size: 20px;
             }
 
             .academic-timeline-wrapper .timeline-wrapper {
                 flex-direction: row;
                 height: 100%;
-                padding: 20px;
+                padding: 15px;
             }
 
             .academic-timeline-wrapper .timeline-container {
@@ -479,7 +481,7 @@ My current research focuses on practical problems faced by artificial intelligen
             }
 
             .academic-timeline-wrapper .timeline-item.position-prev {
-                transform: translateX(-120px) scale(0.85);
+                transform: translateX(-100px) scale(0.85);
             }
 
             .academic-timeline-wrapper .timeline-item.position-current {
@@ -487,7 +489,7 @@ My current research focuses on practical problems faced by artificial intelligen
             }
 
             .academic-timeline-wrapper .timeline-item.position-next {
-                transform: translateX(120px) scale(0.85);
+                transform: translateX(100px) scale(0.85);
             }
 
             .academic-timeline-wrapper .timeline-line {
@@ -495,7 +497,7 @@ My current research focuses on practical problems faced by artificial intelligen
             }
 
             .academic-timeline-wrapper .nav-controls {
-                bottom: 20px;
+                bottom: 15px;
             }
         }
 
@@ -518,7 +520,7 @@ My current research focuses on practical problems faced by artificial intelligen
         <h2 class="section-title">学术成就与动态</h2>
 
         <div class="carousel-container">
-            <!-- 左侧内容面板 -->
+            <!-- 左侧内容面板 - 70% -->
             <div class="content-panel">
                 <div class="achievement-wrapper">
                     <div class="achievement-card active" data-index="0">
@@ -575,7 +577,7 @@ My current research focuses on practical problems faced by artificial intelligen
                 </div>
             </div>
 
-            <!-- 右侧时间轴面板 -->
+            <!-- 右侧时间轴面板 - 30% -->
             <div class="timeline-panel">
                 <div class="timeline-line"></div>
                 <div class="timeline-wrapper">
@@ -589,7 +591,7 @@ My current research focuses on practical problems faced by artificial intelligen
         <!-- 导航控制 -->
         <div class="nav-controls">
             <button class="nav-button" id="prevBtn">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                     <path d="M15 18l-6-6 6-6"/>
                 </svg>
             </button>
@@ -597,7 +599,7 @@ My current research focuses on practical problems faced by artificial intelligen
                 <span class="current-number" id="currentNum">1</span> / <span id="totalNum">4</span>
             </div>
             <button class="nav-button" id="nextBtn">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                     <path d="M9 18l6-6-6-6"/>
                 </svg>
             </button>
@@ -795,22 +797,8 @@ My current research focuses on practical problems faced by artificial intelligen
             }
         });
 
-        // 自动高度调整
-        function adjustTimelineHeight() {
-            const isMobile = window.innerWidth <= 768;
-            if (!isMobile) {
-                const activeCard = wrapper.querySelector('.achievement-card.active');
-                if (activeCard) {
-                    const cardHeight = activeCard.offsetHeight;
-                    const container = wrapper.querySelector('.carousel-container');
-                    container.style.height = Math.max(500, cardHeight + 100) + 'px';
-                }
-            }
-        }
-
         // 窗口大小改变时调整
         window.addEventListener('resize', () => {
-            adjustTimelineHeight();
             updateTimelinePositions();
         });
 
@@ -848,7 +836,6 @@ My current research focuses on practical problems faced by artificial intelligen
         createTimelineItems();
         updateDisplay(0);
         smoothTransition();
-        adjustTimelineHeight();
 
         // 预加载动画
         setTimeout(() => {
@@ -859,4 +846,3 @@ My current research focuses on practical problems faced by artificial intelligen
 </script>
 </body>
 </html>
-
