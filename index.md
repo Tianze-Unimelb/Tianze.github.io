@@ -52,463 +52,799 @@ My current research focuses on practical problems faced by artificial intelligen
 
 ## News and Updates
 
-<html lang="en">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Academic Carousel</title>
-<style>
-   .academic-carousel {
-       --ac-primary: #2c3e50;
-       --ac-secondary: #3498db;
-       --ac-text-light: #ecf0f1;
-       --ac-bg: #fff;
-       font-family: system-ui, -apple-system, sans-serif;
-       max-width: 750px;
-       margin: 20px auto;
-   }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学术成就时间轴 - 优雅版</title>
+    <style>
+        :root {
+            --ac-primary: #2c3e50;
+            --ac-secondary: #3498db;
+            --ac-text-light: #ecf0f1;
+            --ac-bg: #fff;
+            --ac-gray-light: #f8f9fa;
+            --ac-gray: #6c757d;
+            --ac-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            --ac-shadow-hover: 0 15px 40px rgba(0,0,0,0.15);
+        }
 
-   .academic-carousel * {
-       margin: 0;
-       padding: 0;
-       box-sizing: border-box;
-   }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-   .academic-carousel .carousel-container {
-       position: relative;
-            height: 325px;
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
+            color: #333;
+            overflow-x: hidden;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* 主容器 */
+        .academic-showcase {
+            width: 90%;
+            max-width: 900px;
+            margin: 40px auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            font-weight: 300;
+            margin-bottom: 50px;
+            color: var(--ac-primary);
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background: var(--ac-secondary);
+            border-radius: 2px;
+        }
+
+        /* 内容容器 */
+        .carousel-container {
+            position: relative;
             height: 300px;
-       border-radius: 12px;
-       overflow: hidden;
-       box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-       background: white;
-   }
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: var(--ac-shadow);
+            background: var(--ac-bg);
+            display: flex;
+        }
 
-   .academic-carousel .content-carousel {
-       display: flex;
-       position: absolute;
-       width: 73%;
-       height: 100%;
-       left: 0;
-       transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-   }
+        /* 左侧成就展示区 */
+        .content-panel {
+            flex: 1;
+            position: relative;
+            background: var(--ac-bg);
+            overflow: hidden;
+        }
 
-   .academic-carousel .content-item {
-       flex: 0 0 100%;
-       min-width: 100%;
-       padding: 40px;
-       background: var(--ac-bg);
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       opacity: 0;
-       transform: scale(0.9);
-       transition: all 0.6s ease;
-   }
+        .achievement-wrapper {
+            position: relative;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-   .academic-carousel .content-item.active {
-       opacity: 1;
-       transform: scale(1);
-   }
+        .achievement-card {
+            position: absolute;
+            width: 90%;
+            max-width: 600px;
+            padding: 50px;
+            opacity: 0;
+            transform: translateY(30px) scale(0.95);
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            pointer-events: none;
+        }
 
-   .academic-carousel .content-item h2 {
-       color: var(--ac-primary);
-       margin-bottom: 15px;
-       font-size: 1.8em;
-   }
+        .achievement-card.active {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+            pointer-events: all;
+        }
 
-   .academic-carousel .content-item p {
-       color: #666;
-       line-height: 1.6;
-       font-size: 0.95em;
-   }
+        .achievement-card.prev {
+            transform: translateY(-30px) scale(0.95);
+        }
 
-   .academic-carousel .timeline-carousel {
-       position: absolute;
-       width: 27%;
-       height: 100%;
-       right: 0;
-       background: var(--ac-primary);
-       padding: 40px;
-       display: flex;
-       flex-direction: column;
-       overflow-y: auto;
-       scroll-behavior: smooth;
-       scrollbar-width: none;
-       -ms-overflow-style: none;
-   }
+        .achievement-card.next {
+            transform: translateY(30px) scale(0.95);
+        }
 
-   .academic-carousel .timeline-carousel::-webkit-scrollbar {
-       display: none;
-   }
+        .achievement-date {
+            color: var(--ac-secondary);
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+            display: inline-block;
+            position: relative;
+            padding-left: 25px;
+        }
 
-   .academic-carousel .timeline-item {
-       position: relative;
-       padding-left: 30px;
-       margin: 40px 0;
-       opacity: 0.3;
-       transition: all 0.4s ease;
-       cursor: pointer;
-       flex-shrink: 0;
-   }
+        .achievement-date::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 15px;
+            height: 2px;
+            background: var(--ac-secondary);
+        }
 
-   .academic-carousel .timeline-item::before {
-       content: '';
-       position: absolute;
-       left: 0;
-       top: 5px;
-       width: 12px;
-       height: 12px;
-       background: var(--ac-secondary);
-       border-radius: 50%;
-       border: 2px solid var(--ac-bg);
-   }
+        .achievement-title {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--ac-primary);
+            line-height: 1.3;
+        }
 
-   .academic-carousel .timeline-item.active {
-       opacity: 1;
-       transform: translateY(-50%);
-   }
+        .achievement-description {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #5a6c7d;
+            margin-bottom: 25px;
+        }
 
-   .academic-carousel .timeline-date {
-       color: var(--ac-text-light);
-       font-weight: 600;
-       margin-bottom: 5px;
-       font-size: 0.95em;
-   }
+        .achievement-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
 
-   .academic-carousel .timeline-desc {
-       color: rgba(255,255,255,0.85);
-       font-size: 0.85em;
-       line-height: 1.4;
-   }
+        .tag {
+            display: inline-block;
+            padding: 6px 16px;
+            background: rgba(52, 152, 219, 0.1);
+            color: var(--ac-secondary);
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+            border: 1px solid rgba(52, 152, 219, 0.2);
+            transition: all 0.3s ease;
+        }
 
-   .academic-carousel .nav-arrows {
-       position: absolute;
-       top: 50%;
-       transform: translateY(-50%);
-       width: 100%;
-       display: flex;
-       justify-content: space-between;
-       padding: 0 20px;
-       z-index: 2;
-       opacity: 0;
-       visibility: hidden;
-       transition: opacity 0.3s ease;
-   }
+        .tag:hover {
+            background: var(--ac-secondary);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+        }
 
-   .academic-carousel:hover .nav-arrows {
-       opacity: 1;
-       visibility: visible;
-   }
+        /* 右侧时间轴面板 */
+        .timeline-panel {
+            width: 320px;
+            background: var(--ac-primary);
+            position: relative;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
 
-   .academic-carousel .arrow {
-       cursor: pointer;
-       width: 40px;
-       height: 40px;
-       background: rgba(255,255,255,0.9);
-       border-radius: 50%;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-       transition: transform 0.3s ease, background 0.2s ease;
-       font-weight: 700;
-       user-select: none;
-   }
+        .timeline-wrapper {
+            width: 100%;
+            height: 70%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
 
-   .academic-carousel .arrow:hover {
-       transform: scale(1.1);
-       background: rgba(255,255,255,1);
-   }
+        .timeline-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 30px;
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
 
-   @media (max-width: 768px) {
-       .academic-carousel {
-           max-width: 95%;
-       }
+        .timeline-item {
+            position: absolute;
+            width: 100%;
+            padding-left: 35px;
+            cursor: pointer;
+            opacity: 0;
+            transform: scale(0.8) translateY(0);
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            pointer-events: none;
+        }
 
-       .academic-carousel .carousel-container {
-           height: 500px;
-       }
+        /* 居中显示的三个位置 */
+        .timeline-item.position-prev {
+            transform: translateY(-80px) scale(0.85);
+            opacity: 0.4;
+            pointer-events: all;
+        }
 
-       .academic-carousel .content-carousel,
-       .academic-carousel .timeline-carousel {
-           width: 100%;
-           height: 70%;
-       }
+        .timeline-item.position-current {
+            transform: translateY(0) scale(1);
+            opacity: 1;
+            pointer-events: all;
+        }
 
-       .academic-carousel .timeline-carousel {
-           top: 70%;
-           height: 30%;
-           flex-direction: row;
-           padding: 15px 20px;
-           overflow-x: auto;
-           scroll-snap-type: x mandatory;
-       }
+        .timeline-item.position-next {
+            transform: translateY(80px) scale(0.85);
+            opacity: 0.4;
+            pointer-events: all;
+        }
 
-       .academic-carousel .timeline-item {
-           margin: 0 15px;
-           padding-left: 25px;
-           min-width: 140px;
-           scroll-snap-align: center;
-           transform: none !important;
-       }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 8px;
+            width: 12px;
+            height: 12px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            transition: all 0.5s ease;
+        }
 
-       .academic-carousel .timeline-item.active {
-           transform: none !important;
-       }
+        .timeline-item.position-current::before {
+            width: 18px;
+            height: 18px;
+            background: var(--ac-secondary);
+            border-color: var(--ac-bg);
+            box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.3);
+            top: 5px;
+        }
 
-       .academic-carousel .nav-arrows {
-           opacity: 1;
-           visibility: visible;
-           padding: 0 10px;
-       }
+        .timeline-date {
+            color: var(--ac-text-light);
+            font-weight: 600;
+            margin-bottom: 5px;
+            font-size: 14px;
+            transition: all 0.5s ease;
+        }
 
-       .academic-carousel .arrow {
-           width: 35px;
-           height: 35px;
-           font-size: 0.9em;
-       }
-   }
-</style>
+        .timeline-item.position-current .timeline-date {
+            font-size: 18px;
+        }
+
+        .timeline-title {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 13px;
+            line-height: 1.4;
+            transition: all 0.5s ease;
+        }
+
+        .timeline-item.position-current .timeline-title {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 14px;
+        }
+
+        /* 连接线 */
+        .timeline-line {
+            position: absolute;
+            left: 45px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 2px;
+            height: 160px;
+            background: linear-gradient(to bottom,
+            transparent 0%,
+            rgba(255,255,255,0.2) 30%,
+            rgba(52,152,219,0.5) 50%,
+            rgba(255,255,255,0.2) 70%,
+            transparent 100%);
+            pointer-events: none;
+        }
+
+        /* 导航控制 */
+        .nav-controls {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            z-index: 10;
+        }
+
+        .nav-button {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.95);
+            border: none;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            font-size: 18px;
+            color: var(--ac-gray);
+        }
+
+        .nav-button:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+            background: white;
+            color: var(--ac-secondary);
+        }
+
+        .nav-button:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        .progress-counter {
+            font-size: 14px;
+            color: var(--ac-gray);
+            font-weight: 500;
+            background: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .current-number {
+            color: var(--ac-secondary);
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        /* 边缘渐变效果 */
+        .timeline-panel::before,
+        .timeline-panel::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 80px;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .timeline-panel::before {
+            top: 0;
+            background: linear-gradient(to bottom, var(--ac-primary) 0%, transparent 100%);
+        }
+
+        .timeline-panel::after {
+            bottom: 0;
+            background: linear-gradient(to top, var(--ac-primary) 0%, transparent 100%);
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .academic-showcase {
+                width: 95%;
+            }
+
+            .carousel-container {
+                height: auto;
+                flex-direction: column;
+            }
+
+            .content-panel {
+                min-height: 400px;
+            }
+
+            .achievement-card {
+                padding: 30px;
+            }
+
+            .achievement-title {
+                font-size: 24px;
+            }
+
+            .timeline-panel {
+                width: 100%;
+                height: 180px;
+            }
+
+            .timeline-wrapper {
+                flex-direction: row;
+                height: 100%;
+                padding: 20px;
+            }
+
+            .timeline-container {
+                flex-direction: row;
+            }
+
+            .timeline-item.position-prev {
+                transform: translateX(-120px) scale(0.85);
+            }
+
+            .timeline-item.position-current {
+                transform: translateX(0) scale(1);
+            }
+
+            .timeline-item.position-next {
+                transform: translateX(120px) scale(0.85);
+            }
+
+            .timeline-line {
+                display: none;
+            }
+
+            .nav-controls {
+                bottom: 20px;
+            }
+        }
+
+        /* 加载动画 */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .academic-showcase {
+            animation: fadeInUp 0.8s ease-out;
+        }
+    </style>
 </head>
 <body>
-<div class="academic-carousel">
-<div class="carousel-container">
-   <div class="content-carousel">
-       <div class="content-item active">
-           <h2>Our Work</h2>
-           <p>SWR-BIDeN: An Improved BIDeN Model for Severe Weather Removal in Image Processing was accepted by IJCNN2025</p>
-       </div>
-       <div class="content-item">
-           <h2>Our Work</h2>
-           <p>LightDrone-YOLO: A Novel Lightweight and Efficient Object Detection Network for Unmanned Aerial Vehicles was accepted by ICIC2025</p>
-       </div>
-       <div class="content-item">
-           <h2>Our Work</h2>
-           <p>Lightweight Remote Sensing Image Change Detection Based on Global Feature Fusion was accepted by ICIC2025</p>
-       </div>
-       <div class="content-item">
-           <h2>Our Work</h2>
-           <p>GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID was accepted by ICIC2025</p>
-       </div>
-   </div>
+<div class="academic-showcase">
+    <h2 class="section-title">学术成就与动态</h2>
 
-   <div class="timeline-carousel">
-       <div class="timeline-item active">
-           <div class="timeline-date">2024-03</div>
-           <div class="timeline-desc">Paper Acceptance</div>
-       </div>
-       <div class="timeline-item">
-           <div class="timeline-date">2024-04</div>
-           <div class="timeline-desc">Paper Acceptance</div>
-       </div>
-       <div class="timeline-item">
-           <div class="timeline-date">2024-04</div>
-           <div class="timeline-desc">Paper Acceptance</div>
-       </div>
-       <div class="timeline-item">
-           <div class="timeline-date">2024-04</div>
-           <div class="timeline-desc">Paper Acceptance</div>
-       </div>
-   </div>
+    <div class="carousel-container">
+        <!-- 左侧内容面板 -->
+        <div class="content-panel">
+            <div class="achievement-wrapper">
+                <div class="achievement-card active" data-index="0">
+                    <div class="achievement-date">2025-03</div>
+                    <h3 class="achievement-title">Paper Acceptance</h3>
+                    <p class="achievement-description">
+                        Our Work--SWR-BIDeN: An Improved BIDeN Model for Severe Weather Removal in Image Processing was accepted by IJCNN2025
+                    </p>
+                    <div class="achievement-tags">
+                        <span class="tag">CCF-C</span>
+                        <span class="tag">AI</span>
+                        <span class="tag">IJCNN2025</span>
+                    </div>
+                </div>
 
-   <div class="nav-arrows">
-       <div class="arrow prev">←</div>
-       <div class="arrow next">→</div>
-   </div>
-</div>
+                <div class="achievement-card" data-index="1">
+                    <div class="achievement-date">2025-04</div>
+                    <h3 class="achievement-title">Paper Acceptance</h3>
+                    <p class="achievement-description">
+                        Our Work--LightDrone-YOLO: A Novel Lightweight and Efficient Object Detection Network for Unmanned Aerial Vehicles was accepted by ICIC2025
+                    </p>
+                    <div class="achievement-tags">
+                        <span class="tag">CCF-C</span>
+                        <span class="tag">AI</span>
+                        <span class="tag">ICIC2025</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card" data-index="2">
+                    <div class="achievement-date">2025-04</div>
+                    <h3 class="achievement-title">Paper Acceptance</h3>
+                    <p class="achievement-description">
+                        Our Work--Lightweight Remote Sensing Image Change Detection Based on Global Feature Fusion was accepted by ICIC2025
+                    </p>
+                    <div class="achievement-tags">
+                        <span class="tag">CCF-C</span>
+                        <span class="tag">AI</span>
+                        <span class="tag">ICIC2025</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card" data-index="3">
+                    <div class="achievement-date">2025-04</div>
+                    <h3 class="achievement-title">Paper Acceptance</h3>
+                    <p class="achievement-description">
+                        Our Work--GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID was accepted by ICIC2025
+                    </p>
+                    <div class="achievement-tags">
+                        <span class="tag">CCF-C</span>
+                        <span class="tag">AI</span>
+                        <span class="tag">ICIC2025</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 右侧时间轴面板 -->
+        <div class="timeline-panel">
+            <div class="timeline-line"></div>
+            <div class="timeline-wrapper">
+                <div class="timeline-container" id="timelineContainer">
+                    <!-- 时间轴项目将通过JavaScript动态生成 -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 导航控制 -->
+    <div class="nav-controls">
+        <button class="nav-button" id="prevBtn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M15 18l-6-6 6-6"/>
+            </svg>
+        </button>
+        <div class="progress-counter">
+            <span class="current-number" id="currentNum">1</span> / <span id="totalNum">6</span>
+        </div>
+        <button class="nav-button" id="nextBtn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M9 18l6-6-6-6"/>
+            </svg>
+        </button>
+    </div>
 </div>
 
 <script>
-(function() {
-const container = document.querySelector('.academic-carousel');
-if (!container) return;
+    // 时间轴数据
+    const timelineData = [
+        { date: '2025-03', title: 'Our work was accepted by IJCNN2025' },
+        { date: '2025-04', title: 'Our work was accepted by ICIC2025' },
+        { date: '2025-04', title: 'Our work was accepted by ICIC2025' },
+        { date: '2025-04', title: 'Our work was accepted by ICIC2025' },
 
-// Configuration
-const config = {
-interval: 2500,
-keyboard: true,
-hoverPause: true,
-touchSensitivity: 50,
-wheelSpeed: 0.5,
-infiniteLoop: true  // 添加无限循环开关
-};
+    ];
 
-// Component State
-let currentIndex = 0;
-let autoPlayTimer;
-let isTransitioning = false;
-const mobileMedia = window.matchMedia("(max-width: 768px)");
+    // 初始化变量
+    let currentIndex = 0;
+    const achievementCards = document.querySelectorAll('.achievement-card');
+    const timelineContainer = document.getElementById('timelineContainer');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const currentNum = document.getElementById('currentNum');
+    const totalNum = document.getElementById('totalNum');
+    const totalItems = achievementCards.length;
 
-// DOM Elements
-const items = container.querySelectorAll('.content-item');
-const timelineItems = container.querySelectorAll('.timeline-item');
-const prevBtn = container.querySelector('.prev');
-const nextBtn = container.querySelector('.next');
-const carousel = container.querySelector('.carousel-container');
-const contentCarousel = container.querySelector('.content-carousel');
-const timelineCarousel = container.querySelector('.timeline-carousel');
+    // 设置总数
+    totalNum.textContent = totalItems;
 
-// Core Functions
-function scrollToTimeline(index) {
-if (!mobileMedia.matches) return;
+    // 创建时间轴项目
+    function createTimelineItems() {
+        timelineData.forEach((item, index) => {
+            const timelineItem = document.createElement('div');
+            timelineItem.className = 'timeline-item';
+            timelineItem.setAttribute('data-index', index);
 
-const activeItem = timelineItems[index];
-const containerWidth = timelineCarousel.offsetWidth;
-const itemWidth = activeItem.offsetWidth;
+            timelineItem.innerHTML = `
+                    <div class="timeline-date">${item.date}</div>
+                    <div class="timeline-title">${item.title}</div>
+                `;
 
-let scrollPosition = activeItem.offsetLeft - (containerWidth - itemWidth) / 2;
-const maxScroll = timelineCarousel.scrollWidth - containerWidth;
-scrollPosition = Math.max(0, Math.min(scrollPosition, maxScroll));
+            timelineItem.addEventListener('click', () => {
+                goToIndex(index);
+            });
 
-timelineCarousel.scrollTo({
-left: scrollPosition,
-behavior: 'smooth'
-});
-}
+            timelineContainer.appendChild(timelineItem);
+        });
+    }
 
-function centerTimelineItem() {
-if (mobileMedia.matches) return;
+    // 更新时间轴位置
+    function updateTimelinePositions() {
+        const items = timelineContainer.querySelectorAll('.timeline-item');
 
-const activeItem = timelineItems[currentIndex];
-const containerHeight = timelineCarousel.clientHeight;
-const itemHeight = activeItem.offsetHeight;
-const scrollPos = activeItem.offsetTop - (containerHeight - itemHeight) / 2;
+        items.forEach((item, index) => {
+            item.classList.remove('position-prev', 'position-current', 'position-next');
 
-timelineCarousel.scrollTo({
-top: scrollPos,
-behavior: 'smooth'
-});
-}
+            if (index === currentIndex - 1 && index >= 0) {
+                item.classList.add('position-prev');
+            } else if (index === currentIndex) {
+                item.classList.add('position-current');
+            } else if (index === currentIndex + 1 && index < totalItems) {
+                item.classList.add('position-next');
+            }
+        });
+    }
 
-function updateActive() {
-items.forEach((item, i) => {
-item.classList.toggle('active', i === currentIndex);
-});
+    // 更新显示状态
+    function updateDisplay(index) {
+        // 更新成就卡片
+        achievementCards.forEach((card, i) => {
+            card.classList.remove('active', 'prev', 'next');
+            if (i === index) {
+                card.classList.add('active');
+            } else if (i < index) {
+                card.classList.add('prev');
+            } else {
+                card.classList.add('next');
+            }
+        });
 
-timelineItems.forEach((item, i) => {
-const wasActive = item.classList.contains('active');
-const nowActive = i === currentIndex;
+        // 更新时间轴
+        updateTimelinePositions();
 
-item.classList.toggle('active', nowActive);
+        // 更新进度数字
+        currentNum.textContent = index + 1;
 
-if (nowActive) {
-requestAnimationFrame(() => {
-mobileMedia.matches ? scrollToTimeline(i) : centerTimelineItem();
-});
-}
-});
-}
+        // 更新按钮状态
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === totalItems - 1;
+    }
 
-function slideTo(index) {
-if (isTransitioning || index === currentIndex) return;
+    // 切换到指定索引
+    function goToIndex(index) {
+        if (index >= 0 && index < totalItems) {
+            currentIndex = index;
+            updateDisplay(currentIndex);
+        }
+    }
 
-isTransitioning = true;
-contentCarousel.style.transform = `translateX(-${index * 100}%)`;
-currentIndex = index;
+    // 上一个
+    function goPrev() {
+        if (currentIndex > 0) {
+            goToIndex(currentIndex - 1);
+        }
+    }
 
-setTimeout(() => {
-updateActive();
-isTransitioning = false;
-}, 600);
+    // 下一个
+    function goNext() {
+        if (currentIndex < totalItems - 1) {
+            goToIndex(currentIndex + 1);
+        }
+    }
 
-resetAutoPlay();
-}
+    // 事件监听器
+    prevBtn.addEventListener('click', goPrev);
+    nextBtn.addEventListener('click', goNext);
 
-function slide(direction) {
-if (!config.infiniteLoop &&
-((direction === 1 && currentIndex === items.length - 1) ||
-(direction === -1 && currentIndex === 0))) {
-return;
-}
+    // 键盘控制
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+            e.preventDefault();
+            goPrev();
+        } else if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+            e.preventDefault();
+            goNext();
+        } else if (e.key >= '1' && e.key <= '9') {
+            const num = parseInt(e.key) - 1;
+            if (num < totalItems) {
+                goToIndex(num);
+            }
+        }
+    });
 
-const newIndex = (currentIndex + direction + items.length) % items.length;
-slideTo(newIndex);
-}
-// Auto-play Control
-function startAutoPlay() {
-if (!autoPlayTimer && config.infiniteLoop) {
-autoPlayTimer = setInterval(() => {
-slide(1);  // 自动向后滑动
-}, config.interval);
-}
-}
+    // 鼠标滚轮控制
+    let isScrolling = false;
+    const carouselContainer = document.querySelector('.carousel-container');
 
+    carouselContainer.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        if (!isScrolling) {
+            isScrolling = true;
+            if (e.deltaY > 0) {
+                goNext();
+            } else {
+                goPrev();
+            }
+            setTimeout(() => {
+                isScrolling = false;
+            }, 600);
+        }
+    });
 
-function resetAutoPlay() {
-clearInterval(autoPlayTimer);
-autoPlayTimer = null;
-startAutoPlay();
-}
+    // 触摸滑动支持
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let touchEndX = 0;
+    let touchEndY = 0;
 
-// Event Handlers
-function handleWheel(e) {
-if (mobileMedia.matches) return;
+    carouselContainer.addEventListener('touchstart', (e) => {
+        touchStartX = e.touches[0].clientX;
+        touchStartY = e.touches[0].clientY;
+    });
 
-e.preventDefault();
-timelineCarousel.scrollTop += e.deltaY * config.wheelSpeed;
-}
+    carouselContainer.addEventListener('touchmove', (e) => {
+        touchEndX = e.touches[0].clientX;
+        touchEndY = e.touches[0].clientY;
+    });
 
-function initEvents() {
-// Navigation
-prevBtn.addEventListener('click', () => slide(-1));
-nextBtn.addEventListener('click', () => slide(1));
+    carouselContainer.addEventListener('touchend', () => {
+        const diffX = touchStartX - touchEndX;
+        const diffY = touchStartY - touchEndY;
+        const threshold = 50;
 
-// Timeline Interaction
-timelineItems.forEach((item, index) => {
-item.addEventListener('click', () => slideTo(index));
-});
+        if (Math.abs(diffX) > Math.abs(diffY)) {
+            // 水平滑动
+            if (diffX > threshold) {
+                goNext();
+            } else if (diffX < -threshold) {
+                goPrev();
+            }
+        } else {
+            // 垂直滑动
+            if (diffY > threshold) {
+                goNext();
+            } else if (diffY < -threshold) {
+                goPrev();
+            }
+        }
+    });
 
-// Keyboard
-if (config.keyboard) {
-document.addEventListener('keydown', (e) => {
-if (document.activeElement !== document.body) return;
-if (e.key === 'ArrowLeft') slide(-1);
-if (e.key === 'ArrowRight') slide(1);
-});
-}
+    // 自动高度调整
+    function adjustTimelineHeight() {
+        const isMobile = window.innerWidth <= 768;
+        if (!isMobile) {
+            const activeCard = document.querySelector('.achievement-card.active');
+            if (activeCard) {
+                const cardHeight = activeCard.offsetHeight;
+                const container = document.querySelector('.carousel-container');
+                container.style.height = Math.max(500, cardHeight + 100) + 'px';
+            }
+        }
+    }
 
-// Hover Control
-if (config.hoverPause) {
-carousel.addEventListener('mouseenter', () => clearInterval(autoPlayTimer));
-carousel.addEventListener('mouseleave', startAutoPlay);
-}
+    // 窗口大小改变时调整
+    window.addEventListener('resize', () => {
+        adjustTimelineHeight();
+        updateTimelinePositions();
+    });
 
-// Touch Handling
-let touchStartX = 0;
-carousel.addEventListener('touchstart', e => {
-touchStartX = e.touches[0].clientX;
-}, { passive: true });
+    // 添加平滑过渡
+    function smoothTransition() {
+        const items = timelineContainer.querySelectorAll('.timeline-item');
+        items.forEach((item) => {
+            item.style.transition = 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)';
+        });
+    }
 
-carousel.addEventListener('touchend', e => {
-const touchEndX = e.changedTouches[0].clientX;
-const deltaX = touchStartX - touchEndX;
+    // 初始化
+    createTimelineItems();
+    updateDisplay(0);
+    smoothTransition();
+    adjustTimelineHeight();
 
-if (Math.abs(deltaX) > config.touchSensitivity) {
-slide(deltaX > 0 ? 1 : -1);
-}
-}, { passive: true });
+    // 预加载动画
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            document.querySelector('.academic-showcase').style.opacity = '1';
+        }, 100);
+    });
 
-// Wheel Handling
-timelineCarousel.addEventListener('wheel', handleWheel);
-}
+    // 添加悬停效果
+    achievementCards.forEach(card => {
+        card.addEventListener('mouseenter', () => {
+            if (card.classList.contains('active')) {
+                card.style.transform = 'translateY(0) scale(1.02)';
+            }
+        });
 
-// Initialization
-function init() {
-updateActive();
-initEvents();
-startAutoPlay();
+        card.addEventListener('mouseleave', () => {
+            if (card.classList.contains('active')) {
+                card.style.transform = 'translateY(0) scale(1)';
+            }
+        });
+    });
 
-// Responsive Handling
-window.addEventListener('resize', () => {
-if (!mobileMedia.matches) {
-centerTimelineItem();
-}
-});
-}
-
-init();
-})();
+    // 页面可见性改变时的处理
+    document.addEventListener('visibilitychange', () => {
+        if (!document.hidden) {
+            smoothTransition();
+        }
+    });
 </script>
 </body>
 </html>
