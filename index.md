@@ -56,7 +56,7 @@ My current research focuses on practical problems faced by artificial intelligen
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>学术成就时间轴 - 独立版本</title>
+    <title>学术成就时间轴</title>
     <style>
 .academic-timeline-wrapper {
     --ac-primary: #2c3e50;
@@ -71,7 +71,7 @@ My current research focuses on practical problems faced by artificial intelligen
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     color: #333;
     overflow: hidden;
-    padding: 40px 20px;
+    padding: 10px 10px;
     margin: 20px 0;
     border-radius: 12px;
     box-sizing: border-box;
