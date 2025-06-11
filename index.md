@@ -51,6 +51,7 @@ My current research focuses on practical problems faced by artificial intelligen
 ---
 
 ## News and Updates
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -163,7 +164,7 @@ My current research focuses on practical problems faced by artificial intelligen
 
         .academic-news-module .achievement-date {
             color: var(--ac-secondary);
-            font-size: 16px;
+            font-size: 14px;  /* 原来16px，缩小到14px */
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -185,7 +186,7 @@ My current research focuses on practical problems faced by artificial intelligen
         }
 
         .academic-news-module .achievement-title {
-            font-size: 24px;
+            font-size: 20px;  /* 原来24px，缩小到20px */
             font-weight: 700;
             margin: 0 0 20px 0;
             color: var(--ac-primary);
@@ -193,7 +194,7 @@ My current research focuses on practical problems faced by artificial intelligen
         }
 
         .academic-news-module .achievement-description {
-            font-size: 16px;
+            font-size: 14px;  /* 原来16px，缩小到14px */
             line-height: 1.7;
             color: #5a6c7d;
             margin: 0 0 25px 0;
@@ -214,7 +215,7 @@ My current research focuses on practical problems faced by artificial intelligen
             background: rgba(52, 152, 219, 0.1);
             color: var(--ac-secondary);
             border-radius: 20px;
-            font-size: 13px;
+            font-size: 12px;  /* 原来13px，缩小到12px */
             font-weight: 600;
             border: 1px solid rgba(52, 152, 219, 0.2);
             transition: all 0.3s ease;
@@ -322,18 +323,18 @@ My current research focuses on practical problems faced by artificial intelligen
             color: var(--ac-text-light);
             font-weight: 700;
             margin: 0 0 5px 0;
-            font-size: 14px;
+            font-size: 12px;  /* 原来14px，缩小到12px */
             transition: all 0.5s ease;
         }
 
         .academic-news-module .timeline-item.position-current .timeline-date {
-            font-size: 15px;
+            font-size: 13px;  /* 原来15px，缩小到13px */
             color: #3498db;
         }
 
         .academic-news-module .timeline-title {
             color: rgba(255, 255, 255, 0.7);
-            font-size: 14px;
+            font-size: 12px;  /* 原来14px，缩小到12px */
             line-height: 1.4;
             transition: all 0.5s ease;
             margin: 0;
@@ -341,7 +342,7 @@ My current research focuses on practical problems faced by artificial intelligen
 
         .academic-news-module .timeline-item.position-current .timeline-title {
             color: rgba(255, 255, 255, 0.95);
-            font-size: 15px;
+            font-size: 13px;  /* 原来15px，缩小到13px */
         }
 
         /* 连接线 */
