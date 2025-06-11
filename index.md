@@ -575,7 +575,6 @@ My current research focuses on practical problems faced by artificial intelligen
                             <span class="tag">CCF-C</span>
                             <span class="tag">Image Processing</span>
                             <span class="tag">CV</span>
-                            <span class="tag">IJCNN2025</span>
                         </div>
                     </div>
 
@@ -590,7 +589,6 @@ My current research focuses on practical problems faced by artificial intelligen
                             <span class="tag">CCF-C</span>
                             <span class="tag">Object Detection</span>
                             <span class="tag">UVA</span>
-                            <span class="tag">ICIC2025</span>
                         </div>
                     </div>
 
@@ -605,7 +603,6 @@ My current research focuses on practical problems faced by artificial intelligen
                             <span class="tag">CCF-C</span>
                             <span class="tag">Remote Sensing</span>
                             <span class="tag">CV</span>
-                            <span class="tag">ICIC2025</span>
                         </div>
                     </div>
 
@@ -620,7 +617,6 @@ My current research focuses on practical problems faced by artificial intelligen
                             <span class="tag">CCF-C</span>
                             <span class="tag">Re-ID</span>
                             <span class="tag">CV</span>
-                            <span class="tag">ICIC2025</span>
                         </div>
                     </div>
                 </div>
