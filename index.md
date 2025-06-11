@@ -767,7 +767,7 @@ My current research focuses on practical problems faced by artificial intelligen
                 } else {
                     goToIndex(0);
                 }
-            }, 3000);
+            }, 5000);
         }
 
         // 停止自动轮播
