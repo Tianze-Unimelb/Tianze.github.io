@@ -51,7 +51,6 @@ My current research focuses on practical problems faced by artificial intelligen
 ---
 
 ## News and Updates
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -109,6 +108,14 @@ My current research focuses on practical problems faced by artificial intelligen
             margin: 0 auto;
         }
 
+        /* 新闻模块封装容器 */
+        .news-container {
+            width: 95%;
+            max-width: 1000px;
+            margin: 0 auto 40px;
+            position: relative;
+        }
+
         .academic-timeline-wrapper {
             --ac-primary: #2c3e50;
             --ac-secondary: #3498db;
@@ -119,20 +126,17 @@ My current research focuses on practical problems faced by artificial intelligen
             --ac-shadow: 0 10px 30px rgba(0,0,0,0.1);
             --ac-shadow-hover: 0 15px 40px rgba(0,0,0,0.15);
 
-            width: 95%;
-            max-width: 1000px;
             color: #333;
             overflow: hidden;
-            padding: 20px;
-            margin: 0 auto 40px;
             border-radius: 16px;
             background: rgba(255, 255, 255, 0.95);
             box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
             position: relative;
             animation: fadeInUp 0.8s ease-out;
+            height: 100%;
         }
 
-        /* 内容容器 - 缩小边框 */
+        /* 内容容器 - 覆盖整个背景 */
         .carousel-container {
             position: relative;
             height: 340px;
@@ -292,6 +296,12 @@ My current research focuses on practical problems faced by artificial intelligen
             justify-content: center;
             gap: 100px;
             transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            overflow-y: auto;
+            scrollbar-width: none; /* Firefox */
+        }
+
+        .timeline-container::-webkit-scrollbar {
+            display: none; /* Chrome, Safari */
         }
 
         .timeline-item {
@@ -411,10 +421,10 @@ My current research focuses on practical problems faced by artificial intelligen
             background: linear-gradient(to top, #1a2530 0%, transparent 100%);
         }
 
-        /* 导航控制 - 固定在底部并默认隐藏 */
+        /* 导航控制 - 固定在容器底部并默认隐藏 */
         .nav-controls {
-            position: fixed;
-            bottom: 25px;
+            position: absolute;
+            bottom: 20px;
             left: 50%;
             transform: translateX(-50%);
             display: flex;
@@ -432,8 +442,6 @@ My current research focuses on practical problems faced by artificial intelligen
 
         .academic-timeline-wrapper:hover .nav-controls {
             opacity: 1;
-            transform: translateX(-50%) translateY(0);
-            bottom: 35px;
         }
 
         .nav-button {
@@ -575,6 +583,10 @@ My current research focuses on practical problems faced by artificial intelligen
                 padding: 5px 12px;
                 font-size: 12px;
             }
+
+            .carousel-container {
+                height: 650px;
+            }
         }
 
         /* 加载动画 */
@@ -598,96 +610,98 @@ My current research focuses on practical problems faced by artificial intelligen
     </style>
 </head>
 <body>
-<div class="academic-timeline-wrapper">
-    <div class="carousel-container">
-        <!-- 左侧内容面板 -->
-        <div class="content-panel">
-            <div class="achievement-wrapper">
-                <div class="achievement-card active" data-index="0">
-                    <div class="achievement-date">2025-3</div>
-                    <h3 class="achievement-title">Our paper was accepted by IJCNN2025</h3>
-                    <p class="achievement-description">
-                        Our research result "SWR-BIDeN: An Improved BIDeN Model for Severe Weather Removal in Image Processing" was accepted by the International Joint Conference on Neural Networks (IJCNN2025).
-                        The model achieved advanced performance in image restoration tasks under severe weather conditions such as heavy rain and haze.
-                    </p>
-                    <div class="achievement-tags">
-                        <span class="tag">CCF-C</span>
-                        <span class="tag">Image Processing</span>
-                        <span class="tag">CV</span>
-                        <span class="tag">IJCNN2025</span>
+<div class="news-container">
+    <div class="academic-timeline-wrapper">
+        <div class="carousel-container">
+            <!-- 左侧内容面板 -->
+            <div class="content-panel">
+                <div class="achievement-wrapper">
+                    <div class="achievement-card active" data-index="0">
+                        <div class="achievement-date">2025-3</div>
+                        <h3 class="achievement-title">Our paper was accepted by IJCNN2025</h3>
+                        <p class="achievement-description">
+                            Our research result "SWR-BIDeN: An Improved BIDeN Model for Severe Weather Removal in Image Processing" was accepted by the International Joint Conference on Neural Networks (IJCNN2025).
+                            The model achieved advanced performance in image restoration tasks under severe weather conditions such as heavy rain and haze.
+                        </p>
+                        <div class="achievement-tags">
+                            <span class="tag">CCF-C</span>
+                            <span class="tag">Image Processing</span>
+                            <span class="tag">CV</span>
+                            <span class="tag">IJCNN2025</span>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card" data-index="1">
+                        <div class="achievement-date">2025-4</div>
+                        <h3 class="achievement-title">Our paper was accepted by ICIC2025</h3>
+                        <p class="achievement-description">
+                            Our research result "LightDrone-YOLO: A Novel Lightweight and Efficient Object Detection Network for Unmanned Aerial Vehicles" was accepted by the International Conference on Intelligent Computing (ICIC2025).
+                            This model significantly reduces the computational complexity while maintaining high accuracy, and is suitable for resource-constrained UAV platforms.
+                        </p>
+                        <div class="achievement-tags">
+                            <span class="tag">CCF-C</span>
+                            <span class="tag">Object Detection</span>
+                            <span class="tag">UVA</span>
+                            <span class="tag">ICIC2025</span>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card" data-index="2">
+                        <div class="achievement-date">2025-4</div>
+                        <h3 class="achievement-title">Our paper was accepted by ICIC2025</h3>
+                        <p class="achievement-description">
+                            Our research result "Lightweight Remote Sensing Image Change Detection Based on Global Feature Fusion" was accepted by the International Conference on Intelligent Computing (ICIC2025).
+                            This method significantly reduces the computational complexity while maintaining high accuracy.
+                        </p>
+                        <div class="achievement-tags">
+                            <span class="tag">CCF-C</span>
+                            <span class="tag">Remote Sensing</span>
+                            <span class="tag">CV</span>
+                            <span class="tag">ICIC2025</span>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card" data-index="3">
+                        <div class="achievement-date">2025-4</div>
+                        <h3 class="achievement-title">Our paper was accepted by ICIC2025</h3>
+                        <p class="achievement-description">
+                            Our research result "GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID" was accepted by the International Conference on Intelligent Computing (ICIC2025).
+                            The model has reached advanced levels in multiple pedestrian re-identification benchmarks.
+                        </p>
+                        <div class="achievement-tags">
+                            <span class="tag">CCF-C</span>
+                            <span class="tag">Re-ID</span>
+                            <span class="tag">CV</span>
+                            <span class="tag">ICIC2025</span>
+                        </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="achievement-card" data-index="1">
-                    <div class="achievement-date">2025-4</div>
-                    <h3 class="achievement-title">Our paper was accepted by ICIC2025</h3>
-                    <p class="achievement-description">
-                        Our research result "LightDrone-YOLO: A Novel Lightweight and Efficient Object Detection Network for Unmanned Aerial Vehicles" was accepted by the International Conference on Intelligent Computing (ICIC2025).
-                        This model significantly reduces the computational complexity while maintaining high accuracy, and is suitable for resource-constrained UAV platforms.
-                    </p>
-                    <div class="achievement-tags">
-                        <span class="tag">CCF-C</span>
-                        <span class="tag">Object Detection</span>
-                        <span class="tag">UVA</span>
-                        <span class="tag">ICIC2025</span>
-                    </div>
-                </div>
-
-                <div class="achievement-card" data-index="2">
-                    <div class="achievement-date">2025-4</div>
-                    <h3 class="achievement-title">Our paper was accepted by ICIC2025</h3>
-                    <p class="achievement-description">
-                        Our research result "Lightweight Remote Sensing Image Change Detection Based on Global Feature Fusion" was accepted by the International Conference on Intelligent Computing (ICIC2025).
-                        This method significantly reduces the computational complexity while maintaining high accuracy.
-                    </p>
-                    <div class="achievement-tags">
-                        <span class="tag">CCF-C</span>
-                        <span class="tag">Remote Sensing</span>
-                        <span class="tag">CV</span>
-                        <span class="tag">ICIC2025</span>
-                    </div>
-                </div>
-
-                <div class="achievement-card" data-index="3">
-                    <div class="achievement-date">2025-4</div>
-                    <h3 class="achievement-title">Our paper was accepted by ICIC2025</h3>
-                    <p class="achievement-description">
-                        Our research result "GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID" was accepted by the International Conference on Intelligent Computing (ICIC2025).
-                        The model has reached advanced levels in multiple pedestrian re-identification benchmarks.
-                    </p>
-                    <div class="achievement-tags">
-                        <span class="tag">CCF-C</span>
-                        <span class="tag">Re-ID</span>
-                        <span class="tag">CV</span>
-                        <span class="tag">ICIC2025</span>
+            <!-- 右侧时间轴面板 -->
+            <div class="timeline-panel">
+                <div class="timeline-line"></div>
+                <div class="timeline-wrapper">
+                    <div class="timeline-container" id="timelineContainer">
+                        <!-- 时间轴项目将通过JavaScript动态生成 -->
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- 右侧时间轴面板 -->
-        <div class="timeline-panel">
-            <div class="timeline-line"></div>
-            <div class="timeline-wrapper">
-                <div class="timeline-container" id="timelineContainer">
-                    <!-- 时间轴项目将通过JavaScript动态生成 -->
-                </div>
+        <!-- 导航控制 -->
+        <div class="nav-controls">
+            <button class="nav-button" id="prevBtn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="progress-counter">
+                <span class="current-number" id="currentNum">1</span> / <span id="totalNum">4</span>
             </div>
+            <button class="nav-button" id="nextBtn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
         </div>
     </div>
-</div>
-
-<!-- 导航控制 -->
-<div class="nav-controls">
-    <button class="nav-button" id="prevBtn">
-        <i class="fas fa-chevron-left"></i>
-    </button>
-    <div class="progress-counter">
-        <span class="current-number" id="currentNum">1</span> / <span id="totalNum">4</span>
-    </div>
-    <button class="nav-button" id="nextBtn">
-        <i class="fas fa-chevron-right"></i>
-    </button>
 </div>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -870,7 +884,20 @@ My current research focuses on practical problems faced by artificial intelligen
                 goPrev();
             }
         }
+
+        // 时间轴滚轮滚动支持
+        timelineContainer.addEventListener('wheel', (e) => {
+            e.preventDefault();
+            if (e.deltaY > 0) {
+                // 向下滚动 - 下一个
+                goNext();
+            } else if (e.deltaY < 0) {
+                // 向上滚动 - 上一个
+                goPrev();
+            }
+        });
     });
 </script>
 </body>
 </html>
+
