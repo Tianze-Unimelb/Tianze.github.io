@@ -91,7 +91,7 @@ title: Publications
    <div class="pub-tags">
             <span class="tag tag-core">Remote Sensing</span>
             <span class="tag tag-general">UAV</span>
-            <span class="tag tag-third">IF=4.4</span>
+            <span class="tag tag-third">IF=4.8</span>
         </div>
         
     <div class="pub-links">
@@ -121,8 +121,8 @@ title: Publications
    <div class="pub-tags">
             <span class="tag tag-core">Object Detection</span>
             <span class="tag tag-general">UAV</span>
-            <span class="tag tag-third">IF=2.5</span>
-            <span class="tag tag-cit"> 2 Citations </span>
+            <span class="tag tag-third">IF=2.7</span>
+            <span class="tag tag-cit"> 10 Citations </span>
         </div>
         
     <div class="pub-links">
@@ -151,7 +151,8 @@ title: Publications
    <div class="pub-tags">
             <span class="tag tag-core">Traffic accident recognition</span>
             <span class="tag tag-general">YOLOv8</span>
-            <span class="tag tag-third">IF=2.5</span>
+            <span class="tag tag-third">IF=2.7</span>
+            <span class="tag tag-cit"> 1 Citations </span>
         </div>
 
     <div class="pub-links">
