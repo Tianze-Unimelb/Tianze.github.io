@@ -43,7 +43,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 - Natural Language Processing
 - Computer Vision
 - Computational Law
-- Quantitative Analysis**
+- Quantitative Analysis
 
 <!-- My current research focuses on practical problems faced by artificial intelligence in complex legal scenarios. My interests are **Artificial intelligence.** and its applications in **Law**, **Finance**, and **Medicine**. In short, advanced technologies such as artificial intelligence have a positive impact on everyone's life. I hope to devote my talents to this meaningful cause and bring benefits to society.
 -->
