@@ -569,7 +569,6 @@ My current research focuses on practical problems faced by artificial intelligen
                         <h3 class="achievement-title">Our paper was accepted by IJCNN2025</h3>
                         <p class="achievement-description">
                             Our research result "SWR-BIDeN: An Improved BIDeN Model for Severe Weather Removal in Image Processing" was accepted by the International Joint Conference on Neural Networks (IJCNN2025).
-                            The model achieved advanced performance in image restoration tasks under severe weather conditions such as heavy rain and haze.
                         </p>
                         <div class="achievement-tags">
                             <span class="tag">CCF-C</span>
@@ -583,7 +582,6 @@ My current research focuses on practical problems faced by artificial intelligen
                         <h3 class="achievement-title">Our paper was accepted by ICIC2025</h3>
                         <p class="achievement-description">
                             Our research result "LightDrone-YOLO: A Novel Lightweight and Efficient Object Detection Network for Unmanned Aerial Vehicles" was accepted by the International Conference on Intelligent Computing (ICIC2025).
-                            This model significantly reduces the computational complexity while maintaining high accuracy, and is suitable for resource-constrained UAV platforms.
                         </p>
                         <div class="achievement-tags">
                             <span class="tag">CCF-C</span>
@@ -597,7 +595,6 @@ My current research focuses on practical problems faced by artificial intelligen
                         <h3 class="achievement-title">Our paper was accepted by ICIC2025</h3>
                         <p class="achievement-description">
                             Our research result "Lightweight Remote Sensing Image Change Detection Based on Global Feature Fusion" was accepted by the International Conference on Intelligent Computing (ICIC2025).
-                            This method significantly reduces the computational complexity while maintaining high accuracy.
                         </p>
                         <div class="achievement-tags">
                             <span class="tag">CCF-C</span>
@@ -611,7 +608,6 @@ My current research focuses on practical problems faced by artificial intelligen
                         <h3 class="achievement-title">Our paper was accepted by ICIC2025</h3>
                         <p class="achievement-description">
                             Our research result "GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID" was accepted by the International Conference on Intelligent Computing (ICIC2025).
-                            The model has reached advanced levels in multiple pedestrian re-identification benchmarks.
                         </p>
                         <div class="achievement-tags">
                             <span class="tag">CCF-C</span>
