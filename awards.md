@@ -4,7 +4,7 @@ permalink: /awards&services/index.html
 title: Awards&Services
 ---
 
-> Lastest Update: 10th Sep 2024 &nbsp;
+> Lastest Update: 19th July 2025 &nbsp;
 
 ## Competitions (Selected)
 
@@ -19,7 +19,7 @@ title: Awards&Services
 
 ## Certifications
 
-- TBA
+- July 2025: OCl Certified Generative AI Professional - **[<font color='Orange'>Oracle</font>]
 
 ---
 
