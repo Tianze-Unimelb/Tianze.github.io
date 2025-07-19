@@ -10,9 +10,9 @@ title: Awards&Services
 
 - Sep 2024：**[<font color='Orange'>Bronze Medal</font>](https://zhangtianze.com/myawards/ISIC-2024.png)** <br>
   ------------ [ISIC 2024 - Skin Cancer Detection with 3D-TBP](https://www.kaggle.com/competitions/isic-2024-challenge/leaderboard) (Top 6%,Solo) 
-- May 2024：**Second Prizes (Provincial Level)(Two)** <br>
+- May 2024：**Second Prize (Provincial Level)** <br>
   ------------ China University Computer Design Competition (Team) 
-- May 2024：**Third Prizes (Provincial Level)(Two)** <br>
+- May 2024：**Third Prize (Provincial Level)** <br>
   ------------ China University Computer Design Competition (Team)
 - Nov 2023：**<font color='Orange'>Bronze Medal</font>** <br>
   ------------ ACM-ICPC, Silk Road Challenge (Team) 
