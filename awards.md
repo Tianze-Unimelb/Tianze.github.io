@@ -19,7 +19,7 @@ title: Awards&Services
 
 ## Certifications
 
-- July 2025: OCl Certified Generative AI Professional - **[<font color='Orange'>Oracle</font>]
+- July 2025: OCl Certified Generative AI Professional - **[<font color='Orange'>Oracle</font>]**
 
 ---
 
