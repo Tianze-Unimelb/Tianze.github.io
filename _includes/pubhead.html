@@ -57,23 +57,28 @@ hr {
   flex-direction: column;
   justify-content: space-between;
 }
-
 /* 按钮容器优化 */
 .project-links {
-  display: flex;
-  gap: 12px;
-  margin-top: 1rem;
-  flex-wrap: wrap;
-}
+   display: flex;
+   gap: 12px;
+   margin-top: 1rem;
+   flex-direction: row;
+   flex-wrap: wrap;
+  }
+        
 .project-links a {
-  flex: 1; /* 等分按钮宽度 */
-  min-width: 120px; /* 防止文字断裂 */
-  text-align: center;
-  padding: 8px 16px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-size: 0.9em;
-}
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-width: 100px;
+   text-align: center;
+   padding: 10px 18px;
+   border-radius: 6px;
+   text-decoration: none;
+   font-size: 0.95rem;
+   font-weight: 500;
+   transition: all 0.2s ease;
+  }
 /* 主按钮样式 */
 .btn-proprimary {
   background: #2c3e50; /* 学术深蓝色 */
@@ -84,6 +89,22 @@ hr {
   border: 1px solid #2c3e50;
   color: #2c3e50 !important;
   background: transparent;
+}
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .project-image,
+  .project-content {
+    flex: none !important; /* 强制解除固定比例 */
+    width: 100% !important;
+    aspect-ratio: unset; /* 移除比例锁定 */
+  }
+  .project-image {
+    height: 220px; /* 移动端固定图片高度 */
+  }
 }
 </style>
 
