@@ -73,6 +73,7 @@ title: Publications
 ## Journal Article
 
 <hr>
+<!-- PISCFF-LNet: A Method for Autonomous Flight of UAVs Based on Lightweight Road Extraction -->
 <div class="publication-card" id="j1">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion06.png" target="_blank" rel="noopener">
@@ -102,7 +103,7 @@ title: Publications
   </div>
 </div>
 
-
+<!-- LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image -->
 <div class="publication-card" id="j2">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion01(1).jpg" target="_blank" rel="noopener">
@@ -133,6 +134,7 @@ title: Publications
   </div>
 </div>
 
+<!-- Tp-yolov8: a lightweight and accurate model for traffic accident recognition -->
 <div class="publication-card" id="j3">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion05.png" target="_blank" rel="noopener">
@@ -163,6 +165,7 @@ title: Publications
   </div>
 </div>
 
+<!-- Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation -->
 <div class="publication-card" id="j4">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion02.png" target="_blank" rel="noopener">
@@ -195,6 +198,7 @@ title: Publications
 
 ## Conference Paper
 
+<!-- Research on single cycle supply chain problem with multiple orders in an uncertain environment -->
 <div class="publication-card" id="c1">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion007.jpg" target="_blank" rel="noopener">
@@ -224,6 +228,7 @@ title: Publications
   </div>
 </div>
 
+<!-- Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages -->
 <div class="publication-card" id="c2">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion003.jpg" target="_blank" rel="noopener">
