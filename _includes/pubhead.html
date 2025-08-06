@@ -1,5 +1,4 @@
 <style>
-/* 修改版 - 固定比例布局 */
 .project-card {
 display: flex;
 gap: 15px;
@@ -9,7 +8,6 @@ background: #fff;
 border-radius: 12px;
 box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 transition: transform 0.2s;
-/* 新增容器锁定 */
 min-width: 320px; /* 最小兼容手机竖屏 */
 }
 .project-card:hover {
@@ -23,15 +21,13 @@ border-top: 1px solid rgba(0,0,0,0.1);
 
 /* 图片区域严格40% */
 .project-image {
-  flex: 0 0 25%; /* 禁止伸缩 */
-  flex: 0 0 40%; /* 禁止伸缩 */
+ flex: 0 0 40%; /* 禁止伸缩 */
 /* aspect-ratio: 4/3;  锁定4:3比例 */
 min-height: 180px; /* 防止过度缩小 */
 border-radius: 8px;
 overflow: hidden;
 background: #f8f9fa;
-position: relative;
-/* 新增防御性声明 */
+position: relative
 box-sizing: border-box;
 padding: 0 !important; /* 确保无内边距影响 */
 }
@@ -50,11 +46,9 @@ display: block;
 margin: 0;
 padding: 0;
 }
-
-/* 内容区域严格75% */
+  
 /* 内容区域严格60% */
 .project-content {
-  flex: 0 0 calc(75% - 15px); /* 计算gap影响 */
   flex: 0 0 calc(60% - 15px); /* 计算gap影响 */
 display: flex;
 flex-direction: column;
@@ -126,7 +120,7 @@ transition: transform 0.3s;
 }
 
 /* =====================
- 可视化区域 (60%宽度)
+ 可视化区域 45%宽度
  ===================== */
 .pub-visual {
 flex: 0 0 45%;
@@ -241,7 +235,7 @@ flex-wrap: wrap;
 }
 
 .pub-links a {
-flex: 1;
+flex: 0.3333333;
 min-width: 120px;
 text-align: center;
 padding: 8px 16px;
