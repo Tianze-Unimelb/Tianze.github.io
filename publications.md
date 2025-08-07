@@ -261,8 +261,8 @@ title: Publications
 <!-- Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages -->
 <div class="publication-card" id="c5">
   <div class="pub-visual">
-  <a href="https://zhangtianze.com/images/Publishion003.jpg" target="_blank" rel="noopener">
-  <img src="https://zhangtianze.com/images/Publishion003.jpg" 
+  <a href="https://zhangtianze.com/images/Publishion-C(MLM).jpg" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion-C(MLM).jpg" 
      style="width:100%;height:auto;">
   </a>
   </div> 
