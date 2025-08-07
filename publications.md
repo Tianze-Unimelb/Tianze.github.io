@@ -243,6 +243,36 @@ title: Publications
   </div>
 </div>
 
+<!-- LightDrone-YOLO: A Novel Lightweight and EfficientObject Detection Network for Unmanned Aerial Vehicles -->
+<div class="publication-card" id="c2">
+  <div class="pub-visual">
+  <a href="https://zhangtianze.com/images/Publishion-C(LD-YO).png" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion-C(LD-YO).png" 
+     style="width:100%;height:auto;">
+  </a>
+  </div> 
+  <div class="pub-content">
+    <h3 class="pub-title">[C.2]LightDrone-YOLO: A Novel Lightweight and EfficientObject Detection Network for Unmanned Aerial Vehicles</h3>
+    
+    <p class="pub-meta">
+      <span class="authors">Xin Li†, <strong>Tianze Zhang†</strong>, Yifan Lyu, Gang Shi*.</span><br>
+      <em>2025 International Conference on Intelligent Computing(ICIC 2025)</em><br>
+      <em>Ningbo, China</em>
+    </p>
+    
+   <div class="pub-tags">
+            <span class="tag tag-core">Object detection</span>
+            <span class="tag tag-general">UVA</span>
+        </div>
+
+    <div class="pub-links">
+      <a href="https://poster-openaccess.com/" class="btn-primary">DOI</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/LightDrone.pdf" class="btn-secondary">PDF</a>
+      <a href="https://github.com/Tianze-Unimelb/" class="btn-secondary">Code</a>
+    </div>
+  </div>
+</div>
+
 <!-- Research on single cycle supply chain problem with multiple orders in an uncertain environment -->
 <div class="publication-card" id="c4">
   <div class="pub-visual">
