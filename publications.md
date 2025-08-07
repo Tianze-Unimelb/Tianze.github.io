@@ -42,29 +42,29 @@ title: Publications
   <!-- Conference Papers -->
   <div class="toc-subtitle">Conference Paper</div>
   <ul class="toc-list">   
-    <li class="toc-item">
-      <a href="#c1" class="toc-link">[C.1] Single-Cycle Supply Chain<br> 
-        <small>Multi-Order Optimization under Uncertainty</small>
-      </a>
-    </li>
-    <li class="toc-item">
-      <a href="#c2" class="toc-link">[C.2] Multimodal task effect analysis<br> 
-        <small>Transformers-based multimodal analysis for multilingual scenarios</small>
-      </a>
-    </li>
    <li class="toc-item">
-      <a href="#c3" class="toc-link">[C.3] Lightweight Remote Sensing<br> 
+      <a href="#c1" class="toc-link">[C.1] Lightweight Remote Sensing<br> 
         <small>Image ChangeDetection Based on Global Feature Fusion</small>
       </a>
     </li>
    <li class="toc-item">
-      <a href="#c4" class="toc-link">[C.4] LightDrone-YOLO<br> 
+      <a href="#c2" class="toc-link">[C.2] LightDrone-YOLO<br> 
         <small>A Detection Network for Unmanned Aerial Vehicles</small>
       </a>
     </li>
     <li class="toc-item">
-      <a href="#c5" class="toc-link">[C.5] GlintNet<br> 
+      <a href="#c3" class="toc-link">[C.3] GlintNet<br> 
         <small>A Lightweight Global-Local Integration Network for ReID</small>
+      </a>
+    </li>
+   <li class="toc-item">
+      <a href="#c4" class="toc-link">[C.4] Single-Cycle Supply Chain<br> 
+        <small>Multi-Order Optimization under Uncertainty</small>
+      </a>
+    </li>
+    <li class="toc-item">
+      <a href="#c5" class="toc-link">[C.5] Multimodal task effect analysis<br> 
+        <small>Transformers-based multimodal analysis for multilingual scenarios</small>
       </a>
     </li>
   </ul>
