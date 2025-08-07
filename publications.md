@@ -216,8 +216,8 @@ title: Publications
 <!-- Lightweight Remote Sensing Image Change Detection Based on Global Feature Fusion -->
 <div class="publication-card" id="c1">
   <div class="pub-visual">
-  <a href="https://zhangtianze.com/images/Publishionaiying.jpg" target="_blank" rel="noopener">
-  <img src="https://zhangtianze.com/images/Publishionaiying.jpg" 
+  <a href="https://zhangtianze.com/images/Publishion-C(LRSIC).png" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion-C(LRSIC).png" 
      style="width:100%;height:auto;">
   </a>
   </div> 
