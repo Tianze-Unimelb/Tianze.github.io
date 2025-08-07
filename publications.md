@@ -198,16 +198,46 @@ title: Publications
 
 ## Conference Paper
 
-<!-- Research on single cycle supply chain problem with multiple orders in an uncertain environment -->
+<!-- Lightweight Remote Sensing Image Change Detection Based on Global Feature Fusion -->
 <div class="publication-card" id="c1">
   <div class="pub-visual">
-  <a href="https://zhangtianze.com/images/Publishion007.jpg" target="_blank" rel="noopener">
-  <img src="https://zhangtianze.com/images/Publishion007.jpg" 
+  <a href="https://zhangtianze.com/images/Publishionaiying.jpg" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishionaiying.jpg" 
      style="width:100%;height:auto;">
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[C.1]Research on single cycle supply chain problem with multiple orders in an uncertain environment</h3>
+    <h3 class="pub-title">[C.1]Lightweight Remote Sensing Image Change Detection Based on Global Feature Fusion</h3>
+    
+    <p class="pub-meta">
+      <span class="authors">Aiying Wu, <strong>Tianze Zhang</strong>, Yuanxu Zhu, Zhaole Ning, Gang Shi*.</span><br>
+      <em>2025 International Conference on Intelligent Computing(ICIC 2025)</em><br>
+      <em>Ningbo, China</em>
+    </p>
+    
+   <div class="pub-tags">
+            <span class="tag tag-core">Single-Cycle Supply Chain</span>
+            <span class="tag tag-general">Uncertainty</span>
+        </div>
+
+    <div class="pub-links">
+      <a href="https://dl.acm.org/doi/10.1145/3717664.3717686" class="btn-primary">DOI</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/3717664.3717686.pdf" class="btn-secondary">PDF</a>
+      <a href="https://github.com/Tianze-Unimelb/" class="btn-secondary">Code</a>
+    </div>
+  </div>
+</div>
+
+<!-- Research on single cycle supply chain problem with multiple orders in an uncertain environment -->
+<div class="publication-card" id="c4">
+  <div class="pub-visual">
+  <a href="https://zhangtianze.com/images/Publishion(JiKong).jpg" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion(JiKong).jpg" 
+     style="width:100%;height:auto;">
+  </a>
+  </div> 
+  <div class="pub-content">
+    <h3 class="pub-title">[C.4]Research on single cycle supply chain problem with multiple orders in an uncertain environment</h3>
     
     <p class="pub-meta">
       <span class="authors">Jun Zhao, <strong>Tianze Zhang</strong>, Rishalaiti · Tayierm, Yuanxu Zhu, Yixin Zhang, Ling Zhang*, Gang Shi*.</span><br>
@@ -229,7 +259,7 @@ title: Publications
 </div>
 
 <!-- Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages -->
-<div class="publication-card" id="c2">
+<div class="publication-card" id="c5">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion003.jpg" target="_blank" rel="noopener">
   <img src="https://zhangtianze.com/images/Publishion003.jpg" 
@@ -237,7 +267,7 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[C.2]Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages</h3>
+    <h3 class="pub-title">[C.5]Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages</h3>
     
     <p class="pub-meta">
       <span class="authors"><strong>Tianze Zhang.</strong></span><br>
