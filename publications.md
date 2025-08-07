@@ -46,7 +46,7 @@ title: Publications
       <a href="#c1" class="toc-link">[C.1] Lightweight Remote Sensing<br> 
         <small>Image ChangeDetection Based on Global Feature Fusion</small>
       </a>
-    </li>
+   </li>
    <li class="toc-item">
       <a href="#c2" class="toc-link">[C.2] LightDrone-YOLO<br> 
         <small>A Detection Network for Unmanned Aerial Vehicles</small>
