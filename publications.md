@@ -266,7 +266,7 @@ title: Publications
         </div>
 
     <div class="pub-links">
-      <a href="https://poster-openaccess.com/" class="btn-primary">DOI</a>
+      <a href="http://poster-openaccess.com/" class="btn-primary">DOI</a>
       <a href="https://zhangtianze.com/mypublications/Thesis/LightDrone.pdf" class="btn-secondary">PDF</a>
       <a href="https://github.com/Tianze-Unimelb/" class="btn-secondary">Code</a>
     </div>
