@@ -10,7 +10,7 @@ title: Publications
  
 <!-- ([J]= Journal Article, [C]= Conference Paper, [P]= Patent & Software) -->
 
-<!-- 在Front Matter之后添加目录 -->
+<!-- 目录 -->
 <section class="toc-wrapper">
   <div class="toc-title">Publishions Index</div>
   
@@ -42,7 +42,7 @@ title: Publications
   <!-- Conference Papers -->
   <div class="toc-subtitle">Conference Paper</div>
   <ul class="toc-list">   
-   <li class="toc-item">
+    <li class="toc-item">
       <a href="#c1" class="toc-link">[C.1] Single-Cycle Supply Chain<br> 
         <small>Multi-Order Optimization under Uncertainty</small>
       </a>
@@ -50,6 +50,21 @@ title: Publications
     <li class="toc-item">
       <a href="#c2" class="toc-link">[C.2] Multimodal task effect analysis<br> 
         <small>Transformers-based multimodal analysis for multilingual scenarios</small>
+      </a>
+    </li>
+   <li class="toc-item">
+      <a href="#c3" class="toc-link">[C.3] Lightweight Remote Sensing<br> 
+        <small>Image ChangeDetection Based on Global Feature Fusion</small>
+      </a>
+    </li>
+   <li class="toc-item">
+      <a href="#c4" class="toc-link">[C.4] LightDrone-YOLO<br> 
+        <small>A Detection Network for Unmanned Aerial Vehicles</small>
+      </a>
+    </li>
+    <li class="toc-item">
+      <a href="#c5" class="toc-link">[C.5] GlintNet<br> 
+        <small>A Lightweight Global-Local Integration Network for ReID</small>
       </a>
     </li>
   </ul>
@@ -216,13 +231,13 @@ title: Publications
     </p>
     
    <div class="pub-tags">
-            <span class="tag tag-core">Single-Cycle Supply Chain</span>
-            <span class="tag tag-general">Uncertainty</span>
+            <span class="tag tag-core">Change detection</span>
+            <span class="tag tag-general">Global feature</span>
         </div>
 
     <div class="pub-links">
-      <a href="https://dl.acm.org/doi/10.1145/3717664.3717686" class="btn-primary">DOI</a>
-      <a href="https://zhangtianze.com/mypublications/Thesis/3717664.3717686.pdf" class="btn-secondary">PDF</a>
+      <a href="https://dl.acm.org/doi/10.1007/978-981-96-9869-1_3" class="btn-primary">DOI</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/978-981-96-9869-1_3.pdf" class="btn-secondary">PDF</a>
       <a href="https://github.com/Tianze-Unimelb/" class="btn-secondary">Code</a>
     </div>
   </div>
