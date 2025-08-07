@@ -76,8 +76,8 @@ title: Publications
 <!-- PISCFF-LNet: A Method for Autonomous Flight of UAVs Based on Lightweight Road Extraction -->
 <div class="publication-card" id="j1">
   <div class="pub-visual">
-  <a href="https://zhangtianze.com/images/Publishion06.png" target="_blank" rel="noopener">
-    <img src="https://zhangtianze.com/images/Publishion06.png" 
+  <a href="https://zhangtianze.com/images/Publishion-J(PISCFF).png" target="_blank" rel="noopener">
+    <img src="https://zhangtianze.com/images/Publishion-J(PISCFF).png" 
      style="width:100%;height:auto;">
     </a>
   </div> 
@@ -106,8 +106,8 @@ title: Publications
 <!-- LightUAV‑YOLO: a lightweight object detection model for unmanned aerial vehicle image -->
 <div class="publication-card" id="j2">
   <div class="pub-visual">
-  <a href="https://zhangtianze.com/images/Publishion01(1).jpg" target="_blank" rel="noopener">
-    <img src="https://zhangtianze.com/images/Publishion01(1).jpg" 
+  <a href="https://zhangtianze.com/images/Publishion-J(LU-YO).jpg" target="_blank" rel="noopener">
+    <img src="https://zhangtianze.com/images/Publishion-J(LU-YO).jpg" 
      style="width:100%;height:auto;">
     </a>
   </div> 
@@ -123,7 +123,7 @@ title: Publications
             <span class="tag tag-core">Object Detection</span>
             <span class="tag tag-general">UAV</span>
             <span class="tag tag-third">IF=2.7</span>
-            <span class="tag tag-cit"> 10 Citations </span>
+            <span class="tag tag-cit"> 11 Citations </span>
         </div>
         
     <div class="pub-links">
@@ -137,8 +137,8 @@ title: Publications
 <!-- Tp-yolov8: a lightweight and accurate model for traffic accident recognition -->
 <div class="publication-card" id="j3">
   <div class="pub-visual">
-  <a href="https://zhangtianze.com/images/Publishion05.png" target="_blank" rel="noopener">
-  <img src="https://zhangtianze.com/images/Publishion05.png" 
+  <a href="https://zhangtianze.com/images/Publishion-J(TP-YO).png" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion-J(TP-YO).png" 
      style="width:100%;height:auto;">
   </a>
   </div> 
@@ -168,8 +168,8 @@ title: Publications
 <!-- Towards Effective Measures for Curbing the Illegal Wildlife Trade: A Comprehensive Approach with ARIMA Modeling and Responsible Party Evaluation -->
 <div class="publication-card" id="j4">
   <div class="pub-visual">
-  <a href="https://zhangtianze.com/images/Publishion02.png" target="_blank" rel="noopener">
-  <img src="https://zhangtianze.com/images/Publishion02.png" 
+  <a href="https://zhangtianze.com/images/Publishion-J(Wildlife).png" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion-J(Wildlife).png" 
      style="width:100%;height:auto;">
   </a>
   </div> 
