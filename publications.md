@@ -231,8 +231,8 @@ title: Publications
 <!-- Research on single cycle supply chain problem with multiple orders in an uncertain environment -->
 <div class="publication-card" id="c4">
   <div class="pub-visual">
-  <a href="https://zhangtianze.com/images/Publishion(JiKong).jpg" target="_blank" rel="noopener">
-  <img src="https://zhangtianze.com/images/Publishion(JiKong).jpg" 
+  <a href="https://zhangtianze.com/images/Publishion-C(JiKong).jpg" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion-C(JiKong).jpg" 
      style="width:100%;height:auto;">
   </a>
   </div> 
