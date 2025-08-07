@@ -216,8 +216,8 @@ title: Publications
 <!-- Lightweight Remote Sensing Image Change Detection Based on Global Feature Fusion -->
 <div class="publication-card" id="c1">
   <div class="pub-visual">
-  <a href="https://zhangtianze.com/images/Publishion-C(LRSIC).png" target="_blank" rel="noopener">
-  <img src="https://zhangtianze.com/images/Publishion-C(LRSIC).png" 
+  <a href="https://zhangtianze.com/images/Publishion-C(LRSIC).Png" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion-C(LRSIC).Png" 
      style="width:100%;height:auto;">
   </a>
   </div> 
@@ -236,7 +236,7 @@ title: Publications
         </div>
 
     <div class="pub-links">
-      <a href="https://dl.acm.org/doi/10.1007/978-981-96-9869-1_3" class="btn-primary">DOI</a>
+      <a href="https://link.springer.com/chapter/10.1007/978-981-96-9869-1_3" class="btn-primary">DOI</a>
       <a href="https://zhangtianze.com/mypublications/Thesis/978-981-96-9869-1_3.pdf" class="btn-secondary">PDF</a>
       <a href="https://github.com/Tianze-Unimelb/" class="btn-secondary">Code</a>
     </div>
