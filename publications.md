@@ -216,8 +216,8 @@ title: Publications
 <!-- Lightweight Remote Sensing Image Change Detection Based on Global Feature Fusion -->
 <div class="publication-card" id="c1">
   <div class="pub-visual">
-  <a href="https://zhangtianze.com/images/Publishion-C(LRSIC).Png" target="_blank" rel="noopener">
-  <img src="https://zhangtianze.com/images/Publishion-C(LRSIC).Png" 
+  <a href="https://zhangtianze.com/images/Publishion-C(LRSIC).png" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion-C(LRSIC).png" 
      style="width:100%;height:auto;">
   </a>
   </div> 
@@ -256,7 +256,7 @@ title: Publications
     
     <p class="pub-meta">
       <span class="authors">Jun Zhao, <strong>Tianze Zhang</strong>, Rishalaiti · Tayierm, Yuanxu Zhu, Yixin Zhang, Ling Zhang*, Gang Shi*.</span><br>
-      <em>Proceedings of the 2024 International Conference on Economic Data Analytics and Artificial Intelligence</em><br>
+      <em>2024 International Conference on Economic Data Analytics and Artificial Intelligence</em><br>
       <em>Guangzhou, China</em>
     </p>
     
@@ -286,7 +286,7 @@ title: Publications
     
     <p class="pub-meta">
       <span class="authors"><strong>Tianze Zhang.</strong></span><br>
-      <em>Proceedings of the 4th International Conference on Signal Processing and Machine Learning</em><br>
+      <em>The 4th International Conference on Signal Processing and Machine Learning</em><br>
       <em>Chicago, United States</em>
     </p>
     
