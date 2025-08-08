@@ -285,7 +285,7 @@ title: Publications
     <h3 class="pub-title">[C.3]GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID</h3>
     
     <p class="pub-meta">
-      <span class="authors">Xingbiao Zhou†, <strong>Tianze Zhang†</strong>, Yixin Zhang, Gang Shi*.</span><br>
+      <span class="authors">Xingbiao Zhou, <strong>Tianze Zhang</strong>, Yixin Zhang, Gang Shi*.</span><br>
       <em>2025 International Conference on Intelligent Computing(ICIC 2025)</em><br>
       <em>Ningbo, China</em>
     </p>
