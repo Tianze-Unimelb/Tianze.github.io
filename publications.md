@@ -273,6 +273,36 @@ title: Publications
   </div>
 </div>
 
+<!-- GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID -->
+<div class="publication-card" id="c3">
+  <div class="pub-visual">
+  <a href="https://zhangtianze.com/images/Publishion-C(GNet).png" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion-C(GNet).png" 
+     style="width:100%;height:auto;">
+  </a>
+  </div> 
+  <div class="pub-content">
+    <h3 class="pub-title">[C.3]GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID</h3>
+    
+    <p class="pub-meta">
+      <span class="authors">Xingbiao Zhou†, <strong>Tianze Zhang†</strong>, Yixin Zhang, Gang Shi*.</span><br>
+      <em>2025 International Conference on Intelligent Computing(ICIC 2025)</em><br>
+      <em>Ningbo, China</em>
+    </p>
+    
+   <div class="pub-tags">
+            <span class="tag tag-core">Re-identification</span>
+            <span class="tag tag-general">Lightweight</span>
+        </div>
+
+    <div class="pub-links">
+      <a href="https://link.springer.com/chapter/10.1007/978-981-96-9946-9_33" class="btn-primary">DOI</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/LightDrone.pdf" class="btn-secondary">PDF</a>
+      <a href="https://github.com/Tianze-Unimelb/" class="btn-secondary">Code</a>
+    </div>
+  </div>
+</div>
+
 <!-- Research on single cycle supply chain problem with multiple orders in an uncertain environment -->
 <div class="publication-card" id="c4">
   <div class="pub-visual">
