@@ -29,6 +29,7 @@ title: Awards&Services
 - August 2025: OCl Certified AI Vector Search Professional - **<font color='Orange'>Oracle</font>**
 - July 2025: OCl Certified Data Science Professional - **<font color='Orange'>Oracle</font>**
 - July 2025: OCl Certified Generative AI Professional - **<font color='Orange'>Oracle</font>**
+
 ---
 
 ## Membership
