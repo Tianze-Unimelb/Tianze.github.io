@@ -4,7 +4,7 @@ permalink: /awards&services/index.html
 title: Awards&Services
 ---
 
-> Lastest Update: 19th July 2025 &nbsp;
+> Lastest Update: 19th Oct 2025 &nbsp;
 
 ## Competitions (Selected)
 
