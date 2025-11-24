@@ -301,7 +301,7 @@ title: Publications
 
     <div class="pub-links">
       <a href="https://ieeexplore.ieee.org/document/11228128" class="btn-primary">DOI</a>
-      <a href="https://zhangtianze.com/mypublications/Thesis/LightDrone.pdf" class="btn-secondary">PDF</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/SWR-BIDeN.pdf" class="btn-secondary">PDF</a>
       <a href="https://github.com/Tianze-Unimelb/" class="btn-secondary">Code</a>
     </div>
   </div>
