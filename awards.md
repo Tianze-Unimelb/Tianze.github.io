@@ -4,7 +4,7 @@ permalink: /awards&services/index.html
 title: Awards&Services
 ---
 
-> Lastest Update: 19th Oct 2025 &nbsp;
+> Lastest Update: 24th Nov 2025 &nbsp;
 
 ## Competitions (Selected)
 
@@ -32,15 +32,15 @@ title: Awards&Services
 
 ---
 
-## Membership
-
-- Nov 2022 - Present：CCF Student Membership
-
----
-
 ## Services
 
-- TBA
+### Technology Association
+- China Computer Federation(CCF) Student Membership
+
+### Conference Reviewer: 
+- International Conference on Intelligent Computing (ICIC)
+- International Joint Conference on Neural Networks (IJCNN)
+- IEEE International Conference on Systems, Man, and Cybernetics (SMC)
 
 ---
 
