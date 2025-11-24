@@ -294,7 +294,19 @@ title: Publications
       <em>2025 International Joint Conference on Neural Networks (IJCNN)</em><br>
       <em>Rome, Italy</em>
     </p>
-    
+   <div class="pub-tags">
+            <span class="tag tag-core">Re-identification</span>
+            <span class="tag tag-general">Lightweight</span>
+        </div>
+
+    <div class="pub-links">
+      <a href="https://link.springer.com/chapter/10.1007/978-981-96-9946-9_33" class="btn-primary">DOI</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/LightDrone.pdf" class="btn-secondary">PDF</a>
+      <a href="https://github.com/Tianze-Unimelb/" class="btn-secondary">Code</a>
+    </div>
+  </div>
+</div>
+
 <!-- GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID -->
 <div class="publication-card" id="c4">
   <div class="pub-visual">
