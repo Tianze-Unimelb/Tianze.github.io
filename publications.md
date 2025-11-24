@@ -346,7 +346,7 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[C.4]Research on single cycle supply chain problem with multiple orders in an uncertain environment</h3>
+    <h3 class="pub-title">[C.5]Research on single cycle supply chain problem with multiple orders in an uncertain environment</h3>
     
     <p class="pub-meta">
       <span class="authors">Jun Zhao, <strong>Tianze Zhang</strong>, Rishalaiti · Tayierm, Yuanxu Zhu, Yixin Zhang, Ling Zhang*, Gang Shi*.</span><br>
@@ -376,7 +376,7 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[C.5]Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages</h3>
+    <h3 class="pub-title">[C.6]Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages</h3>
     
     <p class="pub-meta">
       <span class="authors"><strong>Tianze Zhang.</strong></span><br>
