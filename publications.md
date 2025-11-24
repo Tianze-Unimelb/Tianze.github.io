@@ -281,8 +281,8 @@ title: Publications
 <!-- SWR-BIDeN: An Improved BIDeN Model for Severe Weather Removal in Image Processing -->
 <div class="publication-card" id="c3">
   <div class="pub-visual">
-  <a href="https://zhangtianze.com/images/Publishion-C(SWR).jpg" target="_blank" rel="noopener">
-  <img src="https://zhangtianze.com/images/Publishion-C(SWR).jpg" 
+  <a href="https://zhangtianze.com/images/Publishion-C(SWR).png" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion-C(SWR).png" 
      style="width:100%;height:auto;">
   </a>
   </div> 
