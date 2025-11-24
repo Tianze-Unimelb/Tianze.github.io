@@ -52,18 +52,23 @@ title: Publications
         <small>A Detection Network for Unmanned Aerial Vehicles</small>
       </a>
     </li>
+   <li class="toc-item">
+      <a href="#c2" class="toc-link">[C.3] SWR-BIDeN<br> 
+        <small>An Improved BIDeN Model for Severe Weather Removal</small>
+      </a>
+    </li>
     <li class="toc-item">
-      <a href="#c3" class="toc-link">[C.3] GlintNet<br> 
+      <a href="#c3" class="toc-link">[C.4] GlintNet<br> 
         <small>A Lightweight Global-Local Integration Network for ReID</small>
       </a>
     </li>
    <li class="toc-item">
-      <a href="#c4" class="toc-link">[C.4] Single-Cycle Supply Chain<br> 
+      <a href="#c4" class="toc-link">[C.5] Single-Cycle Supply Chain<br> 
         <small>Multi-Order Optimization under Uncertainty</small>
       </a>
     </li>
     <li class="toc-item">
-      <a href="#c5" class="toc-link">[C.5] Multimodal task effect analysis<br> 
+      <a href="#c5" class="toc-link">[C.6] Multimodal task effect analysis<br> 
         <small>Transformers-based multimodal analysis for multilingual scenarios</small>
       </a>
     </li>
@@ -273,7 +278,7 @@ title: Publications
   </div>
 </div>
 
-<!-- GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID -->
+<!-- SWR-BIDeN: An Improved BIDeN Model for Severe Weather Removal in Image Processing -->
 <div class="publication-card" id="c3">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion-C(GNet).png" target="_blank" rel="noopener">
@@ -282,7 +287,24 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[C.3]GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID</h3>
+    <h3 class="pub-title">[C.3]SWR-BIDeN: An Improved BIDeN Model for Severe Weather Removal in Image Processing</h3>
+    
+    <p class="pub-meta">
+      <span class="authors">Yixin Zhang, <strong>Tianze Zhang</strong>, Xingbiao Zhou, Gang Shi*.</span><br>
+      <em>2025 International Joint Conference on Neural Networks (IJCNN)</em><br>
+      <em>Rome, Italy</em>
+    </p>
+    
+<!-- GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID -->
+<div class="publication-card" id="c4">
+  <div class="pub-visual">
+  <a href="https://zhangtianze.com/images/Publishion-C(GNet).png" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion-C(GNet).png" 
+     style="width:100%;height:auto;">
+  </a>
+  </div> 
+  <div class="pub-content">
+    <h3 class="pub-title">[C.4]GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID</h3>
     
     <p class="pub-meta">
       <span class="authors">Xingbiao Zhou, <strong>Tianze Zhang</strong>, Yixin Zhang, Gang Shi*.</span><br>
@@ -304,7 +326,7 @@ title: Publications
 </div>
 
 <!-- Research on single cycle supply chain problem with multiple orders in an uncertain environment -->
-<div class="publication-card" id="c4">
+<div class="publication-card" id="c5">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion-C(JiKong).jpg" target="_blank" rel="noopener">
   <img src="https://zhangtianze.com/images/Publishion-C(JiKong).jpg" 
@@ -334,7 +356,7 @@ title: Publications
 </div>
 
 <!-- Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages -->
-<div class="publication-card" id="c5">
+<div class="publication-card" id="c6">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion-C(MLM).jpg" target="_blank" rel="noopener">
   <img src="https://zhangtianze.com/images/Publishion-C(MLM).jpg" 
