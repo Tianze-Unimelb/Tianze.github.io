@@ -290,7 +290,7 @@ title: Publications
     <h3 class="pub-title">[C.3]SWR-BIDeN: An Improved BIDeN Model for Severe Weather Removal in Image Processing</h3>
     
     <p class="pub-meta">
-      <span class="authors">Yixin Zhang, <strong>Tianze Zhang</strong>, Xingbiao Zhou, Gang Shi*.</span><br>
+      <span class="authors">Yixin Zhang†, <strong>Tianze Zhang†</strong>, Xingbiao Zhou, Gang Shi*.</span><br>
       <em>2025 International Joint Conference on Neural Networks (IJCNN)</em><br>
       <em>Rome, Italy</em>
     </p>
