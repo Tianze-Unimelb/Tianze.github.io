@@ -281,8 +281,8 @@ title: Publications
 <!-- SWR-BIDeN: An Improved BIDeN Model for Severe Weather Removal in Image Processing -->
 <div class="publication-card" id="c3">
   <div class="pub-visual">
-  <a href="https://zhangtianze.com/images/Publishion-C(GNet).png" target="_blank" rel="noopener">
-  <img src="https://zhangtianze.com/images/Publishion-C(GNet).png" 
+  <a href="https://zhangtianze.com/images/Publishion-C(SWR).jpg" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion-C(SWR).jpg" 
      style="width:100%;height:auto;">
   </a>
   </div> 
@@ -295,12 +295,12 @@ title: Publications
       <em>Rome, Italy</em>
     </p>
    <div class="pub-tags">
-            <span class="tag tag-core">Re-identification</span>
-            <span class="tag tag-general">Lightweight</span>
+            <span class="tag tag-core">Severe weather</span>
+            <span class="tag tag-general">Image restoration</span>
         </div>
 
     <div class="pub-links">
-      <a href="https://link.springer.com/chapter/10.1007/978-981-96-9946-9_33" class="btn-primary">DOI</a>
+      <a href="https://ieeexplore.ieee.org/document/11228128" class="btn-primary">DOI</a>
       <a href="https://zhangtianze.com/mypublications/Thesis/LightDrone.pdf" class="btn-secondary">PDF</a>
       <a href="https://github.com/Tianze-Unimelb/" class="btn-secondary">Code</a>
     </div>
