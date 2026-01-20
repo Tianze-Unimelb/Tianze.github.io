@@ -8,7 +8,7 @@ layout: page0
 
 Here is **Tianze Zhang (张天泽)**.
 
-I’m an undergraduate student majoring in CS at the University of Melbourne. Previously, I served as a research assistant at the Xinjiang Key Laboratory of Signal Detection and Processing, advised by [Prof. Gang Shi](https://it.xju.edu.cn/info/1143/3264.htm), and I still keep in close contact with the lab. I also spent a great summer research project at the University of Hong Kong with [Prof. Heming Cui](https://www.cs.hku.hk/people/academic-staff/heming).
+I’m an undergraduate student majoring in CS at the University of Melbourne. I previously served as a research assistant at the Xinjiang Key Laboratory of Signal Detection and Processing and the International Joint Laboratory for Multilingual Cognitive Computing under the Ministry of Education, both under the guidance of [Prof. Gang Shi](https://it.xju.edu.cn/info/1143/3264.htm). Currently, I am continuing my research at the latter laboratory and maintaining close academic connections with both laboratories. I also spent a great summer research project at the University of Hong Kong with [Prof. Heming Cui](https://www.cs.hku.hk/people/academic-staff/heming).
 
 If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *zhangtianze[dot]unimelb[at]gmail[dot]com*
 
