@@ -4,7 +4,7 @@ permalink: /awards&services/index.html
 title: Awards&Services
 ---
 
-> Lastest Update: 24th Nov 2025 &nbsp;
+> Lastest Update: 22th Jan 2026 &nbsp;
 
 ## Competitions (Selected)
 - Dec 2025：**[<font color='Gold'>Gold Medal</font>]()** <br>
