@@ -4,7 +4,7 @@ layout: page0
 
 # About Me
 
-<img src="https://zhangtianze.com/ZTZ .jpg" class="floatpic" width="360" height="480">
+<img src="https://zhangtianze.com/ZTZ1 .jpg" class="floatpic" width="360" height="480">
 
 Here is **Tianze Zhang (张天泽)**.
 
