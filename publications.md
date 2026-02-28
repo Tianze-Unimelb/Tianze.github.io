@@ -43,32 +43,37 @@ title: Publications
   <div class="toc-subtitle">Conference Paper</div>
   <ul class="toc-list">   
    <li class="toc-item">
-      <a href="#c1" class="toc-link">[C.1] Lightweight Remote Sensing<br> 
+      <a href="#c1" class="toc-link">[C.1] EDRSNet<br> 
+        <small>Semantic segmentation network for autonomous flight of UVAs</small>
+      </a>
+   </li>
+   <li class="toc-item">
+      <a href="#c2" class="toc-link">[C.2] Lightweight Remote Sensing<br> 
         <small>Image ChangeDetection Based on Global Feature Fusion</small>
       </a>
    </li>
    <li class="toc-item">
-      <a href="#c2" class="toc-link">[C.2] LightDrone-YOLO<br> 
+      <a href="#c3" class="toc-link">[C.3] LightDrone-YOLO<br> 
         <small>A Detection Network for Unmanned Aerial Vehicles</small>
       </a>
     </li>
    <li class="toc-item">
-      <a href="#c2" class="toc-link">[C.3] SWR-BIDeN<br> 
+      <a href="#c4" class="toc-link">[C.4] SWR-BIDeN<br> 
         <small>An Improved BIDeN Model for Severe Weather Removal</small>
       </a>
     </li>
     <li class="toc-item">
-      <a href="#c3" class="toc-link">[C.4] GlintNet<br> 
+      <a href="#c5" class="toc-link">[C.5] GlintNet<br> 
         <small>A Lightweight Global-Local Integration Network for ReID</small>
       </a>
     </li>
    <li class="toc-item">
-      <a href="#c4" class="toc-link">[C.5] Single-Cycle Supply Chain<br> 
+      <a href="#c6" class="toc-link">[C.6] Single-Cycle Supply Chain<br> 
         <small>Multi-Order Optimization under Uncertainty</small>
       </a>
     </li>
     <li class="toc-item">
-      <a href="#c5" class="toc-link">[C.6] Multimodal task effect analysis<br> 
+      <a href="#c7" class="toc-link">[C.7] Multimodal task effect analysis<br> 
         <small>Transformers-based multimodal analysis for multilingual scenarios</small>
       </a>
     </li>
@@ -218,7 +223,7 @@ title: Publications
 
 ## Conference Paper
 
-<!-- Lightweight Remote Sensing Image Change Detection Based on Global Feature Fusion -->
+<!-- EDRSNet: A Dual-Branch Real-Time Semantic Segmentation Network for UAV Autonomous Flight -->
 <div class="publication-card" id="c1">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion-C(LRSIC).png" target="_blank" rel="noopener">
@@ -227,7 +232,37 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[C.1]Lightweight Remote Sensing Image Change Detection Based on Global Feature Fusion</h3>
+    <h3 class="pub-title">[C.1]EDRSNet: A Dual-Branch Real-Time Semantic Segmentation Network for UAV Autonomous Flight</h3>
+    
+    <p class="pub-meta">
+      <span class="authors">Yuanxu Zhu, <strong>Tianze Zhang</strong>, Aiying Wu, Yang Deng, Gang Shi*.</span><br>
+      <em>2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC2025)</em><br>
+      <em>Vienna, Austria</em>
+    </p>
+    
+   <div class="pub-tags">
+            <span class="tag tag-core">Autonomous Flight</span>
+            <span class="tag tag-general">UAV</span>
+        </div>
+
+    <div class="pub-links">
+      <a href="https://link.springer.com/chapter/10.1007/978-981-96-9869-1_3" class="btn-primary">DOI</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/978-981-96-9869-1_3.pdf" class="btn-secondary">PDF</a>
+      <a href="https://github.com/Tianze-Unimelb/" class="btn-secondary">Code</a>
+    </div>
+  </div>
+</div>
+
+<!-- Lightweight Remote Sensing Image Change Detection Based on Global Feature Fusion -->
+<div class="publication-card" id="c2">
+  <div class="pub-visual">
+  <a href="https://zhangtianze.com/images/Publishion-C(LRSIC).png" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion-C(LRSIC).png" 
+     style="width:100%;height:auto;">
+  </a>
+  </div> 
+  <div class="pub-content">
+    <h3 class="pub-title">[C.2]Lightweight Remote Sensing Image Change Detection Based on Global Feature Fusion</h3>
     
     <p class="pub-meta">
       <span class="authors">Aiying Wu, <strong>Tianze Zhang</strong>, Yuanxu Zhu, Zhaole Ning, Gang Shi*.</span><br>
@@ -249,7 +284,7 @@ title: Publications
 </div>
 
 <!-- LightDrone-YOLO: A Novel Lightweight and EfficientObject Detection Network for Unmanned Aerial Vehicles -->
-<div class="publication-card" id="c2">
+<div class="publication-card" id="c3">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion-C(LD-YO).png" target="_blank" rel="noopener">
   <img src="https://zhangtianze.com/images/Publishion-C(LD-YO).png" 
@@ -257,7 +292,7 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[C.2]LightDrone-YOLO: A Novel Lightweight and EfficientObject Detection Network for Unmanned Aerial Vehicles</h3>
+    <h3 class="pub-title">[C.3]LightDrone-YOLO: A Novel Lightweight and EfficientObject Detection Network for Unmanned Aerial Vehicles</h3>
     
     <p class="pub-meta">
       <span class="authors">Xin Li†, <strong>Tianze Zhang†</strong>, Yifan Lyu, Gang Shi*.</span><br>
@@ -279,7 +314,7 @@ title: Publications
 </div>
 
 <!-- SWR-BIDeN: An Improved BIDeN Model for Severe Weather Removal in Image Processing -->
-<div class="publication-card" id="c3">
+<div class="publication-card" id="c4">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion-C(SWR).png" target="_blank" rel="noopener">
   <img src="https://zhangtianze.com/images/Publishion-C(SWR).png" 
@@ -287,7 +322,7 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[C.3]SWR-BIDeN: An Improved BIDeN Model for Severe Weather Removal in Image Processing</h3>
+    <h3 class="pub-title">[C.4]SWR-BIDeN: An Improved BIDeN Model for Severe Weather Removal in Image Processing</h3>
     
     <p class="pub-meta">
       <span class="authors">Yixin Zhang†, <strong>Tianze Zhang†</strong>, Xingbiao Zhou, Gang Shi*.</span><br>
@@ -308,7 +343,7 @@ title: Publications
 </div>
 
 <!-- GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID -->
-<div class="publication-card" id="c4">
+<div class="publication-card" id="c5">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion-C(GNet).png" target="_blank" rel="noopener">
   <img src="https://zhangtianze.com/images/Publishion-C(GNet).png" 
@@ -316,7 +351,7 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[C.4]GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID</h3>
+    <h3 class="pub-title">[C.5]GlintNet: A Lightweight Global-Local Integration Network with Spatial-Channel Mixed Attention for ReID</h3>
     
     <p class="pub-meta">
       <span class="authors">Xingbiao Zhou, <strong>Tianze Zhang</strong>, Yixin Zhang, Gang Shi*.</span><br>
@@ -338,7 +373,7 @@ title: Publications
 </div>
 
 <!-- Research on single cycle supply chain problem with multiple orders in an uncertain environment -->
-<div class="publication-card" id="c5">
+<div class="publication-card" id="c6">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion-C(JiKong).jpg" target="_blank" rel="noopener">
   <img src="https://zhangtianze.com/images/Publishion-C(JiKong).jpg" 
@@ -346,7 +381,7 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[C.5]Research on single cycle supply chain problem with multiple orders in an uncertain environment</h3>
+    <h3 class="pub-title">[C.6]Research on single cycle supply chain problem with multiple orders in an uncertain environment</h3>
     
     <p class="pub-meta">
       <span class="authors">Jun Zhao, <strong>Tianze Zhang</strong>, Rishalaiti · Tayierm, Yuanxu Zhu, Yixin Zhang, Ling Zhang*, Gang Shi*.</span><br>
@@ -368,7 +403,7 @@ title: Publications
 </div>
 
 <!-- Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages -->
-<div class="publication-card" id="c6">
+<div class="publication-card" id="c7">
   <div class="pub-visual">
   <a href="https://zhangtianze.com/images/Publishion-C(MLM).jpg" target="_blank" rel="noopener">
   <img src="https://zhangtianze.com/images/Publishion-C(MLM).jpg" 
@@ -376,7 +411,7 @@ title: Publications
   </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[C.6]Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages</h3>
+    <h3 class="pub-title">[C.7]Investigation on task effect analysis and optimization strategy of multimodal large model based on Transformers architecture for various languages</h3>
     
     <p class="pub-meta">
       <span class="authors"><strong>Tianze Zhang.</strong></span><br>
