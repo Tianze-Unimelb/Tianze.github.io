@@ -227,8 +227,8 @@ title: Publications
 <!-- EDRSNet: A Dual-Branch Real-Time Semantic Segmentation Network for UAV Autonomous Flight -->
 <div class="publication-card" id="c1">
   <div class="pub-visual">
-  <a href="https://zhangtianze.com/images/Publishion-C(LRSIC).png" target="_blank" rel="noopener">
-  <img src="https://zhangtianze.com/images/Publishion-C(LRSIC).png" 
+  <a href="https://zhangtianze.com/images/Publishion-C(EDRS).png" target="_blank" rel="noopener">
+  <img src="https://zhangtianze.com/images/Publishion-C(EDRS).png" 
      style="width:100%;height:auto;">
   </a>
   </div> 
