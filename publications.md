@@ -118,6 +118,7 @@ title: Publications
             <span class="tag tag-core">Remote Sensing</span>
             <span class="tag tag-general">UAV</span>
             <span class="tag tag-third">IF=4.8</span>
+            <span class="tag tag-cit"> 1 Citations </span>
         </div>
         
     <div class="pub-links">
@@ -148,7 +149,7 @@ title: Publications
             <span class="tag tag-core">Object Detection</span>
             <span class="tag tag-general">UAV</span>
             <span class="tag tag-third">IF=2.7</span>
-            <span class="tag tag-cit"> 17 Citations </span>
+            <span class="tag tag-cit"> 32 Citations </span>
         </div>
         
     <div class="pub-links">
