@@ -247,8 +247,8 @@ title: Publications
         </div>
 
     <div class="pub-links">
-      <a href="https://link.springer.com/chapter/10.1007/978-981-96-9869-1_3" class="btn-primary">DOI</a>
-      <a href="https://zhangtianze.com/mypublications/Thesis/978-981-96-9869-1_3.pdf" class="btn-secondary">PDF</a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/11342808" class="btn-primary">DOI</a>
+      <a href="https://zhangtianze.com/mypublications/Thesis/EDRSNet.pdf" class="btn-secondary">PDF</a>
       <a href="https://github.com/Tianze-Unimelb/" class="btn-secondary">Code</a>
     </div>
   </div>
