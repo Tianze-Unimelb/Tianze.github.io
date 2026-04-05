@@ -12,9 +12,9 @@ I’m an undergraduate student majoring in CS at the University of Melbourne.  I
 
 If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - 
 <a href="mailto:zhangtianze.unimelb@gmail.com" 
-   style="color: #1E3A8A; text-decoration: none;"
+   style="color: #334155; text-decoration: none;"
    onmouseover="this.style.color='#334155';this.style.textDecoration='underline'"
-   onmouseout="this.style.color='#1E3A8A';this.style.textDecoration='none'">
+   onmouseout="this.style.color='#334155';this.style.textDecoration='none'">
    zhangtianze[dot]unimelb[at]gmail[dot]com
 </a>
 
