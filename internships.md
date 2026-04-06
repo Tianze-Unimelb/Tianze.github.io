@@ -4,7 +4,7 @@ permalink: /internships/index.html
 title: Internships
 ---
 
-> Update: 5th Jan 2025
+> Update: 30th Mar 2026
 
 ## Research internship
 <hr>
@@ -21,7 +21,7 @@ title: Internships
     <p class="pub-meta">
       <span class="authors"> <strong>Research Assistant</strong></span><br>
       <em>Supervisor: Gang Shi</em> <br>
-      <em>Duration: Jan 2025 - Present</em>
+      <em>Duration: Jun 2025 - Present</em>
     </p>
     
    <div class="pub-tags">
@@ -46,7 +46,7 @@ title: Internships
     </a>
   </div> 
   <div class="pub-content">
-    <h3 class="pub-title">[R.1]Xinjiang Key Laboratory of Signal Detection and Processing</h3>
+    <h3 class="pub-title">[R.2]Xinjiang Key Laboratory of Signal Detection and Processing</h3>
     
     <p class="pub-meta">
       <span class="authors"> <strong>Research Assistant</strong></span><br>
