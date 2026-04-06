@@ -10,8 +10,8 @@ title: Internships
 <hr>
 <div class="publication-card" id="R1">
   <div class="pub-visual">
-  <a href="https://zhangtianze.com/images/lab.jpg" target="_blank" rel="noopener">
-    <img src="https://zhangtianze.com/images/lab.jpg" 
+  <a href="https://zhangtianze.com/images/lab1.jpg" target="_blank" rel="noopener">
+    <img src="https://zhangtianze.com/images/lab1.jpg" 
      style="width:100%;height:auto;">
     </a>
   </div> 
